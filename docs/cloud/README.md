@@ -4,7 +4,9 @@
 
 ## 官方流程
 
-Settings → Codex Cloud → Environments：编辑现有 CG 草稿，选择仓库，准备并测试，保存后 Publish。已发布环境的更新使用 Edit → Save and publish；同账号在其他设备选择 Work in → Cloud → CG。
+Settings → Codex Cloud → Environments：从官方仓库选择器选择 `bamboovfx/CG`，环境命名 `Shot_Test`，准备并测试，保存后 Publish。已发布环境的更新使用 Edit → Save and publish；同账号在其他设备选择 Work in → Cloud → **Shot_Test**。
+
+旧 CG 环境曾运行成功，但设置列表显示“未知代码仓库”，不作为后续接续入口。Shot_Test 通过官方选择器保留仓库关联；更新安装和启动字段时不要重写 repositories 或用仓库名猜关联 ID。GitHub 仓库仍为 CG，没有新建或替换资产仓库。
 
 官方文档：https://learn.chatgpt.com/docs/environments/cloud-environments
 

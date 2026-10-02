@@ -27,3 +27,15 @@ Python 3.12.10、官方 Blender 5.1.2 Windows。执行 `python scripts/check_wor
 本次实际环境已连接，origin为 `https://github.com/bamboovfx/CG.git`，初始pwd为 `/workspace`，检出目录 `/workspace/CG`，HEAD为上述准备基线。设置可写缓存后执行 `python3 scripts/check_workspace.py --blender .local/tools/blender-5.1.2-linux-x64/blender` 退出0：159个脚本解析通过、独立场景保存与重开通过、Cycles CPU 4 samples / 64×64渲染及像素检查通过。正式镜头和独立课椅缺失；结果JSON为 `formal_scene_tested: false`。初始与最终Git状态均为空，忽略规则确认生成物未进入仓库。
 
 新任务使用准备快照04bd62e；本文件及更新的交接记录是验收后补录的提交。以后接续核对实际HEAD和仓库刷新结果；历史设置记录不替代实时状态。
+
+## 后续入口：Shot_Test
+
+旧CG在设置列表出现“未知代码仓库”，虽然实际origin、检出与命令通过，但关联元数据无法通过当前更新接口可靠恢复。接口只接受host/name/commit/mount_path，不能直接恢复连接认可的repository_id；不猜标识，不将此显示问题当作资产或脚本错误。
+
+从官方GitHub仓库选择器重新选择同一个 `bamboovfx/CG`，环境命名 **Shot_Test**，保留选择器生成的仓库关联；配置更新仅传install_script/start_skill。旧CG保留，后续使用Shot_Test。
+
+[设置 CG](https://chatgpt.com/local/01a0fb6d-8fb3-75d5-992f-45b26cd55033)是Shot_Test准备会话的界面标题（环境已另命名）。实际HEAD为 `99ab2ea3a10c1858c71366af8aa4b9a948697c5f`，包含前轮验收记录。再次从官方来源核对SHA256，安装与完整安装脚本复跑各退出0，159脚本解析、独立保存/重开、64×64 CPU渲染及像素检查通过。Python 3.12.14、Blender 5.1.2，最终Git干净。网络、Only me、正式资产范围均不变。
+
+Shot_Test页面已显示“已发布”，官方设置列表正确显示 `Shot_Test → bamboovfx/CG`。随后从新聊天选择Shot_Test创建[独立验收任务](https://chatgpt.com/local/01a0fb72-6829-75d5-b039-25e0c667103f)。实际环境已连接，origin为同一CG仓库，HEAD为99ab2ea；初始pwd为/workspace，执行目录/workspace/CG。指定缓存设置与check_workspace命令实际退出0，159脚本解析、独立保存/重开、64×64 Cycles CPU渲染及像素检查通过，正式资产缺失且未验收。前后Git状态干净，生成物忽略。
+
+本轮最终说明和交接补录在该验收之后提交；以后选择Shot_Test，并核对实际仓库刷新结果。旧CG未删除，避免破坏历史任务引用。
