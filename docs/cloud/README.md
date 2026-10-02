@@ -10,6 +10,18 @@ Settings → Codex Cloud → Environments：编辑现有 CG 草稿，选择仓�
 
 安装入口 `bash scripts/setup-cloud.sh` 下载官方 Blender 5.1.2 Linux x64，核对 SHA256，执行 `python3 scripts/check_workspace.py --blender .local/tools/blender-5.1.2-linux-x64/blender`。环境需允许 `download.blender.org`，其余采用 Package managers；无需账号凭据或 VPN。
 
+已配置的安装与启动步骤先设置可写缓存，避免云端默认 home 缓存目录的缩略图写入提示：
+
+```bash
+# 将后台 Blender 缓存和独立验收生成物留在忽略目录。
+cd /workspace/CG
+export XDG_CACHE_HOME=/workspace/CG/.local/cache
+mkdir -p "$XDG_CACHE_HOME/thumbnails/large"
+python3 scripts/check_workspace.py --blender .local/tools/blender-5.1.2-linux-x64/blender
+```
+
+安装脚本还会在已有下载包时重新核对 SHA256。启动说明要求先读交接与当前状态，完成影响后续工作的任务后更新并提交相关记录。正式环境与新建任务的实测证据见 [verification.md](verification.md)。
+
 ## 验收含义
 
 - 恢复入口与全部同步的 Python 脚本解析通过。

@@ -21,4 +21,8 @@
 
 ## 配置结果
 
-仓库推送、准备、发布和云端运行尚待本次配置完成。结果将在 `docs/cloud/verification.md` 中补录；历史通过记录不当作本次测试。
+公开仓库已推送，官方 CG 环境已保存并发布，权限为 Only me。电脑 Chrome 从新聊天选择 CG 后创建的[独立云端验收任务](https://chatgpt.com/local/01a0fb67-bd0e-7274-a225-c72b5c80f015)通过；实际检出 `/workspace/CG`，准备基线 `04bd62ec85a749f4e0a8cbb637ea83e6f5ed8256`，Python 3.12.14、Blender 5.1.2。
+
+159个受控 Python 脚本解析、独立场景保存/重开、64×64 Cycles CPU 渲染与像素变化检查退出0，前后 Git 状态干净。正式资产缺失、未验收。缓存使用 `.local/cache`，生成物均忽略。完整证据见 `docs/cloud/verification.md`；制作进度保持原验收状态。
+
+其他设备登录同账号后选择 Work in → Cloud → CG。当前任务的源码与上下文恢复以实际 HEAD、已提交文件为准；后续更新通过仓库刷新进入云端，不把准备快照的旧交接状态当作最新制作状态。
