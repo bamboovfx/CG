@@ -1,0 +1,3 @@
+# 后台入口脚本在 Linux 和 Windows 使用相同换行。
+*.sh text eol=lf
+*.py text eol=lf

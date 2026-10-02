@@ -1,0 +1,29 @@
+# CG 是公开仓库：仅同步文档、任务、配置和项目脚本。
+*
+!*/
+!*.md
+!*.py
+!*.sh
+!*.ps1
+!*.html
+!*.css
+!*.js
+!.gitignore
+!.gitattributes
+!07_pipeline/config/project.json
+!docs/cloud/*.json
+# 原片、图像、DCC 工程、贴图、渲染与运行时留在本机。
+.local/
+01_preproduction/
+02_assets/
+03_shots/
+04_renders/
+05_comp/
+07_pipeline/cache/
+99_archive/
+**/__pycache__/
+**/.git/
+**/node_modules/
+**/.env*
+**/.sandbox-secrets/
+**/api_inspection*

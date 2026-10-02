@@ -1,0 +1,14 @@
+{
+  "project": "drop_study",
+  "root": "D:/00_projects/10_CG/Shot_Test",
+  "active_shot": "sq010/sh010",
+  "working_fps": 24,
+  "fps_status": "production_assumption_not_source_verified",
+  "start_frame": 1001,
+  "resolution": [2560, 1080],
+  "preview_resolution": [1920, 810],
+  "color_transform": "AgX",
+  "unit": "meter",
+  "blender_executable": "D:/Program Files/Blender Foundation/Blender 5.1/blender.exe",
+  "workflow": {"code": "Blender MCP or direct CLI", "gui": "computer use"}
+}
