@@ -14,10 +14,6 @@
 !docs/cloud/*.json
 # 原片、图像、DCC 工程、贴图、渲染与运行时留在本机。
 .local/
-01_preproduction/
-02_assets/
-03_shots/
-04_renders/
 05_comp/
 07_pipeline/cache/
 99_archive/
