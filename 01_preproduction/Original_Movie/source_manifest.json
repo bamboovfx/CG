@@ -1,0 +1,84 @@
+{
+  "title": "dro:p",
+  "creator": "Tasuku Nakagawa",
+  "author_page": "https://vimeo.com/394614203",
+  "official_public_video": "https://www.youtube.com/watch?v=czgCk8bcTqE",
+  "stream": "public video-only format 137, H.264, 1920x1080, 24 fps; not an original production master",
+  "path": "01_preproduction/references/video/drop_official_1080p.mp4",
+  "sha256": "34a69cce22601bd3083d254ddd6e9986cf98cc4ce859756902ce064ca9714758",
+  "frame_processing": "lossless PNG extraction from compressed source; encoded letterboxing retained; no sharpening/upscale",
+  "frames": [
+    {
+      "timestamp_seconds": 154,
+      "timecode_24fps": "00:02:34:00",
+      "path": "01_preproduction/references/video/frames/drop_154s.png",
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "timestamp_seconds": 156,
+      "timecode_24fps": "00:02:36:00",
+      "path": "01_preproduction/references/video/frames/drop_156s.png",
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "timestamp_seconds": 158,
+      "timecode_24fps": "00:02:38:00",
+      "path": "01_preproduction/references/video/frames/drop_158s.png",
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "timestamp_seconds": 160,
+      "timecode_24fps": "00:02:40:00",
+      "path": "01_preproduction/references/video/frames/drop_160s.png",
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "timestamp_seconds": 162,
+      "timecode_24fps": "00:02:42:00",
+      "path": "01_preproduction/references/video/frames/drop_162s.png",
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "timestamp_seconds": 164,
+      "timecode_24fps": "00:02:44:00",
+      "path": "01_preproduction/references/video/frames/drop_164s.png",
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "timestamp_seconds": 166,
+      "timecode_24fps": "00:02:46:00",
+      "path": "01_preproduction/references/video/frames/drop_166s.png",
+      "resolution": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "timestamp_seconds": 168,
+      "timecode_24fps": "00:02:48:00",
+      "path": "01_preproduction/references/video/frames/drop_168s.png",
+      "resolution": [
+        1920,
+        1080
+      ]
+    }
+  ]
+}

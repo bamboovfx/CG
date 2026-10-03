@@ -1,0 +1,346 @@
+{
+  "date": "2026-09-28",
+  "status": "technical-pass",
+  "native_reopened": true,
+  "images_exported": 1985,
+  "expected_native_items": 1985,
+  "references_verified": 950,
+  "exact_pixel_matches": 884,
+  "metadata_or_alpha_conversion_verified": [
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_100s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_105s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_110s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_115s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_120s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_125s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_130s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_135s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_140s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_145s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_150s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_155s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_160s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_165s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_170s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/classroom_research_20260917/film_175s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/architecture_rebuild/reference_window.png",
+      "verified_transform": "premultiplied_alpha_export",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003823.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003827.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003831.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003835.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003838.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003839.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003841.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003842.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003843.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003844.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003845.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003846.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003847.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003848.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003849.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003850.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003851.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003852.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003853.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003854.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003855.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003856.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003857.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003858.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003859.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003860.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003861.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003862.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003863.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003864.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003871.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003883.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003893.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003895.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003907.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003919.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003931.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003943.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003955.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "06_review/production_audit_20260920/hero_motion_frames/source_003962.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/video/frames/drop_152s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/video/frames/drop_154s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/video/frames/drop_156s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/video/frames/drop_158s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/video/frames/drop_162s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/video/frames/drop_164s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/video/frames/drop_166s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/video/frames/drop_168s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    },
+    {
+      "path": "01_preproduction/references/video/frames/drop_172s.png",
+      "verified_transform": "metadata_gamma_to_srgb",
+      "maximum_quantization_error": 1
+    }
+  ],
+  "original_files_hash_verified": 964,
+  "overlap_count": 0,
+  "board_bytes": 244140939,
+  "board_sha256": "0c14461856700472b222e26fa140d67ceb6fba36072c5006010624a705955fd0",
+  "gui_review": "pending"
+}

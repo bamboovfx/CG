@@ -500,6 +500,10 @@
 !/06_review/cloud_assets_20261003/verification.json
 !/07_pipeline/config/project.json
 !/docs/cloud/runtime.json
+# 2026-10-03：用户授权上传完整前期目录；后面的秘密与临时文件排除仍有效。
+!/01_preproduction/
+!/01_preproduction/**
+
 # 永久本地范围；新资产需先核查依赖再加入白名单。
 /.local/
 /04_renders/

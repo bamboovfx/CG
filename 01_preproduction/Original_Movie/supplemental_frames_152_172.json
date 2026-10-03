@@ -1,0 +1,18 @@
+{
+  "purpose": "User 02:32\u201302:52 reference-only",
+  "processing": "Exact compressed source frames; no enhancement",
+  "frames": [
+    {
+      "time_seconds": 152,
+      "file": "frames/drop_152s.png"
+    },
+    {
+      "time_seconds": 170,
+      "file": "frames/drop_170s.png"
+    },
+    {
+      "time_seconds": 172,
+      "file": "frames/drop_172s.png"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-08",
+  "references": [
+    {
+      "id": "film_01",
+      "image_url": "https://www.stashmedia.tv/wp-content/uploads/Screen-Shot-2020-03-26-at-11.42.50-AM-2048x867.png",
+      "page_url": "https://www.stashmedia.tv/watch-tasuku-nakagawas-animated-short-film-drop/",
+      "path": "01_preproduction/references/film/drop_stash_still_01.png",
+      "use": "Original-film visual reference. Editorial still order is NOT verified cut order.",
+      "rights": "Reference only; Tasuku Nakagawa / publisher. Not a CC0 texture.",
+      "bytes": 2208067,
+      "sha256": "b6a7a5be77a1dad2648931377ef75238308788887da71b3c7997e3db78df9dac",
+      "status": "downloaded"
+    },
+    {
+      "id": "film_02",
+      "image_url": "https://www.stashmedia.tv/wp-content/uploads/Screen-Shot-2020-03-26-at-11.43.06-AM-2048x867.png",
+      "page_url": "https://www.stashmedia.tv/watch-tasuku-nakagawas-animated-short-film-drop/",
+      "path": "01_preproduction/references/film/drop_stash_still_02.png",
+      "use": "Original-film visual reference. Editorial still order is NOT verified cut order.",
+      "rights": "Reference only; Tasuku Nakagawa / publisher. Not a CC0 texture.",
+      "bytes": 1436772,
+      "sha256": "c035e5a8455f573f5df2986f1cbe5597df2141094afbe5c7414941578585c88b",
+      "status": "downloaded"
+    },
+    {
+      "id": "film_03",
+      "image_url": "https://www.stashmedia.tv/wp-content/uploads/Screen-Shot-2020-03-26-at-11.43.25-AM-2048x867.png",
+      "page_url": "https://www.stashmedia.tv/watch-tasuku-nakagawas-animated-short-film-drop/",
+      "path": "01_preproduction/references/film/drop_stash_still_03.png",
+      "use": "Original-film visual reference. Editorial still order is NOT verified cut order.",
+      "rights": "Reference only; Tasuku Nakagawa / publisher. Not a CC0 texture.",
+      "bytes": 1808609,
+      "sha256": "0889434a4e6f7b8d5e3e30cae41e07d165e607c6b21eab47b7177a68b27a201d",
+      "status": "downloaded"
+    },
+    {
+      "id": "film_04",
+      "image_url": "https://www.stashmedia.tv/wp-content/uploads/Screen-Shot-2020-03-26-at-11.44.25-AM-2048x867.png",
+      "page_url": "https://www.stashmedia.tv/watch-tasuku-nakagawas-animated-short-film-drop/",
+      "path": "01_preproduction/references/film/drop_stash_still_04.png",
+      "use": "Original-film visual reference. Editorial still order is NOT verified cut order.",
+      "rights": "Reference only; Tasuku Nakagawa / publisher. Not a CC0 texture.",
+      "bytes": 1702448,
+      "sha256": "aeeb941a2c4c1f89f68a0541f55cb6f4eb40f94831a6a5c2f3159294fa694c79",
+      "status": "downloaded"
+    },
+    {
+      "id": "film_05",
+      "image_url": "https://www.stashmedia.tv/wp-content/uploads/Screen-Shot-2020-03-26-at-11.45.13-AM-2048x867.png",
+      "page_url": "https://www.stashmedia.tv/watch-tasuku-nakagawas-animated-short-film-drop/",
+      "path": "01_preproduction/references/film/drop_stash_still_05.png",
+      "use": "Original-film visual reference. Editorial still order is NOT verified cut order.",
+      "rights": "Reference only; Tasuku Nakagawa / publisher. Not a CC0 texture.",
+      "bytes": 1745163,
+      "sha256": "bad689b19fc64ccb28ad713327690040b58e62910003d48bab41eedde79968b2",
+      "status": "downloaded"
+    },
+    {
+      "id": "film_06",
+      "image_url": "https://www.stashmedia.tv/wp-content/uploads/Screen-Shot-2020-03-26-at-11.45.33-AM-2048x867.png",
+      "page_url": "https://www.stashmedia.tv/watch-tasuku-nakagawas-animated-short-film-drop/",
+      "path": "01_preproduction/references/film/drop_stash_still_06.png",
+      "use": "Original-film visual reference. Editorial still order is NOT verified cut order.",
+      "rights": "Reference only; Tasuku Nakagawa / publisher. Not a CC0 texture.",
+      "bytes": 1644080,
+      "sha256": "4e5356cac36b1df2c9a8353897eee27ad3f5e83d35a8d0deb18b7bb4d977f571",
+      "status": "downloaded"
+    },
+    {
+      "id": "film_07",
+      "image_url": "https://www.stashmedia.tv/wp-content/uploads/Screen-Shot-2020-03-26-at-11.46.00-AM-2048x867.png",
+      "page_url": "https://www.stashmedia.tv/watch-tasuku-nakagawas-animated-short-film-drop/",
+      "path": "01_preproduction/references/film/drop_stash_still_07.png",
+      "use": "Original-film visual reference. Editorial still order is NOT verified cut order.",
+      "rights": "Reference only; Tasuku Nakagawa / publisher. Not a CC0 texture.",
+      "bytes": 1991370,
+      "sha256": "bd4f7b55df353fec0bca3ec68e6b176783b5ed91b3c7742677fb77e1aa898c2d",
+      "status": "downloaded"
+    },
+    {
+      "id": "film_08",
+      "image_url": "https://www.stashmedia.tv/wp-content/uploads/Screen-Shot-2020-03-26-at-11.47.51-AM-2048x867.png",
+      "page_url": "https://www.stashmedia.tv/watch-tasuku-nakagawas-animated-short-film-drop/",
+      "path": "01_preproduction/references/film/drop_stash_still_08.png",
+      "use": "Original-film visual reference. Editorial still order is NOT verified cut order.",
+      "rights": "Reference only; Tasuku Nakagawa / publisher. Not a CC0 texture.",
+      "bytes": 1215226,
+      "sha256": "42af534cd91759343b23821ef498514dec4545b03d7cc6e611c985c841c507a6",
+      "status": "downloaded"
+    },
+    {
+      "id": "architecture_01",
+      "image_url": "https://www.maniwa.or.jp/upload/spot/52/img_2.jpg",
+      "page_url": "https://www.maniwa.or.jp/web/?c=spot-2&pk=52",
+      "path": "01_preproduction/references/architecture/architecture_01.jpg",
+      "use": "Timber floor, repeated furniture depth; architecture reference only.",
+      "rights": "Reference only; rights remain with source owner.",
+      "bytes": 59841,
+      "sha256": "4e18adcf7770927cb03cd4c61b81c7eba40a1fe3fa7ca4dd40d4264d45c56505",
+      "status": "downloaded"
+    },
+    {
+      "id": "architecture_02",
+      "image_url": "https://www.okayama-kanko.jp/lsc/upfile/spot/0001/0842/10842_4_l.jpg",
+      "page_url": "https://www.okayama-kanko.jp/spot/detail_10842.html",
+      "path": "01_preproduction/references/architecture/architecture_02.jpg",
+      "use": "Preserved school classroom, joinery and patina; do not copy historic all-wood furniture into hero shot.",
+      "rights": "Reference only; rights remain with source owner.",
+      "bytes": 244855,
+      "sha256": "1b6bb01e8d97abdb6f7e29afbfabcbf86bfc362dc01ef1939cb12ee0b5783f6e",
+      "status": "downloaded"
+    },
+    {
+      "id": "architecture_03",
+      "image_url": "https://www.sena-vision.jp/chiikishigen/item_images/4da50bbfac110_2_l.jpg",
+      "page_url": "https://www.sena-vision.jp/tourism/detail/4da50bbfac110/",
+      "path": "01_preproduction/references/architecture/architecture_03.jpg",
+      "use": "Window rhythm and school interior details.",
+      "rights": "Reference only; rights remain with source owner.",
+      "bytes": 181317,
+      "sha256": "0f098e94953ccb786bd759dd089d51e88e9d43bf07fbe9ffe21573323630d813",
+      "status": "downloaded"
+    },
+    {
+      "id": "props_01",
+      "image_url": "https://aita.ocnk.net/data/aita/product/20160220_800188.JPG",
+      "page_url": "https://aita.ocnk.net/product/3087",
+      "path": "01_preproduction/references/props/props_01.jpg",
+      "use": "Steel-tube desk and plywood chair proportions, feet, rust and edge wear.",
+      "rights": "Reference only; rights remain with source owner.",
+      "bytes": 62861,
+      "sha256": "f621f14ff2099e309a1a1a27a09a31ec41c8d1273cf0c87286d891b5a61f1ee0",
+      "status": "downloaded"
+    },
+    {
+      "id": "props_02",
+      "image_url": "https://livedoor.sp.blogimg.jp/b2_ndline/imgs/6/c/6cbb6828.jpg",
+      "page_url": "https://blog.livedoor.jp/b2_ndline/archives/27325918.html",
+      "path": "01_preproduction/references/props/props_02.jpg",
+      "use": "595 x 400 x 700 mm desk; chair frame and tray construction.",
+      "rights": "Reference only; rights remain with source owner.",
+      "bytes": 52280,
+      "sha256": "827451a23e5e94843774bd7fc1549a3087c95c77b1835fe9494364fb80da215a",
+      "status": "downloaded"
+    },
+    {
+      "id": "props_03",
+      "image_url": "https://okashi-to-watashi.jp/img/posts/upload/%E2%91%A1%E3%82%B5%E3%82%AF%E3%83%9E%E5%BC%8F%E3%83%89%E3%83%AD%E3%83%83%E3%83%97%E3%82%B9%E3%80%80%E5%A4%A7.jpg",
+      "page_url": "https://okashi-to-watashi.jp/post/1728",
+      "path": "01_preproduction/references/props/props_03.jpg",
+      "use": "Vintage red candy tin: rolled rim, cylindrical cap, label wear; not proof of exact original-film branding.",
+      "rights": "Reference only; rights remain with source owner.",
+      "bytes": 81665,
+      "sha256": "3665fc2b70101210a76e1f23ac782f696786d6773b307da0a423b1a424928962",
+      "status": "downloaded"
+    }
+  ]
+}
