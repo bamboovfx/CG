@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-12",
+  "materials": [
+    {
+      "name": "hero_tinplate",
+      "source": "02_assets/materials/hero_tin/hero_tinplate.sbs",
+      "sbsar": "02_assets/materials/hero_tin/hero_tinplate.sbsar",
+      "nodes": 25,
+      "tile_cm": 12,
+      "height_range_cm": 0.0025,
+      "input_artwork": null,
+      "outputs": [
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "ebd1d7e851aefdab04d2005fcd7127525b43649f5368097e0ba67625c5792188",
+          "colorspace": "sRGB"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "59e8cf2ee746a501390e1fde128c8335d8b11c97648620eadae55ad6def4befe",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "c554d35f6f05e8d8f62007b4500e8892858db117eda93d93d21f37cacf3c021b",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "ee07aad633c861432131638aa49618c70baa3e65e718d50eef1293367cbbffb9",
+          "colorspace": "Non-Color"
+        }
+      ],
+      "source_sha256": "ee79ed832062acb752353d441ef70ce8aa7070a601e71bed34639ede8ef393f6",
+      "sbsar_sha256": "9f010e90aa95793e8afb38023044587f816a4b1518b9e2c65b62068fef53585f",
+      "seed": 718,
+      "license": "Original procedural material using licensed installed Adobe node packages; original existing project label artwork, not a scanned commercial label.",
+      "source_artwork_sha256": null,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\hero_tin\\hero_tinplate.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\hero_tin",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\hero_tin\\hero_tinplate.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\hero_tin_sd\\hero_tinplate",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ]
+    },
+    {
+      "name": "hero_lithographic_ink",
+      "source": "02_assets/materials/hero_tin/hero_lithographic_ink.sbs",
+      "sbsar": "02_assets/materials/hero_tin/hero_lithographic_ink.sbsar",
+      "nodes": 30,
+      "tile_cm": 12,
+      "height_range_cm": 0.0025,
+      "input_artwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\classroom\\2k\\tin_label_color_2k.png",
+      "outputs": [
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "7684c611673d96a77a6fefb708c27841d0144c6db841a05db72be230eae72788",
+          "colorspace": "sRGB"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "e77e6849950c8f4d29198d56322a5b22241e48f5cd6f22609d809046ecd97ad2",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "215d250a84cb3fafd287384665088edbd281ad13932d6562a5184a6dea56cbe2",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "c554d35f6f05e8d8f62007b4500e8892858db117eda93d93d21f37cacf3c021b",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "d8bb7e4a510aec3bf58497f23441aa174ba507c8ae03638a5eb1b55447ce1fc4",
+          "colorspace": "Non-Color"
+        }
+      ],
+      "source_sha256": "84340d2926b536a0aa0a56ac0917d26ccc2feeafd9a1bc07e53a925ef84e23c9",
+      "sbsar_sha256": "3e0fbda8941bcb84f70a2b74702bafa9b3415bb16507726f88299a972fd3c2c4",
+      "seed": 718,
+      "license": "Original procedural material using licensed installed Adobe node packages; original existing project label artwork, not a scanned commercial label.",
+      "source_artwork_sha256": "4e5d2e670e39b6f5c3ef663637b56d5b4b202a6b77f18ecdbd5d61e2dda9fa39",
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\hero_tin\\hero_lithographic_ink.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\hero_tin",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\hero_tin\\hero_lithographic_ink.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\hero_tin_sd\\hero_lithographic_ink",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "Artwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\classroom\\2k\\tin_label_color_2k.png"
+        ]
+      ]
+    },
+    {
+      "name": "hero_red_lacquer",
+      "source": "02_assets/materials/hero_tin/hero_red_lacquer.sbs",
+      "sbsar": "02_assets/materials/hero_tin/hero_red_lacquer.sbsar",
+      "nodes": 30,
+      "tile_cm": 12,
+      "height_range_cm": 0.0025,
+      "input_artwork": null,
+      "outputs": [
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "f046169ec7efcf3069e9d85d6c5e75289234ce1d40fc4d2bf5856594131fc362",
+          "colorspace": "sRGB"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "167b97931daf2eb384dd256a045f0cb22b4f54c91e59ca861e615a672b2bef77",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "215d250a84cb3fafd287384665088edbd281ad13932d6562a5184a6dea56cbe2",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "c554d35f6f05e8d8f62007b4500e8892858db117eda93d93d21f37cacf3c021b",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "ea08df26d32b0677b9159f8d053624e8c30136153ad7e74959f70db8b20492b7",
+          "colorspace": "Non-Color"
+        }
+      ],
+      "source_sha256": "e23cdf42917932a821426f9a2606ac4a5ee4d2974a55d11b1d0a991ae47515ec",
+      "sbsar_sha256": "a7f7b6a65562e6c0d0a8949fcf7bc9dc991c1281374b1df1c182d5cf592add0c",
+      "seed": 718,
+      "license": "Original procedural material using licensed installed Adobe node packages; original existing project label artwork, not a scanned commercial label.",
+      "source_artwork_sha256": null,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\hero_tin\\hero_red_lacquer.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\hero_tin",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\hero_tin\\hero_red_lacquer.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\hero_tin_sd\\hero_red_lacquer",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ]
+    }
+  ],
+  "normal": "OpenGL",
+  "tile_metres": 0.12
+}

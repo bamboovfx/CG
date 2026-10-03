@@ -1,0 +1,41 @@
+{
+  "boards": [
+    {
+      "board": "seat",
+      "source": "02_assets\\materials\\tripo_wood_dirt\\wood_surface_dirt_seat.sbs",
+      "outputs": [
+        "DirtMask",
+        "DirtColor",
+        "DirtRoughness",
+        "DirtHeight",
+        "ResidueMask",
+        "SmudgeMask"
+      ],
+      "surface_m": [
+        0.371,
+        0.38
+      ]
+    },
+    {
+      "board": "back",
+      "source": "02_assets\\materials\\tripo_wood_dirt\\wood_surface_dirt_back.sbs",
+      "outputs": [
+        "DirtMask",
+        "DirtColor",
+        "DirtRoughness",
+        "DirtHeight",
+        "ResidueMask",
+        "SmudgeMask"
+      ],
+      "surface_m": [
+        0.361,
+        0.19
+      ]
+    }
+  ],
+  "resolution": 4096,
+  "height_distance_m": 2.5e-05,
+  "scan_manifest": "02_assets/textures/external/polyhaven_wood_detail/manifest.json",
+  "reference": "User supplied close-ups, observation only",
+  "generated_placement": "Direct 4096 analytic sampling, no resampling of reference pixels"
+}

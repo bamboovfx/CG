@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-16",
+  "method": "Native Adobe Substance Designer graph and SAT renderer",
+  "source": "02_assets\\materials\\speaker_plastic\\speaker_plastic.sbs",
+  "reference": "https://substance3d.adobe.com/community-assets/assets/eb6b672e0665fbdefa374e4ddd97e7c45037ff97",
+  "reference_author": "Malte Resenberger-Loosmann",
+  "reference_use": "Visual reference only; no third-party files incorporated",
+  "tile_metres": 0.25,
+  "height_range_metres": 0.00012,
+  "seed": 3087,
+  "normal": "OpenGL",
+  "nodes": 48,
+  "commands": [
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\speaker_plastic\\speaker_plastic.sbs",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\speaker_plastic",
+      "--alias",
+      "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+    ],
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+      "render",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\speaker_plastic\\speaker_plastic.sbsar",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\speaker_plastic",
+      "--output-name",
+      "{outputNodeName}",
+      "--set-value",
+      "$outputsize@12,12",
+      "--engine",
+      "d3d11",
+      "--output-bit-depth",
+      "16",
+      "--no-report"
+    ]
+  ],
+  "files": [
+    {
+      "path": "02_assets\\textures\\generated\\speaker_plastic\\BaseColor.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "range": [
+        144.0,
+        255.0
+      ],
+      "sha256": "5414c51ba403e4cd63dede2aad8786ce4e074e32e2bb33e4aebcca5e7ea4e1db",
+      "color_space": "sRGB"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\speaker_plastic\\Height.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "range": [
+        20561.0,
+        35380.0
+      ],
+      "sha256": "d5dc9aef83905a779db86eb6f617ecc27300c24f4db7195ecb15b691d804e76b",
+      "color_space": "Non-Color"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\speaker_plastic\\Metallic.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "range": [
+        0.0,
+        0.0
+      ],
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+      "color_space": "Non-Color"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\speaker_plastic\\Normal.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "range": [
+        104.0,
+        255.0
+      ],
+      "sha256": "61079e040cf1a5a5b5690b05c5b0f48bf99e0e1aed70b8b0d815eba95e726590",
+      "color_space": "Non-Color"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\speaker_plastic\\PolishMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "range": [
+        0.0,
+        65535.0
+      ],
+      "sha256": "bf773146294c00d7e2557ae037930e88196d30623d1f0a83cafae9c0c0564dde",
+      "color_space": "Non-Color"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\speaker_plastic\\Roughness.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "range": [
+        14976.0,
+        36439.0
+      ],
+      "sha256": "8ec0a8c805bb3570a3ea7efa94613898913666472903deeea1a1ff5d71aecd88",
+      "color_space": "Non-Color"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\speaker_plastic\\ScratchMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "range": [
+        0.0,
+        65535.0
+      ],
+      "sha256": "f1f0afc70b3491562b16df952cfbaf5db425ff44c047e2595694baf1342912ab",
+      "color_space": "Non-Color"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\speaker_plastic\\ScuffMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "range": [
+        0.0,
+        65535.0
+      ],
+      "sha256": "f10e188d70401fcd1a9780f9cb4395b832ed61f1bff9809a241239abf2f1ca05",
+      "color_space": "Non-Color"
+    }
+  ]
+}

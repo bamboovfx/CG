@@ -1,5 +1,7 @@
 # 当前工程基线
 
+**2026-10-03云端整理：** 用户授权当前镜头及实际依赖通过 Git LFS 上传，未引用资产仅排除上传、保留本机。缓存/旧候选/自动备份删除524个文件（约52.52GiB），最新源与可复现流程迁移72项并核对SHA256。课椅新入口 `02_assets/work/school_chair.blend`；最新课桌 `02_assets/work/school_desk_parts.blend` 和共享材质源 `02_assets/work/approved_material_library.blend` 尚未并入镜头，保留本机不上传。本轮主镜头仍为1001–1100/24fps、cam_sh010_main；5张既有opdef图像未解析，Arial Narrow为外部系统字体。镜头路径规范化结果与哈希以[本轮验证](../06_review/cloud_assets_20261003/report.md)为准；下方旧哈希是历史版本。140帧 `pose_fit_candidate.blend` 在清理开始前已缺失，历史重开记录不能证明它当前仍存在。
+
 场景参数详细快照：2026-09-20；文件依赖复核：2026-09-29。这里记录源工程和最近可验证状态；任务进度看任务卡。修改工程前重新读取，本文不能覆盖用户后续保存。
 
 **最新基线（2026-09-29）：** 固定主镜头已迁移为可直接编辑的本地工程，SHA256=`25fef6ac014f853ef93994e3ec9d0faa59dc35d63d4ccdb717ce6e3297ac116f`。重开实测为第1076帧、24fps、1001–1100，保留相机与天空两个Action；黑板 `Unique wiped writing surface` 可在镜头内直接选中，材质入口为 `LOOKDEV / material selectors`。其余263个集合实例保持变换。当前工程不再引用旧建筑/道具 `.blend`；旧源仍保留。迁移前恢复副本、画面对比与使用方式见[迁移记录](../06_review/classroom_pipeline_migration_20260929/report.md)。5张原有 `opdef:/Sop/testgeometry_tommy` 图像仍未解析，测试人物会呈紫色；正式灯光合成前须处理。140帧目标不变，本次迁移没有延长用户当前1001–1100帧范围。
@@ -43,7 +45,7 @@
 
 - 2026-10-01胶脚表现可见度修订（当前）：用户退回前版表现过轻，已修订SD老化／擦伤／划痕／灰污覆盖与尺度，增强斑驳黄化、泛白擦伤和底边灰污。原生SD66节点／18张4K输出；Age=0.75、Wear=0.75、Scratches=0.70，四件Dirt=0.65／0.60／0.70／0.63。保留原胶脚工艺组及几何UV法线、其它材质和捕获的用户未保存修改，同一独立课椅文件原位保存；实际归零差1、SD归零差0，独立重开56项通过。当前视觉待评审。[最新同光前后与报告](../06_review/chair_foot_cap_visibility_20261001/report.md)。
 
-- 2026-10-01胶脚材质（前版，因表现不可辨认被退回）：独立课椅文件 `07_pipeline/cache/tripo_wood_side_back_20260930/tripo_wood_side_back.blend` 已应用四个浅黄哑光胶脚的工艺／表现两层，温和黄化、擦伤、细划痕与底边灰污独立控制。原生SD65节点／18张4K输出，Blender实际使用9张打包图；Metallic=0，本地绑定，保留几何UV法线及其它材质。SD归零差0、Blender归零最大差1，原位保存并独立重开55项通过。分件已获用户确认；材质视觉待确认。[最新材质报告](../06_review/chair_foot_cap_materials_20261001/report.md)。
+- 2026-10-01胶脚材质（前版，因表现不可辨认被退回）：独立课椅文件 `02_assets/work/school_chair.blend` 已应用四个浅黄哑光胶脚的工艺／表现两层，温和黄化、擦伤、细划痕与底边灰污独立控制。原生SD65节点／18张4K输出，Blender实际使用9张打包图；Metallic=0，本地绑定，保留几何UV法线及其它材质。SD归零差0、Blender归零最大差1，原位保存并独立重开55项通过。分件已获用户确认；材质视觉待确认。[最新材质报告](../06_review/chair_foot_cap_materials_20261001/report.md)。
 
 - 2026-10-01胶脚分件（当前）：同一独立课椅文件中，将原连在LP_part_01／LP_part_13的三个胶脚沿现有16边界分离；加原LP_part_00共四个独立对象，归入CHAIR / Foot caps，四件材质可分别编辑并复用原黄白哑光胶脚外观。没有重生成。坐标／两套UV变化0，自定义法线转移后最大重新编码夹角约0.02021°；其它材质／木材／用户未保存编辑保留。已原位保存，独立重开30项通过。[分件报告](../06_review/chair_foot_caps_20261001/report.md)、[完整参考制作与逐级返修流程](../docs/workflows/reference_to_material_asset.md)。技术完成，视觉待确认。
 
@@ -51,9 +53,9 @@
 
 - 2026-10-01金属颜色修订：当前独立课椅文件已将11个涂漆部件从偏白调整为整面灰褐老化。表现组新增Age Color／Age Coverage／Age Variation，颜色#796957、覆盖0.78、局部变化0.30、漆面Age=0.95；木材、干净工艺组、几何UV法线和灯光机位保持。原位保存并独立重开通过原54项保护／依赖检查及新参数接线检查；原生SD和贴图未改。最新图见[调色报告](../06_review/chair_metal_age_color_20261001/report.md)，视觉待用户评审。
 
-- 2026-10-01椅子金属材质：当前独立课椅工作文件 `07_pipeline/cache/tripo_wood_side_back_20260930/tripo_wood_side_back.blend` 已应用钢基底／灰白涂漆工艺和掉漆／锈蚀／老化／划痕／脏渍表现，覆盖11个漆面件与12个深色螺钉。原生SD77节点、21张4K输出；显式三向映射锁在部件本地，保留木材、原网格／UV／法线及胶脚。候选与当前文件重开54项通过；Blender归零最大差1个8位值，SD六个通道归零差全0。已原位保存，正式教室镜头未更新。视觉待评审：[金属制作报告](../06_review/chair_metal_layers_20261001/report.md)。
+- 2026-10-01椅子金属材质：当前独立课椅工作文件 `02_assets/work/school_chair.blend` 已应用钢基底／灰白涂漆工艺和掉漆／锈蚀／老化／划痕／脏渍表现，覆盖11个漆面件与12个深色螺钉。原生SD77节点、21张4K输出；显式三向映射锁在部件本地，保留木材、原网格／UV／法线及胶脚。候选与当前文件重开54项通过；Blender归零最大差1个8位值，SD六个通道归零差全0。已原位保存，正式教室镜头未更新。视觉待评审：[金属制作报告](../06_review/chair_metal_layers_20261001/report.md)。
 
-- 2026-10-01独立木椅材质候选：按用户要求在当前实时工程中彻底删除背面印记节点／Rear接口／reference_rear属性／StampMask打包资源。保留用户未保存编辑、几何／全部UV／法线、工艺／脏渍／侧壁及场景设置，原位保存 `07_pipeline/cache/tripo_wood_side_back_20260930/tripo_wood_side_back.blend`。重开无残留；同光背面渲染最大差1个8位值。正式教室镜头未修改，见[清理记录](../06_review/wood_stamp_cleanup_20261001/report.md)。
+- 2026-10-01独立木椅材质候选：按用户要求在当前实时工程中彻底删除背面印记节点／Rear接口／reference_rear属性／StampMask打包资源。保留用户未保存编辑、几何／全部UV／法线、工艺／脏渍／侧壁及场景设置，原位保存 `02_assets/work/school_chair.blend`。重开无残留；同光背面渲染最大差1个8位值。正式教室镜头未修改，见[清理记录](../06_review/wood_stamp_cleanup_20261001/report.md)。
 
 - 2026-09-28密封装配修正：删除30个REF rubber sash stop占位块；84块同类窗玻璃、336条胶条改为槽内U形结构，修复斜视宽黑边。玻璃嵌框、窗扇内槽和两侧压条同步调整，开度及五金控制器保持。建筑源已保存并重开验证，主镜头1094帧/24fps、1001–1100、本地动画保持且链接已刷新。[前后对比与实物资料](../06_review/window_glazing/index.html)、[当前发布哈希](../06_review/window_glazing/published.json)。
 

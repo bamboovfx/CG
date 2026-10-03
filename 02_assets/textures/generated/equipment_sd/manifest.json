@@ -1,0 +1,1052 @@
+[
+  {
+    "family": "abs",
+    "source": "02_assets/materials/equipment_rebuild/equipment_abs.sbs",
+    "sbsar": "02_assets/materials/equipment_rebuild/equipment_abs.sbsar",
+    "native_nodes": 21,
+    "public_parameters": [
+      "Roughness",
+      "ScratchAmount"
+    ],
+    "tile_metres": 0.25,
+    "height_range_metres": 2.6e-05,
+    "normal_convention": "OpenGL",
+    "seed": 3087,
+    "license": "Original authored native graph; Adobe installed procedural node dependencies compiled with licensed local tools",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_abs.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_abs.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\equipment_sd\\abs",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@11,11",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report"
+      ]
+    ],
+    "files": [
+      {
+        "path": "02_assets/textures/generated/equipment_sd/abs/AO.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/abs/BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "135f57144d71e76c2de51ff79fc2590cdc893f9793b79e70a1e4095cac1eff68",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/abs/Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "ac40a97954359458015823fe196c6ed43f246de0f1c4c03ceea1f671cd767137",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/abs/Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/abs/Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "c5ff5b4e31a13edfc3f410135f636e3a0e395303187addf6237343c72808a3c3",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/abs/Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "95c8e45126320958486a7bba285b79c7c81ce09d294a2358126df356411ed4d7",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/abs/WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "d6ee85d6da78a0bb2f9c008fff2964c94b8ecdfd81e76b233d23ca05156659ad",
+        "colorspace": "Non-Color"
+      }
+    ],
+    "source_sha256": "9ee1a21db6be9d404652c7ec5a627fddc7d909a99de7be46e11d621d6c7a191f",
+    "sbsar_sha256": "94542b41faba86eb67bfd211c2c5b333f69326cc0fb2c442c646dff4f2591956"
+  },
+  {
+    "family": "enamel",
+    "source": "02_assets/materials/equipment_rebuild/equipment_enamel.sbs",
+    "sbsar": "02_assets/materials/equipment_rebuild/equipment_enamel.sbsar",
+    "native_nodes": 21,
+    "public_parameters": [
+      "Roughness",
+      "ScratchAmount"
+    ],
+    "tile_metres": 0.25,
+    "height_range_metres": 2.2e-05,
+    "normal_convention": "OpenGL",
+    "seed": 3087,
+    "license": "Original authored native graph; Adobe installed procedural node dependencies compiled with licensed local tools",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_enamel.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_enamel.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\equipment_sd\\enamel",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@11,11",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report"
+      ]
+    ],
+    "files": [
+      {
+        "path": "02_assets/textures/generated/equipment_sd/enamel/AO.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/enamel/BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "b381927501bcdb9ca1f98602ac0c2ce327d56037fc55067fe1f5ea901a5ec3f3",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/enamel/Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "b829995123a9dbc0f9252e1c378d96be6819ca81e0e2248c31e590c3e8f1290d",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/enamel/Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/enamel/Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "09f04505e562e68b71af8685228481df571d7ed739924152d5ca2a4135621e5c",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/enamel/Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "16a8380dfeb3d7876e37e67b5c717a6cebc0ff51ca8d45f638387dd6711c4445",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/enamel/WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "b2fe3c33df15984393261251aefc78b94c00d0b7a2f68be38740389a7c69cf7e",
+        "colorspace": "Non-Color"
+      }
+    ],
+    "source_sha256": "2aff9d3b441cda076ecb3d7470ec15780520ce79c7e507471805f839d5796b3a",
+    "sbsar_sha256": "48f8d5f9f117dc22e5476aef8b4620738564f0810278842c9e05d52250cd6e8e"
+  },
+  {
+    "family": "metal",
+    "source": "02_assets/materials/equipment_rebuild/equipment_metal.sbs",
+    "sbsar": "02_assets/materials/equipment_rebuild/equipment_metal.sbsar",
+    "native_nodes": 21,
+    "public_parameters": [
+      "Roughness",
+      "ScratchAmount"
+    ],
+    "tile_metres": 0.25,
+    "height_range_metres": 1.8e-05,
+    "normal_convention": "OpenGL",
+    "seed": 3087,
+    "license": "Original authored native graph; Adobe installed procedural node dependencies compiled with licensed local tools",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_metal.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_metal.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\equipment_sd\\metal",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@11,11",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report"
+      ]
+    ],
+    "files": [
+      {
+        "path": "02_assets/textures/generated/equipment_sd/metal/AO.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/metal/BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "d36d46da125bd459c9c4121fd45874623de3c21e2cf8d2d2ce587d62275ec055",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/metal/Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "75156dd5c092484b2c242153660191c6de3126b72aed9ee3d347482556ef9135",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/metal/Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "d85725abd22cf628cb4bd9bc5c6cf079bd1fbe0913ffc2f4ee1314096786252c",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/metal/Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "0d5ac0fc5662b19fc45210f8339030ae1c942779ffba353f65666c47eb4b1e4c",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/metal/Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "2a8e59880cd78ecbdf85435e0d86190a3609f977bbe2d1744e7b7cc62d1fcd4b",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/metal/WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "e5dda82bc6eb60308ecd9b71cd910a1c9b6a6d85f39b8f3576e50ef37504c34e",
+        "colorspace": "Non-Color"
+      }
+    ],
+    "source_sha256": "e8159c473d4a46783b5823528c94a34d79dc27709f87295a23cf41bd59b0036a",
+    "sbsar_sha256": "188be3df190cd5b9d7e38b09d63518ef4a943a520fdd86b82013f25b4a8c3fdc"
+  },
+  {
+    "family": "rubber",
+    "source": "02_assets/materials/equipment_rebuild/equipment_rubber.sbs",
+    "sbsar": "02_assets/materials/equipment_rebuild/equipment_rubber.sbsar",
+    "native_nodes": 21,
+    "public_parameters": [
+      "Roughness",
+      "ScratchAmount"
+    ],
+    "tile_metres": 0.25,
+    "height_range_metres": 3e-05,
+    "normal_convention": "OpenGL",
+    "seed": 3087,
+    "license": "Original authored native graph; Adobe installed procedural node dependencies compiled with licensed local tools",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_rubber.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_rubber.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\equipment_sd\\rubber",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@11,11",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report"
+      ]
+    ],
+    "files": [
+      {
+        "path": "02_assets/textures/generated/equipment_sd/rubber/AO.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/rubber/BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "f3966fe906af9651456d90381431fafaf4d058a29a698b1169607ef9d933cb5e",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/rubber/Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "54f49a6eccb2a7f2b3a697faa3e2f0ea8fbecad55c152ef915b2fa52588f670f",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/rubber/Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/rubber/Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "f9e10fe4b761b94d8a59961ce0e552a374a33729f8298acd8ca581ede680b815",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/rubber/Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "a091cf30297de55541e991a18e0002297606a9d4f25b60130af586770229d1d6",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/rubber/WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "164b45ddd71f074349974de13706f473929335a98019e03d70598849dd7c0e2f",
+        "colorspace": "Non-Color"
+      }
+    ],
+    "source_sha256": "8af202034cea7c21cd95c8a3bcd9ba38ab260d89a4994538d1eb3c95c1e98ce5",
+    "sbsar_sha256": "2ed2f3a08951cc8d426f0619031a3b89b8d3413d931df9083081b9caa866c43b"
+  },
+  {
+    "family": "glass",
+    "source": "02_assets/materials/equipment_rebuild/equipment_glass.sbs",
+    "sbsar": "02_assets/materials/equipment_rebuild/equipment_glass.sbsar",
+    "native_nodes": 21,
+    "public_parameters": [
+      "Roughness",
+      "ScratchAmount"
+    ],
+    "tile_metres": 0.25,
+    "height_range_metres": 3e-06,
+    "normal_convention": "OpenGL",
+    "seed": 3087,
+    "license": "Original authored native graph; Adobe installed procedural node dependencies compiled with licensed local tools",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_glass.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_glass.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\equipment_sd\\glass",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@11,11",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report"
+      ]
+    ],
+    "files": [
+      {
+        "path": "02_assets/textures/generated/equipment_sd/glass/AO.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/glass/BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "5ebc43c294edb5c6644a9bfd6c94897d973174680626fef190b3212d44143eb9",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/glass/Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "38b0a61629fe1dabf67a86485d264edebebd1926f69a549aac43ed4bbfc79818",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/glass/Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/glass/Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "f31ed87817a13ebc02762d5e26256815cbf73d4c162857d39d457b23163b26ee",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/glass/Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "4fe368a8a2257e8e2f2d38fa35b7edd7b8b24683e2f87320c9bfe5c364ad63a6",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/glass/WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "b3787188455519253415d18b2c55f61438c9f8f6e6e5dea4b68b96a27863735a",
+        "colorspace": "Non-Color"
+      }
+    ],
+    "source_sha256": "9637337bfaafb923cf87a15eb469b724fb12c1432b96f11ac334d5eae9b0c0cc",
+    "sbsar_sha256": "3d35d52bbed6ff3ebdd741b62346bd3a8c2c11f1f0f35587e6f020045201d2f7"
+  },
+  {
+    "family": "paper",
+    "source": "02_assets/materials/equipment_rebuild/equipment_paper.sbs",
+    "sbsar": "02_assets/materials/equipment_rebuild/equipment_paper.sbsar",
+    "native_nodes": 21,
+    "public_parameters": [
+      "Roughness",
+      "ScratchAmount"
+    ],
+    "tile_metres": 0.25,
+    "height_range_metres": 1.5e-05,
+    "normal_convention": "OpenGL",
+    "seed": 3087,
+    "license": "Original authored native graph; Adobe installed procedural node dependencies compiled with licensed local tools",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_paper.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_paper.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\equipment_sd\\paper",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@11,11",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report"
+      ]
+    ],
+    "files": [
+      {
+        "path": "02_assets/textures/generated/equipment_sd/paper/AO.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/paper/BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "2fd65d14b6058461b1b88bd8c9e942c7ffcc7253d9cedf1add0a1193550740c7",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/paper/Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "8fddebc48053fb14cb9915f7210fb77af8d38e01332040cac84a82c257068627",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/paper/Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/paper/Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "3907f95af2dd27b8d7d86520d764a153231be1bd0a6d9b012ae600057864e678",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/paper/Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "18a64dd189fe6f2850ace92c18498dc1fa608a67b923c3012f10e958ce0f8af4",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/paper/WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "39ae5853d50fab8621afce1bc72748faf63c587efe85f340912c4c9075f820da",
+        "colorspace": "Non-Color"
+      }
+    ],
+    "source_sha256": "f8d295ed547f079b7da3b6ea459326a59f5f6dd6ae00fb785893755b225eb097",
+    "sbsar_sha256": "755b4627a8f1bbf1e1096dc1361c54585d95c497302d56da08eff3553ef7afdd"
+  },
+  {
+    "family": "dark",
+    "source": "02_assets/materials/equipment_rebuild/equipment_dark.sbs",
+    "sbsar": "02_assets/materials/equipment_rebuild/equipment_dark.sbsar",
+    "native_nodes": 21,
+    "public_parameters": [
+      "Roughness",
+      "ScratchAmount"
+    ],
+    "tile_metres": 0.25,
+    "height_range_metres": 2e-05,
+    "normal_convention": "OpenGL",
+    "seed": 3087,
+    "license": "Original authored native graph; Adobe installed procedural node dependencies compiled with licensed local tools",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_dark.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_dark.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\equipment_sd\\dark",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@11,11",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report"
+      ]
+    ],
+    "files": [
+      {
+        "path": "02_assets/textures/generated/equipment_sd/dark/AO.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/dark/BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "d5163c08d62b239fe78b14e2aeb7d6cdc6598fe73e008efd9934d0abbeec5c7e",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/dark/Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "85255c083d81ba758e8a83e11d8c27e20737c876cdd01a2478409ed7c0a0ea1a",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/dark/Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/dark/Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "5f006fc73353a8b67946c2361745f7b7517286817009275c6ccde0d16fbf3c7e",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/dark/Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "39796fe7d1cc1aa375d5da33a721238116c5fd3ec46f8a6cd85d7bdcfd20c5b6",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/dark/WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "92fae9a245e914ebf00abc2cacdf23904a8d1b8317645d385d049296c9b323e4",
+        "colorspace": "Non-Color"
+      }
+    ],
+    "source_sha256": "0434b1333c62271afefa56811fec6bd85a4759c377e514f1dd1150a302ddb8fa",
+    "sbsar_sha256": "8ef3ee1de26478ec7a6d00164f3fb5eae0b712eb05836e7198e1888941d1d868"
+  },
+  {
+    "family": "exposed_wood",
+    "source": "02_assets/materials/equipment_rebuild/equipment_exposed_wood.sbs",
+    "sbsar": "02_assets/materials/equipment_rebuild/equipment_exposed_wood.sbsar",
+    "native_nodes": 29,
+    "public_parameters": [
+      "Roughness",
+      "ScratchAmount",
+      "WoodColorScan",
+      "WoodRoughScan",
+      "WoodNormalScan"
+    ],
+    "tile_metres": 0.6,
+    "source_grain_axis": "U",
+    "input_images": [
+      {
+        "path": "02_assets/textures/polyhaven/plywood/4k/plywood_diff_4k.jpg",
+        "sha256": "0d628704affb5fa38ef4c886ad9a70f6ddfffe9c22ed5c84b03e27ef5505cfd9",
+        "license": "CC0",
+        "source_url": "https://polyhaven.com/a/plywood"
+      },
+      {
+        "path": "02_assets/textures/polyhaven/plywood/4k/plywood_rough_4k.jpg",
+        "sha256": "dcc9f8ce7a483dcc4c3ad2298ba3b9083df341ad9cf5a8d3c4d853eef369ba65",
+        "license": "CC0",
+        "source_url": "https://polyhaven.com/a/plywood"
+      },
+      {
+        "path": "02_assets/textures/polyhaven/plywood/4k/plywood_nor_gl_4k.png",
+        "sha256": "a154da1d16e29a5abeaf7350e7dbd45680d88f2f272d1e01e20032171f5b0a22",
+        "license": "CC0",
+        "source_url": "https://polyhaven.com/a/plywood"
+      }
+    ],
+    "height_range_metres": 0.0002,
+    "normal_convention": "OpenGL",
+    "seed": 3087,
+    "license": "Original authored native graph; Adobe installed procedural node dependencies compiled with licensed local tools; wood uses CC0 Poly Haven scans",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_exposed_wood.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_exposed_wood.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\equipment_sd\\exposed_wood",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@11,11",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report",
+        "--set-entry",
+        "WoodColorScan@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg",
+        "--set-entry",
+        "WoodRoughScan@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_rough_4k.jpg",
+        "--set-entry",
+        "WoodNormalScan@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_nor_gl_4k.png"
+      ]
+    ],
+    "files": [
+      {
+        "path": "02_assets/textures/generated/equipment_sd/exposed_wood/AO.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/exposed_wood/BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "dd06fb5b29f5d9a582149a3b7cf58cef019ca36191e85a012086cad67b3237a2",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/exposed_wood/Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6cf1506a11ab43f3ea8f5336844d957cab61ca6665a9cb2aa2f955a385cdc8db",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/exposed_wood/Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/exposed_wood/Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "056ebceb18dd2044d0de2ffd7336f02110ba434af1943ddb90e7892a2970e543",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/exposed_wood/Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "be119502a3211638082bc4603f458767dd3bc348e1931ec2489a25194fd32883",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/exposed_wood/WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "fc7f9fa6e0fda5d3ebfc77e0d26e8d04bdc1e2e00b46efa1b99acddeb5fded0f",
+        "colorspace": "Non-Color"
+      }
+    ],
+    "source_sha256": "6905d0c217e79846d2e2e23b80f6d3e33d7746c90bb86f1e54098160436db687",
+    "sbsar_sha256": "87271ce74d3ae180b037c42ad4bebce1c661999a4aefefb46f34eaabc16ea22c"
+  },
+  {
+    "family": "varnished_wood",
+    "source": "02_assets/materials/equipment_rebuild/equipment_varnished_wood.sbs",
+    "sbsar": "02_assets/materials/equipment_rebuild/equipment_varnished_wood.sbsar",
+    "native_nodes": 32,
+    "public_parameters": [
+      "Roughness",
+      "ScratchAmount",
+      "WoodColorScan",
+      "WoodRoughScan",
+      "WoodNormalScan"
+    ],
+    "tile_metres": 0.6,
+    "source_grain_axis": "U",
+    "input_images": [
+      {
+        "path": "02_assets/textures/polyhaven/plywood/4k/plywood_diff_4k.jpg",
+        "sha256": "0d628704affb5fa38ef4c886ad9a70f6ddfffe9c22ed5c84b03e27ef5505cfd9",
+        "license": "CC0",
+        "source_url": "https://polyhaven.com/a/plywood"
+      },
+      {
+        "path": "02_assets/textures/polyhaven/plywood/4k/plywood_rough_4k.jpg",
+        "sha256": "dcc9f8ce7a483dcc4c3ad2298ba3b9083df341ad9cf5a8d3c4d853eef369ba65",
+        "license": "CC0",
+        "source_url": "https://polyhaven.com/a/plywood"
+      },
+      {
+        "path": "02_assets/textures/polyhaven/plywood/4k/plywood_nor_gl_4k.png",
+        "sha256": "a154da1d16e29a5abeaf7350e7dbd45680d88f2f272d1e01e20032171f5b0a22",
+        "license": "CC0",
+        "source_url": "https://polyhaven.com/a/plywood"
+      }
+    ],
+    "height_range_metres": 0.00013,
+    "normal_convention": "OpenGL",
+    "seed": 3087,
+    "license": "Original authored native graph; Adobe installed procedural node dependencies compiled with licensed local tools; wood uses CC0 Poly Haven scans",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_varnished_wood.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_varnished_wood.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\equipment_sd\\varnished_wood",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@11,11",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report",
+        "--set-entry",
+        "WoodColorScan@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg",
+        "--set-entry",
+        "WoodRoughScan@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_rough_4k.jpg",
+        "--set-entry",
+        "WoodNormalScan@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_nor_gl_4k.png"
+      ]
+    ],
+    "files": [
+      {
+        "path": "02_assets/textures/generated/equipment_sd/varnished_wood/AO.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/varnished_wood/BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "1078d49db2478a468d28bcdd988e8d8429e36cfd2cde55c822671df9c89b82ce",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/varnished_wood/Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "10300b0399eea87ad54b32233b36ab436ed3d6cbafc5e27edf9796c8f4eb36f0",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/varnished_wood/Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/varnished_wood/Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "8e4c4a418db526e55a0bc214c63b2a693b6e07fdc4a8651f1e666b7ca63d51e3",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/varnished_wood/Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "6c62f4f5d9defda9b56f194ecfdb9f93b7daaef8c5504878e4144a9791cc5462",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/equipment_sd/varnished_wood/WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "sha256": "1747ef993a6dd3d369fe687f7ed9e84b19e75b1aa215ed564b411c5255398695",
+        "colorspace": "Non-Color"
+      }
+    ],
+    "source_sha256": "a8b4c8b2a12ef3098111659d26f5391a2dcd00096f4191454c3f0e1ce7c6c1d1",
+    "sbsar_sha256": "f7263bde5e9d38408674bf8136b9086aef46ebd19299b38b8af7cc7ee5975173"
+  }
+]

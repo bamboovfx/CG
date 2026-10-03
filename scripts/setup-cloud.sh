@@ -3,6 +3,19 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p .local/tools
+# 场景与贴图使用 LFS；必须下载实际对象，不能把小指针文件当成可打开工程。
+if ! command -v git-lfs >/dev/null 2>&1; then
+  if [[ $(id -u) -eq 0 ]]; then
+    apt-get update
+    apt-get install -y git-lfs
+  else
+    sudo apt-get update
+    sudo apt-get install -y git-lfs
+  fi
+fi
+git lfs install --local
+git lfs pull
+python3 scripts/check_cloud_assets.py
 archive=blender-5.1.2-linux-x64.tar.xz
 binary=.local/tools/blender-5.1.2-linux-x64/blender
 if [[ ! -x "$binary" ]]; then

@@ -1,0 +1,4600 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>
+  <identifier v="tv_screen_imperfection" />
+  <formatVersion v="1.1.0.202502" />
+  <updaterVersion v="1.1.0.202502" />
+  <fileUID v="{e452ca67-2216-5503-aad1-48d12a2e9346}" />
+  <versionUID v="0" />
+  <dependencies>
+    <dependency>
+      <filename v="sbs://noise_bnw_spots_2.sbs" />
+      <uid v="1010" />
+      <type v="package" />
+      <fileUID v="0" />
+      <versionUID v="0" />
+    </dependency>
+    <dependency>
+      <filename v="sbs://blur_hq.sbs" />
+      <uid v="1013" />
+      <type v="package" />
+      <fileUID v="0" />
+      <versionUID v="0" />
+    </dependency>
+    <dependency>
+      <filename v="sbs://grunge_spots_dirty.sbs" />
+      <uid v="1018" />
+      <type v="package" />
+      <fileUID v="0" />
+      <versionUID v="0" />
+    </dependency>
+    <dependency>
+      <filename v="sbs://noise_dirt_2.sbs" />
+      <uid v="1021" />
+      <type v="package" />
+      <fileUID v="0" />
+      <versionUID v="0" />
+    </dependency>
+    <dependency>
+      <filename v="sbs://noise_dirt_4.sbs" />
+      <uid v="1028" />
+      <type v="package" />
+      <fileUID v="0" />
+      <versionUID v="0" />
+    </dependency>
+    <dependency>
+      <filename v="sbs://safe_transform.sbs" />
+      <uid v="1049" />
+      <type v="package" />
+      <fileUID v="0" />
+      <versionUID v="0" />
+    </dependency>
+    <dependency>
+      <filename v="sbs://noise_anisotropic_noise.sbs" />
+      <uid v="1052" />
+      <type v="package" />
+      <fileUID v="0" />
+      <versionUID v="0" />
+    </dependency>
+    <dependency>
+      <filename v="sbs://noise_clouds_2.sbs" />
+      <uid v="1055" />
+      <type v="package" />
+      <fileUID v="0" />
+      <versionUID v="0" />
+    </dependency>
+    <dependency>
+      <filename v="sbs://grunge_scratches_fine.sbs" />
+      <uid v="1070" />
+      <type v="package" />
+      <fileUID v="0" />
+      <versionUID v="0" />
+    </dependency>
+    <dependency>
+      <filename v="sbs://grunge_scratches_rough.sbs" />
+      <uid v="1079" />
+      <type v="package" />
+      <fileUID v="0" />
+      <versionUID v="0" />
+    </dependency>
+  </dependencies>
+  <content>
+    <graph>
+      <identifier v="tv_screen_imperfection" />
+      <uid v="1001" />
+      <graphtype v="material" />
+      <attributes>
+        <label v="CRT glass / layered imperfections" />
+        <description v="Original native graph. Separate oil, dry deposits, curved wiping, fine scratches, crossed long scratches and clustered abrasion. One tile represents 0.8 m. No reference bitmap input or baked lighting." />
+      </attributes>
+      <graphOutputs>
+        <graphoutput>
+          <identifier v="DustMask" />
+          <uid v="1140" />
+          <attributes>
+            <label v="DustMask" />
+          </attributes>
+          <channels v="2" />
+          <group v="Masks" />
+        </graphoutput>
+        <graphoutput>
+          <identifier v="DepositMask" />
+          <uid v="1142" />
+          <attributes>
+            <label v="DepositMask" />
+          </attributes>
+          <channels v="2" />
+          <group v="Masks" />
+        </graphoutput>
+        <graphoutput>
+          <identifier v="OilMask" />
+          <uid v="1144" />
+          <attributes>
+            <label v="OilMask" />
+          </attributes>
+          <channels v="2" />
+          <group v="Masks" />
+        </graphoutput>
+        <graphoutput>
+          <identifier v="WipeMask" />
+          <uid v="1146" />
+          <attributes>
+            <label v="WipeMask" />
+          </attributes>
+          <channels v="2" />
+          <group v="Masks" />
+        </graphoutput>
+        <graphoutput>
+          <identifier v="MicroScratches" />
+          <uid v="1148" />
+          <attributes>
+            <label v="MicroScratches" />
+          </attributes>
+          <channels v="2" />
+          <group v="Masks" />
+        </graphoutput>
+        <graphoutput>
+          <identifier v="LongScratches" />
+          <uid v="1150" />
+          <attributes>
+            <label v="LongScratches" />
+          </attributes>
+          <channels v="2" />
+          <group v="Masks" />
+        </graphoutput>
+        <graphoutput>
+          <identifier v="ScuffMask" />
+          <uid v="1152" />
+          <attributes>
+            <label v="ScuffMask" />
+          </attributes>
+          <channels v="2" />
+          <group v="Masks" />
+        </graphoutput>
+        <graphoutput>
+          <identifier v="ScratchMask" />
+          <uid v="1154" />
+          <attributes>
+            <label v="ScratchMask" />
+          </attributes>
+          <channels v="2" />
+          <group v="Masks" />
+        </graphoutput>
+        <graphoutput>
+          <identifier v="Roughness" />
+          <uid v="1156" />
+          <attributes>
+            <label v="Roughness" />
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA" />
+              <name v="roughness" />
+            </usage>
+          </usages>
+          <channels v="2" />
+          <group v="Material" />
+        </graphoutput>
+        <graphoutput>
+          <identifier v="Height" />
+          <uid v="1158" />
+          <attributes>
+            <label v="Height" />
+          </attributes>
+          <usages>
+            <usage>
+              <components v="RGBA" />
+              <name v="height" />
+            </usage>
+          </usages>
+          <channels v="2" />
+          <group v="Material" />
+        </graphoutput>
+      </graphOutputs>
+      <paraminputs>
+        <paraminput>
+          <identifier v="DepositAmount" />
+          <uid v="1002" />
+          <attributes>
+            <label v="Dry deposit coverage" />
+            <description v="" />
+          </attributes>
+          <type v="256" />
+          <defaultValue>
+            <constantValueFloat1 v="0.45" />
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider" />
+            <options>
+              <option>
+                <name v="min" />
+                <value v="0" />
+              </option>
+              <option>
+                <name v="max" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="clamp" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="step" />
+                <value v="0.01" />
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="01 Dirt" />
+        </paraminput>
+        <paraminput>
+          <identifier v="OilAmount" />
+          <uid v="1003" />
+          <attributes>
+            <label v="Oil film" />
+            <description v="" />
+          </attributes>
+          <type v="256" />
+          <defaultValue>
+            <constantValueFloat1 v="0.4" />
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider" />
+            <options>
+              <option>
+                <name v="min" />
+                <value v="0" />
+              </option>
+              <option>
+                <name v="max" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="clamp" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="step" />
+                <value v="0.01" />
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="01 Dirt" />
+        </paraminput>
+        <paraminput>
+          <identifier v="WipeAmount" />
+          <uid v="1004" />
+          <attributes>
+            <label v="Curved cloth marks" />
+            <description v="" />
+          </attributes>
+          <type v="256" />
+          <defaultValue>
+            <constantValueFloat1 v="0.08" />
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider" />
+            <options>
+              <option>
+                <name v="min" />
+                <value v="0" />
+              </option>
+              <option>
+                <name v="max" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="clamp" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="step" />
+                <value v="0.01" />
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="02 Handling" />
+        </paraminput>
+        <paraminput>
+          <identifier v="ScratchAmount" />
+          <uid v="1005" />
+          <attributes>
+            <label v="Fine scratch roughness" />
+            <description v="" />
+          </attributes>
+          <type v="256" />
+          <defaultValue>
+            <constantValueFloat1 v="0.38" />
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider" />
+            <options>
+              <option>
+                <name v="min" />
+                <value v="0" />
+              </option>
+              <option>
+                <name v="max" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="clamp" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="step" />
+                <value v="0.01" />
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="02 Handling" />
+        </paraminput>
+        <paraminput>
+          <identifier v="LongScratchAmount" />
+          <uid v="1006" />
+          <attributes>
+            <label v="Sparse long scratches" />
+            <description v="" />
+          </attributes>
+          <type v="256" />
+          <defaultValue>
+            <constantValueFloat1 v="0.65" />
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider" />
+            <options>
+              <option>
+                <name v="min" />
+                <value v="0" />
+              </option>
+              <option>
+                <name v="max" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="clamp" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="step" />
+                <value v="0.01" />
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="02 Handling" />
+        </paraminput>
+        <paraminput>
+          <identifier v="CrossScratchAmount" />
+          <uid v="1007" />
+          <attributes>
+            <label v="Crossing fine scratches" />
+            <description v="" />
+          </attributes>
+          <type v="256" />
+          <defaultValue>
+            <constantValueFloat1 v="0.4" />
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider" />
+            <options>
+              <option>
+                <name v="min" />
+                <value v="0" />
+              </option>
+              <option>
+                <name v="max" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="clamp" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="step" />
+                <value v="0.01" />
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="02 Handling" />
+        </paraminput>
+        <paraminput>
+          <identifier v="ScuffAmount" />
+          <uid v="1008" />
+          <attributes>
+            <label v="Localized abrasion" />
+            <description v="" />
+          </attributes>
+          <type v="256" />
+          <defaultValue>
+            <constantValueFloat1 v="0.2" />
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider" />
+            <options>
+              <option>
+                <name v="min" />
+                <value v="0" />
+              </option>
+              <option>
+                <name v="max" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="clamp" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="step" />
+                <value v="0.01" />
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="02 Handling" />
+        </paraminput>
+        <paraminput>
+          <identifier v="BaseRoughness" />
+          <uid v="1009" />
+          <attributes>
+            <label v="Clean glass roughness" />
+            <description v="" />
+          </attributes>
+          <type v="256" />
+          <defaultValue>
+            <constantValueFloat1 v="0.035" />
+          </defaultValue>
+          <defaultWidget>
+            <name v="slider" />
+            <options>
+              <option>
+                <name v="min" />
+                <value v="0.01" />
+              </option>
+              <option>
+                <name v="max" />
+                <value v="0.15" />
+              </option>
+              <option>
+                <name v="clamp" />
+                <value v="1" />
+              </option>
+              <option>
+                <name v="step" />
+                <value v="0.01" />
+              </option>
+            </options>
+          </defaultWidget>
+          <group v="03 Response" />
+        </paraminput>
+      </paraminputs>
+      <compNodes>
+        <compNode>
+          <uid v="1011" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 0 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1012" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///bnw_spots_2?dependency=1010" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scale" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="2" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="172" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1012" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1014" />
+          <connections>
+            <connection>
+              <identifier v="Source" />
+              <connRef v="1011" />
+              <connRefOutput v="1012" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="350 0 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1015" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///blur_hq_grayscale?dependency=1013" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="Intensity" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="10" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="Quality" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1015" />
+                  <identifier v="Blur_HQ" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1016" />
+          <connections>
+            <connection>
+              <identifier v="input1" />
+              <connRef v="1014" />
+              <connRefOutput v="1015" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="700 0 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1017" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="levels" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.35 0.35 0.35 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinhigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.62 0.62 0.62 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="leveloutlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0 0 0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelouthigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1019" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 410 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1020" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///grunge_spots_dirty?dependency=1018" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="balance" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.57" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="contrast" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.24" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="density" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.78" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scale" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="5" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="642" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1020" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1022" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 820 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1023" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///dirt_2?dependency=1021" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scale" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="9" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="732" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1023" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1024" />
+          <connections>
+            <connection>
+              <identifier v="input1" />
+              <connRef v="1022" />
+              <connRefOutput v="1023" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="350 410 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1025" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="levels" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.015 0.015 0.015 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinhigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.45 0.45 0.45 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="leveloutlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0 0 0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelouthigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1026" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1019" />
+              <connRefOutput v="1020" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1016" />
+              <connRefOutput v="1017" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1050 0 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1027" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="3" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1029" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 1230 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1030" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///dirt_4?dependency=1028" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scale" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="5" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="492" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1030" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1031" />
+          <connections>
+            <connection>
+              <identifier v="input1" />
+              <connRef v="1029" />
+              <connRefOutput v="1030" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="350 820 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1032" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="levels" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.42 0.42 0.42 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinhigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.78 0.78 0.78 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="leveloutlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0 0 0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelouthigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1033" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1031" />
+              <connRefOutput v="1032" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1016" />
+              <connRefOutput v="1017" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1050 410 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1034" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="3" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1035" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 1640 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1036" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1037" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1033" />
+              <connRefOutput v="1034" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1035" />
+              <connRefOutput v="1036" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1024" />
+              <connRefOutput v="1025" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1400 0 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1038" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.15" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1039" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 2050 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1040" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1041" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1037" />
+              <connRefOutput v="1038" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1039" />
+              <connRefOutput v="1040" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1026" />
+              <connRefOutput v="1027" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1750 0 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1042" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.08" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1043" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 2460 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1044" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///bnw_spots_2?dependency=1010" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scale" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="3" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="903" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1044" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1045" />
+          <connections>
+            <connection>
+              <identifier v="Source" />
+              <connRef v="1043" />
+              <connRefOutput v="1044" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="350 1230 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1046" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///blur_hq_grayscale?dependency=1013" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="Intensity" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="16" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="Quality" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1046" />
+                  <identifier v="Blur_HQ" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1047" />
+          <connections>
+            <connection>
+              <identifier v="input1" />
+              <connRef v="1045" />
+              <connRefOutput v="1046" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="700 410 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1048" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="levels" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.35 0.35 0.35 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinhigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.6 0.6 0.6 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="leveloutlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0 0 0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelouthigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1050" />
+          <connections>
+            <connection>
+              <identifier v="input" />
+              <connRef v="1047" />
+              <connRefOutput v="1048" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1050 820 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1051" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///safe_transform_grayscale?dependency=1049" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="rotation" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.13" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tile_safe_rotation" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="offset" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat2 v="0.19 -0.12" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1051" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1053" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 2870 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1054" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///anisotropic_noise?dependency=1052" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="X_Amount" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="640" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="Y_Amount" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="6" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="smoothness" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.72" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="340" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1054" />
+                  <identifier v="Anisotropic_Noise" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1056" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 3280 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1057" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///clouds_2?dependency=1055" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scale" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="2" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="249" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1057" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1058" />
+          <connections>
+            <connection>
+              <identifier v="input1" />
+              <connRef v="1053" />
+              <connRefOutput v="1054" />
+            </connection>
+            <connection>
+              <identifier v="inputgradient" />
+              <connRef v="1056" />
+              <connRefOutput v="1057" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="350 1640 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1059" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="warp" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="intensity" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.004" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1060" />
+          <connections>
+            <connection>
+              <identifier v="input" />
+              <connRef v="1058" />
+              <connRefOutput v="1059" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="700 820 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1061" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///safe_transform_grayscale?dependency=1049" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="rotation" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.18" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tile_safe_rotation" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="offset" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat2 v="0 0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1061" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1062" />
+          <connections>
+            <connection>
+              <identifier v="input1" />
+              <connRef v="1050" />
+              <connRefOutput v="1051" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1400 410 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1063" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="levels" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.4 0.4 0.4 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinhigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.72 0.72 0.72 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="leveloutlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0 0 0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelouthigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1064" />
+          <connections>
+            <connection>
+              <identifier v="input1" />
+              <connRef v="1060" />
+              <connRefOutput v="1061" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1050 1230 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1065" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="levels" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.58 0.58 0.58 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinhigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.9 0.9 0.9 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="leveloutlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0 0 0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelouthigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1066" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1064" />
+              <connRefOutput v="1065" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1062" />
+              <connRefOutput v="1063" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1750 410 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1067" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="3" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1068" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1066" />
+              <connRefOutput v="1067" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1016" />
+              <connRefOutput v="1017" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2100 0 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1069" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="3" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1071" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 3690 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1072" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///grunge_scratches_fine?dependency=1070" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="balance" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.4" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="contrast" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.62" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scratches_amount" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.65" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="442" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1072" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1073" />
+          <connections>
+            <connection>
+              <identifier v="input1" />
+              <connRef v="1071" />
+              <connRefOutput v="1072" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="350 2050 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1074" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="levels" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.39 0.39 0.39 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinhigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.8 0.8 0.8 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="leveloutlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0 0 0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelouthigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1075" />
+          <connections>
+            <connection>
+              <identifier v="input" />
+              <connRef v="1073" />
+              <connRefOutput v="1074" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="700 1230 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1076" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///safe_transform_grayscale?dependency=1049" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tile" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt1 v="3" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="rotation" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.11" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tile_safe_rotation" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1076" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1077" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1075" />
+              <connRefOutput v="1076" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1016" />
+              <connRefOutput v="1017" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1050 1640 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1078" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="3" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1080" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 4100 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1081" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///grunge_scratches_rough?dependency=1079" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="Position" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.38" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="Contrast" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.65" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scratch_quantity" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.19" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scratch_width" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.08" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scratch_length" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.73" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scratch_masking" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.7" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="double_scratch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="spots_opacity" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="dust" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="821" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1081" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1082" />
+          <connections>
+            <connection>
+              <identifier v="input" />
+              <connRef v="1080" />
+              <connRefOutput v="1081" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="350 2460 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1083" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///safe_transform_grayscale?dependency=1049" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="rotation" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="-0.19" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tile_safe_rotation" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="offset" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat2 v="0.12 0.05" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1083" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1084" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 4510 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1085" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///grunge_scratches_fine?dependency=1070" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="balance" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.38" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="contrast" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.66" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="scratches_amount" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.38" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="randomseed" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="927" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1085" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1086" />
+          <connections>
+            <connection>
+              <identifier v="input1" />
+              <connRef v="1084" />
+              <connRefOutput v="1085" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="350 2870 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1087" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="levels" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.48 0.48 0.48 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelinhigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.9 0.9 0.9 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="leveloutlow" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0 0 0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="levelouthigh" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1088" />
+          <connections>
+            <connection>
+              <identifier v="input" />
+              <connRef v="1086" />
+              <connRefOutput v="1087" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="700 1640 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1089" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compInstance>
+              <path v="pkg:///safe_transform_grayscale?dependency=1049" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="rotation" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.34" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="tile_safe_rotation" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="offset" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat2 v="-0.17 0.21" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+              <outputBridgings>
+                <outputBridging>
+                  <uid v="1089" />
+                  <identifier v="output" />
+                </outputBridging>
+              </outputBridgings>
+            </compInstance>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1090" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1077" />
+              <connRefOutput v="1078" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1050" />
+              <connRefOutput v="1051" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1400 820 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1091" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="3" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="1" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1092" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 4920 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1093" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1094" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1077" />
+              <connRefOutput v="1078" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1092" />
+              <connRefOutput v="1093" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1082" />
+              <connRefOutput v="1083" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1400 1230 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1095" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1096" />
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1096" />
+                          <function v="get_float1" />
+                          <type v="256" />
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1" />
+                              <constantValue>
+                                <constantValueString v="LongScratchAmount" />
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1097" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 5330 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1098" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1099" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1094" />
+              <connRefOutput v="1095" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1097" />
+              <connRefOutput v="1098" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1088" />
+              <connRefOutput v="1089" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1750 820 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1100" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1101" />
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1101" />
+                          <function v="get_float1" />
+                          <type v="256" />
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1" />
+                              <constantValue>
+                                <constantValueString v="CrossScratchAmount" />
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1102" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 5740 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1103" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="1 1 1 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1104" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1099" />
+              <connRefOutput v="1100" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1102" />
+              <connRefOutput v="1103" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1090" />
+              <connRefOutput v="1091" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2100 410 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1105" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1106" />
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1106" />
+                          <function v="get_float1" />
+                          <type v="256" />
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1" />
+                              <constantValue>
+                                <constantValueString v="ScuffAmount" />
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1107" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 6150 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1108" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1109" />
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1109" />
+                          <function v="get_float1" />
+                          <type v="256" />
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1" />
+                              <constantValue>
+                                <constantValueString v="BaseRoughness" />
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1110" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 6560 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1111" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.4 0.4 0.4 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1112" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1107" />
+              <connRefOutput v="1108" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1110" />
+              <connRefOutput v="1111" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1041" />
+              <connRefOutput v="1042" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2100 820 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1113" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1114" />
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1114" />
+                          <function v="get_float1" />
+                          <type v="256" />
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1" />
+                              <constantValue>
+                                <constantValueString v="DepositAmount" />
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1115" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 6970 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1116" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.075 0.075 0.075 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1117" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1112" />
+              <connRefOutput v="1113" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1115" />
+              <connRefOutput v="1116" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1050" />
+              <connRefOutput v="1051" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2450 0 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1118" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1119" />
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1119" />
+                          <function v="get_float1" />
+                          <type v="256" />
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1" />
+                              <constantValue>
+                                <constantValueString v="OilAmount" />
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1120" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 7380 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1121" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.14 0.14 0.14 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1122" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1117" />
+              <connRefOutput v="1118" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1120" />
+              <connRefOutput v="1121" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1068" />
+              <connRefOutput v="1069" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2800 0 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1123" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1124" />
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1124" />
+                          <function v="get_float1" />
+                          <type v="256" />
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1" />
+                              <constantValue>
+                                <constantValueString v="WipeAmount" />
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1125" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 7790 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1126" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.29 0.29 0.29 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1127" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1122" />
+              <connRefOutput v="1123" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1125" />
+              <connRefOutput v="1126" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1104" />
+              <connRefOutput v="1105" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="3150 0 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1128" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <dynamicValue>
+                      <rootnode v="1129" />
+                      <paramNodes>
+                        <paramNode>
+                          <uid v="1129" />
+                          <function v="get_float1" />
+                          <type v="256" />
+                          <funcDatas>
+                            <funcData>
+                              <name v="get_float1" />
+                              <constantValue>
+                                <constantValueString v="ScratchAmount" />
+                              </constantValue>
+                            </funcData>
+                          </funcDatas>
+                        </paramNode>
+                      </paramNodes>
+                    </dynamicValue>
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1130" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 8200 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1131" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.5 0.5 0.5 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1132" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 8610 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1133" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.58 0.58 0.58 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1134" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1130" />
+              <connRefOutput v="1131" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1132" />
+              <connRefOutput v="1133" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1041" />
+              <connRefOutput v="1042" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2100 1230 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1135" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.28" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1136" />
+          <connections />
+          <GUILayout>
+            <gpos v="0 9020 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1137" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="uniform" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="outputcolor" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat4 v="0.25 0.25 0.25 1" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="colorswitch" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueBool v="0" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1138" />
+          <connections>
+            <connection>
+              <identifier v="destination" />
+              <connRef v="1134" />
+              <connRefOutput v="1135" />
+            </connection>
+            <connection>
+              <identifier v="source" />
+              <connRef v="1136" />
+              <connRefOutput v="1137" />
+            </connection>
+            <connection>
+              <identifier v="opacity" />
+              <connRef v="1104" />
+              <connRefOutput v="1105" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2450 410 0" />
+          </GUILayout>
+          <compOutputs>
+            <compOutput>
+              <uid v="1139" />
+              <comptype v="2" />
+            </compOutput>
+          </compOutputs>
+          <compImplementation>
+            <compFilter>
+              <filter v="blend" />
+              <parameters>
+                <parameter>
+                  <name v="outputsize" />
+                  <relativeTo v="1" />
+                  <paramValue>
+                    <constantValueInt2 v="0 0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="blendingmode" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueInt32 v="0" />
+                  </paramValue>
+                </parameter>
+                <parameter>
+                  <name v="opacitymult" />
+                  <relativeTo v="0" />
+                  <paramValue>
+                    <constantValueFloat1 v="0.45" />
+                  </paramValue>
+                </parameter>
+              </parameters>
+            </compFilter>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1141" />
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput" />
+              <connRef v="1024" />
+              <connRefOutput v="1025" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="700 2050 0" />
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1140" />
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1143" />
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput" />
+              <connRef v="1041" />
+              <connRefOutput v="1042" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2100 1640 0" />
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1142" />
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1145" />
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput" />
+              <connRef v="1050" />
+              <connRefOutput v="1051" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1400 1640 0" />
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1144" />
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1147" />
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput" />
+              <connRef v="1068" />
+              <connRefOutput v="1069" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2450 820 0" />
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1146" />
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1149" />
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput" />
+              <connRef v="1077" />
+              <connRefOutput v="1078" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1400 2050 0" />
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1148" />
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1151" />
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput" />
+              <connRef v="1082" />
+              <connRefOutput v="1083" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="700 2460 0" />
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1150" />
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1153" />
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput" />
+              <connRef v="1090" />
+              <connRefOutput v="1091" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="1750 1230 0" />
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1152" />
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1155" />
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput" />
+              <connRef v="1104" />
+              <connRefOutput v="1105" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2450 1230 0" />
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1154" />
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1157" />
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput" />
+              <connRef v="1127" />
+              <connRefOutput v="1128" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="3500 0 0" />
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1156" />
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+        <compNode>
+          <uid v="1159" />
+          <connections>
+            <connection>
+              <identifier v="inputNodeOutput" />
+              <connRef v="1138" />
+              <connRefOutput v="1139" />
+            </connection>
+          </connections>
+          <GUILayout>
+            <gpos v="2800 410 0" />
+          </GUILayout>
+          <compImplementation>
+            <compOutputBridge>
+              <output v="1158" />
+            </compOutputBridge>
+          </compImplementation>
+        </compNode>
+      </compNodes>
+      <baseParameters>
+        <parameter>
+          <name v="outputsize" />
+          <relativeTo v="1" />
+          <paramValue>
+            <constantValueInt2 v="0 0" />
+          </paramValue>
+        </parameter>
+        <parameter>
+          <name v="format" />
+          <relativeTo v="0" />
+          <paramValue>
+            <constantValueInt32 v="1" />
+          </paramValue>
+        </parameter>
+        <parameter>
+          <name v="randomseed" />
+          <relativeTo v="0" />
+          <paramValue>
+            <constantValueInt32 v="3087" />
+          </paramValue>
+        </parameter>
+      </baseParameters>
+      <GUIObjects>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 -100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1160" />
+          <title v="Uneven handling distribution" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="280 -100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1161" />
+          <title v="Soft contact pressure" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="630 -100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1162" />
+          <title v="Keep clean gaps between deposits" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 310 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1163" />
+          <title v="Fine irregular dried residue" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 720 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1164" />
+          <title v="Fine distributed dust particles" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="280 310 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1165" />
+          <title v="Isolate tiny dust grains" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="980 -100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1166" />
+          <title v="Fine broken islands in the deposit field" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 1130 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1167" />
+          <title v="Broken dried film at millimetre scale" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="280 720 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1168" />
+          <title v="Separate dry flecks from thin film" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="980 310 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1169" />
+          <title v="Dry film only in handled regions" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 1540 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1170" />
+          <title v="Mask contribution" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="1330 -100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1171" />
+          <title v="Separate fine dust population" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 1950 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1172" />
+          <title v="Mask contribution" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="1680 -100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1173" />
+          <title v="Faint dried wipe residue among fine particles" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 2360 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1174" />
+          <title v="Independent finger handling film" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="280 1130 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1175" />
+          <title v="Soft oily boundaries" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="630 310 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1176" />
+          <title v="Isolated pressure smears" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="980 720 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1177" />
+          <title v="Layer orientation / offset" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 2770 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1178" />
+          <title v="Cloth micro striations" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 3180 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1179" />
+          <title v="Curvature variation" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="280 1540 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1180" />
+          <title v="Curved fibres" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="630 720 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1181" />
+          <title v="Layer orientation / offset" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="1330 310 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1182" />
+          <title v="Local wipe pressure only" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="980 1130 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1183" />
+          <title v="Sparse surviving cloth fibres" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="1680 310 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1184" />
+          <title v="Interrupted local wiping" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="2030 -100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1185" />
+          <title v="Broken cloth contact" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 3590 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1186" />
+          <title v="Fine straight abrasions" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="280 1950 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1187" />
+          <title v="Isolate bright fine cuts from neutral background" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="630 1130 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1188" />
+          <title v="Shorten fine scratches to handling scale" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="980 1540 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1189" />
+          <title v="Interrupt fine cuts into local clusters" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 4000 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1190" />
+          <title v="Sparse interrupted long cuts" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="280 2360 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1191" />
+          <title v="Layer orientation / offset" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 4410 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1192" />
+          <title v="Second independent fine abrasion direction" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="280 2770 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1193" />
+          <title v="Sparse crossing cuts" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="630 1540 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1194" />
+          <title v="Layer orientation / offset" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="1330 720 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1195" />
+          <title v="Local abrasion clusters" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 4820 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1196" />
+          <title v="Mask contribution" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="1330 1130 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1197" />
+          <title v="Fine plus long cuts" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 5230 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1198" />
+          <title v="Mask contribution" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="1680 720 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1199" />
+          <title v="Intersecting abrasion directions" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 5640 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1200" />
+          <title v="Mask contribution" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="2030 310 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1201" />
+          <title v="Localized scuff layer" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 6050 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1202" />
+          <title v="Undisturbed clear glass" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 6460 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1203" />
+          <title v="Dry film roughness" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="2030 720 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1204" />
+          <title v="Dry dirt broadens reflections" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 6870 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1205" />
+          <title v="Oil roughness" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="2380 -100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1206" />
+          <title v="Oil film response" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 7280 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1207" />
+          <title v="Wiped roughness" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="2730 -100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1208" />
+          <title v="Cloth movement affects reflection" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 7690 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1209" />
+          <title v="Scratch roughness" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="3080 -100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1210" />
+          <title v="Scratches scatter the highlight" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 8100 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1211" />
+          <title v="Neutral micro height" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 8510 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1212" />
+          <title v="Film height" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="2030 1130 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1213" />
+          <title v="Minute deposited film relief" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="-70 8920 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1214" />
+          <title v="Scratch grooves" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+        <GUIObject>
+          <type v="COMMENT" />
+          <GUILayout>
+            <gpos v="2380 310 -100" />
+            <size v="245 58" />
+          </GUILayout>
+          <GUIName v="" />
+          <uid v="1215" />
+          <title v="Fine cuts into the surface" />
+          <frameColor v="0.16 0.23 0.27 0.8" />
+          <isTitleVisible v="1" />
+          <isFrameVisible v="1" />
+        </GUIObject>
+      </GUIObjects>
+      <options>
+        <option>
+          <name v="defaultParentSize" />
+          <value v="12x12" />
+        </option>
+      </options>
+      <root>
+        <rootOutputs>
+          <rootOutput>
+            <output v="1140" />
+            <format v="0" />
+            <usertag v="" />
+          </rootOutput>
+          <rootOutput>
+            <output v="1142" />
+            <format v="0" />
+            <usertag v="" />
+          </rootOutput>
+          <rootOutput>
+            <output v="1144" />
+            <format v="0" />
+            <usertag v="" />
+          </rootOutput>
+          <rootOutput>
+            <output v="1146" />
+            <format v="0" />
+            <usertag v="" />
+          </rootOutput>
+          <rootOutput>
+            <output v="1148" />
+            <format v="0" />
+            <usertag v="" />
+          </rootOutput>
+          <rootOutput>
+            <output v="1150" />
+            <format v="0" />
+            <usertag v="" />
+          </rootOutput>
+          <rootOutput>
+            <output v="1152" />
+            <format v="0" />
+            <usertag v="" />
+          </rootOutput>
+          <rootOutput>
+            <output v="1154" />
+            <format v="0" />
+            <usertag v="" />
+          </rootOutput>
+          <rootOutput>
+            <output v="1156" />
+            <format v="0" />
+            <usertag v="" />
+          </rootOutput>
+          <rootOutput>
+            <output v="1158" />
+            <format v="0" />
+            <usertag v="" />
+          </rootOutput>
+        </rootOutputs>
+      </root>
+    </graph>
+  </content>
+</package>

@@ -1,0 +1,482 @@
+{
+  "method": "Real native SBS authoring + Adobe cooker + sbsrender 16-bit outputs",
+  "seed": 3087,
+  "normal": "OpenGL",
+  "materials": [
+    {
+      "family": "closeup_varnish",
+      "source": "02_assets/materials/closeup_surface/closeup_varnish.sbs",
+      "sbsar": "02_assets/materials/closeup_surface/closeup_varnish.sbsar",
+      "native_nodes": 19,
+      "inputs": {},
+      "parameters": {},
+      "public_parameters": [],
+      "tile_m": 0.22,
+      "height_range_m": 0.00016,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface\\closeup_varnish.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface\\closeup_varnish.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\closeup_surface\\closeup_varnish",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_varnish/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "8790cc2920804897c50baee7f8c9d41e05f9d0ffdeb2aa461d02eabb94cf92f9",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_varnish/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "06178054ead685af57e30c43a087a84398d725a730d2cde3e7b6b249b197c098",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_varnish/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_varnish/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "c5a64bcc5850aa1c3db19ad6ba054b4c61fd524a37d0967be30ff5165ee3cf99",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_varnish/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "7849fa40ffe0a7e8a371ef9b63209f714f0c588a89a15ff9858a755d954869ae",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_varnish/ScratchMask.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "fb4860eb58f28c4f90bf49cdf9f615f6dd6dbbac9a4a449fb028813ad059cfab",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "closeup_polymer",
+      "source": "02_assets/materials/closeup_surface/closeup_polymer.sbs",
+      "sbsar": "02_assets/materials/closeup_surface/closeup_polymer.sbsar",
+      "native_nodes": 19,
+      "inputs": {},
+      "parameters": {},
+      "public_parameters": [],
+      "tile_m": 0.18,
+      "height_range_m": 6.5e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface\\closeup_polymer.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface\\closeup_polymer.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "8790cc2920804897c50baee7f8c9d41e05f9d0ffdeb2aa461d02eabb94cf92f9",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "e86e52cd4d675d8b0f436777fd70fe8acc36ba5816f5fcba27cb834d93fd10f1",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "d95067b785316220cfd400cc5451e3b86115de13358a6e7b73f0454a4e96014e",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "df8cc89f8dc5eedd6b715111d380218c9a0868cad8a238bb5fd9b669c46826bd",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "3531ea0772adfa09ad774fe1ef6996e48b0f692f36d7349eb9e733fdc4998403",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "closeup_paper",
+      "source": "02_assets/materials/closeup_surface/closeup_paper.sbs",
+      "sbsar": "02_assets/materials/closeup_surface/closeup_paper.sbsar",
+      "native_nodes": 18,
+      "inputs": {},
+      "parameters": {},
+      "public_parameters": [],
+      "tile_m": 0.1,
+      "height_range_m": 6e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface\\closeup_paper.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface\\closeup_paper.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\closeup_surface\\closeup_paper",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_paper/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "8790cc2920804897c50baee7f8c9d41e05f9d0ffdeb2aa461d02eabb94cf92f9",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_paper/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "2fe10fd8bd28740b3cc57adac4f8d864cd672341e23e8e98d9e59078c60d35e8",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_paper/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_paper/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "fc649b0e40afb26a5506a1e84bd95c0080474324fcd23ab38a99bb9a4f2f6876",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_paper/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "71440c61d9c3f5aca988a75ebc7d78f61243645d5730af57a9823373eb740049",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_paper/ScratchMask.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "1565971494bf0f86985919ecb53b4b2681873f3193b05a4563fa1e1cf123202b",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "closeup_cloth",
+      "source": "02_assets/materials/closeup_surface/closeup_cloth.sbs",
+      "sbsar": "02_assets/materials/closeup_surface/closeup_cloth.sbsar",
+      "native_nodes": 18,
+      "inputs": {},
+      "parameters": {},
+      "public_parameters": [],
+      "tile_m": 0.12,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface\\closeup_cloth.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface\\closeup_cloth.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\closeup_surface\\closeup_cloth",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_cloth/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "8790cc2920804897c50baee7f8c9d41e05f9d0ffdeb2aa461d02eabb94cf92f9",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_cloth/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "74495b5b8ad99c2002b810569e893d24a5b53ba574141f5c780a008df69badd2",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_cloth/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_cloth/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "5c1c18849126f5b4442116162ef47e181d6d0a040fccc90943fe177ab6feafda",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_cloth/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "5bf08e5cc9eea2c0e1ef0248aad2944c0128534d90d1147876909064918e5628",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_cloth/ScratchMask.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "fc8e641546719bdec0e315669b39232530f82faf563c516fac18c59bc4e4fb79",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "closeup_chalk",
+      "source": "02_assets/materials/closeup_surface/closeup_chalk.sbs",
+      "sbsar": "02_assets/materials/closeup_surface/closeup_chalk.sbsar",
+      "native_nodes": 19,
+      "inputs": {},
+      "parameters": {},
+      "public_parameters": [],
+      "tile_m": 0.18,
+      "height_range_m": 4.5e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface\\closeup_chalk.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\closeup_surface\\closeup_chalk.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\closeup_surface\\closeup_chalk",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_chalk/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "8790cc2920804897c50baee7f8c9d41e05f9d0ffdeb2aa461d02eabb94cf92f9",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_chalk/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "75b41da5d48325977fe6c372dc7d0ea7b384816df6c0dbbe2a2d6e71692229a5",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_chalk/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_chalk/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "da71527b822a7ea86797b3c1e182e2e38dcbbb8d4cf3eaa222d7ea59c5f5d552",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_chalk/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "e9ee30323c17f246e71302853c563e11b338197d9d3f1a2f35158b7e01fc2477",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/closeup_surface/closeup_chalk/ScratchMask.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "b963f8368eeadc33cdd2d537708c6dd27eb3d2ebefad4d568319c99d02cd3d07",
+          "colorspace": "Non-Color"
+        }
+      ]
+    }
+  ]
+}

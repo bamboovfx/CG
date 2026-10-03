@@ -1,0 +1,63 @@
+{
+  "name": "speaker_wire",
+  "source": "02_assets/materials/speaker_wire/speaker_wire.sbs",
+  "sbsar": "02_assets/materials/speaker_wire/speaker_wire.sbsar",
+  "nodes": 16,
+  "tile_cm": 10,
+  "height_range_cm": 0.0008,
+  "input_artwork": null,
+  "outputs": [
+    {
+      "file": "02_assets/textures/generated/speaker_wire/speaker_wire/BaseColor.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "38f28f70c0feb85d980c215a748ff60e3d8b9acd75b37895c85b49e7e5593a9f",
+      "colorspace": "sRGB"
+    },
+    {
+      "file": "02_assets/textures/generated/speaker_wire/speaker_wire/Height.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "57303f81d9d4e4f8928c7a09f4ed31ce5314d06ce5b1ebf9346cbb5023e5f68d",
+      "colorspace": "Non-Color"
+    },
+    {
+      "file": "02_assets/textures/generated/speaker_wire/speaker_wire/Metallic.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+      "colorspace": "Non-Color"
+    },
+    {
+      "file": "02_assets/textures/generated/speaker_wire/speaker_wire/Normal.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "4611f042c88317966aab9b8d99d8b5f51beb9c7dfbf6ebbe20f862fd759e1833",
+      "colorspace": "Non-Color"
+    },
+    {
+      "file": "02_assets/textures/generated/speaker_wire/speaker_wire/Roughness.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "90ba0501fcae8c052c40fd68f237d88a0152d23b9e7da2642c1db0dee7c6a78e",
+      "colorspace": "Non-Color"
+    }
+  ],
+  "date": "2026-09-16",
+  "reference": "https://www.artstation.com/artwork/XJlmWw",
+  "author": "Vasyl Kysylychak",
+  "reference_use": "Visual reference only; original graph; no downloaded third-party assets",
+  "normal": "OpenGL",
+  "seed": 3087,
+  "geometry": "Actual over-under woven round wires; no opaque texture-filled holes"
+}

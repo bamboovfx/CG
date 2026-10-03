@@ -1,0 +1,266 @@
+{
+  "date": "2026-09-11",
+  "method": "NumPy/Pillow authored surface maps; colors are sRGB; rough/height Non-Color; no AI generation, no third-party pixels",
+  "files": [
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\blackboard_color.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "450b62844cac3c075e8052bfa82aa9ad4dc6b9cd25f4912865981278e4fb7afe",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\blackboard_height.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "fc6275d2abd87b39e897ed75ce64b297590d7e4006e5f63da6a7b4d8e30de04e",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\blackboard_rough.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "950e8bef8688b96aedc312ddc11dd349eb62d9ea52913655ab5872d340fac86d",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\cloth_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "aadd869d87d03c0b315b63913b448d55bcf56f21d622d798a30dc39b4ccfc78b",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\cloth_height.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "fa249e34bd59b596f4eff7a3a9ef01fba5160e9b506719f87f3b6cb41a32d98e",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\cloth_rough.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "46872a9c8630117d4ad60af7176f6c8ff216e55ce7a40c730cdef023661e617d",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\dark_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "a98fb5389ff2e6645d49fa3586c247a397bdea47d4ad3bc622d43ad352e32ebf",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\dark_height.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "d6d90e82ffd3aed24334cc4da4144d6df954ad2695398a005093f1cac02a2805",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\dark_rough.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "b5285c720894c7d8d2fbd01330f9ea9310d3164345f4c8c6b94b9c8fb82ab671",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\felt_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "f3ab67a4c8815a339f85a8f47b8ddf9398a6fd39d3e465848f5c5e6d6e155f87",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\felt_height.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "2c17d9ddc9de72c24e23e847dd7d7b52b758ec7dd77fc54376aa16c372036b74",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\felt_rough.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "d61fbec60b5507acd5490f9210931d6921aa0a6644b30098a5b2436e8e30f07b",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\ivory_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "32199b183722f15dd5545402cfa280ca13aaca5b0ab89138d2c6a8b2e6166933",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\ivory_height.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "07a18adfa6309e0c951a0ef4c2db52320624d20bc010bd63728750ae16d4cbec",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\ivory_rough.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "fc2ed0c381d43d7df271d5806085440bd81d7884018d7ce38cfebf57da0b4ee5",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\metal_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "cf1aa01d5bfce58df6ac600c902e2aadbec81bab21ca966f190b53181acb92d7",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\metal_height.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "662ed9a89e33ab1dea76e741dfb3c6820ed283608fe03ad3409aadf090f7cfdd",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\metal_rough.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "2395a8ef5078987d7eeeca1bb669ed1c3b5c99619790ddc069be7947cff91843",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\notice_00_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "015a575f96c34e903ee99504c1bfa024ba5ca7db92d301124453c7e93ada9c28",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\notice_01_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "9176a7a94f1919b1e615b44721faefdb3562c33d19ed7c228b924b038011c063",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\notice_02_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "f452d085536a6e2a6a18bd14cab32cb5edcd10491a45ed409239854e57fd2f84",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\notice_03_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "d26e037bb0e3d0828270b2413b00173a524c14421ae29074b2911f1e07d05ef0",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\notice_04_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "d1b8479bfee36df27e73c562dc1cff32251ff8e6d72c1af797398e39a7c9704d",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\paper_color.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "8415c7fb740e21cbd4522381b182627408ddf6a2a5f8f707408d65155993d9f5",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\paper_height.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "c870f524179188fd52960ecd44927f2e2428167c5edc4ec1fe0606f0b91f36ef",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    },
+    {
+      "file": "02_assets\\textures\\authored\\teaching_rebuild\\paper_rough.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "660eb420321d7c88f9ef19b6ef2b73f7264003fb751093ebc7c3f43e3b2c014f",
+      "source": "original authored procedural; not a scan",
+      "seed": 20260911
+    }
+  ]
+}

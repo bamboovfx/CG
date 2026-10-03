@@ -1,0 +1,23 @@
+{
+  "type": "authored graphic texture, not a photograph or scanned PBR",
+  "font": "Windows KaiTi / simkai.ttf",
+  "seed": 1709,
+  "words": [
+    "大",
+    "光",
+    "進歩",
+    "未来",
+    "花"
+  ],
+  "grid": [
+    6,
+    5
+  ],
+  "size": [
+    4092,
+    4095
+  ],
+  "sha256": "e1073755ab74874a13254cb58f63c6d1ecbba9a76ce75700216de02062c6bbee",
+  "reference": "User dro:p rear classroom frame; layout interpretation, not an exact tracing",
+  "micro_surface": "../teaching_rebuild/paper_rough.png + paper_height.png"
+}

@@ -14,7 +14,7 @@ from tripo_wood_appearance_blender import process_signature
 def apply():
     """输入当前实时文件，替换胶脚共享表现组并记录独立重开所需完整保护证据。"""
     source=Path(bpy.data.filepath)
-    file=str(ROOT/'07_pipeline/cache/tripo_wood_side_back_20260930/tripo_wood_side_back.blend')
+    file=str(ROOT/'02_assets/work/school_chair.blend')
     assert source in [Path(file),WORK/'pre_visibility_live.blend']
     # If the live app closes, use its captured unsaved state only while the target disk file is unchanged.
     if source!=Path(file):

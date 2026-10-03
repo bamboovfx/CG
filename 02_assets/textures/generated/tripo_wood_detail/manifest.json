@@ -1,0 +1,110 @@
+{
+  "boards": [
+    {
+      "board": "seat",
+      "source": "02_assets\\materials\\tripo_wood_detail\\wood_detail_seat.sbs",
+      "raw_outputs": [
+        "AgeMask",
+        "AgeColor",
+        "AgeRoughness",
+        "AgeHeight",
+        "DirtMask",
+        "DirtColor",
+        "WearMask",
+        "WearColor",
+        "WearRoughness",
+        "WearHeight",
+        "ScratchCore",
+        "ScratchLip"
+      ],
+      "final_outputs": [
+        "BaseColor",
+        "Roughness",
+        "Normal",
+        "Metallic",
+        "AO",
+        "EffectHeight"
+      ],
+      "crop_matrix": [
+        0.674,
+        0,
+        0,
+        0.692
+      ],
+      "crop_offset": [
+        -0.09,
+        0.08
+      ]
+    },
+    {
+      "board": "back",
+      "source": "02_assets\\materials\\tripo_wood_detail\\wood_detail_back.sbs",
+      "raw_outputs": [
+        "AgeMask",
+        "AgeColor",
+        "AgeRoughness",
+        "AgeHeight",
+        "DirtMask",
+        "DirtColor",
+        "WearMask",
+        "WearColor",
+        "WearRoughness",
+        "WearHeight",
+        "ScratchCore",
+        "ScratchLip"
+      ],
+      "final_outputs": [
+        "BaseColor",
+        "Roughness",
+        "Normal",
+        "Metallic",
+        "AO",
+        "EffectHeight"
+      ],
+      "crop_matrix": [
+        0.656,
+        0,
+        0,
+        0.345
+      ],
+      "crop_offset": [
+        0.13,
+        -0.11
+      ]
+    }
+  ],
+  "parameters": {
+    "Scratches": 0.85,
+    "Age": 0.7,
+    "Wear": 0.8
+  },
+  "placement_resolution": 4096,
+  "source_resolution": 8192,
+  "output_resolution": 4096,
+  "protected_process_files": {
+    "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_AO.png": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_BaseColor.png": "4bf8ef01829097270729dae77d43ec6667e3eeda15349ad13588a298d6e28436",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_Height.png": "84cf3afc03bc02435122c4ed7e2a98513e863d50ea51ac03681ab6b2c7cf185f",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_Metallic.png": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_Normal.png": "9e4e7803c4e594be6dafe4385b957a2827dba201afb2a8b89f257f8682d9bf87",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_Roughness.png": "5bdcd59248c478445351a98efe9b25e2f22700df809f8c4774533fdc1d48a649",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_AO.png": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_BaseColor.png": "90ab2f505c645d6bba92f6e08f332a8cc44edd1911cd9b7e0bc92f7b5e43d27f",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_Height.png": "ef5a3a200aeea5fedcf5d3b3c69ed8673a9145c0e1ca67b540ac9ba3a82d612e",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_Metallic.png": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_Normal.png": "4e459d10516d4f06f8b184b1a0c971d5a57481824fb04b1ce62870ce20b72d7e",
+    "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_Roughness.png": "3e985aa769f5647bf7ea4321ceea64a940a78669fb7ba2e24687a6c53d468ea7"
+  },
+  "source_manifest": "02_assets/textures/external/polyhaven_wood_detail/manifest.json",
+  "height_distance_m": {
+    "Age": 0.00012,
+    "Wear": 0.00022,
+    "Scratches": 0.0001,
+    "ScratchLip": 3e-05
+  },
+  "native_export_parameters": {
+    "Scratches": 0.95,
+    "Age": 1.0,
+    "Wear": 0.95
+  }
+}

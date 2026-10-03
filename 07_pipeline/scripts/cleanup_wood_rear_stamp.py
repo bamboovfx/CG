@@ -9,7 +9,7 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / '06_review/wood_stamp_cleanup_20261001'
 BACKUP = ROOT / '07_pipeline/cache/wood_stamp_cleanup_20261001/before_cleanup.blend'
-CURRENT = ROOT / '07_pipeline/cache/tripo_wood_side_back_20260930/tripo_wood_side_back.blend'
+CURRENT = ROOT / '02_assets/work/school_chair.blend'
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from tripo_wood_appearance_blender import process_signature
 

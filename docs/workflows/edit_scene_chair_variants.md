@@ -4,7 +4,7 @@
 
 当前工作文件：`03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend`。用户2026-10-01通过整椅工艺／表现工作流后，授权替换原场景25把椅子。
 
-原25个 `asset_desk_set_*_chair` Empty继续控制整椅摆位。其下为29个实际分件，归入 `prp_desks` 下的 `CHAIR NN / Editable parts` 集合；可以直接选中、进入编辑模式或修改材质。每件网格独立，每把椅子的根材质独立。通过的原资产位于 `07_pipeline/cache/tripo_wood_side_back_20260930/tripo_wood_side_back.blend`；现场检查与发布入口见 `06_review/chair_scene_replace_20261001/report.md`。
+原25个 `asset_desk_set_*_chair` Empty继续控制整椅摆位。其下为29个实际分件，归入 `prp_desks` 下的 `CHAIR NN / Editable parts` 集合；可以直接选中、进入编辑模式或修改材质。每件网格独立，每把椅子的根材质独立。通过的原资产位于 `02_assets/work/school_chair.blend`；现场检查与发布入口见 `06_review/chair_scene_replace_20261001/report.md`。
 
 选中原椅子Empty，在“对象属性→自定义属性”调整：
 

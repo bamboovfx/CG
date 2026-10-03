@@ -1,0 +1,217 @@
+{
+  "input_sha256": "cbeb38bb5c022d13dbcf2b0efd476d9e3ff269e27ecd612ba6e0b50233322469",
+  "size": 4096,
+  "padding_pixels": 20,
+  "island_gap_pixels": 40,
+  "uv": "UVMap",
+  "groups": [
+    {
+      "key": "part_00",
+      "high": "part_00_high",
+      "low": "part_00_low",
+      "source": "ARC crescent lock escutcheon.039",
+      "targets": [
+        "ARC crescent lock escutcheon.039",
+        "ARC crescent lock escutcheon.040",
+        "ARC crescent lock escutcheon.041",
+        "ARC crescent lock escutcheon.042",
+        "ARC crescent lock escutcheon.043",
+        "ARC crescent lock escutcheon.044"
+      ],
+      "low_triangles": 332,
+      "process": "sheet"
+    },
+    {
+      "key": "part_01",
+      "high": "part_01_high",
+      "low": "part_01_low",
+      "source": "ARC lock axle.039",
+      "targets": [
+        "ARC lock axle.039",
+        "ARC lock axle.040",
+        "ARC lock axle.041",
+        "ARC lock axle.042",
+        "ARC lock axle.043",
+        "ARC lock axle.044"
+      ],
+      "low_triangles": 572,
+      "process": "cast"
+    },
+    {
+      "key": "part_02",
+      "high": "part_02_high",
+      "low": "part_02_low",
+      "source": "ARC crescent cam.039",
+      "targets": [
+        "ARC crescent cam.039",
+        "ARC crescent cam.040",
+        "ARC crescent cam.041",
+        "ARC crescent cam.042",
+        "ARC crescent cam.043",
+        "ARC crescent cam.044"
+      ],
+      "low_triangles": 1044,
+      "process": "cast"
+    },
+    {
+      "key": "part_03",
+      "high": "part_03_high",
+      "low": "part_03_low",
+      "source": "ARC curved latch handle.039",
+      "targets": [
+        "ARC curved latch handle.039",
+        "ARC curved latch handle.040",
+        "ARC curved latch handle.041",
+        "ARC curved latch handle.042",
+        "ARC curved latch handle.043",
+        "ARC curved latch handle.044"
+      ],
+      "low_triangles": 332,
+      "process": "sheet"
+    },
+    {
+      "key": "part_04",
+      "high": "part_04_high",
+      "low": "part_04_low",
+      "source": "WIN lock screw 01 0",
+      "targets": [
+        "WIN lock screw 01 0",
+        "WIN lock screw 01 1",
+        "WIN lock screw 02 0",
+        "WIN lock screw 02 1",
+        "WIN lock screw 03 0",
+        "WIN lock screw 03 1",
+        "WIN lock screw 04 0",
+        "WIN lock screw 04 1",
+        "WIN lock screw 05 0",
+        "WIN lock screw 05 1",
+        "WIN lock screw 06 0",
+        "WIN lock screw 06 1"
+      ],
+      "low_triangles": 380,
+      "process": "cast"
+    },
+    {
+      "key": "part_05",
+      "high": "part_05_high",
+      "low": "part_05_low",
+      "source": "ARC lock keeper.039",
+      "targets": [
+        "ARC lock keeper.039",
+        "ARC lock keeper.040",
+        "ARC lock keeper.041",
+        "ARC lock keeper.042",
+        "ARC lock keeper.043",
+        "ARC lock keeper.044"
+      ],
+      "low_triangles": 432,
+      "process": "sheet"
+    },
+    {
+      "key": "part_06",
+      "high": "part_06_high",
+      "low": "part_06_low",
+      "source": "WIN keeper screw 01 0",
+      "targets": [
+        "WIN keeper screw 01 0",
+        "WIN keeper screw 01 1",
+        "WIN keeper screw 02 0",
+        "WIN keeper screw 02 1",
+        "WIN keeper screw 03 0",
+        "WIN keeper screw 03 1",
+        "WIN keeper screw 04 0",
+        "WIN keeper screw 04 1",
+        "WIN keeper screw 05 0",
+        "WIN keeper screw 05 1",
+        "WIN keeper screw 06 0",
+        "WIN keeper screw 06 1"
+      ],
+      "low_triangles": 380,
+      "process": "cast"
+    },
+    {
+      "key": "part_07",
+      "high": "part_07_high",
+      "low": "part_07_low",
+      "source": "WIN pull grip",
+      "targets": [
+        "WIN pull grip",
+        "WIN pull grip.001",
+        "WIN pull grip.002",
+        "WIN pull grip.003",
+        "WIN pull grip.004",
+        "WIN pull grip.005",
+        "WIN pull grip.006",
+        "WIN pull grip.007",
+        "WIN pull grip.008",
+        "WIN pull grip.009",
+        "WIN pull grip.010",
+        "WIN pull grip.011"
+      ],
+      "low_triangles": 672,
+      "process": "sheet"
+    },
+    {
+      "key": "part_08",
+      "high": "part_08_high",
+      "low": "part_08_low",
+      "source": "WIN pull recess",
+      "targets": [
+        "WIN pull recess",
+        "WIN pull recess.001",
+        "WIN pull recess.002",
+        "WIN pull recess.003",
+        "WIN pull recess.004",
+        "WIN pull recess.005",
+        "WIN pull recess.006",
+        "WIN pull recess.007",
+        "WIN pull recess.008",
+        "WIN pull recess.009",
+        "WIN pull recess.010",
+        "WIN pull recess.011"
+      ],
+      "low_triangles": 332,
+      "process": "sheet"
+    }
+  ],
+  "targets": 78,
+  "excluded_dark_slots": [
+    "WIN lock screw slot 01 0",
+    "WIN lock screw slot 01 1",
+    "WIN lock screw slot 02 0",
+    "WIN lock screw slot 02 1",
+    "WIN lock screw slot 03 0",
+    "WIN lock screw slot 03 1",
+    "WIN lock screw slot 04 0",
+    "WIN lock screw slot 04 1",
+    "WIN lock screw slot 05 0",
+    "WIN lock screw slot 05 1",
+    "WIN lock screw slot 06 0",
+    "WIN lock screw slot 06 1"
+  ],
+  "scene": "Hardware authoring",
+  "original_scene": "Classroom environment",
+  "textures": {
+    "Normal": {
+      "bytes": 13290551,
+      "sha256": "298442f29e93941c5d54550a947aaab936342006a7dbf80da197e21d78f0bddb"
+    },
+    "AO": {
+      "bytes": 6153367,
+      "sha256": "ccaa0f75126294bed13c8264003f64256be13720b1fbbe263062b239a02b945b"
+    },
+    "BaseColor": {
+      "bytes": 567583,
+      "sha256": "873cc423c7e79583b36f8dd8500783b2c2f3fb5c571dd35be1efe4d1fc1dedfa"
+    },
+    "Roughness": {
+      "bytes": 12711971,
+      "sha256": "e4c1ddee84d93e4f3f6070cd77f8df2f6202e5db98319e87f3fffcd7cd4415d0"
+    },
+    "Metallic": {
+      "bytes": 565843,
+      "sha256": "0771ebdbe850eb67e94edeec771be26b51fc3f3fc43caced28cff0aef889bb3b"
+    }
+  },
+  "authoring": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\window_hardware_authoring.blend"
+}

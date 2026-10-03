@@ -1,0 +1,731 @@
+{
+  "asset": "school_desk_painted_steel",
+  "created_utc": "2026-09-10T09:57:21.470382+00:00",
+  "method": "Substance Designer native procedural node graph; no diffusion or source photographs used as textures",
+  "seed": 3087,
+  "tile_width_m": 0.2,
+  "height_range_m": 0.0006,
+  "normal_convention": "OpenGL",
+  "presets": {
+    "frame": {
+      "Wear": 0.36,
+      "Age": 0.6,
+      "DirtAmount": 0.14,
+      "ChipScale": 3,
+      "CrackAmount": 0.46
+    },
+    "brace": {
+      "Wear": 0.56,
+      "Age": 0.75,
+      "DirtAmount": 0.2,
+      "ChipScale": 3,
+      "CrackAmount": 0.52
+    }
+  },
+  "validation": {
+    "frame/2048": {
+      "coating_loss_fraction": 0.06327729672193527,
+      "oxide_fraction": 0.0595981739461422,
+      "bare_metal_fraction": 0.003679121844470501,
+      "layer_partition_max_error": 5.960464477539063e-08,
+      "height_seam_mean_difference": 0.005899406969547272,
+      "height_interior_mean_difference": 0.004560178145766258,
+      "crack_mask_mean": 0.02505667507648468,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "frame/4096": {
+      "coating_loss_fraction": 0.06532103568315506,
+      "oxide_fraction": 0.06118042394518852,
+      "bare_metal_fraction": 0.004140613600611687,
+      "layer_partition_max_error": 1.1920928955078125e-07,
+      "height_seam_mean_difference": 0.004159857984632254,
+      "height_interior_mean_difference": 0.0031705484725534916,
+      "crack_mask_mean": 0.024982497096061707,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    "brace/2048": {
+      "coating_loss_fraction": 0.7496435642242432,
+      "oxide_fraction": 0.7407720685005188,
+      "bare_metal_fraction": 0.008871479891240597,
+      "layer_partition_max_error": 5.960464477539063e-08,
+      "height_seam_mean_difference": 0.016924144700169563,
+      "height_interior_mean_difference": 0.016910452395677567,
+      "crack_mask_mean": 0.00777466781437397,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "brace/4096": {
+      "coating_loss_fraction": 0.7473593950271606,
+      "oxide_fraction": 0.737902045249939,
+      "bare_metal_fraction": 0.009457394480705261,
+      "layer_partition_max_error": 1.1920928955078125e-07,
+      "height_seam_mean_difference": 0.014487974345684052,
+      "height_interior_mean_difference": 0.014548038132488728,
+      "crack_mask_mean": 0.007851227186620235,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    }
+  },
+  "age_independence_verified": true,
+  "source": "02_assets/materials/school_desk/school_desk_painted_steel.sbsar",
+  "reference": "https://andreariccardi.artstation.com/projects/QzmB2B",
+  "reference_use": "Previous task inspected artist reference images in Chrome; native textures do not copy those images. Appearance authority: supplied props_01 desk reference.",
+  "status": "material revision saved; user visual approval pending; not integrated into shot",
+  "files": [
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/AO.png",
+      "sha256": "c35528b2dc9d262be576112a57ff1149003ea0f9023ee9a4908784cc30c17396",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/BaseColor.png",
+      "sha256": "581abb9a613e3d96a89a39e6858ad0d02cffe71e6c85e1d20ef20319a944f24d",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/CrackMask.png",
+      "sha256": "5bd7da2a4c270aee277c1f82426f4b1bafd69091360a6aabad456f45ed845212",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/DirtMask.png",
+      "sha256": "b49a5c8129954dddb93120d4e6457a4d8dac313089140fa95a5270499d0b09b8",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/Height.png",
+      "sha256": "690584d2352c86f07c308f7f64346bce9898984fb5bd15fc762e455aa0c79f70",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/Metallic.png",
+      "sha256": "859c39657f431f7b9e5324edf7899537cd2ae785627255e6e5ecdc3a57276162",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/Normal.png",
+      "sha256": "6c3a99459a80bed175175e004358c3dde19aeb0419435fe8755eb531bc5e7a87",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/PaintMask.png",
+      "sha256": "50f92845e37d09d2653b9c5c17f74a5a23aae92b948fea6772408f11964575b7",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/Roughness.png",
+      "sha256": "b6039782853235dba81176ccc77b30c261dd2da2a25d4b1ffae6e30a906e1053",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/RustMask.png",
+      "sha256": "ec2827074979c3bc917c3cc245b57f51b585c1e1a53aa93fbc932a8e4fd0e139",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/2k/WearMask.png",
+      "sha256": "54d58e3a88944bd0171c03f4a1f6947673b42ffc0e2808813c953b39af0458e9",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/AO.png",
+      "sha256": "a1ab42b5d5d32a9de61dd94d154e8f1182fe096a8cd79a80364d03d5cc9e25e4",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/BaseColor.png",
+      "sha256": "7248234281b68723f83db272bfa8861c7756db159053edc35cab3cd9ae163078",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/CrackMask.png",
+      "sha256": "d917285dd1594947abc23b9b4da415192e9ce43a95d5c5ccfed8bf71d1ad743c",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/DirtMask.png",
+      "sha256": "64ddd7d66fc3b2ce0877188d75a37f570d0dd8ec815a48571ba2f22271a2f1ad",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/Height.png",
+      "sha256": "47330cc9e9827e945a22840338bd757b6111bee59d2ecfeeeaee2ee66904b3c7",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/Metallic.png",
+      "sha256": "46e334c74848ff16914b6f04497645258792e1c5af625757a93ee953c3444518",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/Normal.png",
+      "sha256": "a2f19cd3883f9e1abc9fcbcee78c5ef69ac2ed676543d64e2efc4d3a7a5f03b1",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/PaintMask.png",
+      "sha256": "d215957c28e4cca140f91347d140ac50cf669231c6668431d07b6e09c6c210c8",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/Roughness.png",
+      "sha256": "80770478d960ecad57cdc1e7853942dffb8381c50d426a45e1eccaa3e698aef8",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/RustMask.png",
+      "sha256": "36359daece93f1b6d4201f4936bf8c792ecb6409c2dcabf3c110cb22a57f558c",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/frame/4k/WearMask.png",
+      "sha256": "1a45c66eb0e60e0fed5ed85f1c2580347b0b9283c7396f233ff83b746a8043e1",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/AO.png",
+      "sha256": "3be6e69fa76f863156e6e7a6eadac7900886f44f6454c70d2c16372938cc68bd",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/BaseColor.png",
+      "sha256": "20b3b84d6a0f1621c9be00843a75c54230cc3881430b907855e2349eb28ec48f",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/CrackMask.png",
+      "sha256": "2cd0a463407cdcf70cc496136787091e324fd846c9ff0f97500be07d58dd2e04",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/DirtMask.png",
+      "sha256": "ea2abb4bd0a56e4e2f6aacdaaba0a16863cf80447caabef3d771a2c0ebc1a210",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/Height.png",
+      "sha256": "184ca744d877a9581b5f253c894083dec1fb0dd20de695ea9b35b7e2cb99b954",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/Metallic.png",
+      "sha256": "1b38dd4135ce133d701461ac650da6d40d2d60d2f93f518ec24af8f5dd0e0cc8",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/Normal.png",
+      "sha256": "a088a312f413e5b15d38f76762c010b7238fd8869b93e73f1cd1f2b4d347b343",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/PaintMask.png",
+      "sha256": "97d255298b4462622cbf46089318db5916cf3b44d802c5254e32f43f30690328",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/Roughness.png",
+      "sha256": "f6978d6da9c3e318c2c1217146e8abae4016ed5447e537d3ce55927fe2084765",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/RustMask.png",
+      "sha256": "6f3427065bd6c78752792e171603adfe8cb09857cd4141c054fbd201d5c56538",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/2k/WearMask.png",
+      "sha256": "051bddad10b646a6602b2b2a8fe5274a366652fcfaf28f44075211bb4c0b8291",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/AO.png",
+      "sha256": "f479aeee44f3cbfea8062835e5dc13d8359c06171ffabeab3cec7c27a6ff6e7c",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/BaseColor.png",
+      "sha256": "12ed040564fe60261da3beb994341032901e98c41d353b65161202d9a545cdb3",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/CrackMask.png",
+      "sha256": "8f99807585a42432e2b1325c231eb0b89d81e2fc698c6f2f92caf700133a15a8",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/DirtMask.png",
+      "sha256": "27302f1943d948f30c084be3051c3116890a79000c25ae97efc29bc38c3eb907",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/Height.png",
+      "sha256": "c4aa9b470dfea70058b70858f063c779c1e45d1b93bb0cd3f47b3ff8bf154d1a",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/Metallic.png",
+      "sha256": "2c570fa1d2a64ac21c929cc4f1e3b4759076287799bed745fdc4821e0ccc7985",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/Normal.png",
+      "sha256": "407f6295cd773c3619564983c1f770435ac609c6af18d0bd45a29e742f32abea",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/PaintMask.png",
+      "sha256": "fe36279f51a2a3c8c9e69f2d8afc7261e0d8a4b0d554155f18048fb7bb923b73",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/Roughness.png",
+      "sha256": "1be6e172c46379e1c57fc59ad2823e5fcb1774a9a678f8801eb8cbc94b9fa4a4",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/RustMask.png",
+      "sha256": "3f142207d1f12cae051f8976c6adc4cf4d76ca1f5755c630c4634259ebdf08d7",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/brace/4k/WearMask.png",
+      "sha256": "e2834ea845cb3fa98cd1b64184b5f75444f257ef696b3f1e4440ee397687f174",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/2k/PaintBaseColor.png",
+      "sha256": "4374e099d2d33a04af41af29a4668ba6ac6189cea7468474e2eaccae6614238a",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/2k/PaintHeight.png",
+      "sha256": "cdc7624dc2c72207a591e1233d122689e8fb42272698089ef939e0533c5b79e7",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/2k/PaintRoughness.png",
+      "sha256": "1fb434b49998711851f2b725eb113897db7919fbc2a3b937732c6f093118752a",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/2k/RustBaseColor.png",
+      "sha256": "551c11a60f90422ecaa666b781a4842cd111cae99504f5e204ccb279ee6c62f9",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/2k/RustHeight.png",
+      "sha256": "d378b99b653ff53116fdd61dea1efb15a09327b89f8f0db266e6ed58134403d8",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/2k/RustRoughness.png",
+      "sha256": "066d04cfd1c864b6c1fa077726e2ec57a5a4a35e46494d398644402509d244fe",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/2k/SteelBaseColor.png",
+      "sha256": "e3ef66423e84450bdf97f0f3cb1452270c1a29ea83eba6ee70b6d99db9147031",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/2k/SteelHeight.png",
+      "sha256": "1e326e62d7736251fb4b4189015a6766b4c169cea0dec45b5c46dd01ed494959",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/2k/SteelRoughness.png",
+      "sha256": "fa8d4493e7c1c7a2cfc06cde75ebdfea73a2f4f27502211ce23a176813c09d90",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/PaintBaseColor.png",
+      "sha256": "dc9f63af88b7341aa647c2735336d1a70e38faeafe6771bc4744e9e11acbe824",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/PaintHeight.png",
+      "sha256": "3b2d19fa9cc667fcd730d5550586946fecbdf4caf3cdbe32f7c73eaf3a4013da",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/PaintRoughness.png",
+      "sha256": "9031c323d462482590d76f0781acb94f96dc01f9d5e4e18578f6773ff9dc98ba",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/RustBaseColor.png",
+      "sha256": "557a1aab9e218a4b05fa8a531482072a7572383b4a04fc31fbe87debe738304e",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/RustHeight.png",
+      "sha256": "90691d7b607005856645ab53488c54af4a166e35fe9c2260d0f2648dc4bb3a6a",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/RustRoughness.png",
+      "sha256": "def8a9dbbdb0d1ec15930e0035fe89f0df1f86e609dc2d781d8e62834a518347",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/SteelBaseColor.png",
+      "sha256": "05509a734fa10a2bd7a763da79f36cfb2003033b00a914e3c6bbdb2d2cefb955",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "sRGB",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/SteelHeight.png",
+      "sha256": "e41d5e1b313b2ee63ffb66384160ed70481da2e01afded12af1907041f537e01",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/SteelRoughness.png",
+      "sha256": "2c53c752649fab5098a43737370b0577e789bca9fe2e1a51c2e7934d899243c6",
+      "size": [
+        4096,
+        4096
+      ],
+      "colorspace": "Non-Color",
+      "bit_depth": 16
+    }
+  ],
+  "source_sbs": "02_assets/materials/school_desk/school_desk_painted_steel.sbs",
+  "source_sha256": "dadbd6a71486fd195467116e1db74a6538dbf7e65808d3cef96d3cfea29dbfb9",
+  "source_sbsar_sha256": "7708608b4610a7f2e95403016d46bffdf597c1b6067b99cbe9bde7735981edba",
+  "layer_preset": {
+    "Wear": 0,
+    "Age": 0.6,
+    "CrackAmount": 0.46
+  },
+  "crack_validation": {
+    "coating_loss_fraction": 0.05813363566994667,
+    "oxide_fraction": 0.05464106798171997,
+    "bare_metal_fraction": 0.003492568386718631,
+    "layer_partition_max_error": 5.960464477539063e-08,
+    "height_seam_mean_difference": 0.008564028888940811,
+    "height_interior_mean_difference": 0.006917325779795647,
+    "crack_mask_mean": 0.025265846401453018,
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "crack_off_max": 0,
+    "crack_depth_max_delta": 0.029907703399658203,
+    "depth_wear_mean_error": 6.737678859281004e-09
+  },
+  "asset_validation": "06_review/desk_crack_wear/validation.json"
+}

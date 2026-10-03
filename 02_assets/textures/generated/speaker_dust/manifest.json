@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-16",
+  "method": "Native Adobe Substance Designer procedural nodes",
+  "seed": 3087,
+  "tile_metres": 0.2,
+  "source": "02_assets\\materials\\speaker_dust\\speaker_dust.sbs",
+  "commands": [
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\speaker_dust\\speaker_dust.sbs",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\speaker_dust",
+      "--alias",
+      "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+    ],
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+      "render",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\speaker_dust\\speaker_dust.sbsar",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\speaker_dust",
+      "--output-name",
+      "{outputNodeName}",
+      "--set-value",
+      "$outputsize@11,11",
+      "--engine",
+      "d3d11",
+      "--output-bit-depth",
+      "16",
+      "--no-report"
+    ]
+  ],
+  "files": [
+    {
+      "path": "02_assets\\textures\\generated\\speaker_dust\\DustMask.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "77c79126f09ac5961b77c9b9aab5978a75672108801f7dc4dfa885b090e4eb4c",
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\speaker_dust\\Grain.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "859dd70f9afb8aa20bde90542343056817420fe3f5bbabe9565051b4a7c94ce9",
+      "colorspace": "Non-Color"
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+[
+  {
+    "family": "school_board",
+    "source": "02_assets\\materials\\wood_groups\\school_board.sbs",
+    "tile_metres": 0.6,
+    "height_range_m": 0.00012,
+    "normal": "OpenGL",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\wood_groups\\school_board.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\wood_groups",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\wood_groups\\school_board.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\wood_groups\\school_board",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@12,12",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report",
+        "--set-entry",
+        "PlywoodColor@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg"
+      ]
+    ],
+    "seed": 3087,
+    "nodes": 25,
+    "reference_use": "Visual research only",
+    "scan_source": "https://polyhaven.com/a/plywood",
+    "scan_license": "CC0",
+    "files": [
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\school_board\\BaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "f6eb9e7904cd311cd213e51ca3ec5bd7d854280f4dffa0149eb6b8b75b0ddf34",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\school_board\\Grain.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "c3c5e9869fbf4f2ad0a303b989b1034ca9fbbcac8375d67a0949a7a99190fab5",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\school_board\\Height.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "d273bc0749df2db9483b7058825dd080b1f3e4f6432cadc09f0d3733da1ca339",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\school_board\\Normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "3b717d766dd8e196044a2d17e731770e5c050e3fff987fdb5a8f6981ea73bd66",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\school_board\\Roughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "f33cfc68a0004ac8eed7d82732680f1c7b857de2a0c4c1522aa96f65cbf4b890",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\school_board\\ScratchMask.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "85aec9adc0a3422dec82739cb604e05298169e0540b2365119264bfc521ac3f7",
+        "colorspace": "Non-Color"
+      }
+    ]
+  },
+  {
+    "family": "cabinet_wood",
+    "source": "02_assets\\materials\\wood_groups\\cabinet_wood.sbs",
+    "tile_metres": 0.6,
+    "height_range_m": 0.00012,
+    "normal": "OpenGL",
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\wood_groups\\cabinet_wood.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\wood_groups",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\wood_groups\\cabinet_wood.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\wood_groups\\cabinet_wood",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@12,12",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report"
+      ]
+    ],
+    "seed": 3087,
+    "nodes": 26,
+    "reference_use": "Visual research only",
+    "scan_source": null,
+    "scan_license": null,
+    "files": [
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\cabinet_wood\\BaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "b062621031a8492d8d6a0e3d2d01b1b8df221b462db6d56e26b3878da46a9481",
+        "colorspace": "sRGB"
+      },
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\cabinet_wood\\Grain.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "44a74d7d351e0145b14290aa70e8d11f40182b9161c808534e2dbd6827032d74",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\cabinet_wood\\Height.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "389f4ab1f401150574bf2f1f99ce3dd06faa1bf15346a21a13526f72ff52644a",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\cabinet_wood\\Normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "6a602e4b2dfe27eebf8a586b60d303ee24aba76b58f0cb0bb84103b44445b184",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\cabinet_wood\\Roughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "872154c495b55f132bc1ae7177ce23a9b7282f41d015d1252effeec7fbe0fec0",
+        "colorspace": "Non-Color"
+      },
+      {
+        "path": "02_assets\\textures\\generated\\wood_groups\\cabinet_wood\\ScratchMask.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "3de6158abd0cf1265d19223a13631593faf2237813054b5a0ebf6475b3231320",
+        "colorspace": "Non-Color"
+      }
+    ]
+  }
+]

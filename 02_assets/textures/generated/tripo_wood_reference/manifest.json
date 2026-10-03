@@ -1,0 +1,299 @@
+{
+  "boards": [
+    {
+      "board": "seat",
+      "source": "02_assets\\materials\\tripo_wood_reference\\reference_wood_seat.sbs",
+      "source_sha256": "73e7b8b4d332429849d6ba39cc5544800ee2df6109af513820ca2339089ad8e2",
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tripo_wood_reference\\reference_wood_seat.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tripo_wood_reference",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tripo_wood_reference\\reference_wood_seat.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\tripo_wood_reference\\seat",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "outputs": [
+        "Process_BaseColor",
+        "Process_Roughness",
+        "Process_Metallic",
+        "Process_Normal",
+        "Process_AO",
+        "BaseColor",
+        "Roughness",
+        "Metallic",
+        "Normal",
+        "AO",
+        "Process_Height",
+        "Height",
+        "Growth",
+        "Pores",
+        "ScratchDark",
+        "ScratchLight",
+        "ScratchMask",
+        "AgeMask",
+        "WearMask",
+        "StampMask"
+      ],
+      "parameters": {
+        "Scratches": 0.9,
+        "Age": 0.22,
+        "Wear": 0.75,
+        "GrainContrast": 1.0,
+        "FinishRoughness": 0.39,
+        "HeightRange_cm": 0.018
+      }
+    },
+    {
+      "board": "back",
+      "source": "02_assets\\materials\\tripo_wood_reference\\reference_wood_back.sbs",
+      "source_sha256": "271f181943046ddc86854594246e5f075caf835e69078ff69c07c89d169e964f",
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tripo_wood_reference\\reference_wood_back.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tripo_wood_reference",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tripo_wood_reference\\reference_wood_back.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\tripo_wood_reference\\back",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "outputs": [
+        "Process_BaseColor",
+        "Process_Roughness",
+        "Process_Metallic",
+        "Process_Normal",
+        "Process_AO",
+        "BaseColor",
+        "Roughness",
+        "Metallic",
+        "Normal",
+        "AO",
+        "Process_Height",
+        "Height",
+        "Growth",
+        "Pores",
+        "ScratchDark",
+        "ScratchLight",
+        "ScratchMask",
+        "AgeMask",
+        "WearMask",
+        "StampMask"
+      ],
+      "parameters": {
+        "Scratches": 0.9,
+        "Age": 0.22,
+        "Wear": 0.75,
+        "GrainContrast": 1.0,
+        "FinishRoughness": 0.39,
+        "HeightRange_cm": 0.018
+      }
+    }
+  ],
+  "resolution": [
+    4096,
+    4096
+  ],
+  "source_type": "built-in imagegen reference-directed veneer colour; mathematical height and artist-directed use marks",
+  "imagegen_source": "02_assets\\textures\\generated\\tripo_wood_reference\\reference_veneer_base.png",
+  "imagegen_sha256": "26ebbe20bdb01f826eff30cdb860968ad99192199b76fd9e8ac8dcde5921857c",
+  "maps": [
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\AgeMask.png",
+      "sha256": "88124a2fec861ee66b247af007c703abf1ee296d5084bf3d178213791a4fdf00"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\AO.png",
+      "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\BaseColor.png",
+      "sha256": "b567cea8b118095a0360595587ff718772512e85abce5303eb1f4780c27830ce"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Growth.png",
+      "sha256": "736bc5fade04fbb3816ddc5559b266e5cdd4818f689ad425595de37a08e78171"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Height.png",
+      "sha256": "740c322c95c56613fccbdd97df5f1390f84130bb0d70a431338ce90a04cb6d07"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Metallic.png",
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Normal.png",
+      "sha256": "c76d2ba4bd2e89f16e1218c1b466c4b746f541338c57e854211c68dcb616933a"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Pores.png",
+      "sha256": "b8bc5e3cb2df080b818523a75a0a5357571905f28ab546b7ef642a79743aa583"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_AO.png",
+      "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_BaseColor.png",
+      "sha256": "4bf8ef01829097270729dae77d43ec6667e3eeda15349ad13588a298d6e28436"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_Height.png",
+      "sha256": "84cf3afc03bc02435122c4ed7e2a98513e863d50ea51ac03681ab6b2c7cf185f"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_Metallic.png",
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_Normal.png",
+      "sha256": "9e4e7803c4e594be6dafe4385b957a2827dba201afb2a8b89f257f8682d9bf87"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Process_Roughness.png",
+      "sha256": "5bdcd59248c478445351a98efe9b25e2f22700df809f8c4774533fdc1d48a649"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\Roughness.png",
+      "sha256": "5c870b407419fe49b153b31cd4489c7048fafde7ab5e5599ccd040f10e6efee4"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\ScratchDark.png",
+      "sha256": "1dace48f16abc735415bccbab6a7298f719b7fde08fb55aad16fd93dfd72915b"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\ScratchLight.png",
+      "sha256": "e270a7d0faa27bbb8bc1948a4a3b7b820a38496a415d791736450f2c0bec33c4"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\ScratchMask.png",
+      "sha256": "46214f0d8df3b3f9dbd7c7da1ad25160837b7eaec025519194b04339af11d4e2"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\StampMask.png",
+      "sha256": "7252f5769b04c6792f7b1b2d003c9062325d2a3cce1226bb2ac8e918a9cb0d06"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\back\\WearMask.png",
+      "sha256": "b7de74f6a466ec8bffaa55bae27cfd0b02c0ede81cb6f8f938853c96cf90bc68"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\AgeMask.png",
+      "sha256": "d46dba88013351fc80cf86b7026942b65fff3cf75832a950d77c5bc4f2d6fbe2"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\AO.png",
+      "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\BaseColor.png",
+      "sha256": "6317dada5fff50097f1584003dd8e6093b478ae3dbcb33904c28dea4e9e4b571"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Growth.png",
+      "sha256": "c864cb8d70a92ab6a96c49b01f66a410dd665f531609196cb13fb792109f410c"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Height.png",
+      "sha256": "9cb5ed5ab6d28ada845178250cf6fd6744db592812b986c1f0450292ab782b1b"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Metallic.png",
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Normal.png",
+      "sha256": "f063c6c191128adece4b21ee7318b47173404bcf9572b13eb241c9a3940512ea"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Pores.png",
+      "sha256": "d6054e9ba5625258a39d8b52f29b050c1be3bfcfd4361edc3769c895ead0b256"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_AO.png",
+      "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_BaseColor.png",
+      "sha256": "90ab2f505c645d6bba92f6e08f332a8cc44edd1911cd9b7e0bc92f7b5e43d27f"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_Height.png",
+      "sha256": "ef5a3a200aeea5fedcf5d3b3c69ed8673a9145c0e1ca67b540ac9ba3a82d612e"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_Metallic.png",
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_Normal.png",
+      "sha256": "4e459d10516d4f06f8b184b1a0c971d5a57481824fb04b1ce62870ce20b72d7e"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Process_Roughness.png",
+      "sha256": "3e985aa769f5647bf7ea4321ceea64a940a78669fb7ba2e24687a6c53d468ea7"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\Roughness.png",
+      "sha256": "b58d51b21e037862ae101ba8fbc0c62d039be768927c12e0c6f0b6fefcf45f51"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\ScratchDark.png",
+      "sha256": "88f4966aa0b1766443202a47c3a16509104927f8f54d2e186d0f3b90d803c9c6"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\ScratchLight.png",
+      "sha256": "6f6dce50b193e9595372914eeb10e59d78f08e1afda797bed855289bbd22ffd4"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\ScratchMask.png",
+      "sha256": "d1355e0da88cc4ae40b8b0954abe4e639d3134c9532aa2130d1177d0340302a4"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\StampMask.png",
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736"
+    },
+    {
+      "path": "02_assets\\textures\\generated\\tripo_wood_reference\\seat\\WearMask.png",
+      "sha256": "7275a125afd50fb88b42ff198cdd582e911b4ffada14cf25c63e99c87f1ef58d"
+    }
+  ]
+}

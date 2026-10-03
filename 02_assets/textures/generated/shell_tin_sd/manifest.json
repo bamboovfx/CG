@@ -1,0 +1,314 @@
+{
+  "date": "2026-09-11",
+  "authoring": "Substance Designer native graphs; real Adobe cooker/render exports",
+  "normal": "OpenGL",
+  "seed": 152,
+  "materials": [
+    {
+      "name": "parquet_varnished_oak",
+      "source": "02_assets/materials/shell_tin_rebuild/parquet_varnished_oak.sbs",
+      "sbsar": "02_assets/materials/shell_tin_rebuild/parquet_varnished_oak.sbsar",
+      "nodes": 28,
+      "tile_cm": 60,
+      "height_range_cm": 0.04,
+      "input_artwork": {
+        "WoodColor": "02_assets/textures/polyhaven/plywood/4k/plywood_diff_4k.jpg",
+        "WoodNormal": "02_assets/textures/polyhaven/plywood/4k/plywood_nor_gl_4k.png"
+      },
+      "outputs": [
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/parquet_varnished_oak/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "9e081f70ec53aafc5c35a222138b16ab8a9bb7fb7f0d24e0669ba8a0d50f5b2e",
+          "colorspace": "sRGB"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/parquet_varnished_oak/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "c5cd7dbc80a51c6e930b17601f9959f97e93b35a6f3602b70c91035c6e6a6d52",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/parquet_varnished_oak/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/parquet_varnished_oak/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "0e700b15e60da816ef47fdaa27fd36fade82671582fb8b5599aa4bb390864120",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/parquet_varnished_oak/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "2949e8e9066edc2ae6276f0dfd5ff667855d678d14817eeebcade72a10e54037",
+          "colorspace": "Non-Color"
+        }
+      ],
+      "scan_license": "Poly Haven CC0 plywood, grain used as appearance reference for aged parquet; procedural finish from SD",
+      "source_sha256": "ca704339d579cfccf214ec9d2d67c1f234009fd3e735158e157579caa574cbe1",
+      "sbsar_sha256": "d681cccd18e1c420372e1ea0d270fa8bec6b7b696eac7773eb47fe223d74ad2c",
+      "input_source": "https://polyhaven.com/a/plywood",
+      "input_license": "CC0",
+      "note": "Appearance study for aged timber parquet; the input is a plywood scan, not a scan of the film floor or certified oak species. Native SD adds tint, lacquer abrasion, microheight and normal combination."
+    },
+    {
+      "name": "painted_school_plaster",
+      "source": "02_assets/materials/shell_tin_rebuild/painted_school_plaster.sbs",
+      "sbsar": "02_assets/materials/shell_tin_rebuild/painted_school_plaster.sbsar",
+      "nodes": 16,
+      "tile_cm": 60,
+      "height_range_cm": 0.06,
+      "input_artwork": null,
+      "outputs": [
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "9c1aa8362b6e2e0ae62fe4ceae6da2356329893a8931c74a01d38a1d83dca3f0",
+          "colorspace": "sRGB"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "41f0130739a52851f5c11e65e0eaefff665db3721c2689d39bf25d0d511d906e",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "510ccc431b91650918840d193e7cf69b2ccf4d383162d076060b41b105e07bb0",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "2358ca487c0fccc85262748c073ba847fb46b6476973bc8735b1addad1ce3ca5",
+          "colorspace": "Non-Color"
+        }
+      ],
+      "source_sha256": "9dfe8405cc740ce606c5af8d4ad1860bd32d5ca80c56d3a8e02d5cc34c7b1280",
+      "sbsar_sha256": "9981b2f33a621ff9792e8fd354aeb0dd61f7d3df85ad6c89f1b618c6eb3ac92c"
+    },
+    {
+      "name": "aged_tinplate",
+      "source": "02_assets/materials/shell_tin_rebuild/aged_tinplate.sbs",
+      "sbsar": "02_assets/materials/shell_tin_rebuild/aged_tinplate.sbsar",
+      "nodes": 16,
+      "tile_cm": 12,
+      "height_range_cm": 0.007,
+      "input_artwork": null,
+      "outputs": [
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e71cd97514aeabf80ba5c99c6479f72d3c9755b25a18eb4410299eb8ee2adf23",
+          "colorspace": "sRGB"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "b0bd3793c18b0655889d20d0d085f37b2af02687e3ba97c7335b332718550414",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "b32751e4cc24040e0292bb4dfd6c730edf00f45645e5bfa106e335916ee0dfa0",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "ac3a2381246671aab0e930007e587423bad576eeddaf99d14c061611c3c0b0e8",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "4b4c70d894a4545c1cd02a157afdeba6c64a97f41c7add94e9375275b111652d",
+          "colorspace": "Non-Color"
+        }
+      ],
+      "source_sha256": "c796120f1721f6bfd3c14431b1433036c6e9eefc61c0f91bdc5c41acdb949591",
+      "sbsar_sha256": "bdb0b0bd2c0675694633aff7d96fbf52880f145679b76f80069ca43aa565eaaf"
+    },
+    {
+      "name": "printed_candy_tin",
+      "source": "02_assets/materials/shell_tin_rebuild/printed_candy_tin.sbs",
+      "sbsar": "02_assets/materials/shell_tin_rebuild/printed_candy_tin.sbsar",
+      "nodes": 21,
+      "tile_cm": 12,
+      "height_range_cm": 0.007,
+      "input_artwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\classroom\\2k\\tin_label_color_2k.png",
+      "outputs": [
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/printed_candy_tin/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e623f6c6cc9b79d75787ccce6c3e90af04b00b94e339ab656841f1e12bbd891f",
+          "colorspace": "sRGB"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/printed_candy_tin/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "f717a7038516bc7d652c9a0d14bec09511e70b9f97981a23be607ad502f0c550",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/printed_candy_tin/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "20dc72109edd9b95d93ce822f64c071f2783b7f03c7044af322547bdf41e81b1",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/printed_candy_tin/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "7ee3cc83ecdbfe39ebadcca8b819c20578ae593759de125b35dfd2e402bf7b76",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/printed_candy_tin/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "6b488520338c88d821aed844843516faf8449f8dc4f396c73d845e10046fde5f",
+          "colorspace": "Non-Color"
+        }
+      ],
+      "source_sha256": "7c9e50da208c25c4a9e6df68c4f9253c723f7200e5ae243f26ad9cddd224c067",
+      "sbsar_sha256": "6f03c57512fa9193e31e33a4c16f4487402ec35b827e9d0693fa4f278cc0330f"
+    },
+    {
+      "name": "red_candy_lacquer",
+      "source": "02_assets/materials/shell_tin_rebuild/red_candy_lacquer.sbs",
+      "sbsar": "02_assets/materials/shell_tin_rebuild/red_candy_lacquer.sbsar",
+      "nodes": 21,
+      "tile_cm": 12,
+      "height_range_cm": 0.007,
+      "input_artwork": null,
+      "outputs": [
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/red_candy_lacquer/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "a60ddc4415a16de703cbc8f8373c6abc6c0e38cc51f92fa2f20dabea9d1d5820",
+          "colorspace": "sRGB"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/red_candy_lacquer/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "338a608aa288426f9e9d01db6ecf0feda68050852f6ce75ee0574cb01d4dfbdb",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/red_candy_lacquer/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "9001516ba86cf27317c9fae089bc069158f94c6ba309afec81bacda4bba7de77",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/red_candy_lacquer/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "83878a39b9e137a2491047197d4a7ced43dd5f8e0cffbcec4fe11bcc63eb19f6",
+          "colorspace": "Non-Color"
+        },
+        {
+          "file": "02_assets/textures/generated/shell_tin_sd/red_candy_lacquer/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "fe8af0dae3343c4a4bd7e33b755c221698b219bcece2e014ae8a1f326648b693",
+          "colorspace": "Non-Color"
+        }
+      ],
+      "source_sha256": "a9f933d7dcb823a3458ff98570f5a98565b57be84f96993bc34bcda3c7a4789d",
+      "sbsar_sha256": "1eb2440c6e7fc153eb2c38a2db7f1dacecefb8a5df6a3a1291cb60c38a14131e"
+    }
+  ],
+  "engine": "Adobe Substance 3D Designer sbsrender 16.0.3, build 11138, d3d11, 16-bit PNG",
+  "seeds": {
+    "graph_base": 3087,
+    "wood_fiber": 152,
+    "wood_pores": 43,
+    "tin_surface": 168,
+    "tin_flakes": 31
+  },
+  "references": "01_preproduction/references/material_studies/shell/sources.json"
+}

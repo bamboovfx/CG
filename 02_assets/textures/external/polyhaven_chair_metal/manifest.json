@@ -1,0 +1,107 @@
+{
+  "sources": [
+    {
+      "asset": "rusty_metal",
+      "channel": "Diffuse",
+      "resolution": "1k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_metal/rusty_metal_diff_1k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_chair_metal\\rusty_metal\\rusty_metal_diff_1k.jpg",
+      "pixels": [
+        1024,
+        1024
+      ],
+      "md5": "ba829f953270d3ad87d8e86d840f71d6",
+      "sha256": "b532f22a08a9c36b5adf785373e213cd635a2d3769cb61196bbf5404cce7cd43",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/rusty_metal"
+    },
+    {
+      "asset": "rust_coarse_01",
+      "channel": "Diffuse",
+      "resolution": "1k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rust_coarse_01/rust_coarse_01_diff_1k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_chair_metal\\rust_coarse_01\\rust_coarse_01_diff_1k.jpg",
+      "pixels": [
+        1024,
+        1024
+      ],
+      "md5": "c2d2facc7184f216d15a8f9957d3aa4c",
+      "sha256": "369f69eb86a7dcc4e5b6e30b1f3a4da5ce6ba50cf417de937efb4f09101f88d4",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/rust_coarse_01"
+    },
+    {
+      "asset": "rust_coarse_01",
+      "channel": "Diffuse",
+      "resolution": "8k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/rust_coarse_01/rust_coarse_01_diff_8k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_chair_metal\\rust_coarse_01\\rust_coarse_01_diff_8k.jpg",
+      "pixels": [
+        8192,
+        8192
+      ],
+      "md5": "e75089054a2a7ce3114e762d27738ebb",
+      "sha256": "ecca82540d508dfaca88e5bd426e4ee6e1a6f82d3809c2085c8bf539fed73d55",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/rust_coarse_01"
+    },
+    {
+      "asset": "rust_coarse_01",
+      "channel": "Rough",
+      "resolution": "8k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/rust_coarse_01/rust_coarse_01_rough_8k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_chair_metal\\rust_coarse_01\\rust_coarse_01_rough_8k.jpg",
+      "pixels": [
+        8192,
+        8192
+      ],
+      "md5": "ee0bf33cfd920bc7894822d24e4ed55d",
+      "sha256": "8b52c71c30694b46647c395738b1e5b44deee97464fd5c986f3bbb73b8b5561c",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/rust_coarse_01"
+    },
+    {
+      "asset": "rust_coarse_01",
+      "channel": "Displacement",
+      "resolution": "8k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/rust_coarse_01/rust_coarse_01_disp_8k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_chair_metal\\rust_coarse_01\\rust_coarse_01_disp_8k.jpg",
+      "pixels": [
+        8192,
+        8192
+      ],
+      "md5": "77f200c041f4f2732734f32bea2f0a12",
+      "sha256": "21f7a39b1ae852cc8ec04a15b2013e5184e372aeb80fcf927a1f84445238f0b8",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/rust_coarse_01"
+    },
+    {
+      "asset": "rusty_painted_metal",
+      "channel": "Diffuse",
+      "resolution": "1k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rusty_painted_metal/rusty_painted_metal_diff_1k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_chair_metal\\rusty_painted_metal\\rusty_painted_metal_diff_1k.jpg",
+      "pixels": [
+        1024,
+        1024
+      ],
+      "md5": "3846f5567b6e7985b275a6b3867a648f",
+      "sha256": "b086937b45c3628116a838363364a29bd3c5d2542cff906ec1d92d681ee80e15",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/rusty_painted_metal"
+    }
+  ],
+  "use": "Rust microcolour and high-pass relief only; chair damage placement authored separately"
+}

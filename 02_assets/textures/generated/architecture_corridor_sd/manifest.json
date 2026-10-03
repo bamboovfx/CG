@@ -1,0 +1,200 @@
+{
+  "date": "2026-09-12",
+  "materials": [
+    {
+      "name": "thin_linen",
+      "source": "02_assets/materials/architecture_corridor/architecture_thin_linen.sbs",
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_corridor\\architecture_thin_linen.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_corridor",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_corridor\\architecture_thin_linen.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\architecture_corridor_sd\\thin_linen",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "ScanColor@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Color.jpg",
+          "--set-entry",
+          "ScanHeight@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Displacement.jpg",
+          "--set-entry",
+          "ScanRoughness@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Roughness.jpg"
+        ]
+      ],
+      "tile_metres": 0.25,
+      "height_range_metres": 0.00019,
+      "inputs": {
+        "ScanColor": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Color.jpg",
+        "ScanHeight": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Displacement.jpg",
+        "ScanRoughness": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Roughness.jpg"
+      },
+      "files": [
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/BaseColor.png",
+          "sha256": "95879cbd03f3fe4c28b445650756a7bb237782568b768fc2f35d9f693103264c",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Height.png",
+          "sha256": "7cad9148516fe876500a0c0323c15b094cefe46684cfb4b1bd95dfce42d89f3c",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Metallic.png",
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Normal.png",
+          "sha256": "4359d56d88596fbe946931b71124c5c1548f05d623aef870529cbcdedf1e4bb5",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Roughness.png",
+          "sha256": "02446fa74c5a9760b4bd8056e87aca8acab7fca290bd87488902136104006dfd",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Transmission.png",
+          "sha256": "6f7aff67e0585aa9ebc253c5bc8a537f7109ab72a39bd29c3facde8a105b561a",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "name": "corridor_floor",
+      "source": "02_assets/materials/architecture_corridor/architecture_corridor_floor.sbs",
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_corridor\\architecture_corridor_floor.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_corridor",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_corridor\\architecture_corridor_floor.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\architecture_corridor_sd\\corridor_floor",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "tile_metres": 0.5,
+      "height_range_metres": 8e-05,
+      "inputs": {},
+      "files": [
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/BaseColor.png",
+          "sha256": "863fd9a138a977ef3319a03eb09294116eb33de549e6fe04e005e0b8007a5612",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Height.png",
+          "sha256": "df3acc1ba7dcfb2210fdf4b635eca999d9cf445c9f54c1df36928a348676c6c1",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Metallic.png",
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Normal.png",
+          "sha256": "f182ab9d53af637bb7c636e14fd3b0a0e11cc0d8252b0abecded21bcba90e454",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Roughness.png",
+          "sha256": "2ca49f2b8552a0367dc899eef33f14e74dcafdf997a0289980d98111312f2cb0",
+          "size": [
+            2048,
+            2048
+          ],
+          "bit_depth": 16,
+          "colorspace": "Non-Color"
+        }
+      ]
+    }
+  ],
+  "license": "Linen input ambientCG Fabric030 CC0; floor native Substance nodes"
+}

@@ -23,14 +23,15 @@ Updated: 2026-09-29
 ## Evidence
 
 - [迁移记录及画面](../../../06_review/classroom_pipeline_migration_20260929/report.md)
-- [候选结构检查](../../../07_pipeline/cache/classroom_pipeline_migration_20260929/validation.json)
-- [正式文件重开检查](../../../07_pipeline/cache/classroom_pipeline_migration_20260929/published_validation.json)
-- [发布哈希](../../../07_pipeline/cache/classroom_pipeline_migration_20260929/published.json)
+- [迁移时结构、重开与发布哈希摘要](../../../06_review/classroom_pipeline_migration_20260929/report.md)
+- [2026-10-03当前工程重新核查](../../../06_review/cloud_assets_20261003/report.md)
 
 ## Resolution
 
 2026-09-29：已发布到固定镜头路径。正式文件SHA256 `25fef6ac014f853ef93994e3ec9d0faa59dc35d63d4ccdb717ce6e3297ac116f`。263个其余集合实例保留，黑板书写面直接可选，247个材质选择入口不参与渲染。第1076帧画面对照平均每通道差0.00351/255。旧五张Tommy `opdef:` 贴图缺失照旧存在；它属于后续资产修复，不将本任务误标为成片。
 
 ## Comments
+
+- 2026-10-03：本轮删除缓存时连同三份缓存中的历史验收JSON一起删除；保留9月29日迁移报告、发布哈希摘要及画面对照，制作脚本继续在 `07_pipeline/scripts/`。当前工程另做本轮重开检查；它不替代当时的细项验证。上方历史完成状态未改，旧候选与恢复副本已被最新正式镜头取代。
 
 - 2026-09-29：用户要求继续已确认的管线方向。正式文件变更前进行哈希门禁；发布后重开检查。

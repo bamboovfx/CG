@@ -1,0 +1,102 @@
+{
+  "mesh_parts": 26,
+  "all_triangles": true,
+  "all_uv_material": true,
+  "sets": {
+    "Wood": {
+      "BaseColor": {
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "colorspace": "sRGB",
+        "hash_matches": true
+      },
+      "Roughness": {
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "colorspace": "Non-Color",
+        "hash_matches": true
+      },
+      "Metallic": {
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "colorspace": "Non-Color",
+        "hash_matches": true
+      },
+      "Normal_OpenGL": {
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "colorspace": "Non-Color",
+        "hash_matches": true
+      },
+      "AO": {
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "colorspace": "Non-Color",
+        "hash_matches": true
+      }
+    },
+    "Paint": {
+      "BaseColor": {
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "colorspace": "sRGB",
+        "hash_matches": true
+      },
+      "Roughness": {
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "colorspace": "Non-Color",
+        "hash_matches": true
+      },
+      "Metallic": {
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "colorspace": "Non-Color",
+        "hash_matches": true
+      },
+      "Normal_OpenGL": {
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "colorspace": "Non-Color",
+        "hash_matches": true
+      },
+      "AO": {
+        "size": [
+          4096,
+          4096
+        ],
+        "packed": true,
+        "colorspace": "Non-Color",
+        "hash_matches": true
+      }
+    }
+  },
+  "pass": true
+}

@@ -1,0 +1,522 @@
+{
+  "asset": "school_desk",
+  "kind": "authored_reference_driven_PBR",
+  "seed": 3087,
+  "source": {
+    "url": "https://polyhaven.com/a/plywood",
+    "license": "CC0",
+    "path": "02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg",
+    "sha256": "0d628704affb5fa38ef4c886ad9a70f6ddfffe9c22ed5c84b03e27ef5505cfd9"
+  },
+  "reference": "https://aita.ocnk.net/product/3087",
+  "physical_dimensions_m": [
+    0.6,
+    0.4,
+    0.67
+  ],
+  "mapping": {
+    "top": ".60 x .40 m",
+    "edge": "2.0 m perimeter x .018 m thickness",
+    "frame": "circumference x normalized path length",
+    "tray_front": ".47 x .10 m"
+  },
+  "notes": "No baked lighting. Wear, oxidation and dirt have separate masks. PBR channels use distinct physical responses. Wear and inferred markings are authored; not a scan of the reference desk.",
+  "method_references": [
+    {
+      "url": "https://tsvetelina-valkanova.artstation.com/projects/mN3JY",
+      "used": "Artist description of separate rust, rough metal and paint layers; no textures copied"
+    },
+    {
+      "url": "https://andreariccardi.artstation.com/projects/QzmB2B",
+      "used": "Artist description of independently controlled age and wear; no textures copied"
+    }
+  ],
+  "files": [
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_BaseColor.png",
+      "sha256": "0f585fce672395c7a83677781037a16bd7a53abbc86b48b389218bdceb0e6a86",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Height.png",
+      "sha256": "f9297d1648362f49b4eaa0b54c80fba9d954f5687e4a8ce7fb595e30a6c92d87",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Metallic.png",
+      "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Roughness.png",
+      "sha256": "359ac167e3e9258e3334619b2197cff7dcf0b7032ca751653acbef5237a35855",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_left_BaseColor.png",
+      "sha256": "bd9f6e68a7f9b3a24cf8fe304fd5752e7bd418edbc16cca948c2bbbec3966f69",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_left_DirtMask.png",
+      "sha256": "728c5d6085ce5710cbc4de2e8f61e9a355bec984f8c7af035de7db1ffea75f1f",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_left_Height.png",
+      "sha256": "c3163d135ffc632802a2f0290ef4a844dfbbd0722c07f52f8aeb36151af8a678",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_left_Metallic.png",
+      "sha256": "ad2ad597758a88e34255b9a8153edf19f5f3a93b4cec76bb820791dedb76dc4a",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_left_Roughness.png",
+      "sha256": "a9b34836929ad549ddcd1c63a2443d17d20f509cfded9d265c2709e486b637ae",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_left_RustMask.png",
+      "sha256": "73dbabcbe7eaac8b468616ab7dd6877066600e62196718a4bc8930aa9e50c678",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_left_WearMask.png",
+      "sha256": "765ba7c2309a3ce746986dc395e6fa8206f051188f56e423e723dc4283ed8a60",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_BaseColor.png",
+      "sha256": "082e836bacd083b45942c76eb9169d97295f9e6088adebc38eca52f88682d6b8",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_DirtMask.png",
+      "sha256": "dc0d11719106c90c54318e59a9b33bd485572cb14af514154ebb41d4a7598c07",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_Height.png",
+      "sha256": "7b4e689c79203fdf4cad58df6046f051ed331fd5e304b733dd91ebd855f6fc74",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_Metallic.png",
+      "sha256": "6cbb8ef2e852803eb4096344caf6cd13e2e3bfa785cb90b03af82e2e63fb0b70",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_Roughness.png",
+      "sha256": "fc9160631db7a05cc112c616af947cbb45361e716f556ad15602604ec4643fdc",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_RustMask.png",
+      "sha256": "09c935f933e0edf8cf243b2d8a94b8b7cc6e1ea91b0e23fe5fc394a28c1d6180",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_WearMask.png",
+      "sha256": "26e207e96b106b8b176e809f2276f880cefbd4fa7161df3890f5d3f7fb09bff7",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_BaseColor.png",
+      "sha256": "7919f60dc84a8e2de25287399e8e29377c816ec31923df288089993a6345dcee",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_DirtMask.png",
+      "sha256": "308aadf4bf0ff1d24c3adfe37e295f2a493906c13488776bd93bcbea76f5ca64",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_Height.png",
+      "sha256": "6ed18629ccdd9b7f7721297a838067d9518648f47cd7479913dd12b28296bf0d",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_Metallic.png",
+      "sha256": "d35b58bb52153eab97c5f38420c57e9dcd676e4bf2b98f81a3acb5f71ad6dc83",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_Roughness.png",
+      "sha256": "4b7f44f2ab5457ac227d6091c4944cc32cfdfc329f0fed0ea8087c4d307b0993",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_RustMask.png",
+      "sha256": "6c6ee4528f3871131888e456a1af01c87767c0905e552ea8db445f08cf6896b5",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_WearMask.png",
+      "sha256": "be4d27c47f6b51707f8bc8f05b21dbb71e20c8a8b44d4339f336e32b702f919e",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_BaseColor.png",
+      "sha256": "aa08df8e33b75c3d900529e0f5e73930f1b554eb2fe645a79897fe4f2e342815",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Height.png",
+      "sha256": "60f76ca3092f1c63537d449c8b219d4b4164db17b65ae370a2175d28fb2d7b98",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Metallic.png",
+      "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Roughness.png",
+      "sha256": "88a4f2f5a9086bbb4bdac8c62eed5a5fdc61d399fa4b2de794abe7fccd90c8be",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/lower_brace_BaseColor.png",
+      "sha256": "fdbc812126e3f332c93f0798a682bd5082297f686469f88a0bf063edbedcbeef",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/lower_brace_DirtMask.png",
+      "sha256": "8df5aaa154e5266cb5b20f16e78ee3cf31167c658cd5348aa5cd9c478c23c025",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/lower_brace_Height.png",
+      "sha256": "ad4807eecb18cfa88c4378d9baf6dd35d89482b0dd0208413fdaa7558c354198",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/lower_brace_Metallic.png",
+      "sha256": "c20c3c0e61f3f7f93729ff43c1b3859338d91e78ba912603df7f81bc69994b07",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/lower_brace_Roughness.png",
+      "sha256": "5c34104117d943d34176882fb79f05c50ee1b7c97218df49cdffa71c106aa714",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/lower_brace_RustMask.png",
+      "sha256": "bd506e895828855c28f59814cbc5dd280487b77f89c9125afbc25b221008b529",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/lower_brace_WearMask.png",
+      "sha256": "b09480c0b53aeb5df7a0a5ce8a4dbe0039302e745e2ff4fd4d78470db80b8834",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/plywood_edge_BaseColor.png",
+      "sha256": "8c391e7ba1ae18b0433df211f56912596951eec87d8a8ce53dc3ff80384ab0fb",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/plywood_edge_Height.png",
+      "sha256": "538a8588f52bb0ebb38690b6d1e0a02006b0d21b236df34f9aae7878bca7586b",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/plywood_edge_Metallic.png",
+      "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/plywood_edge_Roughness.png",
+      "sha256": "0d2e9f944f6a73eed423f729ba76d78fda9ffd41ffad5d58a36e182d809aa116",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_BaseColor.png",
+      "sha256": "c8d1c18b70e5199dd7bd8291ed16b722234fa4f14d4dab22c4baa4919b674ad9",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_DirtMask.png",
+      "sha256": "7307d7286e88d527e544164a229a1691034c2c642c48d63f9883ad2d5037737f",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_BaseColor.png",
+      "sha256": "7b13287bc0b3bf7f569b200f97d27ed2b4fe758c45c264f73f08b40f5e09814e",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "sRGB"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_DirtMask.png",
+      "sha256": "7307d7286e88d527e544164a229a1691034c2c642c48d63f9883ad2d5037737f",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_Height.png",
+      "sha256": "3be3cd2f00e028f03a42b00192438a2037d97304a65b32c7261ba78084952b66",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_Metallic.png",
+      "sha256": "b06a5da5ba9e522eb8900b47f23c469e5f2e964c68d93001443fb6bbefee1840",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_Roughness.png",
+      "sha256": "120b1719be8107875cfc171ed441f66fbd0f3168360ce3f6b0f8dd0f7b1fa1e9",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_RustMask.png",
+      "sha256": "f102ff3e3a6baa051cc5c1bb034aa735cffaab6c645a190639813b076df96da6",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_WearMask.png",
+      "sha256": "f84abffb2a699067911e3b37a0c07e836dfeaa82a119aa2ba8966c2ef1dff832",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_Height.png",
+      "sha256": "3be3cd2f00e028f03a42b00192438a2037d97304a65b32c7261ba78084952b66",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_Metallic.png",
+      "sha256": "b06a5da5ba9e522eb8900b47f23c469e5f2e964c68d93001443fb6bbefee1840",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_Roughness.png",
+      "sha256": "120b1719be8107875cfc171ed441f66fbd0f3168360ce3f6b0f8dd0f7b1fa1e9",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_RustMask.png",
+      "sha256": "f102ff3e3a6baa051cc5c1bb034aa735cffaab6c645a190639813b076df96da6",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_WearMask.png",
+      "sha256": "f84abffb2a699067911e3b37a0c07e836dfeaa82a119aa2ba8966c2ef1dff832",
+      "size": [
+        2048,
+        2048
+      ],
+      "colorspace": "Non-Color"
+    }
+  ]
+}

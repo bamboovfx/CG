@@ -1,5 +1,7 @@
 # 教室材质编辑管线迁移（2026-09-29）
 
+2026-10-03清理说明：迁移前恢复副本、旧候选和缓存中的JSON细项已删除。本文与画面对照保留当时结论；当前工程的重新核查见[本轮记录](../cloud_assets_20261003/report.md)，不能把新检查当作原9月29日的细项证据。
+
 ## 结果
 
 固定镜头工程 [drop_sq010_sh010_shot.blend](../../03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend) 已发布为本地可编辑版本。黑板、窗框和其他材质能在镜头的相机与灯光下直接调整。旧建筑、道具及发布库文件仍保留，但不再自动驱动这个镜头。迁移仅改变编辑关系，没有有意改变构图、材质外观或动画。
@@ -18,7 +20,7 @@
 ## 验证与范围
 
 - 输入：2026-09-29 09:54 已保存的正式镜头，SHA256 `9312d03a0b5b183a568fc935b0938dee1467d5596bee1e19ce5af27a48602b0e`。输出正式镜头 SHA256 `25fef6ac014f853ef93994e3ec9d0faa59dc35d63d4ccdb717ce6e3297ac116f`。
-- 重开确认：第1076帧、24fps、1001–1100；`cam_sh010_mainAction` 与 `Golden afternoon studyAction` 保留；263个其余集合实例及其变换保留。黑板原实例改为可直接选中的1252个场景对象，材质选择入口247个。本地化后无外部 `.blend` 库依赖。详见[重开验证](../../07_pipeline/cache/classroom_pipeline_migration_20260929/published_validation.json)。
+- 当时重开确认：第1076帧、24fps、1001–1100；`cam_sh010_mainAction` 与 `Golden afternoon studyAction` 保留；263个其余集合实例及其变换保留。黑板原实例改为可直接选中的1252个场景对象，材质选择入口247个。本地化后无外部 `.blend` 库依赖。原JSON细项已于2026-10-03随缓存清理，本文保留摘要。
 - [迁移前画面](before.png)与[迁移后画面](after.png)：同一相机、第1076帧、960×405、Cycles OptiX 32 samples、固定seed 23；RGB绝对差均值0.00351/255、最大6/255，99%通道值完全相同。差异图见 [8倍放大](diff_x8.png)。画面和几何位置保持一致。
 - 临时第二场景检查：材质数据块共享；相机和 World 数据块独立；黑板单对象/网格/材质的例外不会改动原黑板，其余1251个黑板对象继续共享。临时测试未写入正式工程。
 - 这是编辑管线交付，不是镜头成片。用户确认的140帧目标仍待制作，当前工作工程的1001–1100帧段未被迁移改写。
@@ -27,8 +29,8 @@
 
 ## 恢复与文件职责
 
-- [迁移前可重开副本](source_before.blend)：原分文件链接状态，已验证能解析两份旧 `.blend` 依赖。恢复时应先备份当前正式工程并确认没有更新工作需要保留。
-- `07_pipeline/cache/classroom_pipeline_migration_20260929/candidate.blend`：迁移候选；`candidate.json`、`validation.json`、`published.json` 保留结构和哈希记录。候选不应作为日常编辑入口。
+- 迁移前副本 `source_before.blend` 已于2026-10-03清理，不能再用于恢复。
+- `07_pipeline/cache/classroom_pipeline_migration_20260929/` 的旧候选和JSON已于2026-10-03清理；固定镜头及本机旧制作源继续保留。
 - `02_assets/work/classroom_environment.blend`、`02_assets/work/classroom_props.blend`、`02_assets/library/classroom_assets.blend`：保留历史与独立资产制作内容，不删除。后续若需要从这些来源引入改动，先在候选中选择性合并，再检查镜头画面，不整库覆盖当前工作。
 
 设计取舍与实测见[管线评审](../pipeline_review_20260929/proposal.md)。

@@ -1,0 +1,91 @@
+{
+  "method": "Native editable SD graph compiled/rendered by Adobe tools",
+  "tile_m": 0.4,
+  "bit_depth": 16,
+  "colorspace": "Non-Color",
+  "nodes": 25,
+  "parameters": {
+    "BaseRoughness": 0.37,
+    "WipeAmount": 0.65,
+    "OilAmount": 0.55
+  },
+  "references": [
+    {
+      "url": "https://zakboxall.artstation.com/blog/N0dE/making-realistic-materials-in-substance-steel-free-sample-textures",
+      "use": "Viewed imperfection moodboard and read artist breakdown; directional wiping, clean space, separate scratch scales. No artist image used as input."
+    },
+    {
+      "url": "https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown",
+      "use": "Reference for separate smudge and fingerprint roughness masks."
+    }
+  ],
+  "commands": [
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\clock_imperfection\\clock_imperfection.sbs",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\clock_imperfection",
+      "--alias",
+      "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+    ],
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+      "render",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\clock_imperfection\\clock_imperfection.sbsar",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\clock_imperfection",
+      "--output-name",
+      "{outputNodeName}",
+      "--set-value",
+      "$outputsize@12,12",
+      "--engine",
+      "d3d11",
+      "--output-bit-depth",
+      "16",
+      "--no-report"
+    ]
+  ],
+  "files": [
+    {
+      "file": "02_assets\\textures\\generated\\clock_imperfection\\OilMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "ed8e4cc94e4796de2c0332d967d4d906037a533e164cb0251e207c60355688b9",
+      "min": 0.0,
+      "max": 0.9682154573891814,
+      "mean": 0.09647310425053383,
+      "std": 0.15604023307527798,
+      "p95": 0.44399176012817576
+    },
+    {
+      "file": "02_assets\\textures\\generated\\clock_imperfection\\Roughness.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "9b35e783e6b5a50e010a44d575b31edfd57a61c4142d4b0f9c55c4081496b664",
+      "min": 0.3257343404287785,
+      "max": 0.41774624246585795,
+      "mean": 0.3703826959276669,
+      "std": 0.010342586688964435,
+      "p95": 0.3886015106431678
+    },
+    {
+      "file": "02_assets\\textures\\generated\\clock_imperfection\\WipeMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "ca8c450baf95098c80b3f30ea5b5e730b40de65e88db1c465a503d2ff91fd30c",
+      "min": 0.0,
+      "max": 0.9857938506141757,
+      "mean": 0.10522959605137888,
+      "std": 0.15290145962915275,
+      "p95": 0.4438849469748989
+    }
+  ]
+}

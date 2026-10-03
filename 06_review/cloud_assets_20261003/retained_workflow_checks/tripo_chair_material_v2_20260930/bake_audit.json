@@ -1,0 +1,54 @@
+{
+  "source": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\chair_material_v2_uv.blend",
+  "blend": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\chair_material_v2_baked.blend",
+  "resolution": 4096,
+  "normal_convention": "OpenGL tangent",
+  "ao_separate": true,
+  "triangulated_final_mesh": true,
+  "texture_sets": {
+    "Wood": {
+      "BaseColor": {
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\textures\\Chair_Wood_BaseColor.png",
+        "sha256": "7c1f198c044b549562a56a3d8b8ceccf29c0407c57169bc6aa5730b40dce81a9"
+      },
+      "Roughness": {
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\textures\\Chair_Wood_Roughness.png",
+        "sha256": "efdb21aaf972de8b729818dedaf4601cc4c31288a2d112c45934ac74ac8ec0a8"
+      },
+      "Metallic": {
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\textures\\Chair_Wood_Metallic.png",
+        "sha256": "cfa2a02075b3ff02ea44d921846e237a53b29db5709b12f55734eed98a6fac64"
+      },
+      "Normal_OpenGL": {
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\textures\\Chair_Wood_Normal_OpenGL.png",
+        "sha256": "86675bffb70d8c12a6454bc056916feb158c1011d0d58607e88021988cd17845"
+      },
+      "AO": {
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\textures\\Chair_Wood_AO.png",
+        "sha256": "f655c67867b53b2cc54e05220716ecce74a3316c567414cdb7dcc6fb095ec74f"
+      }
+    },
+    "Paint": {
+      "BaseColor": {
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\textures\\Chair_Paint_BaseColor.png",
+        "sha256": "d5ae139106718a1508f98c49512a18f34cd7f59f587ac88439c5cbae7bfb93f7"
+      },
+      "Roughness": {
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\textures\\Chair_Paint_Roughness.png",
+        "sha256": "72c7c2b2f3616d3aca15e160c7015985f3fd66dd43c5381e4e82be6027db37ac"
+      },
+      "Metallic": {
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\textures\\Chair_Paint_Metallic.png",
+        "sha256": "9ea4eabf54b1b62ce4bee707345013ff0bd22cbc0921ba23804221bd95f0984f"
+      },
+      "Normal_OpenGL": {
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\textures\\Chair_Paint_Normal_OpenGL.png",
+        "sha256": "f32b49863f30770ab35989b96689b58064c3d5e5b15ca0ba848e0857702b5813"
+      },
+      "AO": {
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\tripo_chair_material_v2_20260930\\textures\\Chair_Paint_AO.png",
+        "sha256": "83750e7d0481925d158f87e9b67eb5f3973f254378aad48d17d5c7dd1b9b2b9e"
+      }
+    }
+  }
+}

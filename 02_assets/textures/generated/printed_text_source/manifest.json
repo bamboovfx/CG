@@ -1,0 +1,309 @@
+{
+  "date": "2026-09-16",
+  "method": "Original geometry rasterized; surface color beneath existing dirt; no decal geometry",
+  "bindings": [
+    {
+      "host": "TV front fascia",
+      "original_material": "TV shell / User finish",
+      "material": "TV shell / User finish / printed",
+      "objects": [
+        "TV brand badge"
+      ],
+      "text": [
+        "HITACHI"
+      ],
+      "mask": "02_assets\\textures\\generated\\printed_text_source\\print_00.png",
+      "sha256": "b963266de5e2ac12d4ca95ca6e01fd41c4334c50bdb846eef1ac11320f87d90b",
+      "size": [
+        2048,
+        2048
+      ],
+      "bounds": [
+        [
+          -0.018234088765457273,
+          0.12291895055770874
+        ],
+        [
+          0.018225090326741338,
+          0.13121895289421082
+        ]
+      ]
+    },
+    {
+      "host": "TV control panel",
+      "original_material": "TV refined / controls / 20260916",
+      "material": "TV refined / controls / 20260916 / printed",
+      "objects": [
+        "TV control legend",
+        "TV control legend.001",
+        "TV control legend.002",
+        "TV control legend.003",
+        "TV control legend.004",
+        "TV control legend.005",
+        "TV power legend"
+      ],
+      "text": [
+        "MENU",
+        "VOL -",
+        "VOL +",
+        "CH -",
+        "CH +",
+        "INPUT",
+        "POWER"
+      ],
+      "mask": "02_assets\\textures\\generated\\printed_text_source\\print_01.png",
+      "sha256": "01c1c87e382af4cdb998ac9264b5cd8257dc51004dba53d9262447cd430b4aa6",
+      "size": [
+        2048,
+        2048
+      ],
+      "bounds": [
+        [
+          -0.057967468332499265,
+          0.0789640417098999
+        ],
+        [
+          0.17802540509030224,
+          0.0869021469950676
+        ]
+      ]
+    },
+    {
+      "host": "TV front AV bay",
+      "original_material": "TV refined / bay / 20260916",
+      "material": "TV refined / bay / 20260916 / printed",
+      "objects": [
+        "TV AV print",
+        "TV AV print.001",
+        "TV AV print.002"
+      ],
+      "text": [
+        "V",
+        "L",
+        "R"
+      ],
+      "mask": "02_assets\\textures\\generated\\printed_text_source\\print_02.png",
+      "sha256": "92d95a6ee65ac968c96af4ad10cccaeb186e87f233cea1e2cbe354aba4d6a9f0",
+      "size": [
+        2048,
+        2048
+      ],
+      "bounds": [
+        [
+          -0.17489711806178093,
+          0.05297481843829155
+        ],
+        [
+          -0.12510283425450325,
+          0.0578644218146801
+        ]
+      ]
+    },
+    {
+      "host": "TV rear IO tray",
+      "original_material": "TV aged / recess / Recess graphite.002",
+      "material": "TV aged / recess / Recess graphite.002 / printed",
+      "objects": [
+        "TV antenna print",
+        "TV rear port print",
+        "TV rear port print.001",
+        "TV rear port print.002"
+      ],
+      "text": [
+        "ANT 75 OHM",
+        "VIDEO",
+        "L AUDIO",
+        "R AUDIO"
+      ],
+      "mask": "02_assets\\textures\\generated\\printed_text_source\\print_03.png",
+      "sha256": "30dad3a5f56fcf1b77e7bb429050010688b0293ef3df9879a16392269acdef3d",
+      "size": [
+        2048,
+        2048
+      ],
+      "bounds": [
+        [
+          -0.14475544955581426,
+          0.15795503759384155
+        ],
+        [
+          0.08951548155397177,
+          0.16345503723621368
+        ]
+      ]
+    },
+    {
+      "host": "TV rear rating label",
+      "original_material": "TV aged / recess / Recess graphite.002",
+      "material": "TV aged / recess / Recess graphite.002 / printed.001",
+      "objects": [
+        "TV rating label text",
+        "TV rating label text.001",
+        "TV rating label text.002",
+        "TV rating label text.003",
+        "TV rating label text.004"
+      ],
+      "text": [
+        "HITACHI  COLOR TELEVISION",
+        "CRT RECEIVER   /   CLASSROOM 03",
+        "AC 100 V     50 / 60 Hz",
+        "CAUTION - HIGH VOLTAGE",
+        "SERVICE BY QUALIFIED PERSONNEL"
+      ],
+      "mask": "02_assets\\textures\\generated\\printed_text_source\\print_04.png",
+      "sha256": "0f5c5b52a780b1eaf147eced602d2c0254dce4a8d7a0eb4b2be96ce69f8947ae",
+      "size": [
+        2048,
+        2048
+      ],
+      "bounds": [
+        [
+          -0.04278608782216907,
+          0.2924842764437199
+        ],
+        [
+          0.04278609154745937,
+          0.3489945302903652
+        ]
+      ]
+    },
+    {
+      "host": "TV removable rear cover",
+      "original_material": "TV shell / User finish",
+      "material": "TV shell / User finish / printed.001",
+      "objects": [
+        "TV serial label"
+      ],
+      "text": [
+        "No. 003 - SCHOOL EQUIPMENT"
+      ],
+      "mask": "02_assets\\textures\\generated\\printed_text_source\\print_05.png",
+      "sha256": "e606436a3acf0cb96489b10b5d29f9751a4e278c3819428de71f049db4f3eddd",
+      "size": [
+        2048,
+        2048
+      ],
+      "bounds": [
+        [
+          -0.013553998935967683,
+          0.24337449872493744
+        ],
+        [
+          0.05329746337607503,
+          0.24910950458049774
+        ]
+      ]
+    },
+    {
+      "host": "Clock ivory dial panel",
+      "original_material": "Clock / Warm ivory dial",
+      "material": "Clock / Warm ivory dial / printed",
+      "objects": [
+        "Clock numeral 01",
+        "Clock numeral 02",
+        "Clock numeral 03",
+        "Clock numeral 04",
+        "Clock numeral 05",
+        "Clock numeral 06",
+        "Clock numeral 07",
+        "Clock numeral 08",
+        "Clock numeral 09",
+        "Clock numeral 10",
+        "Clock numeral 11",
+        "Clock numeral 12",
+        "Clock printed minute 00",
+        "Clock printed minute 01",
+        "Clock printed minute 02",
+        "Clock printed minute 03",
+        "Clock printed minute 04",
+        "Clock printed minute 05",
+        "Clock printed minute 06",
+        "Clock printed minute 07",
+        "Clock printed minute 08",
+        "Clock printed minute 09",
+        "Clock printed minute 10",
+        "Clock printed minute 11",
+        "Clock printed minute 12",
+        "Clock printed minute 13",
+        "Clock printed minute 14",
+        "Clock printed minute 15",
+        "Clock printed minute 16",
+        "Clock printed minute 17",
+        "Clock printed minute 18",
+        "Clock printed minute 19",
+        "Clock printed minute 20",
+        "Clock printed minute 21",
+        "Clock printed minute 22",
+        "Clock printed minute 23",
+        "Clock printed minute 24",
+        "Clock printed minute 25",
+        "Clock printed minute 26",
+        "Clock printed minute 27",
+        "Clock printed minute 28",
+        "Clock printed minute 29",
+        "Clock printed minute 30",
+        "Clock printed minute 31",
+        "Clock printed minute 32",
+        "Clock printed minute 33",
+        "Clock printed minute 34",
+        "Clock printed minute 35",
+        "Clock printed minute 36",
+        "Clock printed minute 37",
+        "Clock printed minute 38",
+        "Clock printed minute 39",
+        "Clock printed minute 40",
+        "Clock printed minute 41",
+        "Clock printed minute 42",
+        "Clock printed minute 43",
+        "Clock printed minute 44",
+        "Clock printed minute 45",
+        "Clock printed minute 46",
+        "Clock printed minute 47",
+        "Clock printed minute 48",
+        "Clock printed minute 49",
+        "Clock printed minute 50",
+        "Clock printed minute 51",
+        "Clock printed minute 52",
+        "Clock printed minute 53",
+        "Clock printed minute 54",
+        "Clock printed minute 55",
+        "Clock printed minute 56",
+        "Clock printed minute 57",
+        "Clock printed minute 58",
+        "Clock printed minute 59"
+      ],
+      "text": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "mask": "02_assets\\textures\\generated\\printed_text_source\\print_06.png",
+      "sha256": "9cb51fb312385c67e32eaf31b4090c1770f2cc2d193f1994c3cc33fa35f9c880",
+      "size": [
+        2048,
+        2048
+      ],
+      "bounds": [
+        [
+          -1.9615300023555755,
+          2.928470230102539
+        ],
+        [
+          -1.5784699594974518,
+          3.311530017852783
+        ]
+      ]
+    }
+  ],
+  "font_objects": 33,
+  "archived_objects": 93
+}

@@ -1,0 +1,100 @@
+{
+  "method": "Original deterministic physical-scale eraser trajectories and spatial masks",
+  "seed": 190926,
+  "surface_metres": [
+    4.143805,
+    1.49
+  ],
+  "image_top_is_board_top": true,
+  "reference_pixels_used": false,
+  "maps": [
+    {
+      "name": "UseMask",
+      "path": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\UseMask.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "5864e97aa4075eaf7039db7aad0dc27abbf17f9539a849271c964050964cf3a9",
+      "bottom_mean": 0.0,
+      "upper_mean": 0.9584556221961975
+    },
+    {
+      "name": "Abrasion",
+      "path": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\Abrasion.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "7f0f6f814891f389ee39e3c71e9a63d9b750ef089a877864bf649f62c5a2434e",
+      "bottom_mean": 0.0,
+      "upper_mean": 0.6384642124176025
+    },
+    {
+      "name": "EmbeddedChalk",
+      "path": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\EmbeddedChalk.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "1617831b221199d5f315f07c23f284c0ab80274f65f22828bd68922269ecb93a",
+      "bottom_mean": 0.0,
+      "upper_mean": 0.5583900213241577
+    },
+    {
+      "name": "EraserPasses",
+      "path": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\EraserPasses.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "4beff245a1876f4f0bb0786e80444b4e3ae704d84432fe27b50b7d4f08330f3b",
+      "bottom_mean": 0.0,
+      "upper_mean": 0.4843619763851166
+    },
+    {
+      "name": "SunFade",
+      "path": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\SunFade.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "8f6a04e6576d99fb80dca154642ec08a7c38efc46b55aa0519dc4e914d76be23",
+      "bottom_mean": 0.15787826478481293,
+      "upper_mean": 0.2731124758720398
+    },
+    {
+      "name": "GhostWriting",
+      "path": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\GhostWriting.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "f5e5159ffe18dbf66d561918806b0393a863516ddf1036f845ae46d73faee7b6",
+      "bottom_mean": 0.0,
+      "upper_mean": 0.0011974116787314415
+    },
+    {
+      "name": "EdgeDust",
+      "path": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\EdgeDust.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "f8272f56324130443301b9c30c3fb8f8cf05099b1bbe8e3976dc54fd72ac675c",
+      "bottom_mean": 0.012990374118089676,
+      "upper_mean": 6.978239901757914e-25
+    },
+    {
+      "name": "TouchSoil",
+      "path": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\TouchSoil.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "08e2ec1f1ac68338018db847eb6ca8f5b39786a7257e872a835d78beef5ffc59",
+      "bottom_mean": 0.0,
+      "upper_mean": 0.10710251331329346
+    }
+  ]
+}

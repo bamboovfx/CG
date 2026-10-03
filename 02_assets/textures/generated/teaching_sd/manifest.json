@@ -1,0 +1,958 @@
+{
+  "method": "Real native SBS authoring + Adobe cooker + sbsrender 16-bit outputs",
+  "seed": 3087,
+  "normal": "OpenGL",
+  "materials": [
+    {
+      "family": "teaching_paper",
+      "source": "02_assets/materials/teaching_rebuild/teaching_paper.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/teaching_paper.sbsar",
+      "native_nodes": 18,
+      "inputs": {},
+      "parameters": {},
+      "public_parameters": [
+        "FibreStrength"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 4.5e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_paper.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_paper.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\teaching_paper",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_paper/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "1a8505b9f5a8fc7f29e5640acf460cf3ec377fa3d87f2b498da65671227cbca3",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_paper/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "21d9c8dc7ea8ff187345d847a5eda9b722811f2081edac653f6ac199b6265281",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_paper/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_paper/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "aaf0e7c2f2f420d43207eb13bd5c2254ea3cca2142c7b023981d4f34a81c8c1c",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_paper/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "a32d59e38cc6eccb76c1b5422e34f311ab7694305de3d7a3e36e1fa726a85268",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "teaching_bookcloth",
+      "source": "02_assets/materials/teaching_rebuild/teaching_bookcloth.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/teaching_bookcloth.sbsar",
+      "native_nodes": 18,
+      "inputs": {},
+      "parameters": {},
+      "public_parameters": [
+        "FibreStrength"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 8.5e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_bookcloth.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_bookcloth.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\teaching_bookcloth",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "ec8020e81cf40de513a9eb946948557c5b1722bc18796254e6e4da10583e8498",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "9f1c20e9a2d8c32cc70ce1055178cc1b4c0a0d0480919f444dd26df64b3293e9",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "3c25a98eab047440d26cf0ff341e738fccde3b24d8320ac32fa081e0f38c2c69",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "36a6a72e55a42acd211146557eb2940fc5b7ca338e86bb76e606743297f46d94",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "teaching_felt",
+      "source": "02_assets/materials/teaching_rebuild/teaching_felt.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/teaching_felt.sbsar",
+      "native_nodes": 18,
+      "inputs": {},
+      "parameters": {},
+      "public_parameters": [
+        "FibreStrength"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00017,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_felt.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_felt.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\teaching_felt",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_felt/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "307b15775dc649fd8eaf06d43029f8f6557caba5b9c3702cb742613fd362f6ee",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_felt/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "9f1c20e9a2d8c32cc70ce1055178cc1b4c0a0d0480919f444dd26df64b3293e9",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_felt/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_felt/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "d87593c9bb245d8eb8655cd7aeb3d1e1c56b89c7fb894b43d8ecb3f07a0db58a",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_felt/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "7462c1c15c6bb83d255cdc1059fb503fcb2cda52e44c3279ac844abcb2e5c663",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_00",
+      "source": "02_assets/materials/teaching_rebuild/teaching_notices.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/teaching_notices.sbsar",
+      "native_nodes": 23,
+      "inputs": {
+        "InkArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\teaching_rebuild\\notice_00_color.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "FibreStrength",
+        "InkArtwork"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 4.5e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_notices.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_notices.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\notice_00",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "InkArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\teaching_rebuild\\notice_00_color.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_00/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "0b3587320ec97e6016b8cde48232bf7b70fa0794aa5092aebd600e3bd11a264e",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_00/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "21d9c8dc7ea8ff187345d847a5eda9b722811f2081edac653f6ac199b6265281",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_00/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_00/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "aaf0e7c2f2f420d43207eb13bd5c2254ea3cca2142c7b023981d4f34a81c8c1c",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_00/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "a32d59e38cc6eccb76c1b5422e34f311ab7694305de3d7a3e36e1fa726a85268",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_01",
+      "source": "02_assets/materials/teaching_rebuild/teaching_notices.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/teaching_notices.sbsar",
+      "native_nodes": 23,
+      "inputs": {
+        "InkArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\teaching_rebuild\\notice_01_color.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "FibreStrength",
+        "InkArtwork"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 4.5e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_notices.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_notices.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\notice_01",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "InkArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\teaching_rebuild\\notice_01_color.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_01/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "b795e840bea1871adf88b0c9d7255ecbda231be0e0e66df476d16d39f23db6d8",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_01/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "21d9c8dc7ea8ff187345d847a5eda9b722811f2081edac653f6ac199b6265281",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_01/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_01/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "aaf0e7c2f2f420d43207eb13bd5c2254ea3cca2142c7b023981d4f34a81c8c1c",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_01/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "a32d59e38cc6eccb76c1b5422e34f311ab7694305de3d7a3e36e1fa726a85268",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_02",
+      "source": "02_assets/materials/teaching_rebuild/teaching_notices.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/teaching_notices.sbsar",
+      "native_nodes": 23,
+      "inputs": {
+        "InkArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\teaching_rebuild\\notice_02_color.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "FibreStrength",
+        "InkArtwork"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 4.5e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_notices.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_notices.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\notice_02",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "InkArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\teaching_rebuild\\notice_02_color.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_02/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "789978b14c76aca9c4bf4fd6ceac9c9dc5a3b549af43f6eade90b3d34003324b",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_02/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "21d9c8dc7ea8ff187345d847a5eda9b722811f2081edac653f6ac199b6265281",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_02/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_02/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "aaf0e7c2f2f420d43207eb13bd5c2254ea3cca2142c7b023981d4f34a81c8c1c",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_02/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "a32d59e38cc6eccb76c1b5422e34f311ab7694305de3d7a3e36e1fa726a85268",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_03",
+      "source": "02_assets/materials/teaching_rebuild/teaching_notices.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/teaching_notices.sbsar",
+      "native_nodes": 23,
+      "inputs": {
+        "InkArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\teaching_rebuild\\notice_03_color.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "FibreStrength",
+        "InkArtwork"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 4.5e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_notices.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_notices.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\notice_03",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "InkArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\teaching_rebuild\\notice_03_color.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_03/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "5c08ff696078039f3c547caafcc70ccc06a9f5d01a982e0fa8db86cfb93af53d",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_03/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "21d9c8dc7ea8ff187345d847a5eda9b722811f2081edac653f6ac199b6265281",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_03/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_03/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "aaf0e7c2f2f420d43207eb13bd5c2254ea3cca2142c7b023981d4f34a81c8c1c",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_03/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "a32d59e38cc6eccb76c1b5422e34f311ab7694305de3d7a3e36e1fa726a85268",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_04",
+      "source": "02_assets/materials/teaching_rebuild/teaching_notices.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/teaching_notices.sbsar",
+      "native_nodes": 23,
+      "inputs": {
+        "InkArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\teaching_rebuild\\notice_04_color.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "FibreStrength",
+        "InkArtwork"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 4.5e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_notices.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_notices.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\notice_04",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "InkArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\authored\\teaching_rebuild\\notice_04_color.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_04/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "4f3e0e77d4965920b39c40f8d7e4c413f71a3cf2962cbf4be3ab6b3ca537edcc",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_04/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "21d9c8dc7ea8ff187345d847a5eda9b722811f2081edac653f6ac199b6265281",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_04/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_04/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "aaf0e7c2f2f420d43207eb13bd5c2254ea3cca2142c7b023981d4f34a81c8c1c",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/notice_04/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "a32d59e38cc6eccb76c1b5422e34f311ab7694305de3d7a3e36e1fa726a85268",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "teaching_varnished_wood",
+      "source": "02_assets/materials/teaching_rebuild/teaching_varnished_wood.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/teaching_varnished_wood.sbsar",
+      "native_nodes": 36,
+      "inputs": {
+        "ScanColor": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg",
+        "ScanNormal": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_nor_gl_4k.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "ScanColor",
+        "ScanNormal",
+        "Wear",
+        "Roughness"
+      ],
+      "tile_m": 0.5,
+      "height_range_m": 0.00022,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_varnished_wood.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_varnished_wood.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\teaching_varnished_wood",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "ScanColor@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg",
+          "--set-entry",
+          "ScanNormal@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_nor_gl_4k.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "bd57a1f5ce93937cee55328291a7de1f6b3c28d2f85d238339741bd3c2bdad41",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/ExposedBaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "71e5e64ef0b19dace6fcb6fb507a1a8003f59f05343cdd3603276dc7f81b735a",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/ExposedRoughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "0c1324e0c2f136e0c7d6cd5583de2692a9d4887063e60e5e952f9c908ed5cbf1",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "6bcc0cda7fd447e8d5f13919283cb8cc3afdb2a3c9987a59e143d0fb517bc16a",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "57d19fe26c06b6603c2fb53a396887c6d7d621109aa2f0690f44beb888d50803",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "058425ace3cef7354037c6033ef6c013c69880d7ff215a950e479e774a57ffc2",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/WearMask.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "4fd88d5358014ea91626b01a59918b517bea8cc93460ef5d88f5487178bad4d6",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "teaching_chalkboard",
+      "source": "02_assets/materials/teaching_rebuild/teaching_chalkboard.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/teaching_chalkboard.sbsar",
+      "native_nodes": 23,
+      "inputs": {},
+      "parameters": {},
+      "public_parameters": [
+        "ChalkResidue"
+      ],
+      "tile_m": 4.14,
+      "height_range_m": 8e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_chalkboard.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\teaching_chalkboard.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\teaching_chalkboard",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_chalkboard/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "8120bebf51f70e848500472f9502d86121ccf08b021b73b50359eead1dbc094a",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_chalkboard/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "9ffe7ba37f71387fa6167133a71f11df3ad365e71af2c9b0fa00853c72456b28",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_chalkboard/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_chalkboard/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "e512887239abcc3d8de71795379c7346c26cbdf270bbbb3bc76b0d78702e3454",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_chalkboard/ResidueMask.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "3bb689bf8d6074b7f5bdaf63d6f77e022b85434cadfc2ecd46dd54f8d2de808d",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/teaching_chalkboard/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "4c8f9fb1f9140cebe1624449ccb4dcf6b590c648d8fdf668b9f79e084efed74b",
+          "colorspace": "Non-Color"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2545 @@
+{
+  "method": "Real native SBS authoring + Adobe cooker + sbsrender 16-bit outputs",
+  "seed": 3087,
+  "normal": "OpenGL",
+  "materials": [
+    {
+      "family": "book_00",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_00_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_00_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_00_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_00",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_00_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_00_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_00_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_00/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "deb6dc37ce149da35f0c0e5582b543f891756aa2dc265b9686169ad9c5da4c62",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_00/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_00/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_00/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_00/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "768db22b5f5998a48d438e0d02cf69b0198fb1eb6b73b2248961293b9da82023",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_00/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "9f87e00a56253b4ef44d123576b5972003a461b973fb4f9e87ae21cf90c4c387",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_01",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_01_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_01_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_01_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_01",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_01_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_01_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_01_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_01/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "12f5cfb5f11c58ea389404d55f8a9fc58611eb621ec27ce651b20f8670ab5b70",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_01/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_01/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_01/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_01/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "7a5cedfdf6571d4c92b8d5d51eceaeeff49651cad706bb70c91830ae481da79a",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_01/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "bdd0581b1f904ba1929ca4093aa6b9ac1eebfc50b2bf1bc4f9378d1f2c041a8a",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_02",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_02_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_02_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_02_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_02",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_02_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_02_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_02_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_02/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "626b182681095a440b301e395c91c068c5da317e42dfbc6f7fbe6cf92ec3f5fa",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_02/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_02/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_02/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_02/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "d59d339c6da1bf9dd04188af3591db20b33b72a552b4fc0fc11f022e6aa1dd66",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_02/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "f82d158cf18867a86f9e43db54be61e32d9abc7a88b2fd86b2bea9368710b632",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_03",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_03_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_03_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_03_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_03",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_03_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_03_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_03_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_03/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "58960fda2328053ccf60930fd1f2ab39bb171a18ed841bb02846cbc1e9df20cb",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_03/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_03/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_03/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_03/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "9e067ccdb9d2b5fbfbe0c62a529287962a34031e981fbc81abb2239eaba13ed3",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_03/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "84cfe9a96121987e40d7cb1e4708992d0cae281baf81c79f6cba655b21d5be0b",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_04",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_04_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_04_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_04_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_04",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_04_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_04_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_04_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_04/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "2139244f97dd9e43d96edc8307b337b24223df45f00405bb67011ef4a3bd6803",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_04/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_04/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_04/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_04/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "89645b8748cbfd1dbd1c3f9b27f2f5b326807c760d9490bec791854d2ecdbc35",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_04/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "62a1e07c85affdb4dbd481ddf58e68bb18f5f6c3556736a75baa6c0412c1aaf5",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_05",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_05_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_05_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_05_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_05",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_05_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_05_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_05_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_05/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "370f8f7bf08cd79ed25652e07bda84969ff7d40ef236dd51f347f886f4b49519",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_05/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_05/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_05/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_05/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "274b65018149bbe9b0e77c7aecae2f3c735a612dc0691f4e9ad7c200ff96718d",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_05/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "b0c344e010a169b1304c593d8dd02210bd83de06f2694e2b7e5bf12d8447414f",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_06",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_06_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_06_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_06_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_06",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_06_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_06_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_06_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_06/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "48934df972a16ce4e9d3d5e048b4d4ad6f7927177703f86d904145d0d5e22c6d",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_06/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_06/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_06/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_06/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "a42fcef0d0388401b53a9e5af051a1026a9a5e31210bf2483d16a6c3d36c260e",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_06/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "31224375768b549748d30622a0704d0b4216391527a02762050edb4ca430e6f6",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_07",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_07_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_07_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_07_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_07",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_07_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_07_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_07_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_07/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "be15552cd85d327f753728a48cc13e80e7ae2bcfa5836a105c2fbc8b0b967fa4",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_07/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_07/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_07/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_07/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "d8b4c73622ce7e492d6b907b318152ad5ecd876e042d27080396cb49f38571c0",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_07/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "0ba54a4c130c02c128e5a10a59e488be2b9a05f42d62925561b63c0995ef4a4c",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_08",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_08_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_08_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_08_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_08",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_08_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_08_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_08_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_08/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "d631cbcf38ddd3311b1c04e7fd4480a74e22700e934414854d7e20f0393716a2",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_08/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_08/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_08/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_08/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "5ee76d1cf3c5d8984ac14ec4ded0d9b4a03423f0fff544a3e1cde133ae23a0f7",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_08/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "5799fff7661ef7a4a3676898d543231b244e61411c7632b952de1ca16c552b48",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_09",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_09_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_09_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_09_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_09",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_09_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_09_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_09_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_09/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "79b5ccd7bd3ce5166e7a3d1ffe21f0014709fec5dd2d7965f1a5e5116fa8ddf5",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_09/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_09/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_09/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_09/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "0f744508e32d5b4aa2fc1b4be49c7aaf842cb9cb26cb57431213dba2d7829c74",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_09/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "ae1ad6a3efd4ff1f32c881dd8360316d19f1cff24db80e678f9ec2ca1f6175f4",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_10",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_10_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_10_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_10_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_10",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_10_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_10_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_10_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_10/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "1b48ebe73e566e754063eb7fd73af28f2d63b30feed267bfd0531f4f4e5aa6ff",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_10/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_10/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_10/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_10/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "aa35f83adad3c23727d0c9c6658b5f3cac925e2349b7506ef0fb5bec86efd8f9",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_10/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "647133f50827cc170b70ada266bb39fdfba22ba2c647e13af2902552e0ebd3d9",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_11",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_11_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_11_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_11_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_11",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_11_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_11_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_11_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_11/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "53d09100ed38124072b52624fb7df90460a3dd647cde742d065abde43c78a1a4",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_11/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_11/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_11/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_11/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "dc696f3da89390a16244f0e890459a672c646404eeb6c98107ca70f22c925295",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_11/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "78c2210d3cd1b42ade107934b005e24cfa125ea7a383924de89ca267b84d46af",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_12",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_12_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_12_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_12_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_12",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_12_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_12_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_12_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_12/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "72069c2298456830e1ad2659fc8b418f954e7ccfcfeaa4759775216232d41a1b",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_12/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_12/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_12/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_12/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "2480340e98864a45b14389ede11efb068e838c74debc7d3e8d3a1be44f133a56",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_12/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "0b2dac067c8e76ba413e62488c1acc42eed0c41ad9ec8836cbaa46154cf1ba5c",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_13",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_13_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_13_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_13_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_13",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_13_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_13_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_13_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_13/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "bbd8eb569b77ffea251b60ecb32452df5101a6a5394f624ebfc03419d73e7ed4",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_13/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_13/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_13/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_13/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "31587a1d1cc0efebf35064eb2f2b37782f0c16ac08418af6d4b7661c5ff72ce7",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_13/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "898519d661aca5e64a6f96f4b1161bbb0c3098f49253905a51cfbeb41db5d081",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "book_14",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+      "native_nodes": 34,
+      "inputs": {
+        "CoverArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_14_cover.png",
+        "SpineArtwork": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_14_spine.png",
+        "WearPlacement": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_14_wear.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "CoverArtwork",
+        "SpineArtwork",
+        "WearPlacement",
+        "Handling"
+      ],
+      "tile_m": 0.35,
+      "height_range_m": 0.00018,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_book.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_14",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "CoverArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_14_cover.png",
+          "--set-entry",
+          "SpineArtwork@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_14_spine.png",
+          "--set-entry",
+          "WearPlacement@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\book_14_wear.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_14/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "056cccc628169963d62297346c4bc288305e7f9b10a6f5b81c41e34e095b96bb",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_14/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "18df42f33f32cd42519a40292e1d05de11c65d0d15b9b1ea9ab509e83bbfca05",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_14/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_14/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_14/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "b23011234b6617c5b565a2c1d3921700c720fb448710258a9b752f74ae891cd4",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/book_14/SpineColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "caf4e856ffc50128f5170f31eb870760b489eedf15dc46b256c71bfff1191a65",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_00",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbsar",
+      "native_nodes": 19,
+      "inputs": {
+        "OriginalPrint": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_00_art.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "OriginalPrint"
+      ],
+      "tile_m": 0.3,
+      "height_range_m": 8e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_00",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "OriginalPrint@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_00_art.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "58b87f3dbab7712472731ba83f710d4a96fde0b75c75cd91948dc951e86dda87",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "46f90840e68cb3fa1451eb2bc6764309bdadfa587ede06f32cb31e64f607b06f",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "334ab430d7ebff28cf911d0a57aa4c71881cc4669fcd99b795a6616c0b58a17b",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_01",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbsar",
+      "native_nodes": 19,
+      "inputs": {
+        "OriginalPrint": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_01_art.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "OriginalPrint"
+      ],
+      "tile_m": 0.3,
+      "height_range_m": 8e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_01",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "OriginalPrint@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_01_art.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e68106cae7a32edac100a75e5835173bd778cd90da72e7fa73fddd51bb4fae31",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "9d92cac362bcb60bee601e4414a00e15bcb418db15edf7aa49271dc63e59ae7d",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "d28467705b89cb041bb2127c46562b570bebe422bf07a58c1807a401e451695f",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_02",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbsar",
+      "native_nodes": 19,
+      "inputs": {
+        "OriginalPrint": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_02_art.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "OriginalPrint"
+      ],
+      "tile_m": 0.3,
+      "height_range_m": 8e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_02",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "OriginalPrint@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_02_art.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "c6d16c5c6bbf1651c7d64db62d5ebbe87d01ddcaf9482be8b35f7c18d77be05e",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e22bbb05afb1ec88231d731c770f219887ab9feaec455ded6bf1b55dee0a2a83",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "709e260c307ad9ba4cacea239c489a7c2ed2acf53fa1fa5a2288b92106c45b17",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_03",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbsar",
+      "native_nodes": 19,
+      "inputs": {
+        "OriginalPrint": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_03_art.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "OriginalPrint"
+      ],
+      "tile_m": 0.3,
+      "height_range_m": 8e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_03",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "OriginalPrint@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_03_art.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "abb521a74f82b5037a95c62bcae5caabc7e404ae2f8cdc118bd088525e1bf0a5",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "af495ade229934caadf24b87bb9eace37511e0f3c31de72e570acd171eb21abb",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "bc43cb7027f9bd1ea5e33873ef6c0b9ce34ce4588b644dd018b4259342b18373",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_04",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbsar",
+      "native_nodes": 19,
+      "inputs": {
+        "OriginalPrint": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_04_art.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "OriginalPrint"
+      ],
+      "tile_m": 0.3,
+      "height_range_m": 8e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_04",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "OriginalPrint@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_04_art.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "be8afefdd9259ef52281fe86c37c29f1a73c8e48b8a556b77797efa4427fa572",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "354c10e7cb6594d22d7d56651fa0d223bbf60a008ef948a4b971ac6f92a941b2",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "51ae14dbe501499b9402d10ed7fabf69274b3c294e711bc0a33ae91ac57b5644",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "notice_05",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbsar",
+      "native_nodes": 19,
+      "inputs": {
+        "OriginalPrint": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_05_art.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "OriginalPrint"
+      ],
+      "tile_m": 0.3,
+      "height_range_m": 8e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_notice.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_05",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "OriginalPrint@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\notice_05_art.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "bf2615fe764a3467841410ccea26bd89df0256c304b20c0210a97159c23ea041",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "e74586dd4cc0636a95b3e29e2a61e5d1b242616ac4283d1d065140bd1e567281",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "088974145a3ad9754f102a0b53957d5a4a7bf362bd661a7cb81039b69b89b6de",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "teaching_detail_wood",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_wood.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_wood.sbsar",
+      "native_nodes": 25,
+      "inputs": {
+        "PreviousWoodColor": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\BaseColor.png",
+        "PreviousWoodNormal": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\Normal.png",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "PreviousWoodColor",
+        "PreviousWoodNormal",
+        "Handling"
+      ],
+      "tile_m": 0.5,
+      "height_range_m": 0.0002,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_wood.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_wood.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\teaching_detail_wood",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "PreviousWoodColor@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\BaseColor.png",
+          "--set-entry",
+          "PreviousWoodNormal@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\Normal.png",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_wood/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "f1bdaf1680eab90c4beb14b615b233c58352f2fd661d9683347443b80a35e2c7",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_wood/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "dccf652b2ab2ae34f950ec2fd026fb15c3bb86857444904866ef2f69bea2404d",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_wood/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_wood/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "fb3f555e52d2ff40dd8cd2df831691c9ef964c254848093c98e555a005014443",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_wood/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "f82bc7b396561f8f970e50e881707b12ce4c62a191f679ce97d71043d8ea8bed",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "teaching_detail_chalkboard",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_chalkboard.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_chalkboard.sbsar",
+      "native_nodes": 29,
+      "inputs": {
+        "LicensedEraserPhoto": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\chalkboard-blackboard-with-eraser-marks.jpg",
+        "Handling": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+      },
+      "parameters": {},
+      "public_parameters": [
+        "LicensedEraserPhoto",
+        "Handling"
+      ],
+      "tile_m": 4.14,
+      "height_range_m": 0.0002,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_chalkboard.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_chalkboard.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\teaching_detail_chalkboard",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@12,12",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "LicensedEraserPhoto@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\chalkboard-blackboard-with-eraser-marks.jpg",
+          "--set-entry",
+          "Handling@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\handling_ridges.png"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/BaseColor.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "0db9d1e7be0a2b002bf367ca98847c279d3b4524fa7cb7ef39d95fb255399fc6",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/Height.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "83438aa876ffde0144ff21a545fa0b95d5ca611afd1291e2bf3212f52a15de07",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/Metallic.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/Normal.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "b92d2f7b710a0077d387d7db9a79bb8b1cebc062792c11191d22da8cc5ea6fac",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/ResidueMask.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "536d98bfe52dab424f42800822981ddbfa4690a4545dac9ea16221bfd4c02472",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/Roughness.png",
+          "size": [
+            4096,
+            4096
+          ],
+          "sha256": "15f914c80b10d1ffbebde606be7b1be43b8cef25c12dda7b4ecb7cd55cfa4294",
+          "colorspace": "Non-Color"
+        }
+      ]
+    },
+    {
+      "family": "teaching_detail_eraser",
+      "source": "02_assets/materials/teaching_rebuild/detail/teaching_detail_eraser.sbs",
+      "sbsar": "02_assets/materials/teaching_rebuild/detail/teaching_detail_eraser.sbsar",
+      "native_nodes": 15,
+      "inputs": {},
+      "parameters": {},
+      "public_parameters": [],
+      "tile_m": 0.15,
+      "height_range_m": 0.00045,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_eraser.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail\\teaching_detail_eraser.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\teaching_sd\\detail\\teaching_detail_eraser",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_eraser/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "06fd6e34465ec812cd82a0b1ef26575bbb8e4ee956ccb7ce7c86a712f4626bfb",
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_eraser/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "1cc35167b5f62bb249fd32cc7367788c5866889080e3fdd05c76959f187c849f",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_eraser/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_eraser/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "47ec5fd1130d71c6da25ce0f0af3d7499d7c763df074ebd2c05393da8662a3f3",
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/generated/teaching_sd/detail/teaching_detail_eraser/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "35dbbdc73dd3ec1f899c9a1e70993367a7d4724d32e83dbafa22a8873830a604",
+          "colorspace": "Non-Color"
+        }
+      ]
+    }
+  ]
+}

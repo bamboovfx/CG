@@ -1,0 +1,124 @@
+{
+  "sources": [
+    {
+      "asset": "wood_table_worn",
+      "channel": "Diffuse",
+      "resolution": "1k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_table_worn/wood_table_worn_diff_1k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_wood_detail\\wood_table_worn\\wood_table_worn_diff_1k.jpg",
+      "pixels": [
+        1024,
+        1024
+      ],
+      "md5": "8c71f701f70fef34b87fb7c8742ad0a5",
+      "sha256": "092ab3465a6a24b24d092ea86865f332c3bd239b8eb2fd664b70357082031a3f",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/wood_table_worn"
+    },
+    {
+      "asset": "wood_table_worn",
+      "channel": "Diffuse",
+      "resolution": "8k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/wood_table_worn/wood_table_worn_diff_8k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_wood_detail\\wood_table_worn\\wood_table_worn_diff_8k.jpg",
+      "pixels": [
+        8192,
+        8192
+      ],
+      "md5": "594cce098bdfc7df2020e267d8c08847",
+      "sha256": "ddd429aed0fa613c2047b5986e91adf330764628eee3980b3661f55330350ebd",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/wood_table_worn"
+    },
+    {
+      "asset": "wood_table_worn",
+      "channel": "Rough",
+      "resolution": "8k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/8k/wood_table_worn/wood_table_worn_rough_8k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_wood_detail\\wood_table_worn\\wood_table_worn_rough_8k.jpg",
+      "pixels": [
+        8192,
+        8192
+      ],
+      "md5": "014dfee94db610af5025cd219691fa72",
+      "sha256": "00ba5894211b4676c186e95fa85869fb10205e5cc449e1780da6560cd90cfed2",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/wood_table_worn"
+    },
+    {
+      "asset": "wood_table_worn",
+      "channel": "nor_gl",
+      "resolution": "8k",
+      "format": "png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/wood_table_worn/wood_table_worn_nor_gl_8k.png",
+      "path": "02_assets\\textures\\external\\polyhaven_wood_detail\\wood_table_worn\\wood_table_worn_nor_gl_8k.png",
+      "pixels": [
+        8192,
+        8192
+      ],
+      "md5": "d6416fe94e409b47160659f5ec7709aa",
+      "sha256": "ff91fe70c68e1e880caf696218efd6fadd68fd71aaa2dff75d58dae4f58be692",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/wood_table_worn"
+    },
+    {
+      "asset": "wood_table_worn",
+      "channel": "Displacement",
+      "resolution": "8k",
+      "format": "png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/8k/wood_table_worn/wood_table_worn_disp_8k.png",
+      "path": "02_assets\\textures\\external\\polyhaven_wood_detail\\wood_table_worn\\wood_table_worn_disp_8k.png",
+      "pixels": [
+        8192,
+        8192
+      ],
+      "md5": "bcf88ef291c316c45796cc483927c524",
+      "sha256": "9d687737eaacea99fba97cfded51bc3179f4779ee4355f0a92913f4786cdd437",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/wood_table_worn"
+    },
+    {
+      "asset": "wood_table_large",
+      "channel": "Diffuse",
+      "resolution": "1k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_table_large/wood_table_large_diff_1k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_wood_detail\\wood_table_large\\wood_table_large_diff_1k.jpg",
+      "pixels": [
+        1024,
+        1024
+      ],
+      "md5": "4c1bf503c099a51ead8228656f0e9412",
+      "sha256": "d06afd0064bd6f3bb8ee6a66fd42cfd085d33552ffc225bf41e109dcda8f2901",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/wood_table_large"
+    },
+    {
+      "asset": "wood_table_001",
+      "channel": "Diffuse",
+      "resolution": "1k",
+      "format": "jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wood_table_001/wood_table_001_diff_1k.jpg",
+      "path": "02_assets\\textures\\external\\polyhaven_wood_detail\\wood_table_001\\wood_table_001_diff_1k.jpg",
+      "pixels": [
+        1024,
+        1024
+      ],
+      "md5": "56652a7339b16a76afad20d3585f66ea",
+      "sha256": "460dd08d240f4a1f02982415048c3c5c200f385db212da18dc7e2df68bf4d0be",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "source_page": "https://polyhaven.com/a/wood_table_001"
+    }
+  ],
+  "use": "CC0 original production texture assets; reference study"
+}

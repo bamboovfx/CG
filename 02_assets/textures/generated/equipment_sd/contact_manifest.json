@@ -1,0 +1,89 @@
+{
+  "name": "equipment_contact_film",
+  "source": "02_assets/materials/equipment_rebuild/equipment_contact_film.sbs",
+  "sbsar": "02_assets/materials/equipment_rebuild/equipment_contact_film.sbsar",
+  "nodes": 19,
+  "tile_cm": 8,
+  "height_range_cm": 1e-05,
+  "input_artwork": null,
+  "outputs": [
+    {
+      "file": "02_assets/textures/generated/equipment_sd/equipment_contact_film/BaseColor.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "86c6c093c0e62ffc5bbc18fe5548c3b12c4596525599ffaa15a33e34a9e1d5e9",
+      "colorspace": "sRGB"
+    },
+    {
+      "file": "02_assets/textures/generated/equipment_sd/equipment_contact_film/Height.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "3b721cce04eec2e4200f0d83c07add4938897ad307ec19b3022364ec3fff7912",
+      "colorspace": "Non-Color"
+    },
+    {
+      "file": "02_assets/textures/generated/equipment_sd/equipment_contact_film/Metallic.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "colorspace": "Non-Color"
+    },
+    {
+      "file": "02_assets/textures/generated/equipment_sd/equipment_contact_film/Normal.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "6bb80e2c0a744a29ed9dcb9e6a2e7e99e3ae81d131dc39b5e6ad3f66e45f3d81",
+      "colorspace": "Non-Color"
+    },
+    {
+      "file": "02_assets/textures/generated/equipment_sd/equipment_contact_film/Roughness.png",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "e477c786d86e116e3dd36d6ff823bcce322127798cbb2d5738a63f9e79740cd2",
+      "colorspace": "Non-Color"
+    }
+  ],
+  "source_sha256": "21cad3324b94374f114d3092fca80c69147580571b5fbcdbf31fe9dbfd84ea54",
+  "sbsar_sha256": "d9ec8e6dde6d6af4f1bacc88aac066f3fa42c135ebeb11502866ac9b3e45d3bd",
+  "license": "Original native procedural graph using locally licensed Adobe nodes. No photographic inputs.",
+  "placement": "Height output is also the contact mask; normal depth 0.1 micrometre. UV patches identify actual hand/contact areas.",
+  "seed": 122,
+  "commands": [
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_contact_film.sbs",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild",
+      "--alias",
+      "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+    ],
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+      "render",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\equipment_rebuild\\equipment_contact_film.sbsar",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\equipment_sd\\equipment_contact_film",
+      "--output-name",
+      "{outputNodeName}",
+      "--set-value",
+      "$outputsize@11,11",
+      "--engine",
+      "d3d11",
+      "--output-bit-depth",
+      "16",
+      "--no-report"
+    ]
+  ]
+}

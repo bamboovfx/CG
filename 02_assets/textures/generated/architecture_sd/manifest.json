@@ -1,0 +1,491 @@
+{
+  "date": "2026-09-11",
+  "authoring": "Editable native SD graphs, real local Adobe sbscooker and sbsrender exports. No Pillow maps used.",
+  "seed": 91126,
+  "normal": "OpenGL",
+  "materials": [
+    {
+      "family": "linen",
+      "source": "02_assets/materials/architecture_rebuild/architecture_linen.sbs",
+      "sbsar": "02_assets/materials/architecture_rebuild/architecture_linen.sbsar",
+      "nodes": 22,
+      "tile_metres": 0.25,
+      "height_range_metres": 0.00019,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild\\architecture_linen.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild\\architecture_linen.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\architecture_sd\\linen",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report",
+          "--set-entry",
+          "ScanColor@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Color.jpg",
+          "--set-entry",
+          "ScanHeight@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Displacement.jpg",
+          "--set-entry",
+          "ScanRoughness@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Roughness.jpg"
+        ]
+      ],
+      "inputs": [
+        {
+          "name": "ScanColor",
+          "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Color.jpg",
+          "sha256": "7aa2ae8d953523c1e7489b4fa7ffd3cfda8f463738db4ddebbbaf126a1ee351a",
+          "source": "https://ambientcg.com/view?id=Fabric030",
+          "license": "CC0"
+        },
+        {
+          "name": "ScanHeight",
+          "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Displacement.jpg",
+          "sha256": "7b8e73c76896fc630797396268ddfe40989f75455ab5c35d2415f878c15a41a6",
+          "source": "https://ambientcg.com/view?id=Fabric030",
+          "license": "CC0"
+        },
+        {
+          "name": "ScanRoughness",
+          "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Roughness.jpg",
+          "sha256": "ac4806ea54090d5979f5052eb02f72b27cb01762ebfafa82cce2464e5274c1ec",
+          "source": "https://ambientcg.com/view?id=Fabric030",
+          "license": "CC0"
+        }
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/architecture_sd/linen/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "3b9cc0c4fb576ea215c3356d247e51b271c1b92fe4c612d9aadaf389da5c3d4e",
+          "colorspace": "sRGB",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/linen/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "f9ddcf632301acb4f959168b0ced46bcda288dbe75dd4ceeecdd0b5123aca3c6",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/linen/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/linen/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "80dc428ec995d3259bc5c1f67cf85cfc07590702c20d0543732000dda83fcb59",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/linen/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "02446fa74c5a9760b4bd8056e87aca8acab7fca290bd87488902136104006dfd",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/linen/Transmission.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "f1566168001856f4047f67ead5f8d7b86ad41bfcdddcd38b30e7bb04e0b4777c",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        }
+      ]
+    },
+    {
+      "family": "enamel",
+      "source": "02_assets/materials/architecture_rebuild/architecture_enamel.sbs",
+      "sbsar": "02_assets/materials/architecture_rebuild/architecture_enamel.sbsar",
+      "nodes": 19,
+      "tile_metres": 0.25,
+      "height_range_metres": 8e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild\\architecture_enamel.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild\\architecture_enamel.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\architecture_sd\\enamel",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "inputs": [],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/architecture_sd/enamel/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "1e0f393aebbe2b4ea4ea2b96a27ae65ad04f91266beb6dee96dfebb4b0d46b9f",
+          "colorspace": "sRGB",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/enamel/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "c6ba6564ac9e656c3f51445ab0904a9975ec1200c7e06927ebdd354c70122068",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/enamel/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/enamel/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "b04bd73390b2fc2f01abede75e3a18068acb9639e8123fdb456c6a384d4586d6",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/enamel/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "fb840646180aae685e32d03629533671c287479e1a35be8025d20e869d2e0547",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        }
+      ]
+    },
+    {
+      "family": "metal",
+      "source": "02_assets/materials/architecture_rebuild/architecture_metal.sbs",
+      "sbsar": "02_assets/materials/architecture_rebuild/architecture_metal.sbsar",
+      "nodes": 18,
+      "tile_metres": 0.2,
+      "height_range_metres": 1.8e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild\\architecture_metal.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild\\architecture_metal.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\architecture_sd\\metal",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "inputs": [],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/architecture_sd/metal/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "68f8e621c2e7b55fb0cd6103b3d30132be0932c8a374232172958cd54aa3404a",
+          "colorspace": "sRGB",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/metal/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "cae23f1bee026aaa6d3cdbe9bf498b2b452ff4fe016dd2ba02824d3cb43cde2f",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/metal/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "ae03e734a8f037272dc36b2b3a71eb9c10989f02073322283d33856105d529ce",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/metal/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "5b91329bf037274acda578428a4e15043df46398fdc4404094db7d2a3cce2bca",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/metal/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "81140594cf85392bf8e06f23ab987b64fd963d34200575a37c5e2e546a79a7c4",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        }
+      ]
+    },
+    {
+      "family": "glass",
+      "source": "02_assets/materials/architecture_rebuild/architecture_glass.sbs",
+      "sbsar": "02_assets/materials/architecture_rebuild/architecture_glass.sbsar",
+      "nodes": 17,
+      "tile_metres": 1,
+      "height_range_metres": 3e-07,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild\\architecture_glass.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild\\architecture_glass.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\architecture_sd\\glass",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "inputs": [],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/architecture_sd/glass/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "401dcd3e1312debf0aacdd77e4b5826881aaac4741b6c7886858ac8fd41e4a27",
+          "colorspace": "sRGB",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/glass/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "1daba23470ab6d15d26d9537f1ea61066c7b02d758a93f9d5291bbc5640ad964",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/glass/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/glass/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "5bd05ff4c7223f8549247afb05e0c7227f36d4f267c236f81dd74c73e459b1b9",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/glass/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "28af8f6036c331bcd8d4130209f4c4bdd9c39feeea0f9c851886e8470e43d4a8",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        }
+      ]
+    },
+    {
+      "family": "polymer",
+      "source": "02_assets/materials/architecture_rebuild/architecture_polymer.sbs",
+      "sbsar": "02_assets/materials/architecture_rebuild/architecture_polymer.sbsar",
+      "nodes": 17,
+      "tile_metres": 0.25,
+      "height_range_metres": 2.6e-05,
+      "commands": [
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild\\architecture_polymer.sbs",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild",
+          "--alias",
+          "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+        ],
+        [
+          "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+          "render",
+          "--inputs",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\architecture_rebuild\\architecture_polymer.sbsar",
+          "--output-path",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\architecture_sd\\polymer",
+          "--output-name",
+          "{outputNodeName}",
+          "--set-value",
+          "$outputsize@11,11",
+          "--engine",
+          "d3d11",
+          "--output-bit-depth",
+          "16",
+          "--no-report"
+        ]
+      ],
+      "inputs": [],
+      "files": [
+        {
+          "path": "02_assets/textures/generated/architecture_sd/polymer/BaseColor.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "bfba4c0956e5de0074d2a54db8d01fef84bf2ea3a535270847bf3a86fe3b44e1",
+          "colorspace": "sRGB",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/polymer/Height.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "1daba23470ab6d15d26d9537f1ea61066c7b02d758a93f9d5291bbc5640ad964",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/polymer/Metallic.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/polymer/Normal.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "c783973076a73f80df513d382cd1338c139417607d9b88eb397251e35c86d7fc",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        },
+        {
+          "path": "02_assets/textures/generated/architecture_sd/polymer/Roughness.png",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "4145ed52740fd0ff7bac8964d68e666a94fd4d2a992e1b713267e6c64bdd4ad1",
+          "colorspace": "Non-Color",
+          "bit_depth": 16
+        }
+      ]
+    }
+  ]
+}

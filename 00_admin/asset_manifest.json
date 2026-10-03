@@ -1,0 +1,3963 @@
+{
+  "date": "2026-09-13",
+  "chair_reference_refinement": {
+    "updated": "2026-09-11",
+    "source": "02_assets/work/school_chair.blend",
+    "dependencies": "06_review/chair_reference/validation.json",
+    "texture_policy": "Reuses existing 2K authored micro-surface and 4K Poly Haven/SD material families; no downloaded or AI-generated images added in this pass.",
+    "wood_scale_m": 0.6,
+    "status": "reference_refined_visual_review_pending"
+  },
+  "credit": "Powered by Poly Haven; ambientCG",
+  "assets": [
+    {
+      "id": "old_wooden_floor_03",
+      "provider": "Poly Haven",
+      "resolution": "4k",
+      "usage": "Retained legacy source; active classroom floor replaced by SD-finished parquet in 2026-09-11 modular revision",
+      "license": "CC0",
+      "page_url": "https://polyhaven.com/a/old_wooden_floor_03",
+      "files": [
+        {
+          "path": "02_assets/textures/polyhaven/old_wooden_floor_03/4k/old_wooden_floor_03_diff_4k.jpg",
+          "bytes": 14857962,
+          "sha256": "d135d1c0047280afa9c7ec6278519401a4291170cc187233e0e6cd64938810ba",
+          "channel": "diff",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/old_wooden_floor_03/old_wooden_floor_03_diff_4k.jpg",
+          "md5": "8bea559eed59ac56b8f6a7e8e9e3b632"
+        },
+        {
+          "path": "02_assets/textures/polyhaven/old_wooden_floor_03/4k/old_wooden_floor_03_rough_4k.jpg",
+          "bytes": 9629136,
+          "sha256": "810fe884b2fdcde7bab89add136454960b354a82097c1caad0560df1ff79d906",
+          "channel": "rough",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/old_wooden_floor_03/old_wooden_floor_03_rough_4k.jpg",
+          "md5": "fcbe709c277eb3de094152e972e1fc2c"
+        },
+        {
+          "path": "02_assets/textures/polyhaven/old_wooden_floor_03/4k/old_wooden_floor_03_nor_gl_4k.png",
+          "bytes": 89159572,
+          "sha256": "9d945b70e003f20999a8e6abe9294de7170b6a3d10332da7cfe412466c32e044",
+          "channel": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/old_wooden_floor_03/old_wooden_floor_03_nor_gl_4k.png",
+          "md5": "070bec28ba5101f93b03b870dc1d00fe"
+        }
+      ]
+    },
+    {
+      "id": "plywood",
+      "provider": "Poly Haven",
+      "resolution": "4k",
+      "usage": "Desk and chair plywood faces",
+      "license": "CC0",
+      "page_url": "https://polyhaven.com/a/plywood",
+      "files": [
+        {
+          "path": "02_assets/textures/polyhaven/plywood/4k/plywood_diff_4k.jpg",
+          "bytes": 16467261,
+          "sha256": "0d628704affb5fa38ef4c886ad9a70f6ddfffe9c22ed5c84b03e27ef5505cfd9",
+          "channel": "diff",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/plywood/plywood_diff_4k.jpg",
+          "md5": "da449a51c2be0c34b8ebc5c058fc61b4"
+        },
+        {
+          "path": "02_assets/textures/polyhaven/plywood/4k/plywood_rough_4k.jpg",
+          "bytes": 13314048,
+          "sha256": "dcc9f8ce7a483dcc4c3ad2298ba3b9083df341ad9cf5a8d3c4d853eef369ba65",
+          "channel": "rough",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/plywood/plywood_rough_4k.jpg",
+          "md5": "4b8d051d4500b90ed1b59c1284ffbf70"
+        },
+        {
+          "path": "02_assets/textures/polyhaven/plywood/4k/plywood_nor_gl_4k.png",
+          "bytes": 22958150,
+          "sha256": "a154da1d16e29a5abeaf7350e7dbd45680d88f2f272d1e01e20032171f5b0a22",
+          "channel": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/plywood/plywood_nor_gl_4k.png",
+          "md5": "3ddf13f7f7c1a32a9744cf9837e91d1f"
+        }
+      ]
+    },
+    {
+      "id": "painted_plaster_wall",
+      "provider": "Poly Haven",
+      "resolution": "2k",
+      "usage": "Painted classroom walls, tinted sage/ivory",
+      "license": "CC0",
+      "page_url": "https://polyhaven.com/a/painted_plaster_wall",
+      "files": [
+        {
+          "path": "02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_diff_2k.jpg",
+          "bytes": 3132937,
+          "sha256": "6fd812ed8dd5be1873c29aeef38ce9bf1fb30a22c6d4b3a12db725e98c26a1be",
+          "channel": "diff",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/painted_plaster_wall/painted_plaster_wall_diff_2k.jpg",
+          "md5": "32f4f4e5ded7d20e55e337004d0d9691"
+        },
+        {
+          "path": "02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_rough_2k.jpg",
+          "bytes": 1595466,
+          "sha256": "35aad595469533cc3b7cc209cc6c7e065d660211f02c867f4492d3b371b1fee1",
+          "channel": "rough",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/painted_plaster_wall/painted_plaster_wall_rough_2k.jpg",
+          "md5": "7cdd5fbbe56f7becb757fc5b52d11d28"
+        },
+        {
+          "path": "02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_nor_gl_2k.png",
+          "bytes": 22789885,
+          "sha256": "322041257ab0dad1a1a1c18d98bc28689136103f6a64d4849f7aa3ae5b8b090f",
+          "channel": "nor_gl",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/painted_plaster_wall/painted_plaster_wall_nor_gl_2k.png",
+          "md5": "2eba0da17c1d194537c1231cb412e310"
+        }
+      ]
+    },
+    {
+      "id": "Fabric030",
+      "provider": "ambientCG",
+      "resolution": "2k",
+      "usage": "Curtain weave and roughness",
+      "license": "CC0",
+      "page_url": "https://ambientcg.com/view?id=Fabric030",
+      "files": [
+        {
+          "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG.zip",
+          "bytes": 38032768,
+          "sha256": "7fc77fde6203911713a2fa41fa54f41f400c2670f7f7a3f4d57567dfdbf733e8"
+        },
+        {
+          "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_AmbientOcclusion.jpg",
+          "bytes": 2854049,
+          "sha256": "19d2e4f9f510f8582412120087bc9326fb42aa6b18fff2666d5b1fd56836dc69",
+          "source": "Extracted from verified Fabric030_2K-JPG.zip"
+        },
+        {
+          "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Color.jpg",
+          "bytes": 7286913,
+          "sha256": "7aa2ae8d953523c1e7489b4fa7ffd3cfda8f463738db4ddebbbaf126a1ee351a",
+          "source": "Extracted from verified Fabric030_2K-JPG.zip"
+        },
+        {
+          "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Displacement.jpg",
+          "bytes": 2673205,
+          "sha256": "7b8e73c76896fc630797396268ddfe40989f75455ab5c35d2415f878c15a41a6",
+          "source": "Extracted from verified Fabric030_2K-JPG.zip"
+        },
+        {
+          "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_NormalDX.jpg",
+          "bytes": 10163906,
+          "sha256": "fc6079fb14e01e20b9e0492f95263d6ba76ecf47022f5d514a534fd8f05752df",
+          "source": "Extracted from verified Fabric030_2K-JPG.zip"
+        },
+        {
+          "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_NormalGL.jpg",
+          "bytes": 10149065,
+          "sha256": "7c871bf6969e45e5aa11c5d04c7ad141dbc0aadf1124b7eeb9b0b42eb0c8890b",
+          "source": "Extracted from verified Fabric030_2K-JPG.zip"
+        },
+        {
+          "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Roughness.jpg",
+          "bytes": 3421323,
+          "sha256": "ac4806ea54090d5979f5052eb02f72b27cb01762ebfafa82cce2464e5274c1ec",
+          "source": "Extracted from verified Fabric030_2K-JPG.zip"
+        }
+      ]
+    },
+    {
+      "id": "kiara_1_dawn",
+      "provider": "Poly Haven",
+      "author": "Greg Zaal",
+      "resolution": "2k",
+      "license": "CC0",
+      "page_url": "https://polyhaven.com/a/kiara_1_dawn",
+      "usage": "Window exterior and environment lighting; rotation 115 degrees, strength 0.22",
+      "files": [
+        {
+          "path": "02_assets/hdri/polyhaven/kiara_1_dawn/2k/kiara_1_dawn_2k.hdr",
+          "size": [
+            2048,
+            1024
+          ],
+          "bytes": 6149550,
+          "sha256": "7261c613b35a9b760ed5c7846ec8182532b90d89f6a8385c42bb743883159a66",
+          "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/kiara_1_dawn_2k.hdr"
+        }
+      ]
+    },
+    {
+      "id": "classroom_authored_2k",
+      "provider": "Original project procedural and typeset textures",
+      "resolution": "2k",
+      "usage": "Shared micro-surfaces, notice graphics and fictional candy label; not scanned PBR",
+      "dependency_manifest": "00_admin/texture_dependencies.json"
+    },
+    {
+      "id": "school_desk_reference_authored_2k",
+      "provider": "Project authored; Poly Haven source wood grain",
+      "resolution": "2k",
+      "usage": "Single desk work file, not integrated into classroom library",
+      "license": "Authored maps; source wood grain CC0. Artist examples are method references only.",
+      "source": {
+        "url": "https://polyhaven.com/a/plywood",
+        "license": "CC0",
+        "path": "02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg",
+        "sha256": "0d628704affb5fa38ef4c886ad9a70f6ddfffe9c22ed5c84b03e27ef5505cfd9"
+      },
+      "method_references": [
+        {
+          "url": "https://tsvetelina-valkanova.artstation.com/projects/mN3JY",
+          "used": "Artist description of separate rust, rough metal and paint layers; no textures copied"
+        },
+        {
+          "url": "https://andreariccardi.artstation.com/projects/QzmB2B",
+          "used": "Artist description of independently controlled age and wear; no textures copied"
+        }
+      ],
+      "files": [
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/foot_caps_BaseColor.png",
+          "sha256": "0f585fce672395c7a83677781037a16bd7a53abbc86b48b389218bdceb0e6a86",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Height.png",
+          "sha256": "f9297d1648362f49b4eaa0b54c80fba9d954f5687e4a8ce7fb595e30a6c92d87",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Metallic.png",
+          "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Roughness.png",
+          "sha256": "359ac167e3e9258e3334619b2197cff7dcf0b7032ca751653acbef5237a35855",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_left_BaseColor.png",
+          "sha256": "bd9f6e68a7f9b3a24cf8fe304fd5752e7bd418edbc16cca948c2bbbec3966f69",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_left_DirtMask.png",
+          "sha256": "728c5d6085ce5710cbc4de2e8f61e9a355bec984f8c7af035de7db1ffea75f1f",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_left_Height.png",
+          "sha256": "c3163d135ffc632802a2f0290ef4a844dfbbd0722c07f52f8aeb36151af8a678",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_left_Metallic.png",
+          "sha256": "ad2ad597758a88e34255b9a8153edf19f5f3a93b4cec76bb820791dedb76dc4a",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_left_Roughness.png",
+          "sha256": "a9b34836929ad549ddcd1c63a2443d17d20f509cfded9d265c2709e486b637ae",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_left_RustMask.png",
+          "sha256": "73dbabcbe7eaac8b468616ab7dd6877066600e62196718a4bc8930aa9e50c678",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_left_WearMask.png",
+          "sha256": "765ba7c2309a3ce746986dc395e6fa8206f051188f56e423e723dc4283ed8a60",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_right_BaseColor.png",
+          "sha256": "082e836bacd083b45942c76eb9169d97295f9e6088adebc38eca52f88682d6b8",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_right_DirtMask.png",
+          "sha256": "dc0d11719106c90c54318e59a9b33bd485572cb14af514154ebb41d4a7598c07",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_right_Height.png",
+          "sha256": "7b4e689c79203fdf4cad58df6046f051ed331fd5e304b733dd91ebd855f6fc74",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_right_Metallic.png",
+          "sha256": "6cbb8ef2e852803eb4096344caf6cd13e2e3bfa785cb90b03af82e2e63fb0b70",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_right_Roughness.png",
+          "sha256": "fc9160631db7a05cc112c616af947cbb45361e716f556ad15602604ec4643fdc",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_right_RustMask.png",
+          "sha256": "09c935f933e0edf8cf243b2d8a94b8b7cc6e1ea91b0e23fe5fc394a28c1d6180",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/frame_right_WearMask.png",
+          "sha256": "26e207e96b106b8b176e809f2276f880cefbd4fa7161df3890f5d3f7fb09bff7",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/hardware_BaseColor.png",
+          "sha256": "7919f60dc84a8e2de25287399e8e29377c816ec31923df288089993a6345dcee",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/hardware_DirtMask.png",
+          "sha256": "308aadf4bf0ff1d24c3adfe37e295f2a493906c13488776bd93bcbea76f5ca64",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/hardware_Height.png",
+          "sha256": "6ed18629ccdd9b7f7721297a838067d9518648f47cd7479913dd12b28296bf0d",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/hardware_Metallic.png",
+          "sha256": "d35b58bb52153eab97c5f38420c57e9dcd676e4bf2b98f81a3acb5f71ad6dc83",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/hardware_Roughness.png",
+          "sha256": "4b7f44f2ab5457ac227d6091c4944cc32cfdfc329f0fed0ea8087c4d307b0993",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/hardware_RustMask.png",
+          "sha256": "6c6ee4528f3871131888e456a1af01c87767c0905e552ea8db445f08cf6896b5",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/hardware_WearMask.png",
+          "sha256": "be4d27c47f6b51707f8bc8f05b21dbb71e20c8a8b44d4339f336e32b702f919e",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/laminate_top_BaseColor.png",
+          "sha256": "aa08df8e33b75c3d900529e0f5e73930f1b554eb2fe645a79897fe4f2e342815",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Height.png",
+          "sha256": "60f76ca3092f1c63537d449c8b219d4b4164db17b65ae370a2175d28fb2d7b98",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Metallic.png",
+          "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Roughness.png",
+          "sha256": "88a4f2f5a9086bbb4bdac8c62eed5a5fdc61d399fa4b2de794abe7fccd90c8be",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/lower_brace_BaseColor.png",
+          "sha256": "fdbc812126e3f332c93f0798a682bd5082297f686469f88a0bf063edbedcbeef",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/lower_brace_DirtMask.png",
+          "sha256": "8df5aaa154e5266cb5b20f16e78ee3cf31167c658cd5348aa5cd9c478c23c025",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/lower_brace_Height.png",
+          "sha256": "ad4807eecb18cfa88c4378d9baf6dd35d89482b0dd0208413fdaa7558c354198",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/lower_brace_Metallic.png",
+          "sha256": "c20c3c0e61f3f7f93729ff43c1b3859338d91e78ba912603df7f81bc69994b07",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/lower_brace_Roughness.png",
+          "sha256": "5c34104117d943d34176882fb79f05c50ee1b7c97218df49cdffa71c106aa714",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/lower_brace_RustMask.png",
+          "sha256": "bd506e895828855c28f59814cbc5dd280487b77f89c9125afbc25b221008b529",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/lower_brace_WearMask.png",
+          "sha256": "b09480c0b53aeb5df7a0a5ce8a4dbe0039302e745e2ff4fd4d78470db80b8834",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/plywood_edge_BaseColor.png",
+          "sha256": "8c391e7ba1ae18b0433df211f56912596951eec87d8a8ce53dc3ff80384ab0fb",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/plywood_edge_Height.png",
+          "sha256": "538a8588f52bb0ebb38690b6d1e0a02006b0d21b236df34f9aae7878bca7586b",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/plywood_edge_Metallic.png",
+          "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/plywood_edge_Roughness.png",
+          "sha256": "0d2e9f944f6a73eed423f729ba76d78fda9ffd41ffad5d58a36e182d809aa116",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_BaseColor.png",
+          "sha256": "c8d1c18b70e5199dd7bd8291ed16b722234fa4f14d4dab22c4baa4919b674ad9",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_DirtMask.png",
+          "sha256": "7307d7286e88d527e544164a229a1691034c2c642c48d63f9883ad2d5037737f",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_front_BaseColor.png",
+          "sha256": "7b13287bc0b3bf7f569b200f97d27ed2b4fe758c45c264f73f08b40f5e09814e",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "sRGB"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_front_DirtMask.png",
+          "sha256": "7307d7286e88d527e544164a229a1691034c2c642c48d63f9883ad2d5037737f",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_front_Height.png",
+          "sha256": "3be3cd2f00e028f03a42b00192438a2037d97304a65b32c7261ba78084952b66",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_front_Metallic.png",
+          "sha256": "b06a5da5ba9e522eb8900b47f23c469e5f2e964c68d93001443fb6bbefee1840",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_front_Roughness.png",
+          "sha256": "120b1719be8107875cfc171ed441f66fbd0f3168360ce3f6b0f8dd0f7b1fa1e9",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_front_RustMask.png",
+          "sha256": "f102ff3e3a6baa051cc5c1bb034aa735cffaab6c645a190639813b076df96da6",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_front_WearMask.png",
+          "sha256": "f84abffb2a699067911e3b37a0c07e836dfeaa82a119aa2ba8966c2ef1dff832",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_Height.png",
+          "sha256": "3be3cd2f00e028f03a42b00192438a2037d97304a65b32c7261ba78084952b66",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_Metallic.png",
+          "sha256": "b06a5da5ba9e522eb8900b47f23c469e5f2e964c68d93001443fb6bbefee1840",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_Roughness.png",
+          "sha256": "120b1719be8107875cfc171ed441f66fbd0f3168360ce3f6b0f8dd0f7b1fa1e9",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_RustMask.png",
+          "sha256": "f102ff3e3a6baa051cc5c1bb034aa735cffaab6c645a190639813b076df96da6",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        },
+        {
+          "path": "02_assets/textures/authored/school_desk/2k/tray_WearMask.png",
+          "sha256": "f84abffb2a699067911e3b37a0c07e836dfeaa82a119aa2ba8966c2ef1dff832",
+          "size": [
+            2048,
+            2048
+          ],
+          "colorspace": "Non-Color"
+        }
+      ],
+      "dependency_manifest": "02_assets/textures/authored/school_desk/texture_manifest.json"
+    },
+    {
+      "id": "school_desk_native_sd_metal",
+      "provider": "Authored native Substance Designer graph",
+      "resolution": [
+        "2k",
+        "4k"
+      ],
+      "usage": "Desk enamel / steel / oxide; physical 20cm tile; Cycles located edge wear",
+      "source": "02_assets/materials/school_desk/school_desk_painted_steel.sbs",
+      "manifest": "02_assets/textures/generated/school_desk_sd/manifest.json",
+      "validation": "06_review/desk_crack_wear/validation.json",
+      "work_file": "02_assets/work/school_desk.blend",
+      "status": "material revision saved; user visual approval pending; not integrated into shot",
+      "method": "Procedural Adobe native nodes, no diffusion generation or copied reference textures"
+    },
+    {
+      "id": "sunset_jhbcentral",
+      "provider": "Poly Haven",
+      "license": "CC0",
+      "page_url": "https://polyhaven.com/a/sunset_jhbcentral",
+      "resolution": "4k",
+      "usage": "Current shot city rooftop dusk environment",
+      "files": [
+        {
+          "path": "02_assets\\hdri\\polyhaven\\sunset_jhbcentral\\4k\\sunset_jhbcentral_4k.exr",
+          "sha256": "aadcdd1a62b1cd6355444756946a5122ad9de88f190ac1d6ac6cb914f3da7677",
+          "bytes": 18180266,
+          "channel": "HDR environment",
+          "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/sunset_jhbcentral_4k.exr"
+        }
+      ]
+    }
+  ],
+  "school_desk_geometric_wood_revision": {
+    "date": "2026-09-11",
+    "work_file": "02_assets/work/school_desk.blend",
+    "scope": "50 visible desk mesh objects; review rig and hidden reference objects excluded",
+    "edge_method": "Pre-modifier face angle >60 degrees, post-bevel edge_distance_m and edge_wear_valid; shared raw mesh reference per object",
+    "wood_method": "Existing Poly Haven plywood 4K color and OpenGL normal; 0.6m isotropic object-space scan tile; procedural 3D chips, scratches and physical plywood layers",
+    "wood_chip_depth_m": 0.00035,
+    "wood_grain_relief_m": 3.5e-05,
+    "wood_scan_source_asset_id": "plywood",
+    "legacy_wood_images": "Original authored 2K images retained in disconnected comment frames; base UV retained",
+    "script": "07_pipeline/scripts/apply_desk_all_edges_wood.py",
+    "validation": "07_pipeline/cache/desk_all_edges_wood/verified.json",
+    "review": "06_review/desk_all_edges_wood/review.md",
+    "status": "Saved for user visual review; not integrated into shot"
+  },
+  "working_texture_policy": "Default working images 2K. Desk wood uses existing original 4K color/normal scans for requested close-up precision; procedural damage evaluated continuously in metres.",
+  "modular_sd_revision": {
+    "date": "2026-09-11",
+    "method": "Native Substance Designer graphs, real Adobe cooker/render exports; licensed scans as documented inputs",
+    "normal_convention": "OpenGL",
+    "graphs": [
+      {
+        "source": "02_assets/materials/architecture_rebuild/architecture_enamel.sbs",
+        "source_sha256": "fb7ac90165686848620a7756af9f3b547e4bc12578f82d615d343c105f2b5ced",
+        "sbsar": "02_assets/materials/architecture_rebuild/architecture_enamel.sbsar",
+        "sbsar_sha256": "a8f131d8e67a7f2fb391ff30375e2c204115d1423a0b72aa4447491bd67cb970"
+      },
+      {
+        "source": "02_assets/materials/architecture_rebuild/architecture_glass.sbs",
+        "source_sha256": "754d2cd7282ecb3cbe7b3dec2784e0ba0700c4f1a6fb91621e252597818d0ca6",
+        "sbsar": "02_assets/materials/architecture_rebuild/architecture_glass.sbsar",
+        "sbsar_sha256": "660c765e448fb0cdb5c5eb7d1fd41f1cc93c01866625aec7ad7b1e9c4e1df9bb"
+      },
+      {
+        "source": "02_assets/materials/architecture_rebuild/architecture_linen.sbs",
+        "source_sha256": "ede06abab4f78ff6d61eab266462d0b4e18112a7eb7ba26b9cb44440257aa6a7",
+        "sbsar": "02_assets/materials/architecture_rebuild/architecture_linen.sbsar",
+        "sbsar_sha256": "59b45f43c7c28176b9a24ea922a2bd6a303d07c6f2d00f4f7543fc67ae7f79e6"
+      },
+      {
+        "source": "02_assets/materials/architecture_rebuild/architecture_metal.sbs",
+        "source_sha256": "1fcf3e82a935c663d6f956c0f1d38d83464008c1be8abbda08b02a64ce422c46",
+        "sbsar": "02_assets/materials/architecture_rebuild/architecture_metal.sbsar",
+        "sbsar_sha256": "bd5062669303578d7e3f196c113d1538fcfbcc3f0cede1862725c1c3884510ce"
+      },
+      {
+        "source": "02_assets/materials/architecture_rebuild/architecture_polymer.sbs",
+        "source_sha256": "30c08997fbcbef0f7b4772e8d0d29774dd80ce4fc5416876e54f9505f8e20d88",
+        "sbsar": "02_assets/materials/architecture_rebuild/architecture_polymer.sbsar",
+        "sbsar_sha256": "178b17ea7da7dd52fba5ac22a600fc0dd01ebd812dc141b851999b6f38f6966f"
+      },
+      {
+        "source": "02_assets/materials/equipment_rebuild/equipment_abs.sbs",
+        "source_sha256": "9ee1a21db6be9d404652c7ec5a627fddc7d909a99de7be46e11d621d6c7a191f",
+        "sbsar": "02_assets/materials/equipment_rebuild/equipment_abs.sbsar",
+        "sbsar_sha256": "94542b41faba86eb67bfd211c2c5b333f69326cc0fb2c442c646dff4f2591956"
+      },
+      {
+        "source": "02_assets/materials/equipment_rebuild/equipment_dark.sbs",
+        "source_sha256": "0434b1333c62271afefa56811fec6bd85a4759c377e514f1dd1150a302ddb8fa",
+        "sbsar": "02_assets/materials/equipment_rebuild/equipment_dark.sbsar",
+        "sbsar_sha256": "8ef3ee1de26478ec7a6d00164f3fb5eae0b712eb05836e7198e1888941d1d868"
+      },
+      {
+        "source": "02_assets/materials/equipment_rebuild/equipment_enamel.sbs",
+        "source_sha256": "2aff9d3b441cda076ecb3d7470ec15780520ce79c7e507471805f839d5796b3a",
+        "sbsar": "02_assets/materials/equipment_rebuild/equipment_enamel.sbsar",
+        "sbsar_sha256": "48f8d5f9f117dc22e5476aef8b4620738564f0810278842c9e05d52250cd6e8e"
+      },
+      {
+        "source": "02_assets/materials/equipment_rebuild/equipment_exposed_wood.sbs",
+        "source_sha256": "6905d0c217e79846d2e2e23b80f6d3e33d7746c90bb86f1e54098160436db687",
+        "sbsar": "02_assets/materials/equipment_rebuild/equipment_exposed_wood.sbsar",
+        "sbsar_sha256": "87271ce74d3ae180b037c42ad4bebce1c661999a4aefefb46f34eaabc16ea22c"
+      },
+      {
+        "source": "02_assets/materials/equipment_rebuild/equipment_glass.sbs",
+        "source_sha256": "9637337bfaafb923cf87a15eb469b724fb12c1432b96f11ac334d5eae9b0c0cc",
+        "sbsar": "02_assets/materials/equipment_rebuild/equipment_glass.sbsar",
+        "sbsar_sha256": "3d35d52bbed6ff3ebdd741b62346bd3a8c2c11f1f0f35587e6f020045201d2f7"
+      },
+      {
+        "source": "02_assets/materials/equipment_rebuild/equipment_metal.sbs",
+        "source_sha256": "e8159c473d4a46783b5823528c94a34d79dc27709f87295a23cf41bd59b0036a",
+        "sbsar": "02_assets/materials/equipment_rebuild/equipment_metal.sbsar",
+        "sbsar_sha256": "188be3df190cd5b9d7e38b09d63518ef4a943a520fdd86b82013f25b4a8c3fdc"
+      },
+      {
+        "source": "02_assets/materials/equipment_rebuild/equipment_paper.sbs",
+        "source_sha256": "f8d295ed547f079b7da3b6ea459326a59f5f6dd6ae00fb785893755b225eb097",
+        "sbsar": "02_assets/materials/equipment_rebuild/equipment_paper.sbsar",
+        "sbsar_sha256": "755b4627a8f1bbf1e1096dc1361c54585d95c497302d56da08eff3553ef7afdd"
+      },
+      {
+        "source": "02_assets/materials/equipment_rebuild/equipment_rubber.sbs",
+        "source_sha256": "8af202034cea7c21cd95c8a3bcd9ba38ab260d89a4994538d1eb3c95c1e98ce5",
+        "sbsar": "02_assets/materials/equipment_rebuild/equipment_rubber.sbsar",
+        "sbsar_sha256": "2ed2f3a08951cc8d426f0619031a3b89b8d3413d931df9083081b9caa866c43b"
+      },
+      {
+        "source": "02_assets/materials/equipment_rebuild/equipment_varnished_wood.sbs",
+        "source_sha256": "c857f5b65deafc4de51d36f2d7892e67624f9177310a206f7de2ace0f2304b17",
+        "sbsar": "02_assets/materials/equipment_rebuild/equipment_varnished_wood.sbsar",
+        "sbsar_sha256": "c274e7343ba750aba81a5cb96f5867f5ea805114954dfe2c24b7dbe72b961cfa"
+      },
+      {
+        "source": "02_assets/materials/teaching_rebuild/teaching_bookcloth.sbs",
+        "source_sha256": "286e78f3adb3e4c6e4e43a6b7a6357ec033ccedd4834686fb3d355cb575b59a1",
+        "sbsar": "02_assets/materials/teaching_rebuild/teaching_bookcloth.sbsar",
+        "sbsar_sha256": "faad836af28cabc3e94a77897eec064b6b4371aa1c78ecc5a9a356a8113ff4e7"
+      },
+      {
+        "source": "02_assets/materials/teaching_rebuild/teaching_chalkboard.sbs",
+        "source_sha256": "00b805979dc60981ed4919bfa823e04f4a6f4770ab13aa9df43b6afff09fc0d3",
+        "sbsar": "02_assets/materials/teaching_rebuild/teaching_chalkboard.sbsar",
+        "sbsar_sha256": "d21f382617404515b443f71c6e81cd146a725059ccecc7f8f1d2803c49333909"
+      },
+      {
+        "source": "02_assets/materials/teaching_rebuild/teaching_felt.sbs",
+        "source_sha256": "a7895173417a7d8fc48bf8e8720fdc0d773ad960405f3a6ffaf5a66617637070",
+        "sbsar": "02_assets/materials/teaching_rebuild/teaching_felt.sbsar",
+        "sbsar_sha256": "6c16e56509e16a958da65a3236ad759e6961ebc4231fb4272687ad0ef2b70f8d"
+      },
+      {
+        "source": "02_assets/materials/teaching_rebuild/teaching_notices.sbs",
+        "source_sha256": "3930c55fc4a4fd4ed1f97ef3ab77db06f92902e8f5f940dff83e19b20f8d6904",
+        "sbsar": "02_assets/materials/teaching_rebuild/teaching_notices.sbsar",
+        "sbsar_sha256": "55e3a65b45aca4e476f48ef57b561e0e758a67cffcc3ee05cd469f7c165239e1"
+      },
+      {
+        "source": "02_assets/materials/teaching_rebuild/teaching_paper.sbs",
+        "source_sha256": "c9c7fc086ecc1fcfe37cf81213065e017c5f677bccaa5a82a0c522e732f4fa35",
+        "sbsar": "02_assets/materials/teaching_rebuild/teaching_paper.sbsar",
+        "sbsar_sha256": "cdb5dad4a0416c3349692585d19aacb42bc664b627bb5f2e42d0e099a008f3ed"
+      },
+      {
+        "source": "02_assets/materials/teaching_rebuild/teaching_varnished_wood.sbs",
+        "source_sha256": "c907a8931d36d0f1c71ea293852946b658361854dd88f19b29752e2581e00d39",
+        "sbsar": "02_assets/materials/teaching_rebuild/teaching_varnished_wood.sbsar",
+        "sbsar_sha256": "732d71a28c6edd2ad04feb6b85cf919b75d1d859e6120020ac132e9a6f989cc4"
+      },
+      {
+        "source": "02_assets/materials/shell_tin_rebuild/aged_tinplate.sbs",
+        "source_sha256": "c796120f1721f6bfd3c14431b1433036c6e9eefc61c0f91bdc5c41acdb949591",
+        "sbsar": "02_assets/materials/shell_tin_rebuild/aged_tinplate.sbsar",
+        "sbsar_sha256": "bdb0b0bd2c0675694633aff7d96fbf52880f145679b76f80069ca43aa565eaaf"
+      },
+      {
+        "source": "02_assets/materials/shell_tin_rebuild/painted_school_plaster.sbs",
+        "source_sha256": "9dfe8405cc740ce606c5af8d4ad1860bd32d5ca80c56d3a8e02d5cc34c7b1280",
+        "sbsar": "02_assets/materials/shell_tin_rebuild/painted_school_plaster.sbsar",
+        "sbsar_sha256": "9981b2f33a621ff9792e8fd354aeb0dd61f7d3df85ad6c89f1b618c6eb3ac92c"
+      },
+      {
+        "source": "02_assets/materials/shell_tin_rebuild/parquet_varnished_oak.sbs",
+        "source_sha256": "ca704339d579cfccf214ec9d2d67c1f234009fd3e735158e157579caa574cbe1",
+        "sbsar": "02_assets/materials/shell_tin_rebuild/parquet_varnished_oak.sbsar",
+        "sbsar_sha256": "d681cccd18e1c420372e1ea0d270fa8bec6b7b696eac7773eb47fe223d74ad2c"
+      },
+      {
+        "source": "02_assets/materials/shell_tin_rebuild/printed_candy_tin.sbs",
+        "source_sha256": "7c9e50da208c25c4a9e6df68c4f9253c723f7200e5ae243f26ad9cddd224c067",
+        "sbsar": "02_assets/materials/shell_tin_rebuild/printed_candy_tin.sbsar",
+        "sbsar_sha256": "6f03c57512fa9193e31e33a4c16f4487402ec35b827e9d0693fa4f278cc0330f"
+      },
+      {
+        "source": "02_assets/materials/shell_tin_rebuild/red_candy_lacquer.sbs",
+        "source_sha256": "a9f933d7dcb823a3458ff98570f5a98565b57be84f96993bc34bcda3c7a4789d",
+        "sbsar": "02_assets/materials/shell_tin_rebuild/red_candy_lacquer.sbsar",
+        "sbsar_sha256": "1eb2440c6e7fc153eb2c38a2db7f1dacecefb8a5df6a3a1291cb60c38a14131e"
+      }
+    ],
+    "groups": [
+      {
+        "name": "建筑 / 窗帘",
+        "source": "02_assets/work/classroom_architecture.blend",
+        "review": "06_review/architecture_rebuild/review_sd.md"
+      },
+      {
+        "name": "木柜 / 设备",
+        "source": "02_assets/work/classroom_equipment.blend",
+        "review": "06_review/equipment_rebuild/review.md"
+      },
+      {
+        "name": "黑板 / 教学陈设",
+        "source": "02_assets/work/classroom_teaching.blend",
+        "review": "06_review/teaching_rebuild/review.md"
+      },
+      {
+        "name": "房间壳体 / 糖果罐",
+        "source": "02_assets/work/classroom_shell_tin.blend",
+        "review": "06_review/shell_tin_rebuild/review.md"
+      }
+    ],
+    "textures": [
+      {
+        "name": "frame_right_Metallic.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\frame_right_Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Roughness.png.024",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_03\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.031",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\red_candy_lacquer\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.008",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\dark\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "SteelBaseColor.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelBaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "foot_caps_Roughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\foot_caps_Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Metallic.png.023",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_02\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.026",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\enamel\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.028",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.022",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_bookcloth\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.006",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\metal\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_front_DirtMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_front_DirtMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "RustBaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\RustBaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.030",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\printed_candy_tin\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.002",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\polymer\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.018",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_paper\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.016",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\metal\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.003",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\glass\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "laminate_top_Roughness.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\laminate_top_Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.011",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\rubber\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.012",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\varnished_wood\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.014",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\Normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "laminate_top_Height.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\laminate_top_Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "laminate_top_Metallic.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\laminate_top_Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Roughness.png.005",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\enamel\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "frame_right_Roughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\frame_right_Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.024",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_03\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.031",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\red_candy_lacquer\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.016",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\metal\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.027",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\parquet_varnished_oak\\Roughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\enamel\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "hardware_Roughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "hardware_RustMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_RustMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "PaintHeight.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintHeight.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.004",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\linen\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.021",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_01\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_front_Roughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_front_Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "tray_BaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "RustRoughness.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\RustRoughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.002",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\polymer\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.018",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_paper\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "laminate_top_BaseColor.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\laminate_top_BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "tray_DirtMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_DirtMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Metallic.png.012",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\varnished_wood\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.014",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\Roughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "laminate_top_Metallic.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\laminate_top_Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Roughness.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\metal\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "laminate_top_Roughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\laminate_top_Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.008",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\dark\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "frame_right_BaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\frame_right_BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "foot_caps_BaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\foot_caps_BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "Normal.png.023",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_02\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.026",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\enamel\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.028",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.022",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_bookcloth\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "SteelBaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelBaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.030",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\printed_candy_tin\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_front_RustMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_front_RustMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "PaintBaseColor.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintBaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.005",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\enamel\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.018",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_paper\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_RustMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_RustMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\metal\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "laminate_top_BaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\laminate_top_BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.019",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_felt\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.010",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\glass\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.009",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\abs\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "frame_left_DirtMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\frame_left_DirtMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.027",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\parquet_varnished_oak\\BaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.006",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\metal\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "hardware_BaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "hardware_WearMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "RustRoughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\RustRoughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.004",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\linen\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.021",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_01\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_front_BaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_front_BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "SteelRoughness.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelRoughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.019",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_felt\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.007",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\paper\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.018",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_paper\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.016",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\metal\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_WearMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "lower_brace_DirtMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\lower_brace_DirtMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Metallic.png.025",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_04\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.010",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\glass\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.015",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_chalkboard\\Metallic.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.020",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_00\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.009",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\abs\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_Height.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "hardware_DirtMask.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_DirtMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Roughness.png.003",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\glass\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.007",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\paper\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.016",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\metal\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.023",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_02\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.028",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.022",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_bookcloth\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\enamel\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "PaintBaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintBaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.030",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\printed_candy_tin\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_front_WearMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_front_WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "RustHeight.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\RustHeight.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "lower_brace_DirtMask.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\lower_brace_DirtMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Metallic.png.005",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\enamel\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.025",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_04\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.015",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_chalkboard\\Normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.010",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\glass\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.020",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_00\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.009",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\abs\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "hardware_RustMask.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_RustMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Normal.png.003",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\glass\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.012",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\varnished_wood\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.014",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\BaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.003",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\glass\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "foot_caps_Height.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\foot_caps_Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Metallic.png.026",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\enamel\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.006",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\metal\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "SteelRoughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelRoughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.004",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\linen\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.021",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_01\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "PaintRoughness.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintRoughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.019",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_felt\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.007",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\paper\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.029",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\aged_tinplate\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.002",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\polymer\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "frame_right_DirtMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\frame_right_DirtMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.010",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\glass\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.025",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_04\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.015",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_chalkboard\\Roughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "plywood_diff_4k.jpg.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.020",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_00\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.009",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\abs\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.029",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\aged_tinplate\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "hardware_WearMask.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.012",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\varnished_wood\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.017",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\dark\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_Metallic.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Metallic.png.002",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\polymer\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.013",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\exposed_wood\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "ExposedRoughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\ExposedRoughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.023",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_02\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.022",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_bookcloth\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.027",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\parquet_varnished_oak\\Normal.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\enamel\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "hardware_Height.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "RustHeight.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\RustHeight.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Transmission.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\linen\\Transmission.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.030",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\printed_candy_tin\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_front_Height.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_front_Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "SteelHeight.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelHeight.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "frame_right_RustMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\frame_right_RustMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.025",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_04\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.015",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_chalkboard\\BaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "plywood_diff_4k.jpg",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "hardware_BaseColor.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "Metallic.png.029",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\aged_tinplate\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "hardware_Height.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Normal.png.017",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\dark\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.011",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\rubber\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\metal\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_Roughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Metallic.png.013",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\exposed_wood\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "ExposedBaseColor.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\ExposedBaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "foot_caps_Metallic.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\foot_caps_Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Normal.png.026",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\enamel\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.028",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.006",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\metal\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "RustBaseColor.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\RustBaseColor.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "PaintRoughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintRoughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "rubber_roughness_2k.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\classroom\\2k\\rubber_roughness_2k.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Roughness.png.019",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_felt\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.007",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\paper\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.020",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_00\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "frame_right_WearMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\frame_right_WearMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Metallic.png.024",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_03\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.031",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\red_candy_lacquer\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.031",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\red_candy_lacquer\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.029",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\aged_tinplate\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "hardware_Metallic.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Roughness.png.017",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\dark\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\metal\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.011",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\rubber\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "rubber_color_2k.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\classroom\\2k\\rubber_color_2k.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": false
+      },
+      {
+        "name": "kiara_1_dawn_2k.hdr",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\07_pipeline\\cache\\modular_integration\\..\\..\\..\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\hdri\\polyhaven\\kiara_1_dawn\\2k\\kiara_1_dawn_2k.hdr",
+        "size": [
+          2048,
+          1024
+        ],
+        "colorspace": "Linear Rec.709",
+        "is_sd_export": false
+      },
+      {
+        "name": "Roughness.png.013",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\exposed_wood\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "WearMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\WearMask.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "frame_right_Height.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\frame_right_Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "Normal.png.024",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_03\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.027",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\shell_tin_sd\\parquet_varnished_oak\\Metallic.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\enamel\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "hardware_Metallic.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "hardware_DirtMask.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_DirtMask.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "SteelHeight.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelHeight.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.004",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\architecture_sd\\linen\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.021",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\notice_01\\Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "tray_front_Metallic.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\tray_front_Metallic.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "PaintHeight.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintHeight.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "BaseColor.png.005",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\enamel\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.008",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\dark\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "Normal.png.008",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\dark\\Normal.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "hardware_Roughness.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\hardware_Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.017",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\dark\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Roughness.png.011",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\rubber\\Roughness.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "plywood_nor_gl_4k.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\polyhaven\\plywood\\4k\\plywood_nor_gl_4k.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "BaseColor.png.013",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\equipment_sd\\exposed_wood\\BaseColor.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "sRGB",
+        "is_sd_export": true
+      },
+      {
+        "name": "Metallic.png.014",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\generated\\teaching_sd\\teaching_varnished_wood\\Metallic.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": true
+      },
+      {
+        "name": "plywood_nor_gl_4k.png.001",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\polyhaven\\plywood\\4k\\plywood_nor_gl_4k.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      },
+      {
+        "name": "laminate_top_Height.png",
+        "path": "D:\\00_projects\\10_CG\\Shot_Test\\03_shots\\sq010\\sh010\\work\\..\\..\\..\\..\\02_assets\\library\\..\\textures\\authored\\school_desk\\2k\\laminate_top_Height.png",
+        "size": [
+          2048,
+          2048
+        ],
+        "colorspace": "Non-Color",
+        "is_sd_export": false
+      }
+    ]
+  },
+  "closeup_refinement": {
+    "date": "2026-09-12",
+    "sd_source": "02_assets/materials/closeup_surface",
+    "surface_manifest": "02_assets/textures/generated/closeup_surface/manifest.json",
+    "spine_manifest": "02_assets/textures/generated/closeup_spines/manifest.json",
+    "review": "06_review/detail_resume/review.html",
+    "status": "integrated, pending user visual review"
+  },
+  "front_quality_2026_09_12": {
+    "assets": [
+      "02_assets/work/classroom_teaching.blend",
+      "02_assets/work/classroom_equipment.blend",
+      "02_assets/work/school_desk.blend",
+      "02_assets/library/classroom_assets.blend"
+    ],
+    "texture_sources": "Existing Poly Haven plywood 4K diffuse/roughness/normal; existing authored blackboard wipe maps; native fibre and laminate micro-surface shaders. No new raster files.",
+    "podium_texture_scale_m": [
+      0.9,
+      0.6,
+      0.6
+    ],
+    "desk_texture_scale_m": 0.6,
+    "physical_details": "Routed board profiles, rounded felt and woven strap, layered podium edge/reveals, ceiling anchors/standoffs/cable.",
+    "validation": "06_review/front_quality/validation.json",
+    "status": "published_for_user_visual_review"
+  },
+  "surface_unify_2026_09_12": {
+    "source_files": [
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_teaching.blend",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_equipment.blend",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\school_chair.blend",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_shell_tin.blend",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_corridor.blend",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\library\\classroom_assets.blend"
+    ],
+    "wood": "Current desk color graph and existing Poly Haven plywood 4K diffuse/normal/roughness at 0.6 m, with lighter wear. Original parquet slat UV directions preserved.",
+    "paint": "Existing authored equipment enamel 2K maps with native metric corrosion masks and 0.28 mm chipped-paint bump.",
+    "walls": "Existing authored plaster maps retained; native trowel/aggregate bump plus Clouds-driven geometric displacement, strength 1.4 mm centered at 0.5.",
+    "new_raster_files": 0,
+    "validation": "06_review/surface_unify/validation.json",
+    "status": "published_for_user_visual_review"
+  },
+  "material_depth_2026_09_12": {
+    "source_files": [
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_teaching.blend",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_equipment.blend",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_shell_tin.blend",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_corridor.blend",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\library\\classroom_assets.blend"
+    ],
+    "new_texture_source": {
+      "author": "Amal Kumar",
+      "license": "CC0",
+      "source_scale_m": 2,
+      "resolution": 4096,
+      "download_date": "2026-09-12",
+      "source": "https://polyhaven.com/a/painted_plaster_wall",
+      "maps": [
+        {
+          "sha256": "0767e2ce85de2a651453f04c38ef6a8354eb1bc10da088a91e498fd036a31615",
+          "used_in_material": true,
+          "channel": "Displacement",
+          "file": "02_assets\\textures\\polyhaven\\painted_plaster_wall\\4k\\painted_plaster_wall_disp_4k.exr",
+          "md5": "0bdd32417ec30b3c96db16c8978e3a28",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/painted_plaster_wall/painted_plaster_wall_disp_4k.exr"
+        },
+        {
+          "sha256": "80cbdc7f155ab47bfb034ce2873bfe0514e750c85a12becafa4a33f484445216",
+          "used_in_material": true,
+          "channel": "Rough",
+          "file": "02_assets\\textures\\polyhaven\\painted_plaster_wall\\4k\\painted_plaster_wall_rough_4k.exr",
+          "md5": "69f2f92cbab217b26f4fb0f27d3c302d",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/painted_plaster_wall/painted_plaster_wall_rough_4k.exr"
+        },
+        {
+          "sha256": "791c081e0ad77aa6dbffe9c7c99ad5f095824a41f5922819f0c9e61ed1475890",
+          "used_in_material": false,
+          "channel": "nor_gl",
+          "file": "02_assets\\textures\\polyhaven\\painted_plaster_wall\\4k\\painted_plaster_wall_nor_gl_4k.exr",
+          "md5": "c470c0c6a33608ed4b99cd5960803012",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/exr/4k/painted_plaster_wall/painted_plaster_wall_nor_gl_4k.exr"
+        },
+        {
+          "sha256": "0d175fb5bdcb8e8a1eedc87cd5ab41fbfd01de84ee7c4f8907017011181e3990",
+          "used_in_material": false,
+          "channel": "Diffuse",
+          "file": "02_assets\\textures\\polyhaven\\painted_plaster_wall\\4k\\painted_plaster_wall_diff_4k.jpg",
+          "md5": "7db04e0e455152cf79e112f5852c973d",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/painted_plaster_wall/painted_plaster_wall_diff_4k.jpg"
+        }
+      ]
+    },
+    "native_materials": "Metric native corrosion fields and physical displacement; preserved 2K enamel, notice artwork and paper texture sources; native cellulose fibres and chalk deposition.",
+    "teacher_desk": "Existing AST_school_desk_HP and original school_desk.blend retained; only shot instance replaced.",
+    "pipeline": [
+      "material_depth_build.py",
+      "material_depth_finish.py",
+      "material_depth_powder_refine.py",
+      "material_depth_stage.py",
+      "material_depth_publish_assets.py",
+      "material_depth_live_merge.py"
+    ],
+    "validation": "06_review/material_depth/validation.json",
+    "status": "published_for_visual_review"
+  },
+  "metal_response": {
+    "updated": "2026-09-13",
+    "status": "integrated_pending_user_visual_review",
+    "review": "06_review/metal_response/review.html",
+    "notes": "Bare steel/aluminium/tin response, opaque paint/oxide masks, shallow machining, distinct zinc fasteners; original geometry displacement and live layout/camera/light edits retained.",
+    "validation": "06_review/metal_response/validation.json",
+    "final_render": "04_renders/sq010/sh010/metal_response/v001/scene_after2.png",
+    "source_records": [
+      {
+        "file": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\school_desk.blend",
+        "sha256": "dba64a79f0049c12d9da2837790ffc2bb6d3219283331feab4320b4a98a540d2",
+        "backup": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\metal_response\\desk_before.blend"
+      },
+      {
+        "file": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\school_chair.blend",
+        "sha256": "aa8f4d55ee232a49720b0bf505b7bbc02f72d7df1d4816b7da1ca1db616d3826",
+        "backup": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\metal_response\\chair_before.blend"
+      },
+      {
+        "file": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_teaching.blend",
+        "sha256": "d387e2ae75d9c032733af95ce3b754933344de6d00d2c63495b65b64245ec7bd",
+        "backup": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\metal_response\\teaching_before.blend"
+      },
+      {
+        "file": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_equipment.blend",
+        "sha256": "e109be01d553d07ccdb9025d1cc897639328020269f17e07c37b337183b6e703",
+        "backup": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\metal_response\\equipment_before.blend"
+      },
+      {
+        "file": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_architecture.blend",
+        "sha256": "c641acde1307a8e4d052d0c38a85125d93baf5bd9ced00ec22be099d0d0fec25",
+        "backup": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\metal_response\\architecture_before.blend"
+      },
+      {
+        "file": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_shell_tin.blend",
+        "sha256": "cefc379803226db810e5c2b46e0210443afa75cc8d08e9245816ef33d2f47dee",
+        "backup": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\metal_response\\shell_before.blend"
+      },
+      {
+        "file": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_corridor.blend",
+        "sha256": "c28e3a7738430521bed32d489a4cfd7dfa4409dbe4748bd09f0ebc6f444b7a50",
+        "backup": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\metal_response\\corridor_before.blend"
+      },
+      {
+        "file": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\library\\classroom_assets.blend",
+        "sha256": "473763c48af3dc9f410eddff9789cae9267f401bf32b8fd01fb03ff0480876df",
+        "backup": "D:\\00_projects\\10_CG\\Shot_Test\\07_pipeline\\cache\\metal_response\\library_before.blend"
+      }
+    ],
+    "recovery": "07_pipeline/cache/metal_response/shot_before.blend",
+    "references": [
+      {
+        "path": "01_preproduction/references/metal_response/painted_tubular_steel.jpg",
+        "source_page": "https://www.selency.fr/p/1BFGP8ZR/bureau-junior-twenty-tube-marc-berthier-edition-roche-bobois-1973",
+        "download_url": "https://images.selency.com/ac77a4b9-1bcb-43d7-bb1d-0e43f74c0d08?bg_colour=f5f5f5&func=bound&height=1266&width=1266",
+        "sha256": "ea370401833a7e1de639f99abec145c1e08a780efee0c714a5335c235c446607",
+        "license": "Copyright original owners; visual reference only, not applied as texture",
+        "retrieved": "2026-09-13"
+      },
+      {
+        "path": "01_preproduction/references/metal_response/satin_window_hardware.jpg",
+        "source_page": "https://www.jula.no/catalog/bygg-og-maling/beslag-og-byggematerial/vindu-dorbeslag/vindusbeslag/vindushandtak-026109/",
+        "download_url": "https://assets.cdn.jula.com/v2/preset%3Ajpgoptimized/w%3A1920/189720?lastmodified=20230710140931",
+        "sha256": "3e9292296a09a1335f567afefb3fb6e8bedbc3c7e37541906a887c17e5fcd997",
+        "license": "Copyright original owners; visual reference only, not applied as texture",
+        "retrieved": "2026-09-13"
+      },
+      {
+        "path": "01_preproduction/references/metal_response/vintage_painted_desk.jpg",
+        "source_page": "https://www.etsy.com/listing/4345435873/vintage-school-desk-metal-school-desk",
+        "download_url": "https://i.etsystatic.com/6975978/r/il/f5c3f7/7123024045/il_fullxfull.7123024045_q88b.jpg",
+        "sha256": "1b3cb506ce1257846fc6a9af58a1258e4786a3dec6974c793c984e7398c2d433",
+        "license": "Copyright original owners; visual reference only, not applied as texture",
+        "retrieved": "2026-09-13"
+      }
+    ],
+    "texture_policy": "Original 2K/4K maps retained. Added native procedural microfinish, no new bitmap texture generation; reference photos are not mapped textures."
+  },
+  "clock_imperfection": {
+    "date": "2026-09-14",
+    "status": "integrated_visual_review_pending_user_acceptance",
+    "source": "02_assets/work/classroom_equipment.blend",
+    "library": "02_assets/library/classroom_assets.blend",
+    "sd_source": "02_assets/materials/clock_imperfection/clock_imperfection.sbs",
+    "texture_manifest": "02_assets/textures/generated/clock_imperfection/manifest.json",
+    "review": "06_review/clock_imperfection.md",
+    "comparison": "06_review/clock_imperfection.html",
+    "render": "04_renders/sq010/sh010/clock_imperfection/v001/after_back.png",
+    "scope": "Clock black paint roughness and dedicated metric UV only; original geometry and scratch bump retained",
+    "shot_connection": "Disconnected as requested; no live shot reload",
+    "validation": {
+      "source_geometry_and_uv_preserved": true,
+      "library_geometry_preserved": true,
+      "before_after_same_lighting_reviewed": true,
+      "library_render_reviewed": true
+    },
+    "library_sha256": "08648468ea8ae7a3128427929848f02c33bcdd1044d057059d1cb2fd6811e9af"
+  },
+  "tv_reference_rebuild": {
+    "date": "2026-09-14",
+    "status": "rebuilt_and_saved_pending_user_visual_review",
+    "source": "02_assets/work/classroom_equipment.blend",
+    "library": "02_assets/library/classroom_assets.blend",
+    "collection": "AST_crt_television",
+    "editable_objects": 117,
+    "review": "06_review/tv_reference.html",
+    "reference_metadata": "01_preproduction/references/tv_reference/references.json",
+    "renders": "04_renders/sq010/sh010/tv_reference/v001",
+    "texture_policy": "Reuses authored 4K SD imperfections and existing micro-surface maps; no artist textures or models copied.",
+    "geometry_scope": "Consumer CRT cabinet, convex glass, recessed controls, perforated speakers, stepped rear hood, vents, fasteners and connectors; existing classroom cabinet retained.",
+    "validation": {
+      "source": {
+        "objects": 117,
+        "offset": [
+          -3.109999895095825,
+          3.9700000286102295,
+          1.2450000047683716
+        ],
+        "unrelated_objects_hash": "ab54f8e3679f4cafbb97b67a3628662377169f0c981767a7dbe3afa7968d3135",
+        "new_tv_hash": "db866eedcb8b9a5423ed334cb8e5c8e87c2db110ddcf7492643152175c81e3b9",
+        "missing_images": [],
+        "original_hash": "2443f5600c95d88bd2abb80efa2387c577e69e7a16f61f28d2297b1894a76d1d",
+        "canonical": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_equipment.blend",
+        "published_sha256": "d4da04355df1d2f3dfe8ce74ec5ee8fb717b3d63595ffe1c6966b88aab143973"
+      },
+      "library": {
+        "objects": 117,
+        "offset": [
+          -3.109999895095825,
+          3.9700000286102295,
+          1.2450000047683716
+        ],
+        "unrelated_objects_hash": "fb7a6e870cf210af1d5e217b93dc14535997c353916cb0cebe38a75ac15464a8",
+        "new_tv_hash": "057bd26d1d7f4980177cc3186cf212465da16889924512260d570dcfd541ad25",
+        "missing_images": [],
+        "original_hash": "08648468ea8ae7a3128427929848f02c33bcdd1044d057059d1cb2fd6811e9af",
+        "canonical": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\library\\classroom_assets.blend",
+        "published_sha256": "427867a6a4ae39bd7bb414555d3e65e8d05fcfcb4d104c63e6cd559a5d2c8f39"
+      }
+    },
+    "live_shot_connection": "Disconnected; open shot requires library reload.",
+    "recovery": [
+      "07_pipeline/cache/tv_reference/source_before_merge.blend",
+      "07_pipeline/cache/tv_reference/library_before_merge.blend"
+    ]
+  },
+  "tv_material_reference": {
+    "date": "2026-09-14",
+    "status": "published_pending_user_visual_review",
+    "source": "02_assets/work/classroom_equipment.blend",
+    "library": "02_assets/library/classroom_assets.blend",
+    "review": "06_review/tv_material/index.html",
+    "notes": "06_review/tv_material/review.md",
+    "reference_urls": [
+      "https://www.artstation.com/artwork/DvQ9Dn",
+      "https://www.artstation.com/artwork/nE129e"
+    ],
+    "material_count": 13,
+    "uv": "SurfaceMeters",
+    "texture_repeat_m": 0.4,
+    "scope": "Material slots only; TV geometry, transforms and non-TV bindings preserved. Existing SD maps reused, no new SD project or downloaded textures.",
+    "textures": [
+      {
+        "file": "02_assets/textures/generated/clock_imperfection/Roughness.png",
+        "sha256": "9b35e783e6b5a50e010a44d575b31edfd57a61c4142d4b0f9c55c4081496b664",
+        "color_space": "Non-Color",
+        "origin": "Existing project-authored SD numeric data; reused without image alteration"
+      },
+      {
+        "file": "02_assets/textures/generated/closeup_surface/closeup_polymer/Height.png",
+        "sha256": "e86e52cd4d675d8b0f436777fd70fe8acc36ba5816f5fcba27cb834d93fd10f1",
+        "color_space": "Non-Color",
+        "origin": "Existing project-authored SD numeric data; reused without image alteration"
+      },
+      {
+        "file": "02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png",
+        "sha256": "3531ea0772adfa09ad774fe1ef6996e48b0f692f36d7349eb9e733fdc4998403",
+        "color_space": "Non-Color",
+        "origin": "Existing project-authored SD numeric data; reused without image alteration"
+      }
+    ],
+    "validation": {
+      "source": {
+        "published_sha256": "2a42ee48d669351e8d8feeae15dd944132baff01ff6f65769ae76beeb8f7b192",
+        "geometry_and_unrelated_binding_hash": "3a1d81d0d79951020ffdac2ff756f15d9d4f71ef1cc92b8b33acfc14c17c751d",
+        "missing_images": []
+      },
+      "library": {
+        "published_sha256": "1ba63e782ddbfc2d0b8e97ad69514b6d297136d33db4145ba88021cb03cc92f5",
+        "geometry_and_unrelated_binding_hash": "eb93a19d2529ac2eaec7eb29caf9a490e557a7d551b6c109db348c997a3464a5",
+        "missing_images": []
+      }
+    },
+    "recovery": [
+      "07_pipeline/cache/tv_material/source_before_apply.blend",
+      "07_pipeline/cache/tv_material/library_before.blend"
+    ],
+    "live_shot": "Not connected or reloaded; reload the library to see changes."
+  },
+  "tv_surface_v2": {
+    "date": "2026-09-16",
+    "status": "published_pending_user_visual_review",
+    "source": "02_assets/work/classroom_equipment.blend",
+    "library": "02_assets/library/classroom_assets.blend",
+    "review": "06_review/tv_surface/index.html",
+    "reference_urls": [
+      "https://www.artstation.com/artwork/DvQ9Dn",
+      "https://www.artstation.com/artwork/nE129e"
+    ],
+    "scope": "TV material slots only. All geometry, transforms and non-TV material bindings preserved.",
+    "changes": [
+      "Blue-grey opaque paint with isolated exposed steel",
+      "Patchy deposits and grease plus existing scratches",
+      "Low-roughness clean glass with separate dirty film"
+    ],
+    "uv": "SurfaceMeters",
+    "texture_repeat_m": 0.4,
+    "textures": [
+      {
+        "file": "02_assets/textures/generated/clock_imperfection/Roughness.png",
+        "sha256": "9b35e783e6b5a50e010a44d575b31edfd57a61c4142d4b0f9c55c4081496b664",
+        "color_space": "Non-Color",
+        "origin": "Existing project-authored maps; no new SD graph or downloaded texture this pass"
+      },
+      {
+        "file": "02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png",
+        "sha256": "3531ea0772adfa09ad774fe1ef6996e48b0f692f36d7349eb9e733fdc4998403",
+        "color_space": "Non-Color",
+        "origin": "Existing project-authored maps; no new SD graph or downloaded texture this pass"
+      }
+    ],
+    "validation": {
+      "source": {
+        "sha256": "f813365617f48532571a55bd730ced432a241d509c7f0b357833f309856837d0",
+        "preserved_geometry_and_unrelated_bindings": "3a1d81d0d79951020ffdac2ff756f15d9d4f71ef1cc92b8b33acfc14c17c751d",
+        "missing_images": []
+      },
+      "library": {
+        "sha256": "c8a66f2c01205d8854f4ba3104237d599a8039428c8b74ff0755419b8cebf385",
+        "preserved_geometry_and_unrelated_bindings": "eb93a19d2529ac2eaec7eb29caf9a490e557a7d551b6c109db348c997a3464a5",
+        "missing_images": []
+      }
+    },
+    "recovery": [
+      "07_pipeline/cache/tv_surface_v2/source_before_apply.blend",
+      "07_pipeline/cache/tv_surface_v2/library_before.blend"
+    ],
+    "shot": "No canonical shot edits. Classroom check uses the captured shot copy; reload linked library in an already-open shot."
+  },
+  "tv_surface_v3": {
+    "date": "2026-09-16",
+    "status": "published_pending_user_visual_review",
+    "source": "02_assets/work/classroom_equipment.blend",
+    "library": "02_assets/library/classroom_assets.blend",
+    "scope": "TV material slots and two existing speaker grille meshes only; object transforms and all other geometry/materials verified unchanged.",
+    "dust": "Fine procedural particles and directional 4K SD wiping replace the previous thresholded low-frequency cloud noise.",
+    "av": "Front AV bay, lower recess, nickel socket rims and coloured insulators updated.",
+    "wire": {
+      "pitch_m": 0.0018,
+      "diameter_m": 0.00044,
+      "structure": "alternating over/under geometry",
+      "reference": "https://www.artstation.com/artwork/XJlmWw",
+      "attribution": "Vasyl Kysylychak — Free Wire Net Customizable Substance Material and Textures",
+      "usage": "Visual reference only; no marketplace material or image incorporated."
+    },
+    "textures": [
+      {
+        "path": "02_assets/textures/generated/clock_imperfection/Roughness.png",
+        "sha256": "9b35e783e6b5a50e010a44d575b31edfd57a61c4142d4b0f9c55c4081496b664",
+        "color_space": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/clock_imperfection/WipeMask.png",
+        "sha256": "ca8c450baf95098c80b3f30ea5b5e730b40de65e88db1c465a503d2ff91fd30c",
+        "color_space": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/clock_imperfection/OilMask.png",
+        "sha256": "ed8e4cc94e4796de2c0332d967d4d906037a533e164cb0251e207c60355688b9",
+        "color_space": "Non-Color"
+      },
+      {
+        "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png",
+        "sha256": "3531ea0772adfa09ad774fe1ef6996e48b0f692f36d7349eb9e733fdc4998403",
+        "color_space": "Non-Color"
+      }
+    ],
+    "validation": {
+      "source": {
+        "sha256": "e1e6eedbea5499a60715a51ead98cbc614ec64099b4c34ef7fb6b5f619ead097",
+        "preserved_hash_excluding_grille_meshes": "e80e1589e0f8993ec9920bae6e0121a90700ab35e0f35ecbeca8707b8d6404db",
+        "missing_images": []
+      },
+      "library": {
+        "sha256": "47fb7e3ed3b2f287c34cda39f1330cfcf8f7d1c6338502654a3f469f3881b0b7",
+        "preserved_hash_excluding_grille_meshes": "c8ec12bb8b7b63687af5e20e23206babb77feb9e082ccc3b5b77b02c4dd3b7c3",
+        "missing_images": []
+      }
+    },
+    "review": "06_review/tv_surface/index.html",
+    "backup": [
+      "07_pipeline/cache/tv_surface_v3/source_before_apply.blend",
+      "07_pipeline/cache/tv_surface_v3/library_before.blend"
+    ]
+  },
+  "tv_shell_unified": {
+    "material": "TV shell / User finish",
+    "bindings": {
+      "TV front fascia": [
+        0
+      ],
+      "TV front case sidewall": [
+        0
+      ],
+      "TV stepped rear hood": [
+        0
+      ],
+      "TV bottom chassis rail": [
+        0
+      ],
+      "TV speaker border": [
+        0
+      ],
+      "TV speaker border.001": [
+        0
+      ],
+      "TV speaker border.002": [
+        0
+      ],
+      "TV speaker border.003": [
+        0
+      ],
+      "TV tactile button": [
+        0
+      ],
+      "TV tactile button.001": [
+        0
+      ],
+      "TV tactile button.002": [
+        0
+      ],
+      "TV tactile button.003": [
+        0
+      ],
+      "TV tactile button.004": [
+        0
+      ],
+      "TV tactile button.005": [
+        0
+      ],
+      "TV power switch": [
+        0
+      ],
+      "TV AV flap hinge": [
+        0
+      ],
+      "TV removable rear cover": [
+        0
+      ],
+      "TV moulded foot rail": [
+        0
+      ],
+      "TV moulded foot rail.001": [
+        0
+      ]
+    },
+    "previous": {
+      "TV front fascia": {
+        "0": "TV refined / front / 20260916"
+      },
+      "TV front case sidewall": {
+        "0": "TV refined / front / 20260916"
+      },
+      "TV stepped rear hood": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV bottom chassis rail": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV speaker border": {
+        "0": "TV refined / front / 20260916"
+      },
+      "TV speaker border.001": {
+        "0": "TV refined / front / 20260916"
+      },
+      "TV speaker border.002": {
+        "0": "TV refined / front / 20260916"
+      },
+      "TV speaker border.003": {
+        "0": "TV refined / front / 20260916"
+      },
+      "TV tactile button": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV tactile button.001": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV tactile button.002": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV tactile button.003": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV tactile button.004": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV tactile button.005": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV power switch": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV AV flap hinge": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV removable rear cover": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV moulded foot rail": {
+        "0": "TV refined / back / 20260916"
+      },
+      "TV moulded foot rail.001": {
+        "0": "TV refined / back / 20260916"
+      }
+    },
+    "node_count": 108,
+    "date": "2026-09-16",
+    "source": "02_assets/work/classroom_equipment.blend",
+    "library": "02_assets/library/classroom_assets.blend",
+    "status": "saved_source_and_library",
+    "validation": {
+      "material": "TV shell / User finish",
+      "objects": [
+        "TV front fascia",
+        "TV front case sidewall",
+        "TV stepped rear hood",
+        "TV bottom chassis rail",
+        "TV speaker border",
+        "TV speaker border.001",
+        "TV speaker border.002",
+        "TV speaker border.003",
+        "TV tactile button",
+        "TV tactile button.001",
+        "TV tactile button.002",
+        "TV tactile button.003",
+        "TV tactile button.004",
+        "TV tactile button.005",
+        "TV power switch",
+        "TV AV flap hinge",
+        "TV removable rear cover",
+        "TV moulded foot rail",
+        "TV moulded foot rail.001"
+      ],
+      "preserved_hash": "ac5b1c2ab5240b7829212cef1d19028bc85c2f8cbf7845bd21e6d3eba58fa417",
+      "missing_images": [],
+      "library_sha256": "04b27f58fc34536a36f08b3a4b131b506b0f097be391479333da3d9fd459f3c2"
+    },
+    "note": "User-authored shader graph retained intact. Front and rear material users now share one datablock. Glass, mesh wire and AV bay remain separate."
+  },
+  "speaker_plastic_refinement": {
+    "updated": "2026-09-16",
+    "status": "material_refined_visual_review_pending",
+    "source": "02_assets/materials/speaker_plastic/speaker_plastic.sbs",
+    "asset": "02_assets/work/classroom_equipment.blend",
+    "collection": "AST_wall_speaker",
+    "dependencies": "02_assets/textures/generated/speaker_plastic/manifest.json",
+    "review": "06_review/speaker_plastic/review.md",
+    "reference": "https://substance3d.adobe.com/community-assets/assets/eb6b672e0665fbdefa374e4ddd97e7c45037ff97",
+    "reference_use": "Visual reference only; original native SD graph",
+    "tile_metres": 0.25,
+    "resolution": 4096,
+    "integrated_into_shot": true,
+    "integration_date": "2026-09-16"
+  },
+  "speaker_wire_refinement": {
+    "updated": "2026-09-16",
+    "status": "woven_grille_visual_review_pending",
+    "source": "02_assets/work/classroom_equipment.blend",
+    "material": "02_assets/materials/speaker_wire/speaker_wire.sbs",
+    "reference": "https://www.artstation.com/artwork/XJlmWw",
+    "reference_author": "Vasyl Kysylychak",
+    "reference_use": "Visual reference; original geometry and SD metal microfinish",
+    "review": "06_review/speaker_wire/speaker.png",
+    "validation": "06_review/speaker_wire/validation.json",
+    "dependencies": "02_assets/textures/generated/speaker_wire/manifest.json",
+    "integrated_into_shot": true,
+    "integration_date": "2026-09-16"
+  },
+  "speaker_dust_and_fixture_plastic": {
+    "date": "2026-09-16",
+    "source": "02_assets/work/classroom_equipment.blend",
+    "status": "saved_pending_user_visual_review",
+    "sd_source": "02_assets/materials/speaker_dust/speaker_dust.sbs",
+    "texture_manifest": "02_assets/textures/generated/speaker_dust/manifest.json",
+    "validation": "06_review/speaker_dust/validation.json",
+    "review": "06_review/speaker_dust/review.md",
+    "fixture_plastic_parts": 15,
+    "integrated_into_shot": true,
+    "integration_date": "2026-09-16"
+  },
+  "tv_screen_sd": {
+    "method": "Native editable Substance Designer graph / Adobe cooker and renderer",
+    "date": "2026-09-16",
+    "tile_m": 0.8,
+    "bit_depth": 16,
+    "color_space": "Non-Color",
+    "nodes": 66,
+    "reference": "Sahaar Chhabra Retro CRT 90s Monitor / user supplied two screenshots; visual analysis only",
+    "seed": 3087,
+    "commands": [
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tv_screen_imperfection\\tv_screen_imperfection.sbs",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tv_screen_imperfection",
+        "--alias",
+        "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+      ],
+      [
+        "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+        "render",
+        "--inputs",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tv_screen_imperfection\\tv_screen_imperfection.sbsar",
+        "--output-path",
+        "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\tv_screen_imperfection",
+        "--output-name",
+        "{outputNodeName}",
+        "--set-value",
+        "$outputsize@12,12",
+        "--engine",
+        "d3d11",
+        "--output-bit-depth",
+        "16",
+        "--no-report"
+      ]
+    ],
+    "files": [
+      {
+        "file": "02_assets/textures/generated/tv_screen_imperfection/DepositMask.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "7f4ef7286994689bfa150c9e32249df5ba051e8dd6298ed07798f7e955f3ee45",
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.03168966024829838,
+        "p95": 0.19229419394216832
+      },
+      {
+        "file": "02_assets/textures/generated/tv_screen_imperfection/DustMask.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "4819a8c304c7a357a920f35e5b0b6bb403cd2d21aab21711660ae9487ddc5a6c",
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.029913758730428154,
+        "p95": 0.1838864728770886
+      },
+      {
+        "file": "02_assets/textures/generated/tv_screen_imperfection/Height.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "73be983e746c2cbe676765458b5534e32d21f4ff2fcf9313f9b3b97b1c1976aa",
+        "min": 0.40276188296330206,
+        "max": 0.522392614633402,
+        "mean": 0.5002094807182431,
+        "p95": 0.5039902342259861
+      },
+      {
+        "file": "02_assets/textures/generated/tv_screen_imperfection/LongScratches.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "fac0226121c9728ba58483c7976b5fec1797fb96153248d6daf7e93e2fd56a70",
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.00013174300082098968,
+        "p95": 0.0
+      },
+      {
+        "file": "02_assets/textures/generated/tv_screen_imperfection/MicroScratches.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "c8c9e515c9c5fdc24f0de5a07460b122ace5d5f4596606fcca549ac01fe12209",
+        "min": 0.0,
+        "max": 0.8580300602731364,
+        "mean": 0.003671119116150633,
+        "p95": 0.021225299458304724
+      },
+      {
+        "file": "02_assets/textures/generated/tv_screen_imperfection/OilMask.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "e4ceea7e8910f4b496a174d816e86490754a2772897e9252b3dbe8d1c3a4ed99",
+        "min": 0.0,
+        "max": 0.8320897230487526,
+        "mean": 0.3539406721921373,
+        "p95": 0.6375066758220798
+      },
+      {
+        "file": "02_assets/textures/generated/tv_screen_imperfection/Roughness.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "a45e2ec1aecf3596f8492238f9f48050ca78b8e63a0bf18c9b2f7824108cdfb8",
+        "min": 0.03500419623102159,
+        "max": 0.19760433356221865,
+        "mean": 0.045675131933925764,
+        "p95": 0.06871137560082399
+      },
+      {
+        "file": "02_assets/textures/generated/tv_screen_imperfection/ScratchMask.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "c0f0f246cb68e92f25363280fc0c894fc41bc94204622b13bdf51d9e1f4c9fe2",
+        "min": 0.0,
+        "max": 0.8713664454108492,
+        "mean": 0.004361924386964907,
+        "p95": 0.025131609063859008
+      },
+      {
+        "file": "02_assets/textures/generated/tv_screen_imperfection/ScuffMask.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "414f1d618f0f1ed8eb606d63f59769398e132f70be7a4c15c9238ee757fc10ce",
+        "min": 0.0,
+        "max": 0.4737010757610437,
+        "mean": 0.001273808025828104,
+        "p95": 0.00643930724040589
+      },
+      {
+        "file": "02_assets/textures/generated/tv_screen_imperfection/WipeMask.png",
+        "size": [
+          4096,
+          4096
+        ],
+        "sha256": "3e1915c4d704fbe127eb1b57cec8beb6f20832df7370ac451742db6ce97b6c2b",
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.01496209658064449,
+        "p95": 0.09481956206607156
+      }
+    ],
+    "status": "published_pending_user_visual_review",
+    "source": "02_assets/work/classroom_equipment.blend",
+    "library": "02_assets/library/classroom_assets.blend",
+    "scope": "Only CRT glass shader and shared shell scratch/wipe inputs; user shell color inputs, geometry and all other bindings preserved.",
+    "review": "06_review/tv_surface/index.html",
+    "validation": {
+      "source": {
+        "source": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\work\\classroom_equipment.blend",
+        "objects": 20,
+        "preserved_shell_controls": "c7c59a26813a3d5e35f1e69cd2d1f4d199fb2b449372d874767d79f1f6a729f5",
+        "preserved_geometry_and_other_bindings": "c1b4c8efa73a85cd96172632f079b8ac319fa28a27e157d5c380bc04da5c38b0",
+        "missing_images": [],
+        "saved_sha256": "129ba500232ecf0a20599e62e04f9fc51ea40a299529f7745c2c129d3642e98b"
+      },
+      "library": {
+        "library": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\library\\classroom_assets.blend",
+        "objects": 20,
+        "preserved_geometry_and_other_bindings": "4700c379927276e1ee4af488798a55b682135c3170a1cad7efa0aacedf3fbbb4",
+        "missing_images": [],
+        "images": [
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\clock_imperfection\\OilMask.png",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\clock_imperfection\\Roughness.png",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\tv_screen_imperfection\\DepositMask.png",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\tv_screen_imperfection\\Height.png",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\tv_screen_imperfection\\OilMask.png",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\tv_screen_imperfection\\Roughness.png",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\tv_screen_imperfection\\ScratchMask.png",
+          "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\tv_screen_imperfection\\WipeMask.png"
+        ],
+        "saved_sha256": "57755b84d7747a6dcb1b0b4833a24704aec6d57d14ef1b721b809283993fbbda"
+      }
+    },
+    "source_files": [
+      {
+        "path": "02_assets/materials/tv_screen_imperfection/tv_screen_imperfection.sbs",
+        "sha256": "d9b0e7f5a8814ff2717b226ae81f306e4da57bdace5d3abc673f7cdab42746ae"
+      },
+      {
+        "path": "02_assets/materials/tv_screen_imperfection/tv_screen_imperfection.sbsar",
+        "sha256": "d693ad6595ab76c5982128f52a303bba17d5ebddba81403e2d6854a37cc67a22"
+      }
+    ]
+  },
+  "printed_text_and_equipment_integration": {
+    "updated": "2026-09-16",
+    "status": "published_to_library_and_live_shot",
+    "library": "02_assets/library/classroom_assets.blend",
+    "shot": "03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend",
+    "review": "06_review/printed_text/review.md",
+    "validation": "06_review/printed_text/live_publish.json",
+    "textures": "02_assets/textures/generated/printed_text_source/manifest.json",
+    "model_texts_hidden": 33,
+    "clock_marks_hidden": 60,
+    "fixture_instances_updated": 9,
+    "source": "02_assets/work/classroom_equipment.blend",
+    "source_status": "material_print_layers_saved_in_live_asset_source",
+    "source_validation": "06_review/printed_text/source_publish.json"
+  },
+  "asset_source_consolidation": {
+    "date": "2026-09-16",
+    "environment_source": "02_assets/work/classroom_environment.blend",
+    "props_source": "02_assets/work/classroom_props.blend",
+    "previous_sources_retained": false,
+    "preserved_asset_coordinates": true,
+    "editable_local_data": true,
+    "library": "02_assets/library/classroom_assets.blend",
+    "shot_links_changed": false,
+    "review": "06_review/asset_consolidation",
+    "deleted_engineering_files": 14,
+    "deletion_log": "06_review/asset_consolidation/deleted_sources.json"
+  },
+  "podium_subtle_rust": {
+    "date": "2026-09-16",
+    "status": "published_and_shot_link_verified",
+    "source": "02_assets/work/classroom_props.blend",
+    "library": "02_assets/library/classroom_assets.blend",
+    "material": "Depth / Chipped ivory enamel on steel",
+    "before_mean_rust_mask": [
+      0.08440668880939484,
+      0.08264582604169846,
+      0.0843672975897789
+    ],
+    "after_mean_rust_mask": [
+      0.012181594967842102,
+      0.01117036771029234,
+      0.008647610433399677
+    ],
+    "retained": [
+      "paint stains",
+      "wood scratches and wear",
+      "geometry and placement"
+    ],
+    "review": "06_review/podium_subtle/after_full.png",
+    "validation": "06_review/podium_subtle/published.json",
+    "live_reload_performed": false,
+    "live_reload_note": "No Blender GUI or MCP connection remained at publication; saved shot reopened in background and new library material verified."
+  },
+  "wood_material_groups": {
+    "updated": "2026-09-17T00:06:16",
+    "status": "published_render_checked_pending_user_art_direction_review",
+    "source": "02_assets/work/classroom_props.blend",
+    "library": "02_assets/library/classroom_assets.blend",
+    "review": "06_review/wood_groups/index.html",
+    "references": "01_preproduction/references/wood_groups/index.html",
+    "sd_sources": [
+      "02_assets/materials/wood_groups/school_board.sbs",
+      "02_assets/materials/wood_groups/cabinet_wood.sbs"
+    ],
+    "texture_manifest": "02_assets/textures/generated/wood_groups/manifest.json",
+    "groups": {
+      "01": "school desk, chair, teacher podium/table: fine amber varnished board",
+      "02": "blackboard wood: inherited original chair material, chalk dust retained",
+      "03": "bookshelf and equipment cabinet: distinct directional brown grain"
+    },
+    "shot_verified_instances": {
+      "school_board": 50,
+      "blackboard_inherited": 1,
+      "cabinet_wood": 2
+    },
+    "original_geometry_uv_transforms_and_other_bindings_preserved": true,
+    "shot_file_sha256_unchanged": "421a3f8b421bb110db5df8c32918be450c35d2be464618a3343e1c788f1ea722"
+  },
+  "rear_classroom_20260917": {
+    "collection": "AST_classroom_rear",
+    "source": "02_assets/work/classroom_environment.blend",
+    "texture_manifest": "02_assets/textures/authored/rear_classroom_20260917/manifest.json",
+    "reuse": "Existing 2K teaching micro-surfaces and architecture materials; no newly downloaded or AI-generated textures.",
+    "reference": "User supplied film frame retained for reference only; copyright remains with original creator."
+  },
+  "corridor_window_repair_20260917": {
+    "source": "02_assets/work/classroom_environment.blend",
+    "collections": [
+      "AST_window_wall_left",
+      "AST_classroom_corridor",
+      "AST_classroom_shell"
+    ],
+    "texture_policy": "Reuses existing 2K architecture PBR families; no new textures or downloaded media",
+    "reference_report": "06_review/corridor_window_repair/report.md"
+  },
+  "blackboard_age_20260919": {
+    "date": "2026-09-19",
+    "material": "Blackboard / Aged baked green coating",
+    "manifest": "02_assets/textures/generated/blackboard_age/manifest.json",
+    "masks": "02_assets/materials/blackboard_age/inputs/manifest.json",
+    "references": "01_preproduction/references/blackboard_age_20260919/sources.json",
+    "method": "Original use/fade/abrasion masks and native SD synthesis; CC0 photograph high-pass detail; independent artist-authored roughness and coating tooth, not scanned PBR",
+    "photo_license": "https://www.goodfreephotos.com/other-photos/chalkboard-blackboard-with-eraser-marks.jpg.php"
+  },
+  "scene_chair_replace_20261001": {
+    "date": "2026-10-01",
+    "source": "07_pipeline/cache/chair_scene_replace_20261001/approved_chair_live.blend",
+    "source_sha256": "1def72f45c9c225bd56709b6d0327365bf4dabfa8a8edd2b0ee62cfcad7f2daa",
+    "target": "03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend",
+    "target_sha256": "e2b09a1dbbded31773d2205300f1fbb7267feab67ca466b632c31822ab6cf939",
+    "chairs": 25,
+    "parts": 725,
+    "materials": 775,
+    "valid_seed_drivers": 775,
+    "source_policy": "Reuses user-approved Tripo model and existing authored SD/imagegen material content; no new external media or texture downloads.",
+    "license_policy": "Inherited source asset provenance and licenses; reference photographs remain reference material and are not declared redistributable.",
+    "review": "06_review/chair_scene_replace_20261001/report.md",
+    "validation": "06_review/chair_scene_replace_20261001/published_validation.json",
+    "status": "published_technical_verified_scene_visual_review_pending"
+  },
+  "scene_chair_instances_20261001": {
+    "date": "2026-10-01",
+    "source": "03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend",
+    "source_before_sha256": "721f8078e1c51090af268b5671d81f36b918e5a60f645581317ce85ff889acba",
+    "before_backup": "07_pipeline/cache/chair_instances_20261001/before_instances.blend",
+    "before_backup_sha256": "b7120587bb9c6fa71f389d4ba51cc86a46d7bc18aa94e90661203dc49adf712e",
+    "published_sha256": "e4de73fe77439e24af2c91cfa9af7fc950147715603e7eca9e73faa420be0ea7",
+    "instances": 25,
+    "counts_before": {
+      "objects": 725,
+      "meshes": 725,
+      "materials": 775,
+      "vertices": 231850,
+      "loops": 1329075
+    },
+    "counts_after": {
+      "objects": 29,
+      "meshes": 29,
+      "materials": 31,
+      "vertices": 9274,
+      "loops": 53163
+    },
+    "source_policy": "Reuses existing approved Tripo geometry and authored SD/imagegen maps. Shared mother collection; instancer attributes drive procedural wear and grain sampling. No new external media.",
+    "license_policy": "Existing source licenses and provenance inherited; reference photographs remain reference-only.",
+    "edit_scene": "Chair_Asset_Edit",
+    "validation": "06_review/chair_instances_20261001/published_validation.json",
+    "review": "06_review/chair_instances_20261001/report.md",
+    "status": "published_technical_verified_scene_visual_review_pending"
+  }
+}

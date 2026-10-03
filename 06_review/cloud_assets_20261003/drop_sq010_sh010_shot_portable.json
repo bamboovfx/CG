@@ -1,0 +1,2381 @@
+{
+  "file": "03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend",
+  "before_sha256": "bb13b5f88f66bfd1d498640945bf259c498d47ead62d0bd161cbcc01a2e44a92",
+  "after_sha256": "e649b78707ce7900832fed3f8e28486556e0606f1f0bdb64084c0db48d4d9043",
+  "semantic_before": "a31d177ac11590dc31fa74accd0a75aaed060d3ef418f56ac809547b07ccacdc",
+  "semantic_after": "a31d177ac11590dc31fa74accd0a75aaed060d3ef418f56ac809547b07ccacdc",
+  "content_preserved": true,
+  "changes": [
+    {
+      "kind": "images",
+      "name": "Abrasion.png",
+      "before": "//..\\..\\..\\..\\02_assets\\materials\\blackboard_age\\inputs\\Abrasion.png",
+      "after": "//../../../../02_assets/materials/blackboard_age/inputs/Abrasion.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\enamel\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/enamel/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/painted_school_plaster/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.002",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\aged_tinplate\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/aged_tinplate/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.003",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\metal\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/metal/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.004",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\glass\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/glass/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.005",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\polymer\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/polymer/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.006",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_corridor_sd\\thin_linen\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_corridor_sd/thin_linen/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.007",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_corridor_sd\\corridor_floor\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_corridor_sd/corridor_floor/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.008",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/painted_school_plaster/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.009",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.010",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\blackboard_age\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/blackboard_age/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.011",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\wood_groups\\cabinet_wood\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/wood_groups/cabinet_wood/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.012",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\speaker_wire\\speaker_wire\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/speaker_wire/speaker_wire/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.013",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\wood_groups\\school_board\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/wood_groups/school_board/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.014",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\speaker_plastic\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/speaker_plastic/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.043",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\enamel\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/enamel/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.044",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\metal\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/metal/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.045",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.046",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\paper\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/paper/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.049",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\rubber\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/rubber/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.051",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\exposed_wood\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/exposed_wood/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.054",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\metal\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/metal/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.055",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.056",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\teaching_paper\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/teaching_paper/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.058",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\teaching_bookcloth\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/teaching_bookcloth/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.060",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_00\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_00/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.061",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_01\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_01/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.062",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_02\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_02/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.063",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_03\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_03/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.064",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_04\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_04/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.065",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_05\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_05/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.066",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_00\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_00/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.067",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_01\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_01/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.068",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_02\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_02/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.069",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_03\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_03/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.070",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_04\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_04/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.071",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_05\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_05/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.072",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_06\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_06/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.073",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_07\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_07/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.074",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_08\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_08/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.075",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_09\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_09/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.076",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_10\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_10/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.077",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_11\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_11/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.078",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_12\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_12/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.079",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_13\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_13/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.080",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_14\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_14/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.084",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_red_lacquer\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.085",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_tinplate\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_tinplate/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "BaseColor.png.086",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_lithographic_ink\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "board_wiped_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\board_wiped_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/board_wiped_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "calligraphy_atlas_color.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\rear_classroom_20260917\\calligraphy_atlas_color.png",
+      "after": "//../../../../02_assets/textures/authored/rear_classroom_20260917/calligraphy_atlas_color.png"
+    },
+    {
+      "kind": "images",
+      "name": "chalkboard_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\chalkboard_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/chalkboard_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "chalkboard_roughness_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\chalkboard_roughness_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/chalkboard_roughness_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "dark_color.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\dark_color.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/dark_color.png"
+    },
+    {
+      "kind": "images",
+      "name": "dark_height.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\dark_height.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/dark_height.png"
+    },
+    {
+      "kind": "images",
+      "name": "dark_rough.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\dark_rough.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/dark_rough.png"
+    },
+    {
+      "kind": "images",
+      "name": "DepositMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\tv_screen_imperfection\\DepositMask.png",
+      "after": "//../../../../02_assets/textures/generated/tv_screen_imperfection/DepositMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "DustMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\speaker_dust\\DustMask.png",
+      "after": "//../../../../02_assets/textures/generated/speaker_dust/DustMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "Fabric030_2K-JPG_Color.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Color.jpg",
+      "after": "//../../../../02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Color.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "Fabric030_2K-JPG_NormalGL.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_NormalGL.jpg",
+      "after": "//../../../../02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_NormalGL.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "Fabric030_2K-JPG_Roughness.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\ambientcg\\Fabric030\\2k\\Fabric030_2K-JPG_Roughness.jpg",
+      "after": "//../../../../02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Roughness.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "felt_color.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\felt_color.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/felt_color.png"
+    },
+    {
+      "kind": "images",
+      "name": "felt_height.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\felt_height.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/felt_height.png"
+    },
+    {
+      "kind": "images",
+      "name": "felt_rough.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\felt_rough.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/felt_rough.png"
+    },
+    {
+      "kind": "images",
+      "name": "foot_caps_BaseColor.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\foot_caps_BaseColor.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/foot_caps_BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "foot_caps_Height.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\foot_caps_Height.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/foot_caps_Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "foot_caps_Metallic.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\foot_caps_Metallic.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/foot_caps_Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "foot_caps_Roughness.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\foot_caps_Roughness.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/foot_caps_Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "frame_left_DirtMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\frame_left_DirtMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/frame_left_DirtMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "frame_right_BaseColor.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\frame_right_BaseColor.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/frame_right_BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "frame_right_DirtMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\frame_right_DirtMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/frame_right_DirtMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "frame_right_Height.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\frame_right_Height.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/frame_right_Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "frame_right_Metallic.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\frame_right_Metallic.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/frame_right_Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "frame_right_Roughness.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\frame_right_Roughness.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/frame_right_Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "frame_right_RustMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\frame_right_RustMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/frame_right_RustMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "frame_right_WearMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\frame_right_WearMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/frame_right_WearMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "glass_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\glass_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/glass_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "glass_roughness_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\glass_roughness_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/glass_roughness_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "Grain.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\speaker_dust\\Grain.png",
+      "after": "//../../../../02_assets/textures/generated/speaker_dust/Grain.png"
+    },
+    {
+      "kind": "images",
+      "name": "Hardware_AO",
+      "before": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\window_hardware\\AO.png",
+      "after": "//../../../../02_assets/textures/window_hardware/AO.png"
+    },
+    {
+      "kind": "images",
+      "name": "Hardware_BaseColor",
+      "before": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\window_hardware\\BaseColor.png",
+      "after": "//../../../../02_assets/textures/window_hardware/BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_BaseColor.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_BaseColor.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_BaseColor.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_BaseColor.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_DirtMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_DirtMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_DirtMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_DirtMask.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_DirtMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_DirtMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_Height.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_Height.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_Height.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_Height.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Hardware_Metallic",
+      "before": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\window_hardware\\Metallic.png",
+      "after": "//../../../../02_assets/textures/window_hardware/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_Metallic.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_Metallic.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_Metallic.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_Metallic.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Hardware_Normal",
+      "before": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\window_hardware\\Normal.png",
+      "after": "//../../../../02_assets/textures/window_hardware/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Hardware_Roughness",
+      "before": "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\window_hardware\\Roughness.png",
+      "after": "//../../../../02_assets/textures/window_hardware/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_Roughness.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_Roughness.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_Roughness.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_Roughness.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_RustMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_RustMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_RustMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_RustMask.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_RustMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_RustMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_WearMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_WearMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_WearMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "hardware_WearMask.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\hardware_WearMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/hardware_WearMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\tv_screen_imperfection\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/tv_screen_imperfection/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png.002",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png.003",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_varnish\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_varnish/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png.004",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_chalk\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_chalk/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png.005",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_cloth\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_cloth/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png.006",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_paper\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_paper/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png.007",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\equipment_contact_film\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/equipment_contact_film/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png.008",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png.009",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "Height.png.010",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\Height.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "laminate_top_BaseColor.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\laminate_top_BaseColor.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/laminate_top_BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "laminate_top_Height.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\laminate_top_Height.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/laminate_top_Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "laminate_top_Metallic.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\laminate_top_Metallic.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/laminate_top_Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "laminate_top_Roughness.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\laminate_top_Roughness.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/laminate_top_Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "lower_brace_DirtMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\lower_brace_DirtMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/lower_brace_DirtMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "lower_brace_DirtMask.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\lower_brace_DirtMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/lower_brace_DirtMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "metal_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\metal_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/metal_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "metal_roughness_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\metal_roughness_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/metal_roughness_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\enamel\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/enamel/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.002",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\aged_tinplate\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/aged_tinplate/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.003",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\metal\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/metal/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.004",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\glass\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/glass/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.005",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\polymer\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/polymer/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.006",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_corridor_sd\\thin_linen\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_corridor_sd/thin_linen/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.007",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_corridor_sd\\corridor_floor\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.008",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.009",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.010",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\speaker_wire\\speaker_wire\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/speaker_wire/speaker_wire/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.011",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\speaker_plastic\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/speaker_plastic/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.043",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\enamel\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/enamel/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.044",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\metal\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/metal/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.045",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.046",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\paper\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/paper/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.049",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\rubber\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/rubber/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.051",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\exposed_wood\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/exposed_wood/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.054",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\metal\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/metal/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.055",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.056",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\teaching_paper\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/teaching_paper/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.058",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\teaching_bookcloth\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/teaching_bookcloth/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.060",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_00\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_00/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.061",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_01\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_01/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.062",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_02\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_02/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.063",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_03\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_03/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.064",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_04\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_04/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.065",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_05\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_05/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.066",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_00\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_00/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.067",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_01\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_01/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.068",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_02\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_02/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.069",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_03\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_03/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.070",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_04\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_04/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.071",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_05\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_05/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.072",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_06\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_06/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.073",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_07\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_07/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.074",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_08\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_08/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.075",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_09\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_09/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.076",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_10\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_10/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.077",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_11\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_11/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.078",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_12\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_12/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.079",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_13\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_13/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.080",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_14\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_14/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.084",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_red_lacquer\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.085",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_tinplate\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_tinplate/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Metallic.png.086",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_lithographic_ink\\Metallic.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\enamel\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/enamel/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.002",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\aged_tinplate\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/aged_tinplate/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.003",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\metal\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/metal/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.004",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\glass\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/glass/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.005",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\polymer\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/polymer/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.006",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_corridor_sd\\thin_linen\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_corridor_sd/thin_linen/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.007",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_corridor_sd\\corridor_floor\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.008",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.009",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.010",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\blackboard_age\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/blackboard_age/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.011",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\wood_groups\\cabinet_wood\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/wood_groups/cabinet_wood/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.012",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\speaker_wire\\speaker_wire\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/speaker_wire/speaker_wire/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.013",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\wood_groups\\school_board\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/wood_groups/school_board/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.014",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\speaker_plastic\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/speaker_plastic/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.043",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\enamel\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/enamel/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.044",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\metal\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/metal/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.045",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.046",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\paper\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/paper/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.049",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\rubber\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/rubber/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.051",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\exposed_wood\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/exposed_wood/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.054",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\metal\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/metal/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.055",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.056",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\teaching_paper\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/teaching_paper/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.058",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\teaching_bookcloth\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/teaching_bookcloth/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.060",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_00\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_00/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.061",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_01\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_01/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.062",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_02\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_02/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.063",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_03\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_03/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.064",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_04\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_04/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.065",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_05\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_05/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.066",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_00\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_00/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.067",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_01\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_01/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.068",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_02\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_02/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.069",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_03\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_03/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.070",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_04\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_04/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.071",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_05\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_05/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.072",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_06\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_06/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.073",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_07\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_07/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.074",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_08\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_08/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.075",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_09\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_09/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.076",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_10\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_10/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.077",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_11\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_11/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.078",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_12\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_12/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.079",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_13\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_13/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.080",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_14\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_14/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.084",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_red_lacquer\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.085",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_tinplate\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_tinplate/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "Normal.png.086",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_lithographic_ink\\Normal.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Normal.png"
+    },
+    {
+      "kind": "images",
+      "name": "notice_00_color.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\notice_00_color.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/notice_00_color.png"
+    },
+    {
+      "kind": "images",
+      "name": "notice_00_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\notice_00_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/notice_00_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "notice_01_color.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\notice_01_color.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/notice_01_color.png"
+    },
+    {
+      "kind": "images",
+      "name": "notice_01_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\notice_01_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/notice_01_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "notice_02_color.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\notice_02_color.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/notice_02_color.png"
+    },
+    {
+      "kind": "images",
+      "name": "notice_02_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\notice_02_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/notice_02_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "notice_03_color.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\notice_03_color.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/notice_03_color.png"
+    },
+    {
+      "kind": "images",
+      "name": "notice_03_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\notice_03_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/notice_03_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "notice_04_color.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\notice_04_color.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/notice_04_color.png"
+    },
+    {
+      "kind": "images",
+      "name": "notice_04_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\notice_04_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/notice_04_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "OilMask.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\clock_imperfection\\OilMask.png",
+      "after": "//../../../../02_assets/textures/generated/clock_imperfection/OilMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "OilMask.png.002",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\tv_screen_imperfection\\OilMask.png",
+      "after": "//../../../../02_assets/textures/generated/tv_screen_imperfection/OilMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "OilMask.png.003",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\clock_imperfection\\OilMask.png",
+      "after": "//../../../../02_assets/textures/generated/clock_imperfection/OilMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "old_wooden_floor_03_diff_2k.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\old_wooden_floor_03_diff_2k.jpg",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/old_wooden_floor_03_diff_2k.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "old_wooden_floor_03_nor_gl_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\old_wooden_floor_03_nor_gl_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/old_wooden_floor_03_nor_gl_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "old_wooden_floor_03_rough_2k.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\old_wooden_floor_03_rough_2k.jpg",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/old_wooden_floor_03_rough_2k.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "paint_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\paint_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/paint_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "paint_roughness_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\paint_roughness_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/paint_roughness_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "PaintBaseColor.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintBaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/PaintBaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "PaintBaseColor.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintBaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/PaintBaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "painted_plaster_wall_diff_2k.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\painted_plaster_wall\\2k\\painted_plaster_wall_diff_2k.jpg",
+      "after": "//../../../../02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_diff_2k.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "painted_plaster_wall_disp_4k.exr",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\painted_plaster_wall\\4k\\painted_plaster_wall_disp_4k.exr",
+      "after": "//../../../../02_assets/textures/polyhaven/painted_plaster_wall/4k/painted_plaster_wall_disp_4k.exr"
+    },
+    {
+      "kind": "images",
+      "name": "painted_plaster_wall_disp_4k.exr.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\painted_plaster_wall\\4k\\painted_plaster_wall_disp_4k.exr",
+      "after": "//../../../../02_assets/textures/polyhaven/painted_plaster_wall/4k/painted_plaster_wall_disp_4k.exr"
+    },
+    {
+      "kind": "images",
+      "name": "painted_plaster_wall_nor_gl_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\painted_plaster_wall\\2k\\painted_plaster_wall_nor_gl_2k.png",
+      "after": "//../../../../02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_nor_gl_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "painted_plaster_wall_rough_2k.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\painted_plaster_wall\\2k\\painted_plaster_wall_rough_2k.jpg",
+      "after": "//../../../../02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_rough_2k.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "painted_plaster_wall_rough_4k.exr",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\painted_plaster_wall\\4k\\painted_plaster_wall_rough_4k.exr",
+      "after": "//../../../../02_assets/textures/polyhaven/painted_plaster_wall/4k/painted_plaster_wall_rough_4k.exr"
+    },
+    {
+      "kind": "images",
+      "name": "painted_plaster_wall_rough_4k.exr.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\painted_plaster_wall\\4k\\painted_plaster_wall_rough_4k.exr",
+      "after": "//../../../../02_assets/textures/polyhaven/painted_plaster_wall/4k/painted_plaster_wall_rough_4k.exr"
+    },
+    {
+      "kind": "images",
+      "name": "PaintHeight.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintHeight.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/PaintHeight.png"
+    },
+    {
+      "kind": "images",
+      "name": "PaintHeight.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintHeight.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/PaintHeight.png"
+    },
+    {
+      "kind": "images",
+      "name": "PaintRoughness.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintRoughness.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/PaintRoughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "PaintRoughness.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\PaintRoughness.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/PaintRoughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "paper_color.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\paper_color.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/paper_color.png"
+    },
+    {
+      "kind": "images",
+      "name": "paper_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\paper_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/paper_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "paper_height.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\paper_height.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/paper_height.png"
+    },
+    {
+      "kind": "images",
+      "name": "paper_rough.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\teaching_rebuild\\paper_rough.png",
+      "after": "//../../../../02_assets/textures/authored/teaching_rebuild/paper_rough.png"
+    },
+    {
+      "kind": "images",
+      "name": "paper_roughness_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\paper_roughness_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/paper_roughness_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "plastic_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\plastic_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/plastic_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "plastic_roughness_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\plastic_roughness_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/plastic_roughness_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "plywood_diff_2k.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\plywood_diff_2k.jpg",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/plywood_diff_2k.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "plywood_diff_4k.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg",
+      "after": "//../../../../02_assets/textures/polyhaven/plywood/4k/plywood_diff_4k.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "plywood_diff_4k.jpg.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_diff_4k.jpg",
+      "after": "//../../../../02_assets/textures/polyhaven/plywood/4k/plywood_diff_4k.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "plywood_nor_gl_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\plywood_nor_gl_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/plywood_nor_gl_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "plywood_nor_gl_4k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_nor_gl_4k.png",
+      "after": "//../../../../02_assets/textures/polyhaven/plywood/4k/plywood_nor_gl_4k.png"
+    },
+    {
+      "kind": "images",
+      "name": "plywood_nor_gl_4k.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_nor_gl_4k.png",
+      "after": "//../../../../02_assets/textures/polyhaven/plywood/4k/plywood_nor_gl_4k.png"
+    },
+    {
+      "kind": "images",
+      "name": "plywood_nor_gl_4k.png.002",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_nor_gl_4k.png",
+      "after": "//../../../../02_assets/textures/polyhaven/plywood/4k/plywood_nor_gl_4k.png"
+    },
+    {
+      "kind": "images",
+      "name": "plywood_rough_2k.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\plywood_rough_2k.jpg",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/plywood_rough_2k.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "plywood_rough_4k.jpg",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_rough_4k.jpg",
+      "after": "//../../../../02_assets/textures/polyhaven/plywood/4k/plywood_rough_4k.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "plywood_rough_4k.jpg.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\polyhaven\\plywood\\4k\\plywood_rough_4k.jpg",
+      "after": "//../../../../02_assets/textures/polyhaven/plywood/4k/plywood_rough_4k.jpg"
+    },
+    {
+      "kind": "images",
+      "name": "print_00.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\printed_text_source\\print_00.png",
+      "after": "//../../../../02_assets/textures/generated/printed_text_source/print_00.png"
+    },
+    {
+      "kind": "images",
+      "name": "print_01.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\printed_text_source\\print_01.png",
+      "after": "//../../../../02_assets/textures/generated/printed_text_source/print_01.png"
+    },
+    {
+      "kind": "images",
+      "name": "print_02.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\printed_text_source\\print_02.png",
+      "after": "//../../../../02_assets/textures/generated/printed_text_source/print_02.png"
+    },
+    {
+      "kind": "images",
+      "name": "print_03.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\printed_text_source\\print_03.png",
+      "after": "//../../../../02_assets/textures/generated/printed_text_source/print_03.png"
+    },
+    {
+      "kind": "images",
+      "name": "print_04.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\printed_text_source\\print_04.png",
+      "after": "//../../../../02_assets/textures/generated/printed_text_source/print_04.png"
+    },
+    {
+      "kind": "images",
+      "name": "print_05.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\printed_text_source\\print_05.png",
+      "after": "//../../../../02_assets/textures/generated/printed_text_source/print_05.png"
+    },
+    {
+      "kind": "images",
+      "name": "print_06.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\printed_text_source\\print_06.png",
+      "after": "//../../../../02_assets/textures/generated/printed_text_source/print_06.png"
+    },
+    {
+      "kind": "images",
+      "name": "print_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\print_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/print_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "print_roughness_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\print_roughness_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/print_roughness_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\enamel\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/enamel/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.002",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\aged_tinplate\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/aged_tinplate/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.003",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\metal\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/metal/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.004",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\glass\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/glass/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.005",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_sd\\polymer\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_sd/polymer/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.006",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_corridor_sd\\thin_linen\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_corridor_sd/thin_linen/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.007",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_corridor_sd\\corridor_floor\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.008",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\shell_tin_sd\\painted_school_plaster\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.009",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.010",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\blackboard_age\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/blackboard_age/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.011",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\clock_imperfection\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/clock_imperfection/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.012",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.013",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\speaker_wire\\speaker_wire\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/speaker_wire/speaker_wire/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.014",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\speaker_plastic\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/speaker_plastic/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.015",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\clock_imperfection\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/clock_imperfection/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.016",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.017",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\wood_groups\\cabinet_wood\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/wood_groups/cabinet_wood/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.018",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\clock_imperfection\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/clock_imperfection/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.019",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\clock_imperfection\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/clock_imperfection/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.020",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\clock_imperfection\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/clock_imperfection/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.021",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\wood_groups\\school_board\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/wood_groups/school_board/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.022",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\tv_screen_imperfection\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/tv_screen_imperfection/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.023",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.024",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\clock_imperfection\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/clock_imperfection/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.043",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\enamel\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/enamel/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.044",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\metal\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/metal/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.045",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.046",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\paper\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/paper/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.050",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\rubber\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/rubber/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.053",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\exposed_wood\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/exposed_wood/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.055",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_varnish\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_varnish/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.057",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_chalk\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_chalk/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.058",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\metal\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/metal/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.059",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\equipment_sd\\dark\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/equipment_sd/dark/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.060",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\teaching_paper\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/teaching_paper/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.062",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\teaching_bookcloth\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/teaching_bookcloth/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.063",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_cloth\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_cloth/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.065",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_00\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_00/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.066",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_paper\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_paper/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.067",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_01\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_01/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.068",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_02\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_02/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.069",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_03\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_03/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.070",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_04\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_04/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.071",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\notice_05\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/notice_05/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.072",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_00\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_00/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.073",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_01\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_01/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.074",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_02\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_02/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.075",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_03\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_03/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.076",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_04\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_04/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.077",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_05\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_05/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.078",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_06\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_06/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.079",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_07\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_07/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.080",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_08\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_08/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.081",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_09\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_09/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.082",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_10\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_10/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.083",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_11\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_11/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.084",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_12\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_12/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.085",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_13\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_13/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.086",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_14\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_14/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.090",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_red_lacquer\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.091",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_tinplate\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_tinplate/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "Roughness.png.092",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\hero_tin_sd\\hero_lithographic_ink\\Roughness.png",
+      "after": "//../../../../02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "rubber_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\rubber_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/rubber_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "rubber_color_2k.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\rubber_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/rubber_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "rubber_roughness_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\rubber_roughness_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/rubber_roughness_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "rubber_roughness_2k.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\rubber_roughness_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/rubber_roughness_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "RustBaseColor.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\RustBaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/RustBaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "RustBaseColor.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\RustBaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/RustBaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "RustHeight.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\RustHeight.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/RustHeight.png"
+    },
+    {
+      "kind": "images",
+      "name": "RustHeight.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\RustHeight.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/RustHeight.png"
+    },
+    {
+      "kind": "images",
+      "name": "RustRoughness.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\RustRoughness.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/RustRoughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "RustRoughness.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\RustRoughness.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/RustRoughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "ScratchMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\ScratchMask.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "ScratchMask.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\ScratchMask.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "ScratchMask.png.002",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\tv_screen_imperfection\\ScratchMask.png",
+      "after": "//../../../../02_assets/textures/generated/tv_screen_imperfection/ScratchMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "ScratchMask.png.003",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\tv_screen_imperfection\\ScratchMask.png",
+      "after": "//../../../../02_assets/textures/generated/tv_screen_imperfection/ScratchMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "ScratchMask.png.004",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\ScratchMask.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "ScratchMask.png.005",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\ScratchMask.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "ScratchMask.png.006",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\ScratchMask.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "ScratchMask.png.007",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_surface\\closeup_polymer\\ScratchMask.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.010",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_10\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_10/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.011",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_11\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_11/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.012",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_12\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_12/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.013",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_13\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_13/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.014",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\teaching_sd\\detail\\book_14\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/teaching_sd/detail/book_14/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.015",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_spines\\book_04\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_spines/book_04/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.016",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_spines\\book_06\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_spines/book_06/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.017",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_spines\\book_05\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_spines/book_05/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.018",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_spines\\book_07\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_spines/book_07/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.019",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_spines\\book_08\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_spines/book_08/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.020",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_spines\\book_09\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_spines/book_09/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.021",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_spines\\book_01\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_spines/book_01/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.022",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_spines\\book_00\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_spines/book_00/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.023",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_spines\\book_02\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_spines/book_02/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SpineColor.png.024",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\closeup_spines\\book_03\\SpineColor.png",
+      "after": "//../../../../02_assets/textures/generated/closeup_spines/book_03/SpineColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SteelBaseColor.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelBaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/SteelBaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SteelBaseColor.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelBaseColor.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/SteelBaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "SteelHeight.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelHeight.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/SteelHeight.png"
+    },
+    {
+      "kind": "images",
+      "name": "SteelHeight.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelHeight.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/SteelHeight.png"
+    },
+    {
+      "kind": "images",
+      "name": "SteelRoughness.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelRoughness.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/SteelRoughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "SteelRoughness.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\school_desk_sd\\layers\\4k\\SteelRoughness.png",
+      "after": "//../../../../02_assets/textures/generated/school_desk_sd/layers/4k/SteelRoughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "sunset_jhbcentral_4k.exr",
+      "before": "//..\\..\\..\\..\\02_assets\\hdri\\polyhaven\\sunset_jhbcentral\\4k\\sunset_jhbcentral_4k.exr",
+      "after": "//../../../../02_assets/hdri/polyhaven/sunset_jhbcentral/4k/sunset_jhbcentral_4k.exr"
+    },
+    {
+      "kind": "images",
+      "name": "tin_label_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\tin_label_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/tin_label_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "Transmission.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\architecture_corridor_sd\\thin_linen\\Transmission.png",
+      "after": "//../../../../02_assets/textures/generated/architecture_corridor_sd/thin_linen/Transmission.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_BaseColor.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_BaseColor.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_DirtMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_DirtMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_DirtMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_front_BaseColor.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_front_BaseColor.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_front_BaseColor.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_front_DirtMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_front_DirtMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_front_DirtMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_front_Height.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_front_Height.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_front_Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_front_Metallic.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_front_Metallic.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_front_Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_front_Roughness.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_front_Roughness.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_front_Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_front_RustMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_front_RustMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_front_RustMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_front_WearMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_front_WearMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_front_WearMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_Height.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_Height.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_Height.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_Metallic.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_Metallic.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_Metallic.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_Roughness.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_Roughness.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_Roughness.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_RustMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_RustMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_RustMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "tray_WearMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\school_desk\\2k\\tray_WearMask.png",
+      "after": "//../../../../02_assets/textures/authored/school_desk/2k/tray_WearMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "WipeMask.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\clock_imperfection\\WipeMask.png",
+      "after": "//../../../../02_assets/textures/generated/clock_imperfection/WipeMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "WipeMask.png.001",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\tv_screen_imperfection\\WipeMask.png",
+      "after": "//../../../../02_assets/textures/generated/tv_screen_imperfection/WipeMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "WipeMask.png.002",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\tv_screen_imperfection\\WipeMask.png",
+      "after": "//../../../../02_assets/textures/generated/tv_screen_imperfection/WipeMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "WipeMask.png.003",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\generated\\clock_imperfection\\WipeMask.png",
+      "after": "//../../../../02_assets/textures/generated/clock_imperfection/WipeMask.png"
+    },
+    {
+      "kind": "images",
+      "name": "wood_edge_color_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\wood_edge_color_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/wood_edge_color_2k.png"
+    },
+    {
+      "kind": "images",
+      "name": "wood_edge_roughness_2k.png",
+      "before": "//..\\..\\..\\..\\02_assets\\textures\\authored\\classroom\\2k\\wood_edge_roughness_2k.png",
+      "after": "//../../../../02_assets/textures/authored/classroom/2k/wood_edge_roughness_2k.png"
+    }
+  ],
+  "bytes": 1877975071
+}

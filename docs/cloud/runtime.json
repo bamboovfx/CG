@@ -4,7 +4,11 @@
   "root_resolution": "parent_of_scripts_directory",
   "blender_version": "5.1.2",
   "blender_relative_path": ".local/tools/blender-5.1.2-linux-x64/blender",
-  "asset_policy": "local_only",
+  "asset_policy": "git_lfs_shot_dependency_allowlist",
   "formal_scene": "03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend",
-  "formal_scene_in_repository": false
+  "formal_scene_in_repository": true,
+  "asset_manifest": "06_review/cloud_assets_20261003/upload_manifest.json",
+  "asset_restore": "git lfs pull",
+  "independent_chair": "02_assets/work/school_chair.blend",
+  "known_visual_limits": ["5 pre-existing missing Houdini opdef images", "external Arial Narrow font"]
 }

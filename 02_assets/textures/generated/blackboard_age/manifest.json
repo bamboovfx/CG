@@ -1,0 +1,112 @@
+{
+  "method": "Native Substance Designer synthesis from original procedural placement masks",
+  "source": "02_assets/materials/blackboard_age/school_blackboard_baked_coating.sbs",
+  "source_sha256": "f0a7eacd58fa13a40ddfddaf1bf374970774675e224206266a38102435f3330e",
+  "seed": 190926,
+  "surface_m": [
+    4.143805,
+    1.49
+  ],
+  "outputs": [
+    {
+      "path": "02_assets/textures/generated/blackboard_age/BaseColor.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "6f7b4a0b530f21ffdef64691f2d49d664559e510eb0692701a554e0d0c7eb88a",
+      "colorspace": "sRGB"
+    },
+    {
+      "path": "02_assets/textures/generated/blackboard_age/Height.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "847f7e3740463222dfcabc4d545f263a8d737463e10bf480b8d9e4cf34751d06",
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/generated/blackboard_age/Metallic.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "00820f95a843a58461d02fc8fc8546fca682b596b35ca1de2971349e3b03da5a",
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/generated/blackboard_age/Normal.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "2c1f6dad290fe7bb5874965739ca88aa83d2864f28cf5fd3c9da1c01ae03fd52",
+      "colorspace": "Non-Color"
+    },
+    {
+      "path": "02_assets/textures/generated/blackboard_age/Roughness.png",
+      "size": [
+        4096,
+        2048
+      ],
+      "sha256": "35b4b9b6b7232fccc972e955ab52eeb76200728bd397859b9e869cfe383823f5",
+      "colorspace": "Non-Color"
+    }
+  ],
+  "commands": [
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\school_blackboard_baked_coating.sbs",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age",
+      "--alias",
+      "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+    ],
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+      "render",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\school_blackboard_baked_coating.sbsar",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\blackboard_age",
+      "--output-name",
+      "{outputNodeName}",
+      "--set-value",
+      "$outputsize@12,11",
+      "--engine",
+      "d3d11",
+      "--output-bit-depth",
+      "16",
+      "--no-report",
+      "--set-entry",
+      "UseMask@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\UseMask.png",
+      "--set-entry",
+      "Abrasion@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\Abrasion.png",
+      "--set-entry",
+      "EmbeddedChalk@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\EmbeddedChalk.png",
+      "--set-entry",
+      "EraserPasses@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\EraserPasses.png",
+      "--set-entry",
+      "SunFade@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\SunFade.png",
+      "--set-entry",
+      "GhostWriting@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\GhostWriting.png",
+      "--set-entry",
+      "EdgeDust@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\EdgeDust.png",
+      "--set-entry",
+      "TouchSoil@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\blackboard_age\\inputs\\TouchSoil.png",
+      "--set-entry",
+      "CC0EraserDetail@D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\teaching_rebuild\\detail_inputs\\chalkboard-blackboard-with-eraser-marks.jpg"
+    ]
+  ],
+  "photo_detail_input": {
+    "path": "02_assets/materials/teaching_rebuild/detail_inputs/chalkboard-blackboard-with-eraser-marks.jpg",
+    "sha256": "6f269b07c6b4092a8b2faa980575474746488cf4e07e8fe9118b7ec16acf2982",
+    "license": "CC0 / Public Domain, verified 2026-09-19",
+    "url": "https://www.goodfreephotos.com/other-photos/chalkboard-blackboard-with-eraser-marks.jpg.php",
+    "processing": "grayscale -> high pass (broad lighting removal) -> residue mask -> original use distribution"
+  },
+  "not_measured_pbr": true,
+  "manufacturer_reference_pixels_used": false
+}

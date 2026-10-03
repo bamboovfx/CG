@@ -23,7 +23,7 @@ Updated: 2026-10-01
 - [上一轮整体灰褐老化调色（用户认为过重）](../../../06_review/chair_metal_age_color_20261001/report.md)、[上一轮整体图](../../../06_review/chair_metal_age_color_20261001/after_whole.png)、[上一轮横管近景](../../../06_review/chair_metal_age_color_20261001/after_rail.png)。
 
 - [制作与验证报告](../../../06_review/chair_metal_layers_20261001/report.md)、[整椅对比](../../../06_review/chair_metal_layers_20261001/whole_comparison.jpg)、[横管分层对比](../../../06_review/chair_metal_layers_20261001/rail_comparison.jpg)、[真实100%裁片](../../../06_review/chair_metal_layers_20261001/map_100_percent.png)。
-- [当前工作文件](../../../07_pipeline/cache/tripo_wood_side_back_20260930/tripo_wood_side_back.blend)、[原生SD](../../../02_assets/materials/chair_metal_layers/chair_metal_layers.sbs)。
+- [当前工作文件](../../../02_assets/work/school_chair.blend)、[原生SD](../../../02_assets/materials/chair_metal_layers/chair_metal_layers.sbs)。
 
 ## Comments
 

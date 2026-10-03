@@ -1,0 +1,160 @@
+{
+  "method": "Native editable Substance Designer graph / Adobe cooker and renderer",
+  "date": "2026-09-16",
+  "tile_m": 0.8,
+  "bit_depth": 16,
+  "color_space": "Non-Color",
+  "nodes": 66,
+  "reference": "Sahaar Chhabra Retro CRT 90s Monitor / user supplied two screenshots; visual analysis only",
+  "seed": 3087,
+  "commands": [
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbscooker.exe",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tv_screen_imperfection\\tv_screen_imperfection.sbs",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tv_screen_imperfection",
+      "--alias",
+      "sbs://D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\resources\\packages"
+    ],
+    [
+      "D:\\Program Files\\Adobe\\Adobe Substance 3D Designer\\sbsrender.exe",
+      "render",
+      "--inputs",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\materials\\tv_screen_imperfection\\tv_screen_imperfection.sbsar",
+      "--output-path",
+      "D:\\00_projects\\10_CG\\Shot_Test\\02_assets\\textures\\generated\\tv_screen_imperfection",
+      "--output-name",
+      "{outputNodeName}",
+      "--set-value",
+      "$outputsize@12,12",
+      "--engine",
+      "d3d11",
+      "--output-bit-depth",
+      "16",
+      "--no-report"
+    ]
+  ],
+  "files": [
+    {
+      "file": "02_assets/textures/generated/tv_screen_imperfection/DepositMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "7f4ef7286994689bfa150c9e32249df5ba051e8dd6298ed07798f7e955f3ee45",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.03168966024829838,
+      "p95": 0.19229419394216832
+    },
+    {
+      "file": "02_assets/textures/generated/tv_screen_imperfection/DustMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "4819a8c304c7a357a920f35e5b0b6bb403cd2d21aab21711660ae9487ddc5a6c",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.029913758730428154,
+      "p95": 0.1838864728770886
+    },
+    {
+      "file": "02_assets/textures/generated/tv_screen_imperfection/Height.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "73be983e746c2cbe676765458b5534e32d21f4ff2fcf9313f9b3b97b1c1976aa",
+      "min": 0.40276188296330206,
+      "max": 0.522392614633402,
+      "mean": 0.5002094807182431,
+      "p95": 0.5039902342259861
+    },
+    {
+      "file": "02_assets/textures/generated/tv_screen_imperfection/LongScratches.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "fac0226121c9728ba58483c7976b5fec1797fb96153248d6daf7e93e2fd56a70",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.00013174300082098968,
+      "p95": 0.0
+    },
+    {
+      "file": "02_assets/textures/generated/tv_screen_imperfection/MicroScratches.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "c8c9e515c9c5fdc24f0de5a07460b122ace5d5f4596606fcca549ac01fe12209",
+      "min": 0.0,
+      "max": 0.8580300602731364,
+      "mean": 0.003671119116150633,
+      "p95": 0.021225299458304724
+    },
+    {
+      "file": "02_assets/textures/generated/tv_screen_imperfection/OilMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "e4ceea7e8910f4b496a174d816e86490754a2772897e9252b3dbe8d1c3a4ed99",
+      "min": 0.0,
+      "max": 0.8320897230487526,
+      "mean": 0.3539406721921373,
+      "p95": 0.6375066758220798
+    },
+    {
+      "file": "02_assets/textures/generated/tv_screen_imperfection/Roughness.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "a45e2ec1aecf3596f8492238f9f48050ca78b8e63a0bf18c9b2f7824108cdfb8",
+      "min": 0.03500419623102159,
+      "max": 0.19760433356221865,
+      "mean": 0.045675131933925764,
+      "p95": 0.06871137560082399
+    },
+    {
+      "file": "02_assets/textures/generated/tv_screen_imperfection/ScratchMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "c0f0f246cb68e92f25363280fc0c894fc41bc94204622b13bdf51d9e1f4c9fe2",
+      "min": 0.0,
+      "max": 0.8713664454108492,
+      "mean": 0.004361924386964907,
+      "p95": 0.025131609063859008
+    },
+    {
+      "file": "02_assets/textures/generated/tv_screen_imperfection/ScuffMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "414f1d618f0f1ed8eb606d63f59769398e132f70be7a4c15c9238ee757fc10ce",
+      "min": 0.0,
+      "max": 0.4737010757610437,
+      "mean": 0.001273808025828104,
+      "p95": 0.00643930724040589
+    },
+    {
+      "file": "02_assets/textures/generated/tv_screen_imperfection/WipeMask.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "sha256": "3e1915c4d704fbe127eb1b57cec8beb6f20832df7370ac451742db6ce97b6c2b",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.01496209658064449,
+      "p95": 0.09481956206607156
+    }
+  ]
+}

@@ -26,22 +26,24 @@ Updated: 2026-10-01
 
 - [背面印记彻底清理](../../../06_review/wood_stamp_cleanup_20261001/report.md)、[清理后背面](../../../06_review/wood_stamp_cleanup_20261001/after.png)。
 
-- [当前侧立面／背面修复](../../../06_review/tripo_wood_side_back_20260930/report.md)、[侧立面对比](../../../06_review/tripo_wood_side_back_20260930/side_comparison.jpg)、[背面对比](../../../06_review/tripo_wood_side_back_20260930/back_comparison.jpg)、[当前修复版](../../../07_pipeline/cache/tripo_wood_side_back_20260930/tripo_wood_side_back.blend)。
+- [当前侧立面／背面修复](../../../06_review/tripo_wood_side_back_20260930/report.md)、[侧立面对比](../../../06_review/tripo_wood_side_back_20260930/side_comparison.jpg)、[背面对比](../../../06_review/tripo_wood_side_back_20260930/back_comparison.jpg)、[当前修复版](../../../02_assets/work/school_chair.blend)。
 
-- [当前表面脏渍报告](../../../06_review/tripo_wood_dirt_20260930/report.md)、[污斑紧特写](../../../06_review/tripo_wood_dirt_20260930/stain_comparison.jpg)、[当前脏渍候选](../../../07_pipeline/cache/tripo_wood_dirt_20260930/tripo_wood_dirt.blend)。
+- [当前表面脏渍报告](../../../06_review/tripo_wood_dirt_20260930/report.md)、[污斑紧特写](../../../06_review/tripo_wood_dirt_20260930/stain_comparison.jpg)、[后续整合源，阶段版本已清理](../../../02_assets/work/school_chair.blend)。
 
-- [当前扫描辅助重制报告](../../../06_review/tripo_wood_detail_20260930/report.md)、[100%贴图裁片](../../../06_review/tripo_wood_detail_20260930/map_100_percent.jpg)、[实物尺度特写比较](../../../06_review/tripo_wood_detail_20260930/macro_comparison.jpg)、[当前候选](../../../07_pipeline/cache/tripo_wood_detail_20260930/tripo_wood_detail.blend)。
+- [当前扫描辅助重制报告](../../../06_review/tripo_wood_detail_20260930/report.md)、[100%贴图裁片](../../../06_review/tripo_wood_detail_20260930/map_100_percent.jpg)、[实物尺度特写比较](../../../06_review/tripo_wood_detail_20260930/macro_comparison.jpg)、[后续整合源，阶段版本已清理](../../../02_assets/work/school_chair.blend)。
 
-- [表现层加强报告](../../../06_review/tripo_wood_appearance_20260930/report.md)、[同光前后](../../../06_review/tripo_wood_appearance_20260930/appearance_comparison.jpg)、[当前新版](../../../07_pipeline/cache/tripo_wood_appearance_20260930/tripo_wood_appearance.blend)。
+- [表现层加强报告](../../../06_review/tripo_wood_appearance_20260930/report.md)、[同光前后](../../../06_review/tripo_wood_appearance_20260930/appearance_comparison.jpg)、[后续整合源，阶段版本已清理](../../../02_assets/work/school_chair.blend)。
 
 - [交付与已知差距](../../../06_review/wood_layers_20260930/report.md)。
 - [四阶段同光对照](../../../06_review/wood_layers_20260930/layer_comparison.jpg)、[座面近景](../../../06_review/wood_layers_20260930/05_seat_detail.png)。
-- [原生SD源](../../../02_assets/materials/wood_layers/school_wood_layers.sbs)、[Blender候选](../../../07_pipeline/cache/wood_layers_20260930/wood_layers_studio.blend)。
+- [原生SD源](../../../02_assets/materials/wood_layers/school_wood_layers.sbs)、[后续整合源，阶段版本已清理](../../../02_assets/work/school_chair.blend)。
 - [工程读回](../../../06_review/wood_layers_20260930/reopen_validation.json)、[表现归零验证](../../../06_review/wood_layers_20260930/zero_control_validation.json)。
-- [Tripo返工报告](../../../06_review/tripo_wood_reference_20260930/report.md)、[Tripo分层工程](../../../07_pipeline/cache/tripo_wood_reference_20260930/tripo_wood_reference.blend)。
+- [Tripo返工报告](../../../06_review/tripo_wood_reference_20260930/report.md)、[后续整合源，阶段版本已清理](../../../02_assets/work/school_chair.blend)。
 - [实际座面](../../../06_review/tripo_wood_reference_20260930/03_seat_detail.png)、[高光近景](../../../06_review/tripo_wood_reference_20260930/09_highlight_close.png)、[真实接线与几何读回](../../../06_review/tripo_wood_reference_20260930/reopen_validation.json)。
 
 ## Comments
+
+- 2026-10-03：仅保留最终整合课椅 `02_assets/work/school_chair.blend`，旧分阶段Blender版本已按用户要求清理；原生SD、各阶段报告/图像/验证及制作配方保留。下方过去的阶段验收是历史记录，当前编辑统一进入最终源。
 
 
 

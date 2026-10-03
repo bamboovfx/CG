@@ -1,0 +1,3996 @@
+{
+  "repository": "bamboovfx/CG",
+  "policy": "shot_dependencies_and_current_editable_workflows",
+  "files": [
+    {
+      "path": "00_admin/asset_manifest.json",
+      "bytes": 160727,
+      "sha256": "e62fca4cfae60ebf3d35873d5be78eb59f188acbb875f47b0e70200d32c85c82",
+      "reason": "项目素材来源与许可总清单"
+    },
+    {
+      "path": "02_assets/hdri/polyhaven/sunset_jhbcentral/4k/sunset_jhbcentral_4k.exr",
+      "bytes": 18180266,
+      "sha256": "aadcdd1a62b1cd6355444756946a5122ad9de88f190ac1d6ac6cb914f3da7677",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/materials/architecture_corridor/architecture_corridor_floor.sbs",
+      "bytes": 33856,
+      "sha256": "2f26fa29be5f46f3be0779f5d7a32174e4530b09f0c78569d0cb28180a81358f",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/architecture_corridor/architecture_thin_linen.sbs",
+      "bytes": 46127,
+      "sha256": "644b5f99e23018cb84628ab75e2eda0782403929c4255b47a7675be14e91d6f4",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/architecture_rebuild/architecture_enamel.sbs",
+      "bytes": 41857,
+      "sha256": "fb7ac90165686848620a7756af9f3b547e4bc12578f82d615d343c105f2b5ced",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/architecture_rebuild/architecture_glass.sbs",
+      "bytes": 37175,
+      "sha256": "754d2cd7282ecb3cbe7b3dec2784e0ba0700c4f1a6fb91621e252597818d0ca6",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/architecture_rebuild/architecture_linen.sbs",
+      "bytes": 46112,
+      "sha256": "ede06abab4f78ff6d61eab266462d0b4e18112a7eb7ba26b9cb44440257aa6a7",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/architecture_rebuild/architecture_metal.sbs",
+      "bytes": 39674,
+      "sha256": "1fcf3e82a935c663d6f956c0f1d38d83464008c1be8abbda08b02a64ce422c46",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/architecture_rebuild/architecture_polymer.sbs",
+      "bytes": 37198,
+      "sha256": "30c08997fbcbef0f7b4772e8d0d29774dd80ce4fc5416876e54f9505f8e20d88",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/blackboard_age/inputs/Abrasion.png",
+      "bytes": 5379366,
+      "sha256": "7f0f6f814891f389ee39e3c71e9a63d9b750ef089a877864bf649f62c5a2434e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/materials/blackboard_age/inputs/manifest.json",
+      "bytes": 3216,
+      "sha256": "bd312799169f93a824b0172b2343f3a791ba9b7c10d23f053d1831626006e025",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/materials/blackboard_age/school_blackboard_baked_coating.sbs",
+      "bytes": 110884,
+      "sha256": "f0a7eacd58fa13a40ddfddaf1bf374970774675e224206266a38102435f3330e",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/chair_foot_caps/chair_foot_caps.sbs",
+      "bytes": 130884,
+      "sha256": "c977db97bd2ccdcddf485b69a6877260383fcf99968c832465d582940962926e",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/chair_metal_layers/chair_metal_layers.sbs",
+      "bytes": 156195,
+      "sha256": "0cacc2a938f02641fb7ee565cd5a9cb9093bfd808fbf45c8f24b6dbc2f7a211a",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/clock_imperfection/clock_imperfection.sbs",
+      "bytes": 58613,
+      "sha256": "d1d5cc7202e48315d4cb679d32e8b327d3d1aa709196149f2622d068d9d17115",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/closeup_surface/closeup_chalk.sbs",
+      "bytes": 38144,
+      "sha256": "08e5015c3da681a549edb59697a2bd84c3911547cc3c636ce407641b5fb3175a",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/closeup_surface/closeup_cloth.sbs",
+      "bytes": 35044,
+      "sha256": "bf9547aa0f920e9341c97674a231d5640b6bdb10e6e462b58546883f71be56cb",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/closeup_surface/closeup_paper.sbs",
+      "bytes": 35029,
+      "sha256": "0c26e971d52c32cf59bf7b7007ff9b74aa0c3301b92d85ba85f92d72f501dab0",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/closeup_surface/closeup_polymer.sbs",
+      "bytes": 38222,
+      "sha256": "cbac479b9ecd66ecb1f4a07827fa88b955f51c317956aca65208a518e3cf3064",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/closeup_surface/closeup_varnish.sbs",
+      "bytes": 38134,
+      "sha256": "dcfa6ca531a3e0ba0e3d8d071a4c6275906e3876144055c95e7b87fac53c12c6",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/equipment_rebuild/equipment_abs.sbs",
+      "bytes": 43614,
+      "sha256": "9ee1a21db6be9d404652c7ec5a627fddc7d909a99de7be46e11d621d6c7a191f",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/equipment_rebuild/equipment_contact_film.sbs",
+      "bytes": 38262,
+      "sha256": "21cad3324b94374f114d3092fca80c69147580571b5fbcdbf31fe9dbfd84ea54",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/equipment_rebuild/equipment_dark.sbs",
+      "bytes": 43529,
+      "sha256": "0434b1333c62271afefa56811fec6bd85a4759c377e514f1dd1150a302ddb8fa",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/equipment_rebuild/equipment_enamel.sbs",
+      "bytes": 43531,
+      "sha256": "2aff9d3b441cda076ecb3d7470ec15780520ce79c7e507471805f839d5796b3a",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/equipment_rebuild/equipment_exposed_wood.sbs",
+      "bytes": 58337,
+      "sha256": "6905d0c217e79846d2e2e23b80f6d3e33d7746c90bb86f1e54098160436db687",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/equipment_rebuild/equipment_glass.sbs",
+      "bytes": 43548,
+      "sha256": "9637337bfaafb923cf87a15eb469b724fb12c1432b96f11ac334d5eae9b0c0cc",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/equipment_rebuild/equipment_metal.sbs",
+      "bytes": 44141,
+      "sha256": "e8159c473d4a46783b5823528c94a34d79dc27709f87295a23cf41bd59b0036a",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/equipment_rebuild/equipment_paper.sbs",
+      "bytes": 43570,
+      "sha256": "f8d295ed547f079b7da3b6ea459326a59f5f6dd6ae00fb785893755b225eb097",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/equipment_rebuild/equipment_rubber.sbs",
+      "bytes": 43577,
+      "sha256": "8af202034cea7c21cd95c8a3bcd9ba38ab260d89a4994538d1eb3c95c1e98ce5",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/equipment_rebuild/equipment_varnished_wood.sbs",
+      "bytes": 64345,
+      "sha256": "a8b4c8b2a12ef3098111659d26f5391a2dcd00096f4191454c3f0e1ce7c6c1d1",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/hero_tin/hero_lithographic_ink.sbs",
+      "bytes": 63120,
+      "sha256": "84340d2926b536a0aa0a56ac0917d26ccc2feeafd9a1bc07e53a925ef84e23c9",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/hero_tin/hero_red_lacquer.sbs",
+      "bytes": 63423,
+      "sha256": "e23cdf42917932a821426f9a2606ac4a5ee4d2974a55d11b1d0a991ae47515ec",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/hero_tin/hero_tinplate.sbs",
+      "bytes": 52013,
+      "sha256": "ee79ed832062acb752353d441ef70ce8aa7070a601e71bed34639ede8ef393f6",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/school_desk/school_desk_painted_steel.sbs",
+      "bytes": 205929,
+      "sha256": "dadbd6a71486fd195467116e1db74a6538dbf7e65808d3cef96d3cfea29dbfb9",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/shell_tin_rebuild/aged_tinplate.sbs",
+      "bytes": 31814,
+      "sha256": "c796120f1721f6bfd3c14431b1433036c6e9eefc61c0f91bdc5c41acdb949591",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/shell_tin_rebuild/painted_school_plaster.sbs",
+      "bytes": 32384,
+      "sha256": "9dfe8405cc740ce606c5af8d4ad1860bd32d5ca80c56d3a8e02d5cc34c7b1280",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/shell_tin_rebuild/parquet_varnished_oak.sbs",
+      "bytes": 58085,
+      "sha256": "ca704339d579cfccf214ec9d2d67c1f234009fd3e735158e157579caa574cbe1",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/shell_tin_rebuild/printed_candy_tin.sbs",
+      "bytes": 42142,
+      "sha256": "7c9e50da208c25c4a9e6df68c4f9253c723f7200e5ae243f26ad9cddd224c067",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/shell_tin_rebuild/red_candy_lacquer.sbs",
+      "bytes": 42464,
+      "sha256": "a9f933d7dcb823a3458ff98570f5a98565b57be84f96993bc34bcda3c7a4789d",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/speaker_dust/speaker_dust.sbs",
+      "bytes": 22728,
+      "sha256": "bb91db9f6eca45186a8a6796d7354466519b6b134c888d76654d8d2a900a4d67",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/speaker_plastic/speaker_plastic.sbs",
+      "bytes": 113903,
+      "sha256": "0bc47490962974cecb2438db69129a7811c6eebde667657a4e1d3085c4e6faab",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/speaker_wire/speaker_wire.sbs",
+      "bytes": 35533,
+      "sha256": "9cbd2ce4f623b0d572fd5b78c63b18debedf16676d4ce8f915ad601a696ca507",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbs",
+      "bytes": 63753,
+      "sha256": "e94f8af75fbb8c4d12d8527428c35a95fa271fd61e916aa09dc1ec261f848c8b",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/detail/teaching_detail_chalkboard.sbs",
+      "bytes": 55329,
+      "sha256": "76d56577e25bf1cbca70331096098cad32415a9209ee8d769af46cd35ba20672",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/detail/teaching_detail_eraser.sbs",
+      "bytes": 28279,
+      "sha256": "5d922cc8bc426b0f7ad6985d401751d5c2233ca6cd01e552b6cd7504f8e6137c",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbs",
+      "bytes": 37283,
+      "sha256": "ee40821523397933e0f8fd5cbfb849dbf6adebe5d73747c5a7792154765bbf7a",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/detail/teaching_detail_wood.sbs",
+      "bytes": 48823,
+      "sha256": "f40b58e73cfe9082de032c1ba1b41faa8cd710119fc875612c69dd49afb5748b",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/teaching_bookcloth.sbs",
+      "bytes": 36655,
+      "sha256": "286e78f3adb3e4c6e4e43a6b7a6357ec033ccedd4834686fb3d355cb575b59a1",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/teaching_chalkboard.sbs",
+      "bytes": 48302,
+      "sha256": "00b805979dc60981ed4919bfa823e04f4a6f4770ab13aa9df43b6afff09fc0d3",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/teaching_felt.sbs",
+      "bytes": 36641,
+      "sha256": "a7895173417a7d8fc48bf8e8720fdc0d773ad960405f3a6ffaf5a66617637070",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/teaching_notices.sbs",
+      "bytes": 46169,
+      "sha256": "3930c55fc4a4fd4ed1f97ef3ab77db06f92902e8f5f940dff83e19b20f8d6904",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/teaching_paper.sbs",
+      "bytes": 36669,
+      "sha256": "c9c7fc086ecc1fcfe37cf81213065e017c5f677bccaa5a82a0c522e732f4fa35",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/teaching_rebuild/teaching_varnished_wood.sbs",
+      "bytes": 72868,
+      "sha256": "c907a8931d36d0f1c71ea293852946b658361854dd88f19b29752e2581e00d39",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/tripo_wood_detail/wood_detail_back.sbs",
+      "bytes": 159938,
+      "sha256": "2ae161e2971e69d04faa9a85a3cab9dc4b22908830cf37d1b97c4141cb7076cf",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/tripo_wood_detail/wood_detail_seat.sbs",
+      "bytes": 159938,
+      "sha256": "3415b8822c7a65b42e586d9ddf886f243e07616c29cf09d3fef8ca7c04c5b102",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/tripo_wood_dirt/wood_surface_dirt_back.sbs",
+      "bytes": 68519,
+      "sha256": "2895adc108669b3fe28c48c2b8a25400e04f952457ec4493933d5ab1419629ab",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/tripo_wood_dirt/wood_surface_dirt_seat.sbs",
+      "bytes": 68519,
+      "sha256": "221ae6bbbbd13f035861263a2cc9a036d0b94fc1738a7d75a71e2616ead435fa",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/tripo_wood_reference/reference_wood_back.sbs",
+      "bytes": 145176,
+      "sha256": "271f181943046ddc86854594246e5f075caf835e69078ff69c07c89d169e964f",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/tripo_wood_reference/reference_wood_seat.sbs",
+      "bytes": 141569,
+      "sha256": "73e7b8b4d332429849d6ba39cc5544800ee2df6109af513820ca2339089ad8e2",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/tv_screen_imperfection/tv_screen_imperfection.sbs",
+      "bytes": 152170,
+      "sha256": "d9b0e7f5a8814ff2717b226ae81f306e4da57bdace5d3abc673f7cdab42746ae",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/wood_groups/cabinet_wood.sbs",
+      "bytes": 51106,
+      "sha256": "13aba9729851e41c088e656ce506d0c8c1cff6128f7fcb69bc0ee6a29b3e7bd0",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/materials/wood_groups/school_board.sbs",
+      "bytes": 48489,
+      "sha256": "f66829fb6d7adc56bddec1101ab7118645ef83d65fdb2c0ad1f19a45332e2e23",
+      "reason": "当前资产使用的原生 Substance 材质流程"
+    },
+    {
+      "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Color.jpg",
+      "bytes": 7286913,
+      "sha256": "7aa2ae8d953523c1e7489b4fa7ffd3cfda8f463738db4ddebbbaf126a1ee351a",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_NormalGL.jpg",
+      "bytes": 10149065,
+      "sha256": "7c871bf6969e45e5aa11c5d04c7ad141dbc0aadf1124b7eeb9b0b42eb0c8890b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Roughness.jpg",
+      "bytes": 3421323,
+      "sha256": "ac4806ea54090d5979f5052eb02f72b27cb01762ebfafa82cce2464e5274c1ec",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/board_wiped_color_2k.png",
+      "bytes": 2234737,
+      "sha256": "52cf1d4e8eff366dff8add1bb38c8798ea8d89f7472aad11fb932b7b051b6cad",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/chalkboard_color_2k.png",
+      "bytes": 2297310,
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/chalkboard_roughness_2k.png",
+      "bytes": 2070605,
+      "sha256": "220022a4dd1834c6b08282434e597a5c376c70812da3f71b2a8b5579d9bc2d6e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/glass_color_2k.png",
+      "bytes": 2297310,
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/glass_roughness_2k.png",
+      "bytes": 882601,
+      "sha256": "4c650b6485940d089595be39283eb727c98ee82f68d0d50c482a415cbcd89515",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/metal_color_2k.png",
+      "bytes": 2311334,
+      "sha256": "522d02365642b526dccb150596cc9d341177d6318aa9f15807ce5044639c7792",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/metal_roughness_2k.png",
+      "bytes": 2082413,
+      "sha256": "21d1a4ce67c92d540700b75caccb101c787eb1506cb74f2c61bd0dd00de56a4c",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/notice_00_color_2k.png",
+      "bytes": 4331276,
+      "sha256": "7437e121eb9764f04eefdbc93de0dc2aa0d1b5b0976d30349f608c82d726560e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/notice_01_color_2k.png",
+      "bytes": 4423946,
+      "sha256": "e56466f9c2ab89e158af0e227bd20a0763234711535bf9f9885370e90cdff459",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/notice_02_color_2k.png",
+      "bytes": 4329425,
+      "sha256": "36635a05c045d7cf5e07b709f5621abfa1aceee7c54a0bc18e9911c989b213db",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/notice_03_color_2k.png",
+      "bytes": 4425504,
+      "sha256": "5ad16afae2f86829e2f91f9fe4df1f94b6b5ddf2d6bd23b3c8d652fcf392b2af",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/notice_04_color_2k.png",
+      "bytes": 4326972,
+      "sha256": "2e064062808920cbfad25195bc8988679412c63365992a290d80f9664ab7b825",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/old_wooden_floor_03_diff_2k.jpg",
+      "bytes": 732330,
+      "sha256": "2f9d3325ef7240942a21913fa807a8c74c80ef07b65b67f63192ba0aeffa2d26",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/old_wooden_floor_03_nor_gl_2k.png",
+      "bytes": 5724872,
+      "sha256": "49af1dec229527fb463da8704a73a173e0c686962e06273cc6d60ee910791091",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/old_wooden_floor_03_rough_2k.jpg",
+      "bytes": 467165,
+      "sha256": "c909f7f8c77bea4d31c0bdcfca9971a0d0f01a64677df618e2c574d724f6902d",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/paint_color_2k.png",
+      "bytes": 2297310,
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/paint_roughness_2k.png",
+      "bytes": 2079635,
+      "sha256": "d9bdc0c81c5e1bb49ed67cfcac04ee802026a562168808d2fdba7a763bd467b1",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/paper_color_2k.png",
+      "bytes": 2297310,
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/paper_roughness_2k.png",
+      "bytes": 2070779,
+      "sha256": "8fa7437969dd29e59e649f32d004c14288fa6064b4217817e9fb07b96e2acba7",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/plastic_color_2k.png",
+      "bytes": 2297310,
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/plastic_roughness_2k.png",
+      "bytes": 2078418,
+      "sha256": "2cdf95eb4b6f7861de3d2c9a4176525fa62d12c4f288ee2233a42c17048e51b7",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/plywood_diff_2k.jpg",
+      "bytes": 1002882,
+      "sha256": "aa55da3972eeb65048d61805388e31cbf0b37cd1d7273fe0c92da46c745d1392",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/plywood_nor_gl_2k.png",
+      "bytes": 6522719,
+      "sha256": "979075f9250fbe709e15a85cef987b8929cbea62836a319b2dc49a0868b8eac1",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/plywood_rough_2k.jpg",
+      "bytes": 871339,
+      "sha256": "df45c4e90fbaabe41398f80a1fbae722db7553e4af1f2a22ecd1fd4160a6d9f8",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/print_color_2k.png",
+      "bytes": 2297310,
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/print_roughness_2k.png",
+      "bytes": 2080201,
+      "sha256": "7156a4e432d55f6a2370458a388df78ac7b503fed0f709f5cd27847a9c10b9f0",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/rubber_color_2k.png",
+      "bytes": 2297310,
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/rubber_roughness_2k.png",
+      "bytes": 2075624,
+      "sha256": "3d890890cbeb2df2d179e747825bb74ca2608a66b29325af880288b91279b7f4",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/tin_label_color_2k.png",
+      "bytes": 83236,
+      "sha256": "4e5d2e670e39b6f5c3ef663637b56d5b4b202a6b77f18ecdbd5d61e2dda9fa39",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/wood_edge_color_2k.png",
+      "bytes": 1210310,
+      "sha256": "378ade9d02775e64e9ca14bf42cbe6149f8799fba2e397e4a1ffea9cd0634f25",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/classroom/2k/wood_edge_roughness_2k.png",
+      "bytes": 1165572,
+      "sha256": "2efc17cc1a3a8c13bfbda4550073cabf0f3a214b5e8da25bfd8686da292b039a",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/rear_classroom_20260917/calligraphy_atlas_color.png",
+      "bytes": 9416633,
+      "sha256": "e1073755ab74874a13254cb58f63c6d1ecbba9a76ce75700216de02062c6bbee",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/rear_classroom_20260917/manifest.json",
+      "bytes": 547,
+      "sha256": "04f900ee5761dfcb31b79ea157f1c0df2d45c3ab9284f908e9d7d16596ae2b99",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_BaseColor.png",
+      "bytes": 2357072,
+      "sha256": "0f585fce672395c7a83677781037a16bd7a53abbc86b48b389218bdceb0e6a86",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Height.png",
+      "bytes": 1497097,
+      "sha256": "f9297d1648362f49b4eaa0b54c80fba9d954f5687e4a8ce7fb595e30a6c92d87",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Metallic.png",
+      "bytes": 4145,
+      "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Roughness.png",
+      "bytes": 1747870,
+      "sha256": "359ac167e3e9258e3334619b2197cff7dcf0b7032ca751653acbef5237a35855",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_left_DirtMask.png",
+      "bytes": 184431,
+      "sha256": "728c5d6085ce5710cbc4de2e8f61e9a355bec984f8c7af035de7db1ffea75f1f",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_BaseColor.png",
+      "bytes": 2455883,
+      "sha256": "082e836bacd083b45942c76eb9169d97295f9e6088adebc38eca52f88682d6b8",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_DirtMask.png",
+      "bytes": 192190,
+      "sha256": "dc0d11719106c90c54318e59a9b33bd485572cb14af514154ebb41d4a7598c07",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_Height.png",
+      "bytes": 1278158,
+      "sha256": "7b4e689c79203fdf4cad58df6046f051ed331fd5e304b733dd91ebd855f6fc74",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_Metallic.png",
+      "bytes": 95754,
+      "sha256": "6cbb8ef2e852803eb4096344caf6cd13e2e3bfa785cb90b03af82e2e63fb0b70",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_Roughness.png",
+      "bytes": 704157,
+      "sha256": "fc9160631db7a05cc112c616af947cbb45361e716f556ad15602604ec4643fdc",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_RustMask.png",
+      "bytes": 126489,
+      "sha256": "09c935f933e0edf8cf243b2d8a94b8b7cc6e1ea91b0e23fe5fc394a28c1d6180",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_WearMask.png",
+      "bytes": 102685,
+      "sha256": "26e207e96b106b8b176e809f2276f880cefbd4fa7161df3890f5d3f7fb09bff7",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_BaseColor.png",
+      "bytes": 2873466,
+      "sha256": "7919f60dc84a8e2de25287399e8e29377c816ec31923df288089993a6345dcee",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_DirtMask.png",
+      "bytes": 220691,
+      "sha256": "308aadf4bf0ff1d24c3adfe37e295f2a493906c13488776bd93bcbea76f5ca64",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_Height.png",
+      "bytes": 1502028,
+      "sha256": "6ed18629ccdd9b7f7721297a838067d9518648f47cd7479913dd12b28296bf0d",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_Metallic.png",
+      "bytes": 230462,
+      "sha256": "d35b58bb52153eab97c5f38420c57e9dcd676e4bf2b98f81a3acb5f71ad6dc83",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_Roughness.png",
+      "bytes": 958429,
+      "sha256": "4b7f44f2ab5457ac227d6091c4944cc32cfdfc329f0fed0ea8087c4d307b0993",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_RustMask.png",
+      "bytes": 280364,
+      "sha256": "6c6ee4528f3871131888e456a1af01c87767c0905e552ea8db445f08cf6896b5",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_WearMask.png",
+      "bytes": 193903,
+      "sha256": "be4d27c47f6b51707f8bc8f05b21dbb71e20c8a8b44d4339f336e32b702f919e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_BaseColor.png",
+      "bytes": 7618076,
+      "sha256": "aa08df8e33b75c3d900529e0f5e73930f1b554eb2fe645a79897fe4f2e342815",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Height.png",
+      "bytes": 870575,
+      "sha256": "60f76ca3092f1c63537d449c8b219d4b4164db17b65ae370a2175d28fb2d7b98",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Metallic.png",
+      "bytes": 4145,
+      "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Roughness.png",
+      "bytes": 413769,
+      "sha256": "88a4f2f5a9086bbb4bdac8c62eed5a5fdc61d399fa4b2de794abe7fccd90c8be",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/lower_brace_DirtMask.png",
+      "bytes": 154843,
+      "sha256": "8df5aaa154e5266cb5b20f16e78ee3cf31167c658cd5348aa5cd9c478c23c025",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_BaseColor.png",
+      "bytes": 2665372,
+      "sha256": "c8d1c18b70e5199dd7bd8291ed16b722234fa4f14d4dab22c4baa4919b674ad9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_DirtMask.png",
+      "bytes": 311256,
+      "sha256": "7307d7286e88d527e544164a229a1691034c2c642c48d63f9883ad2d5037737f",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_Height.png",
+      "bytes": 1300739,
+      "sha256": "3be3cd2f00e028f03a42b00192438a2037d97304a65b32c7261ba78084952b66",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_Metallic.png",
+      "bytes": 61619,
+      "sha256": "b06a5da5ba9e522eb8900b47f23c469e5f2e964c68d93001443fb6bbefee1840",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_Roughness.png",
+      "bytes": 872102,
+      "sha256": "120b1719be8107875cfc171ed441f66fbd0f3168360ce3f6b0f8dd0f7b1fa1e9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_RustMask.png",
+      "bytes": 74439,
+      "sha256": "f102ff3e3a6baa051cc5c1bb034aa735cffaab6c645a190639813b076df96da6",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_WearMask.png",
+      "bytes": 68198,
+      "sha256": "f84abffb2a699067911e3b37a0c07e836dfeaa82a119aa2ba8966c2ef1dff832",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_BaseColor.png",
+      "bytes": 2674375,
+      "sha256": "7b13287bc0b3bf7f569b200f97d27ed2b4fe758c45c264f73f08b40f5e09814e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_DirtMask.png",
+      "bytes": 311256,
+      "sha256": "7307d7286e88d527e544164a229a1691034c2c642c48d63f9883ad2d5037737f",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_Height.png",
+      "bytes": 1300739,
+      "sha256": "3be3cd2f00e028f03a42b00192438a2037d97304a65b32c7261ba78084952b66",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_Metallic.png",
+      "bytes": 61619,
+      "sha256": "b06a5da5ba9e522eb8900b47f23c469e5f2e964c68d93001443fb6bbefee1840",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_Roughness.png",
+      "bytes": 872102,
+      "sha256": "120b1719be8107875cfc171ed441f66fbd0f3168360ce3f6b0f8dd0f7b1fa1e9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_RustMask.png",
+      "bytes": 74439,
+      "sha256": "f102ff3e3a6baa051cc5c1bb034aa735cffaab6c645a190639813b076df96da6",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_WearMask.png",
+      "bytes": 68198,
+      "sha256": "f84abffb2a699067911e3b37a0c07e836dfeaa82a119aa2ba8966c2ef1dff832",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/school_desk/texture_manifest.json",
+      "bytes": 16003,
+      "sha256": "038aa86d1c98dd3680caa3a74529aef81d3619529fd57791a6106e3f0b0f0e59",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/dark_color.png",
+      "bytes": 3048147,
+      "sha256": "a98fb5389ff2e6645d49fa3586c247a397bdea47d4ad3bc622d43ad352e32ebf",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/dark_height.png",
+      "bytes": 2376151,
+      "sha256": "d6d90e82ffd3aed24334cc4da4144d6df954ad2695398a005093f1cac02a2805",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/dark_rough.png",
+      "bytes": 1953858,
+      "sha256": "b5285c720894c7d8d2fbd01330f9ea9310d3164345f4c8c6b94b9c8fb82ab671",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/felt_color.png",
+      "bytes": 3329240,
+      "sha256": "f3ab67a4c8815a339f85a8f47b8ddf9398a6fd39d3e465848f5c5e6d6e155f87",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/felt_height.png",
+      "bytes": 2376334,
+      "sha256": "2c17d9ddc9de72c24e23e847dd7d7b52b758ec7dd77fc54376aa16c372036b74",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/felt_rough.png",
+      "bytes": 1945962,
+      "sha256": "d61fbec60b5507acd5490f9210931d6921aa0a6644b30098a5b2436e8e30f07b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/manifest.json",
+      "bytes": 8640,
+      "sha256": "f5dd033af74ea39dda22a803d1e410a8cd1a43e89645359a10cdd2ca06e29da3",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/notice_00_color.png",
+      "bytes": 2584289,
+      "sha256": "015a575f96c34e903ee99504c1bfa024ba5ca7db92d301124453c7e93ada9c28",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/notice_01_color.png",
+      "bytes": 2592301,
+      "sha256": "9176a7a94f1919b1e615b44721faefdb3562c33d19ed7c228b924b038011c063",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/notice_02_color.png",
+      "bytes": 2584458,
+      "sha256": "f452d085536a6e2a6a18bd14cab32cb5edcd10491a45ed409239854e57fd2f84",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/notice_03_color.png",
+      "bytes": 2590760,
+      "sha256": "d26e037bb0e3d0828270b2413b00173a524c14421ae29074b2911f1e07d05ef0",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/notice_04_color.png",
+      "bytes": 2583478,
+      "sha256": "d1b8479bfee36df27e73c562dc1cff32251ff8e6d72c1af797398e39a7c9704d",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/paper_color.png",
+      "bytes": 3299998,
+      "sha256": "8415c7fb740e21cbd4522381b182627408ddf6a2a5f8f707408d65155993d9f5",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/paper_height.png",
+      "bytes": 2379685,
+      "sha256": "c870f524179188fd52960ecd44927f2e2428167c5edc4ec1fe0606f0b91f36ef",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/authored/teaching_rebuild/paper_rough.png",
+      "bytes": 1958471,
+      "sha256": "660eb420321d7c88f9ef19b6ef2b73f7264003fb751093ebc7c3f43e3b2c014f",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/external/polyhaven_chair_metal/manifest.json",
+      "bytes": 4335,
+      "sha256": "9e8fd01b2465c832ae8ea17b864aab2bbd2de9eeb57edda4159c9c832011190d",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/external/polyhaven_chair_metal/rust_coarse_01/rust_coarse_01_diff_8k.jpg",
+      "bytes": 49336419,
+      "sha256": "ecca82540d508dfaca88e5bd426e4ee6e1a6f82d3809c2085c8bf539fed73d55",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/external/polyhaven_chair_metal/rust_coarse_01/rust_coarse_01_disp_8k.jpg",
+      "bytes": 14973509,
+      "sha256": "21f7a39b1ae852cc8ec04a15b2013e5184e372aeb80fcf927a1f84445238f0b8",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/external/polyhaven_chair_metal/rust_coarse_01/rust_coarse_01_rough_8k.jpg",
+      "bytes": 38775804,
+      "sha256": "8b52c71c30694b46647c395738b1e5b44deee97464fd5c986f3bbb73b8b5561c",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/external/polyhaven_wood_detail/manifest.json",
+      "bytes": 5036,
+      "sha256": "a7f1f09fbd21d51aa1ccd9a41a6d3f0366309b1848a86b8b7b05f8c3311f4a1b",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/external/polyhaven_wood_detail/wood_table_worn/wood_table_worn_diff_8k.jpg",
+      "bytes": 41177258,
+      "sha256": "ddd429aed0fa613c2047b5986e91adf330764628eee3980b3661f55330350ebd",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/external/polyhaven_wood_detail/wood_table_worn/wood_table_worn_disp_8k.png",
+      "bytes": 102947376,
+      "sha256": "9d687737eaacea99fba97cfded51bc3179f4779ee4355f0a92913f4786cdd437",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/external/polyhaven_wood_detail/wood_table_worn/wood_table_worn_rough_8k.jpg",
+      "bytes": 38981497,
+      "sha256": "00ba5894211b4676c186e95fa85869fb10205e5cc449e1780da6560cd90cfed2",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/BaseColor.png",
+      "bytes": 8550811,
+      "sha256": "863fd9a138a977ef3319a03eb09294116eb33de549e6fe04e005e0b8007a5612",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Normal.png",
+      "bytes": 6566742,
+      "sha256": "f182ab9d53af637bb7c636e14fd3b0a0e11cc0d8252b0abecded21bcba90e454",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Roughness.png",
+      "bytes": 7186122,
+      "sha256": "2ca49f2b8552a0367dc899eef33f14e74dcafdf997a0289980d98111312f2cb0",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_corridor_sd/manifest.json",
+      "bytes": 7760,
+      "sha256": "671efcd4be6900ad37fb3d1fdeaa8228ba0c961e578096d369541891f7531455",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/BaseColor.png",
+      "bytes": 24136873,
+      "sha256": "95879cbd03f3fe4c28b445650756a7bb237782568b768fc2f35d9f693103264c",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Normal.png",
+      "bytes": 19302030,
+      "sha256": "4359d56d88596fbe946931b71124c5c1548f05d623aef870529cbcdedf1e4bb5",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Roughness.png",
+      "bytes": 6846553,
+      "sha256": "02446fa74c5a9760b4bd8056e87aca8acab7fca290bd87488902136104006dfd",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Transmission.png",
+      "bytes": 6001589,
+      "sha256": "6f7aff67e0585aa9ebc253c5bc8a537f7109ab72a39bd29c3facde8a105b561a",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/enamel/BaseColor.png",
+      "bytes": 7294486,
+      "sha256": "1e0f393aebbe2b4ea4ea2b96a27ae65ad04f91266beb6dee96dfebb4b0d46b9f",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/enamel/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/enamel/Normal.png",
+      "bytes": 12583726,
+      "sha256": "b04bd73390b2fc2f01abede75e3a18068acb9639e8123fdb456c6a384d4586d6",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/enamel/Roughness.png",
+      "bytes": 5757166,
+      "sha256": "fb840646180aae685e32d03629533671c287479e1a35be8025d20e869d2e0547",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/glass/BaseColor.png",
+      "bytes": 38913,
+      "sha256": "401dcd3e1312debf0aacdd77e4b5826881aaac4741b6c7886858ac8fd41e4a27",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/glass/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/glass/Normal.png",
+      "bytes": 1222506,
+      "sha256": "5bd05ff4c7223f8549247afb05e0c7227f36d4f267c236f81dd74c73e459b1b9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/glass/Roughness.png",
+      "bytes": 1232957,
+      "sha256": "28af8f6036c331bcd8d4130209f4c4bdd9c39feeea0f9c851886e8470e43d4a8",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/manifest.json",
+      "bytes": 17860,
+      "sha256": "938502f9b99127cbf1c08ac9a18d75d30d6d836484d3da9e58440c7a44bc6400",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/metal/BaseColor.png",
+      "bytes": 8250095,
+      "sha256": "68f8e621c2e7b55fb0cd6103b3d30132be0932c8a374232172958cd54aa3404a",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/metal/Metallic.png",
+      "bytes": 13785,
+      "sha256": "ae03e734a8f037272dc36b2b3a71eb9c10989f02073322283d33856105d529ce",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/metal/Normal.png",
+      "bytes": 394442,
+      "sha256": "5b91329bf037274acda578428a4e15043df46398fdc4404094db7d2a3cce2bca",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/metal/Roughness.png",
+      "bytes": 184709,
+      "sha256": "81140594cf85392bf8e06f23ab987b64fd963d34200575a37c5e2e546a79a7c4",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/polymer/BaseColor.png",
+      "bytes": 7012474,
+      "sha256": "bfba4c0956e5de0074d2a54db8d01fef84bf2ea3a535270847bf3a86fe3b44e1",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/polymer/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/polymer/Normal.png",
+      "bytes": 9689878,
+      "sha256": "c783973076a73f80df513d382cd1338c139417607d9b88eb397251e35c86d7fc",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/architecture_sd/polymer/Roughness.png",
+      "bytes": 5756170,
+      "sha256": "4145ed52740fd0ff7bac8964d68e666a94fd4d2a992e1b713267e6c64bdd4ad1",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/blackboard_age/BaseColor.png",
+      "bytes": 31622115,
+      "sha256": "6f7b4a0b530f21ffdef64691f2d49d664559e510eb0692701a554e0d0c7eb88a",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/blackboard_age/Normal.png",
+      "bytes": 109619,
+      "sha256": "2c1f6dad290fe7bb5874965739ca88aa83d2864f28cf5fd3c9da1c01ae03fd52",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/blackboard_age/Roughness.png",
+      "bytes": 9963512,
+      "sha256": "35b4b9b6b7232fccc972e955ab52eeb76200728bd397859b9e869cfe383823f5",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/blackboard_age/manifest.json",
+      "bytes": 4578,
+      "sha256": "d5a6309a287c9f0d7d267d238216319aa7526f76304f1ac9fcf8f3be18829a20",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/clock_imperfection/OilMask.png",
+      "bytes": 11266033,
+      "sha256": "ed8e4cc94e4796de2c0332d967d4d906037a533e164cb0251e207c60355688b9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/clock_imperfection/Roughness.png",
+      "bytes": 11362744,
+      "sha256": "9b35e783e6b5a50e010a44d575b31edfd57a61c4142d4b0f9c55c4081496b664",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/clock_imperfection/WipeMask.png",
+      "bytes": 14910002,
+      "sha256": "ca8c450baf95098c80b3f30ea5b5e730b40de65e88db1c465a503d2ff91fd30c",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/clock_imperfection/manifest.json",
+      "bytes": 3036,
+      "sha256": "35694813de2a1848d5fdb373fa844c6114392faf08838e1f24d4820eb2f82c85",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/book_00/SpineColor.png",
+      "bytes": 12682724,
+      "sha256": "68badae099b255e5176e713f932dbc46262bcbf4c1b4b19344481292bc403293",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/book_01/SpineColor.png",
+      "bytes": 13592043,
+      "sha256": "40e988015f09ffa4fa9d9d646d76a5df984d81c890b6def5cd5801e37f8f52a2",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/book_02/SpineColor.png",
+      "bytes": 13945267,
+      "sha256": "8b9429ce3e16f44ec2587662b3ce2aca874b2bdfac3a782668bd381ac0e172ba",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/book_03/SpineColor.png",
+      "bytes": 12966500,
+      "sha256": "2fae55c2faa5a93c373c0325fcf9f24219d7ede071b96fdc560737d4df76b40e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/book_04/SpineColor.png",
+      "bytes": 13103647,
+      "sha256": "e9d113714b57ae90ff30684b7a8cc058f3739f5aab6cd8a213af6cc4ee978f7f",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/book_05/SpineColor.png",
+      "bytes": 13428101,
+      "sha256": "df7d7703ee67502118253f695d30532c97a52d408ab0f9ef11a75ff63fb303a8",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/book_06/SpineColor.png",
+      "bytes": 13535454,
+      "sha256": "51ca96ed5d6c505c17df3df7c8ceb4f31beaba9ab6480553e14e259f750952dc",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/book_07/SpineColor.png",
+      "bytes": 13718246,
+      "sha256": "9e770100c5f640a28b0b35f2b741a32474207de27dc0b7e6c071fcd30d49daaa",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/book_08/SpineColor.png",
+      "bytes": 12926703,
+      "sha256": "321ee8b076d2d5d99e12da5672403175909ab5e18cfbc74cadd905ec0cc22b05",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/book_09/SpineColor.png",
+      "bytes": 13933266,
+      "sha256": "ec4e85b287e208ed43d90430b50f8d3dd5a99ac89b21222166718fa2be709aa1",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_spines/manifest.json",
+      "bytes": 15363,
+      "sha256": "d61d3c5354cf1baaeec0346ca212302d4e61fd9f62cbc4004af78f4ddd3ca509",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_chalk/Height.png",
+      "bytes": 17074247,
+      "sha256": "75b41da5d48325977fe6c372dc7d0ea7b384816df6c0dbbe2a2d6e71692229a5",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_chalk/Roughness.png",
+      "bytes": 22235470,
+      "sha256": "e9ee30323c17f246e71302853c563e11b338197d9d3f1a2f35158b7e01fc2477",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_cloth/Height.png",
+      "bytes": 26506045,
+      "sha256": "74495b5b8ad99c2002b810569e893d24a5b53ba574141f5c780a008df69badd2",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_cloth/Roughness.png",
+      "bytes": 22157335,
+      "sha256": "5bf08e5cc9eea2c0e1ef0248aad2944c0128534d90d1147876909064918e5628",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_paper/Height.png",
+      "bytes": 26202269,
+      "sha256": "2fe10fd8bd28740b3cc57adac4f8d864cd672341e23e8e98d9e59078c60d35e8",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_paper/Roughness.png",
+      "bytes": 22241982,
+      "sha256": "71440c61d9c3f5aca988a75ebc7d78f61243645d5730af57a9823373eb740049",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/Height.png",
+      "bytes": 17074220,
+      "sha256": "e86e52cd4d675d8b0f436777fd70fe8acc36ba5816f5fcba27cb834d93fd10f1",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/Roughness.png",
+      "bytes": 22309308,
+      "sha256": "df8cc89f8dc5eedd6b715111d380218c9a0868cad8a238bb5fd9b669c46826bd",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png",
+      "bytes": 903916,
+      "sha256": "3531ea0772adfa09ad774fe1ef6996e48b0f692f36d7349eb9e733fdc4998403",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_varnish/Height.png",
+      "bytes": 17074243,
+      "sha256": "06178054ead685af57e30c43a087a84398d725a730d2cde3e7b6b249b197c098",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/closeup_varnish/Roughness.png",
+      "bytes": 22323125,
+      "sha256": "7849fa40ffe0a7e8a371ef9b63209f714f0c588a89a15ff9858a755d954869ae",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/closeup_surface/manifest.json",
+      "bytes": 17200,
+      "sha256": "37fb2794e9b8766c826c91fe2cfb88b80e70a25a66cf9495aec55439e0df4c2c",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/contact_manifest.json",
+      "bytes": 3213,
+      "sha256": "83e42392d4b8e0041b95af9ca8365588c8bbddc745ac3ded8c08fdcbeafb86f0",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/dark/BaseColor.png",
+      "bytes": 7299392,
+      "sha256": "d5163c08d62b239fe78b14e2aeb7d6cdc6598fe73e008efd9934d0abbeec5c7e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/dark/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/dark/Normal.png",
+      "bytes": 6643191,
+      "sha256": "5f006fc73353a8b67946c2361745f7b7517286817009275c6ccde0d16fbf3c7e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/dark/Roughness.png",
+      "bytes": 404741,
+      "sha256": "39796fe7d1cc1aa375d5da33a721238116c5fd3ec46f8a6cd85d7bdcfd20c5b6",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/enamel/BaseColor.png",
+      "bytes": 8016576,
+      "sha256": "b381927501bcdb9ca1f98602ac0c2ce327d56037fc55067fe1f5ea901a5ec3f3",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/enamel/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/enamel/Normal.png",
+      "bytes": 6846004,
+      "sha256": "09f04505e562e68b71af8685228481df571d7ed739924152d5ca2a4135621e5c",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/enamel/Roughness.png",
+      "bytes": 405492,
+      "sha256": "16a8380dfeb3d7876e37e67b5c717a6cebc0ff51ca8d45f638387dd6711c4445",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/equipment_contact_film/Height.png",
+      "bytes": 1380240,
+      "sha256": "3b721cce04eec2e4200f0d83c07add4938897ad307ec19b3022364ec3fff7912",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/exposed_wood/BaseColor.png",
+      "bytes": 25793023,
+      "sha256": "dd06fb5b29f5d9a582149a3b7cf58cef019ca36191e85a012086cad67b3237a2",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/exposed_wood/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/exposed_wood/Normal.png",
+      "bytes": 20464404,
+      "sha256": "056ebceb18dd2044d0de2ffd7336f02110ba434af1943ddb90e7892a2970e543",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/exposed_wood/Roughness.png",
+      "bytes": 7092430,
+      "sha256": "be119502a3211638082bc4603f458767dd3bc348e1931ec2489a25194fd32883",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/manifest.json",
+      "bytes": 37282,
+      "sha256": "51cb7e7e603490012fa90957f5dc09b8f4bfaadff2e46326fb3c186af3183bd6",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/metal/BaseColor.png",
+      "bytes": 518173,
+      "sha256": "d36d46da125bd459c9c4121fd45874623de3c21e2cf8d2d2ce587d62275ec055",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/metal/Metallic.png",
+      "bytes": 13784,
+      "sha256": "d85725abd22cf628cb4bd9bc5c6cf079bd1fbe0913ffc2f4ee1314096786252c",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/metal/Normal.png",
+      "bytes": 440950,
+      "sha256": "0d5ac0fc5662b19fc45210f8339030ae1c942779ffba353f65666c47eb4b1e4c",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/metal/Roughness.png",
+      "bytes": 404401,
+      "sha256": "2a8e59880cd78ecbdf85435e0d86190a3609f977bbe2d1744e7b7cc62d1fcd4b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/paper/BaseColor.png",
+      "bytes": 7921465,
+      "sha256": "2fd65d14b6058461b1b88bd8c9e942c7ffcc7253d9cedf1add0a1193550740c7",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/paper/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/paper/Normal.png",
+      "bytes": 6039544,
+      "sha256": "3907f95af2dd27b8d7d86520d764a153231be1bd0a6d9b012ae600057864e678",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/paper/Roughness.png",
+      "bytes": 410129,
+      "sha256": "18a64dd189fe6f2850ace92c18498dc1fa608a67b923c3012f10e958ce0f8af4",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/rubber/BaseColor.png",
+      "bytes": 8035771,
+      "sha256": "f3966fe906af9651456d90381431fafaf4d058a29a698b1169607ef9d933cb5e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/rubber/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/rubber/Normal.png",
+      "bytes": 7514370,
+      "sha256": "f9e10fe4b761b94d8a59961ce0e552a374a33729f8298acd8ca581ede680b815",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/equipment_sd/rubber/Roughness.png",
+      "bytes": 402968,
+      "sha256": "a091cf30297de55541e991a18e0002297606a9d4f25b60130af586770229d1d6",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/BaseColor.png",
+      "bytes": 1031725,
+      "sha256": "7684c611673d96a77a6fefb708c27841d0144c6db841a05db72be230eae72788",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Metallic.png",
+      "bytes": 34169,
+      "sha256": "215d250a84cb3fafd287384665088edbd281ad13932d6562a5184a6dea56cbe2",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Normal.png",
+      "bytes": 1209176,
+      "sha256": "c554d35f6f05e8d8f62007b4500e8892858db117eda93d93d21f37cacf3c021b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Roughness.png",
+      "bytes": 12651865,
+      "sha256": "d8bb7e4a510aec3bf58497f23441aa174ba507c8ae03638a5eb1b55447ce1fc4",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/BaseColor.png",
+      "bytes": 145988,
+      "sha256": "f046169ec7efcf3069e9d85d6c5e75289234ce1d40fc4d2bf5856594131fc362",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Metallic.png",
+      "bytes": 34169,
+      "sha256": "215d250a84cb3fafd287384665088edbd281ad13932d6562a5184a6dea56cbe2",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Normal.png",
+      "bytes": 1209176,
+      "sha256": "c554d35f6f05e8d8f62007b4500e8892858db117eda93d93d21f37cacf3c021b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Roughness.png",
+      "bytes": 12651854,
+      "sha256": "ea08df26d32b0677b9159f8d053624e8c30136153ad7e74959f70db8b20492b7",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/BaseColor.png",
+      "bytes": 20553452,
+      "sha256": "ebd1d7e851aefdab04d2005fcd7127525b43649f5368097e0ba67625c5792188",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Metallic.png",
+      "bytes": 43298,
+      "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Normal.png",
+      "bytes": 1209176,
+      "sha256": "c554d35f6f05e8d8f62007b4500e8892858db117eda93d93d21f37cacf3c021b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Roughness.png",
+      "bytes": 12708221,
+      "sha256": "ee07aad633c861432131638aa49618c70baa3e65e718d50eef1293367cbbffb9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/hero_tin_sd/manifest.json",
+      "bytes": 10668,
+      "sha256": "6ed972725b39894cc6138c12736e996e3abba12afdd1165582115964aa52cec2",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/printed_text_source/manifest.json",
+      "bytes": 8641,
+      "sha256": "ae75daabeffa27c28c48c2349a557d8be122ec1aeaecf105a7c8ecf4d5ab7134",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/printed_text_source/print_00.png",
+      "bytes": 79162,
+      "sha256": "b963266de5e2ac12d4ca95ca6e01fd41c4334c50bdb846eef1ac11320f87d90b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/printed_text_source/print_01.png",
+      "bytes": 74247,
+      "sha256": "01c1c87e382af4cdb998ac9264b5cd8257dc51004dba53d9262447cd430b4aa6",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/printed_text_source/print_02.png",
+      "bytes": 65588,
+      "sha256": "92d95a6ee65ac968c96af4ad10cccaeb186e87f233cea1e2cbe354aba4d6a9f0",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/printed_text_source/print_03.png",
+      "bytes": 76522,
+      "sha256": "30dad3a5f56fcf1b77e7bb429050010688b0293ef3df9879a16392269acdef3d",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/printed_text_source/print_04.png",
+      "bytes": 133900,
+      "sha256": "0f5c5b52a780b1eaf147eced602d2c0254dce4a8d7a0eb4b2be96ce69f8947ae",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/printed_text_source/print_05.png",
+      "bytes": 98174,
+      "sha256": "e606436a3acf0cb96489b10b5d29f9751a4e278c3819428de71f049db4f3eddd",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/printed_text_source/print_06.png",
+      "bytes": 110514,
+      "sha256": "9cb51fb312385c67e32eaf31b4090c1770f2cc2d193f1994c3cc33fa35f9c880",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/PaintBaseColor.png",
+      "bytes": 28784609,
+      "sha256": "dc9f63af88b7341aa647c2735336d1a70e38faeafe6771bc4744e9e11acbe824",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/PaintHeight.png",
+      "bytes": 20110447,
+      "sha256": "3b2d19fa9cc667fcd730d5550586946fecbdf4caf3cdbe32f7c73eaf3a4013da",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/PaintRoughness.png",
+      "bytes": 22936360,
+      "sha256": "9031c323d462482590d76f0781acb94f96dc01f9d5e4e18578f6773ff9dc98ba",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/RustBaseColor.png",
+      "bytes": 85116835,
+      "sha256": "557a1aab9e218a4b05fa8a531482072a7572383b4a04fc31fbe87debe738304e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/RustHeight.png",
+      "bytes": 29393992,
+      "sha256": "90691d7b607005856645ab53488c54af4a166e35fe9c2260d0f2648dc4bb3a6a",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/RustRoughness.png",
+      "bytes": 29248566,
+      "sha256": "def8a9dbbdb0d1ec15930e0035fe89f0df1f86e609dc2d781d8e62834a518347",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/SteelBaseColor.png",
+      "bytes": 144154,
+      "sha256": "05509a734fa10a2bd7a763da79f36cfb2003033b00a914e3c6bbdb2d2cefb955",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/SteelHeight.png",
+      "bytes": 5450656,
+      "sha256": "e41d5e1b313b2ee63ffb66384160ed70481da2e01afded12af1907041f537e01",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/SteelRoughness.png",
+      "bytes": 8952125,
+      "sha256": "2c53c752649fab5098a43737370b0577e789bca9fe2e1a51c2e7934d899243c6",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/school_desk_sd/manifest.json",
+      "bytes": 22458,
+      "sha256": "714804280d1121583679df74764953543049612191916ef219341aa9dcf5f734",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/BaseColor.png",
+      "bytes": 10291691,
+      "sha256": "e71cd97514aeabf80ba5c99c6479f72d3c9755b25a18eb4410299eb8ee2adf23",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Metallic.png",
+      "bytes": 13784,
+      "sha256": "b32751e4cc24040e0292bb4dfd6c730edf00f45645e5bfa106e335916ee0dfa0",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Normal.png",
+      "bytes": 9055865,
+      "sha256": "ac3a2381246671aab0e930007e587423bad576eeddaf99d14c061611c3c0b0e8",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Roughness.png",
+      "bytes": 4809288,
+      "sha256": "4b4c70d894a4545c1cd02a157afdeba6c64a97f41c7add94e9375275b111652d",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/shell_tin_sd/manifest.json",
+      "bytes": 11751,
+      "sha256": "96b5c0707d0fb95b9a66ac51ae67fea71bf767a3995390c037870e209f9470d3",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/BaseColor.png",
+      "bytes": 3542514,
+      "sha256": "9c1aa8362b6e2e0ae62fe4ceae6da2356329893a8931c74a01d38a1d83dca3f0",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Normal.png",
+      "bytes": 15446727,
+      "sha256": "510ccc431b91650918840d193e7cf69b2ccf4d383162d076060b41b105e07bb0",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Roughness.png",
+      "bytes": 6073924,
+      "sha256": "2358ca487c0fccc85262748c073ba847fb46b6476973bc8735b1addad1ce3ca5",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_dust/DustMask.png",
+      "bytes": 7414230,
+      "sha256": "77c79126f09ac5961b77c9b9aab5978a75672108801f7dc4dfa885b090e4eb4c",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_dust/Grain.png",
+      "bytes": 7995120,
+      "sha256": "859dd70f9afb8aa20bde90542343056817420fe3f5bbabe9565051b4a7c94ce9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_dust/manifest.json",
+      "bytes": 1738,
+      "sha256": "7b385262d3e7fa90d14507b091a6bc704209ec7fbe7d325072e819fab3af8f3f",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_plastic/BaseColor.png",
+      "bytes": 35379242,
+      "sha256": "5414c51ba403e4cd63dede2aad8786ce4e074e32e2bb33e4aebcca5e7ea4e1db",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_plastic/Metallic.png",
+      "bytes": 33705,
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_plastic/Normal.png",
+      "bytes": 36064465,
+      "sha256": "61079e040cf1a5a5b5690b05c5b0f48bf99e0e1aed70b8b0d815eba95e726590",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_plastic/Roughness.png",
+      "bytes": 19094739,
+      "sha256": "8ec0a8c805bb3570a3ea7efa94613898913666472903deeea1a1ff5d71aecd88",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_plastic/manifest.json",
+      "bytes": 4196,
+      "sha256": "d9dff12c74a6c63b121f8718164000c0a5fc160a5b173b62286e095d5ec652bc",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_wire/manifest.json",
+      "bytes": 1982,
+      "sha256": "e803997b4c74d907877be9a556623e8405f8a24ac9cc49ecec1147867055511b",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_wire/speaker_wire/BaseColor.png",
+      "bytes": 8102478,
+      "sha256": "38f28f70c0feb85d980c215a748ff60e3d8b9acd75b37895c85b49e7e5593a9f",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_wire/speaker_wire/Metallic.png",
+      "bytes": 13781,
+      "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_wire/speaker_wire/Normal.png",
+      "bytes": 203467,
+      "sha256": "4611f042c88317966aab9b8d99d8b5f51beb9c7dfbf6ebbe20f862fd759e1833",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/speaker_wire/speaker_wire/Roughness.png",
+      "bytes": 5270104,
+      "sha256": "90ba0501fcae8c052c40fd68f237d88a0152d23b9e7da2642c1db0dee7c6a78e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_00/BaseColor.png",
+      "bytes": 13212972,
+      "sha256": "deb6dc37ce149da35f0c0e5582b543f891756aa2dc265b9686169ad9c5da4c62",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_00/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_00/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_00/Roughness.png",
+      "bytes": 3275157,
+      "sha256": "768db22b5f5998a48d438e0d02cf69b0198fb1eb6b73b2248961293b9da82023",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_01/BaseColor.png",
+      "bytes": 13908411,
+      "sha256": "12f5cfb5f11c58ea389404d55f8a9fc58611eb621ec27ce651b20f8670ab5b70",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_01/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_01/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_01/Roughness.png",
+      "bytes": 3300135,
+      "sha256": "7a5cedfdf6571d4c92b8d5d51eceaeeff49651cad706bb70c91830ae481da79a",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_02/BaseColor.png",
+      "bytes": 14214579,
+      "sha256": "626b182681095a440b301e395c91c068c5da317e42dfbc6f7fbe6cf92ec3f5fa",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_02/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_02/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_02/Roughness.png",
+      "bytes": 3309026,
+      "sha256": "d59d339c6da1bf9dd04188af3591db20b33b72a552b4fc0fc11f022e6aa1dd66",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_03/BaseColor.png",
+      "bytes": 13428552,
+      "sha256": "58960fda2328053ccf60930fd1f2ab39bb171a18ed841bb02846cbc1e9df20cb",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_03/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_03/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_03/Roughness.png",
+      "bytes": 3314956,
+      "sha256": "9e067ccdb9d2b5fbfbe0c62a529287962a34031e981fbc81abb2239eaba13ed3",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_04/BaseColor.png",
+      "bytes": 13518490,
+      "sha256": "2139244f97dd9e43d96edc8307b337b24223df45f00405bb67011ef4a3bd6803",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_04/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_04/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_04/Roughness.png",
+      "bytes": 3283273,
+      "sha256": "89645b8748cbfd1dbd1c3f9b27f2f5b326807c760d9490bec791854d2ecdbc35",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_05/BaseColor.png",
+      "bytes": 13664653,
+      "sha256": "370f8f7bf08cd79ed25652e07bda84969ff7d40ef236dd51f347f886f4b49519",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_05/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_05/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_05/Roughness.png",
+      "bytes": 3292955,
+      "sha256": "274b65018149bbe9b0e77c7aecae2f3c735a612dc0691f4e9ad7c200ff96718d",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_06/BaseColor.png",
+      "bytes": 13566397,
+      "sha256": "48934df972a16ce4e9d3d5e048b4d4ad6f7927177703f86d904145d0d5e22c6d",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_06/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_06/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_06/Roughness.png",
+      "bytes": 3310340,
+      "sha256": "a42fcef0d0388401b53a9e5af051a1026a9a5e31210bf2483d16a6c3d36c260e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_07/BaseColor.png",
+      "bytes": 13820490,
+      "sha256": "be15552cd85d327f753728a48cc13e80e7ae2bcfa5836a105c2fbc8b0b967fa4",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_07/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_07/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_07/Roughness.png",
+      "bytes": 3316578,
+      "sha256": "d8b4c73622ce7e492d6b907b318152ad5ecd876e042d27080396cb49f38571c0",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_08/BaseColor.png",
+      "bytes": 13232928,
+      "sha256": "d631cbcf38ddd3311b1c04e7fd4480a74e22700e934414854d7e20f0393716a2",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_08/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_08/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_08/Roughness.png",
+      "bytes": 3281062,
+      "sha256": "5ee76d1cf3c5d8984ac14ec4ded0d9b4a03423f0fff544a3e1cde133ae23a0f7",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_09/BaseColor.png",
+      "bytes": 14039482,
+      "sha256": "79b5ccd7bd3ce5166e7a3d1ffe21f0014709fec5dd2d7965f1a5e5116fa8ddf5",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_09/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_09/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_09/Roughness.png",
+      "bytes": 3301190,
+      "sha256": "0f744508e32d5b4aa2fc1b4be49c7aaf842cb9cb26cb57431213dba2d7829c74",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_10/BaseColor.png",
+      "bytes": 13218040,
+      "sha256": "1b48ebe73e566e754063eb7fd73af28f2d63b30feed267bfd0531f4f4e5aa6ff",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_10/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_10/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_10/Roughness.png",
+      "bytes": 3308334,
+      "sha256": "aa35f83adad3c23727d0c9c6658b5f3cac925e2349b7506ef0fb5bec86efd8f9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_10/SpineColor.png",
+      "bytes": 12713484,
+      "sha256": "647133f50827cc170b70ada266bb39fdfba22ba2c647e13af2902552e0ebd3d9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_11/BaseColor.png",
+      "bytes": 13840593,
+      "sha256": "53d09100ed38124072b52624fb7df90460a3dd647cde742d065abde43c78a1a4",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_11/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_11/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_11/Roughness.png",
+      "bytes": 3320405,
+      "sha256": "dc696f3da89390a16244f0e890459a672c646404eeb6c98107ca70f22c925295",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_11/SpineColor.png",
+      "bytes": 13534707,
+      "sha256": "78c2210d3cd1b42ade107934b005e24cfa125ea7a383924de89ca267b84d46af",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_12/BaseColor.png",
+      "bytes": 14048235,
+      "sha256": "72069c2298456830e1ad2659fc8b418f954e7ccfcfeaa4759775216232d41a1b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_12/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_12/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_12/Roughness.png",
+      "bytes": 3281950,
+      "sha256": "2480340e98864a45b14389ede11efb068e838c74debc7d3e8d3a1be44f133a56",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_12/SpineColor.png",
+      "bytes": 13844679,
+      "sha256": "0b2dac067c8e76ba413e62488c1acc42eed0c41ad9ec8836cbaa46154cf1ba5c",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_13/BaseColor.png",
+      "bytes": 13224301,
+      "sha256": "bbd8eb569b77ffea251b60ecb32452df5101a6a5394f624ebfc03419d73e7ed4",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_13/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_13/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_13/Roughness.png",
+      "bytes": 3294323,
+      "sha256": "31587a1d1cc0efebf35064eb2f2b37782f0c16ac08418af6d4b7661c5ff72ce7",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_13/SpineColor.png",
+      "bytes": 12826534,
+      "sha256": "898519d661aca5e64a6f96f4b1161bbb0c3098f49253905a51cfbeb41db5d081",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_14/BaseColor.png",
+      "bytes": 13432302,
+      "sha256": "056cccc628169963d62297346c4bc288305e7f9b10a6f5b81c41e34e095b96bb",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_14/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_14/Normal.png",
+      "bytes": 15190968,
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_14/Roughness.png",
+      "bytes": 3309068,
+      "sha256": "b23011234b6617c5b565a2c1d3921700c720fb448710258a9b752f74ae891cd4",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_14/SpineColor.png",
+      "bytes": 13084523,
+      "sha256": "caf4e856ffc50128f5170f31eb870760b489eedf15dc46b256c71bfff1191a65",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/manifest.json",
+      "bytes": 104035,
+      "sha256": "c7df8155cee722fd818849e2b5849319ee51129d128d4603370cc2dc488323b8",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/BaseColor.png",
+      "bytes": 8663898,
+      "sha256": "58b87f3dbab7712472731ba83f710d4a96fde0b75c75cd91948dc951e86dda87",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/Normal.png",
+      "bytes": 17136711,
+      "sha256": "334ab430d7ebff28cf911d0a57aa4c71881cc4669fcd99b795a6616c0b58a17b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/Roughness.png",
+      "bytes": 6262550,
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/BaseColor.png",
+      "bytes": 8530454,
+      "sha256": "e68106cae7a32edac100a75e5835173bd778cd90da72e7fa73fddd51bb4fae31",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/Normal.png",
+      "bytes": 17136724,
+      "sha256": "d28467705b89cb041bb2127c46562b570bebe422bf07a58c1807a401e451695f",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/Roughness.png",
+      "bytes": 6262550,
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/BaseColor.png",
+      "bytes": 8955376,
+      "sha256": "c6d16c5c6bbf1651c7d64db62d5ebbe87d01ddcaf9482be8b35f7c18d77be05e",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/Normal.png",
+      "bytes": 17136713,
+      "sha256": "709e260c307ad9ba4cacea239c489a7c2ed2acf53fa1fa5a2288b92106c45b17",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/Roughness.png",
+      "bytes": 6262550,
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/BaseColor.png",
+      "bytes": 8475635,
+      "sha256": "abb521a74f82b5037a95c62bcae5caabc7e404ae2f8cdc118bd088525e1bf0a5",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/Normal.png",
+      "bytes": 17136731,
+      "sha256": "bc43cb7027f9bd1ea5e33873ef6c0b9ce34ce4588b644dd018b4259342b18373",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/Roughness.png",
+      "bytes": 6262550,
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/BaseColor.png",
+      "bytes": 8935803,
+      "sha256": "be8afefdd9259ef52281fe86c37c29f1a73c8e48b8a556b77797efa4427fa572",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/Normal.png",
+      "bytes": 17136705,
+      "sha256": "51ae14dbe501499b9402d10ed7fabf69274b3c294e711bc0a33ae91ac57b5644",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/Roughness.png",
+      "bytes": 6262550,
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/BaseColor.png",
+      "bytes": 6726317,
+      "sha256": "bf2615fe764a3467841410ccea26bd89df0256c304b20c0210a97159c23ea041",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/Normal.png",
+      "bytes": 17136713,
+      "sha256": "088974145a3ad9754f102a0b53957d5a4a7bf362bd661a7cb81039b69b89b6de",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/Roughness.png",
+      "bytes": 6262550,
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/manifest.json",
+      "bytes": 34768,
+      "sha256": "61206c2fa55ce26894019a7881244ddb36277dd0606fca63d98953d75cca63ff",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/BaseColor.png",
+      "bytes": 10961040,
+      "sha256": "ec8020e81cf40de513a9eb946948557c5b1722bc18796254e6e4da10583e8498",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Normal.png",
+      "bytes": 13179641,
+      "sha256": "3c25a98eab047440d26cf0ff341e738fccde3b24d8320ac32fa081e0f38c2c69",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Roughness.png",
+      "bytes": 5978735,
+      "sha256": "36a6a72e55a42acd211146557eb2940fc5b7ca338e86bb76e606743297f46d94",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/teaching_paper/BaseColor.png",
+      "bytes": 13321436,
+      "sha256": "1a8505b9f5a8fc7f29e5640acf460cf3ec377fa3d87f2b498da65671227cbca3",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/teaching_paper/Metallic.png",
+      "bytes": 9206,
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/teaching_paper/Normal.png",
+      "bytes": 11667795,
+      "sha256": "aaf0e7c2f2f420d43207eb13bd5c2254ea3cca2142c7b023981d4f34a81c8c1c",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/teaching_sd/teaching_paper/Roughness.png",
+      "bytes": 6031834,
+      "sha256": "a32d59e38cc6eccb76c1b5422e34f311ab7694305de3d7a3e36e1fa726a85268",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/back/placement/AgePlacement.png",
+      "bytes": 4265371,
+      "sha256": "24575442902a7ad14eb49b113854b63cb6c40ddd071e64b96fd27dc35c664aa0",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/back/placement/ContactPlacement.png",
+      "bytes": 1268716,
+      "sha256": "08e9b7133157c35a12544f50b142680b676a7d2bb5cebc5fe60c29ca76dfb98d",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/back/placement/EdgeChips.png",
+      "bytes": 235517,
+      "sha256": "02eb54f3745e4fbd7817e7204314c6272ab1d37a7a1a34cb0ee2eba7209cdd68",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/back/placement/ScratchCore.png",
+      "bytes": 66158,
+      "sha256": "69c774f0bdfb2dd01a68ae852e75bebfd0d950c2cae65e7f2e40b3960386726f",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/back/placement/ScratchLip.png",
+      "bytes": 48355,
+      "sha256": "ce4b235e9336e76e719dcdb862e9285f2ba3abe960090f165d21b82fdd51a4f7",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/manifest.json",
+      "bytes": 3887,
+      "sha256": "108282dd0824d75f96f4968d343f5ca470bed58abe8e0d695aad96eaf1496d99",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/seat/placement/AgePlacement.png",
+      "bytes": 4396794,
+      "sha256": "b28d20fb4f2c373f038ef88f6b4ef7e50c0a09586f07e1303ac954903356dff4",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/seat/placement/ContactPlacement.png",
+      "bytes": 1532246,
+      "sha256": "3c239beea5bf33b37f1cb7056b56bbd6d8086d465be53ccabec01e13bccd5162",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/seat/placement/EdgeChips.png",
+      "bytes": 365727,
+      "sha256": "96092be8de2234a0836d165067ba1e3f60d050feed3ecc7fee424fd2785228b3",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/seat/placement/ScratchCore.png",
+      "bytes": 281514,
+      "sha256": "389e221f2dd2c4e96376938494bc2b8d909b7572ab40c4304ac75c7747e26dd0",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_detail/seat/placement/ScratchLip.png",
+      "bytes": 161026,
+      "sha256": "86c20ad241f8ab1ad57885f92ec4cfe9a69e7d7d949f8a5bfb66b785ba36c0b6",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_dirt/back/placement/Residue.png",
+      "bytes": 64870,
+      "sha256": "64d8d426805443501e20d7f928dc738f6cba2a56e045e2a21bd6f867408e448d",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_dirt/back/placement/Smudges.png",
+      "bytes": 256209,
+      "sha256": "46b3a10e3c6cf3da81e0da89aea4be8ff4cf65016249740b935d574bdc2a0e7e",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_dirt/back/placement/Specks.png",
+      "bytes": 49696,
+      "sha256": "3fa598d2e806a219d04e5c700de4f2f7e7bb4a523db8c5e3df8666c48ecad869",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_dirt/manifest.json",
+      "bytes": 1029,
+      "sha256": "8eeca8eccce673884b9cea9b05b904325944a157e7721705ce251f6c869fc31c",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_dirt/seat/placement/Residue.png",
+      "bytes": 69220,
+      "sha256": "98f59176262668cf7a14c8571443de54c9e672b5c71a74c1a7949e9752df02db",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_dirt/seat/placement/Smudges.png",
+      "bytes": 420537,
+      "sha256": "2b9b39211f72e1f2fc43819d1681b1bae2df8969c5625ebeb2b9117d42143f9e",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_dirt/seat/placement/Specks.png",
+      "bytes": 52762,
+      "sha256": "93a94ebe3984571b0468a0808200a02b2a62d59ceff65af0aa53e819f58a77f9",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/Process_AO.png",
+      "bytes": 43298,
+      "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/Process_BaseColor.png",
+      "bytes": 61907200,
+      "sha256": "4bf8ef01829097270729dae77d43ec6667e3eeda15349ad13588a298d6e28436",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/Process_Height.png",
+      "bytes": 20237522,
+      "sha256": "84cf3afc03bc02435122c4ed7e2a98513e863d50ea51ac03681ab6b2c7cf185f",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/Process_Metallic.png",
+      "bytes": 33705,
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/Process_Normal.png",
+      "bytes": 56268619,
+      "sha256": "9e4e7803c4e594be6dafe4385b957a2827dba201afb2a8b89f257f8682d9bf87",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/Process_Roughness.png",
+      "bytes": 19726664,
+      "sha256": "5bdcd59248c478445351a98efe9b25e2f22700df809f8c4774533fdc1d48a649",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/structure/Age.png",
+      "bytes": 7248127,
+      "sha256": "30b4feb268be3c2ff3072b513d4c0130c91f0c1f5afacc5cc9cc2c19ba877168",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/structure/Fibre.png",
+      "bytes": 23476795,
+      "sha256": "2dca9c1f70bcea925359c2469ffc8afe137f91074283393736db7d77de117d8b",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/structure/Growth.png",
+      "bytes": 18657484,
+      "sha256": "30d00f94b0d4705f3d45259dc3dc7c6f8e10c67f7951044ce6dba915ab0960b6",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/structure/ScratchDark.png",
+      "bytes": 54765,
+      "sha256": "eb339e40bb4d7ddd5cde5c60e70ab7ceaebdc65ef1c663bf68262e8fa874e3cc",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/structure/ScratchLight.png",
+      "bytes": 49852,
+      "sha256": "f68f208afb72ce980a2d4f9c40691061961d69977a3556e3d870f1495e7f75aa",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/structure/Stamp.png",
+      "bytes": 442331,
+      "sha256": "a03472679156052c5c0a3f06022d34bd7b1dc4a0bb31477a6c906817de9f3370",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/structure/Wear.png",
+      "bytes": 551924,
+      "sha256": "7a582a74873f3be06a1a032d0dd24b0464d6d7825fc81ac7c36799ba315365e6",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/manifest.json",
+      "bytes": 12197,
+      "sha256": "417231f261a40882ebbaab0c5ae714b756cff3136e3b65ac2778589bb6687041",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/reference_veneer_base.png",
+      "bytes": 2776203,
+      "sha256": "26ebbe20bdb01f826eff30cdb860968ad99192199b76fd9e8ac8dcde5921857c",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_AO.png",
+      "bytes": 43298,
+      "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_BaseColor.png",
+      "bytes": 50976702,
+      "sha256": "90ab2f505c645d6bba92f6e08f332a8cc44edd1911cd9b7e0bc92f7b5e43d27f",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_Height.png",
+      "bytes": 19215341,
+      "sha256": "ef5a3a200aeea5fedcf5d3b3c69ed8673a9145c0e1ca67b540ac9ba3a82d612e",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_Metallic.png",
+      "bytes": 33705,
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_Normal.png",
+      "bytes": 60483473,
+      "sha256": "4e459d10516d4f06f8b184b1a0c971d5a57481824fb04b1ce62870ce20b72d7e",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_Roughness.png",
+      "bytes": 18686534,
+      "sha256": "3e985aa769f5647bf7ea4321ceea64a940a78669fb7ba2e24687a6c53d468ea7",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/structure/Age.png",
+      "bytes": 6691506,
+      "sha256": "373bb011396cb47602972aed0930c38b248d61cfbac04fbd8aec6b66347c9a94",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/structure/Fibre.png",
+      "bytes": 29250422,
+      "sha256": "edf818cfeeadd977c6d7eb66bdc8c7bdd484492e7df7b388ebf886d72e6eda35",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/structure/Growth.png",
+      "bytes": 25944872,
+      "sha256": "6bf70e6f12e57551d9bc061db46f9890567d7a8a4aa474077c4f16ddd173b2cb",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/structure/ScratchDark.png",
+      "bytes": 219500,
+      "sha256": "0d3293adf8c957b182ead37a37bade7bcaf2ba33b28d5686f108480245cfa125",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/structure/ScratchLight.png",
+      "bytes": 170122,
+      "sha256": "a012c5cffb83c08a224cfd7354920379611bd920894143fc08bc1d4d54db0822",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/structure/Stamp.png",
+      "bytes": 32636,
+      "sha256": "249ed85d4370c8b87930f759609a869c483a662da0a04feb216ba421887ab405",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/structure/Wear.png",
+      "bytes": 558205,
+      "sha256": "d7af3fe43bf6a57f936b66d5ec24b599dbc00a3ea08b152f0e7287a48077e77d",
+      "reason": "已保留原生 SBS 图的图片输入"
+    },
+    {
+      "path": "02_assets/textures/generated/tv_screen_imperfection/DepositMask.png",
+      "bytes": 12088171,
+      "sha256": "7f4ef7286994689bfa150c9e32249df5ba051e8dd6298ed07798f7e955f3ee45",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/tv_screen_imperfection/Height.png",
+      "bytes": 14341922,
+      "sha256": "73be983e746c2cbe676765458b5534e32d21f4ff2fcf9313f9b3b97b1c1976aa",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/tv_screen_imperfection/OilMask.png",
+      "bytes": 14417864,
+      "sha256": "e4ceea7e8910f4b496a174d816e86490754a2772897e9252b3dbe8d1c3a4ed99",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/tv_screen_imperfection/Roughness.png",
+      "bytes": 17750450,
+      "sha256": "a45e2ec1aecf3596f8492238f9f48050ca78b8e63a0bf18c9b2f7824108cdfb8",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/tv_screen_imperfection/ScratchMask.png",
+      "bytes": 6961124,
+      "sha256": "c0f0f246cb68e92f25363280fc0c894fc41bc94204622b13bdf51d9e1f4c9fe2",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/tv_screen_imperfection/WipeMask.png",
+      "bytes": 4630238,
+      "sha256": "3e1915c4d704fbe127eb1b57cec8beb6f20832df7370ac451742db6ce97b6c2b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/tv_screen_imperfection/manifest.json",
+      "bytes": 4989,
+      "sha256": "858bc55078e60a3958223baa7620595f1a37adb9758577a4c34b22706439da81",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/wood_groups/cabinet_wood/BaseColor.png",
+      "bytes": 71698767,
+      "sha256": "b062621031a8492d8d6a0e3d2d01b1b8df221b462db6d56e26b3878da46a9481",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/wood_groups/cabinet_wood/Normal.png",
+      "bytes": 53410969,
+      "sha256": "6a602e4b2dfe27eebf8a586b60d303ee24aba76b58f0cb0bb84103b44445b184",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/wood_groups/cabinet_wood/Roughness.png",
+      "bytes": 17950138,
+      "sha256": "872154c495b55f132bc1ae7177ce23a9b7282f41d015d1252effeec7fbe0fec0",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/wood_groups/manifest.json",
+      "bytes": 6544,
+      "sha256": "d75e954514ac316924936d13c12961c579e1f813c04db74e41b6ed5ccf029f6e",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/textures/generated/wood_groups/school_board/BaseColor.png",
+      "bytes": 95001423,
+      "sha256": "f6eb9e7904cd311cd213e51ca3ec5bd7d854280f4dffa0149eb6b8b75b0ddf34",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/wood_groups/school_board/Normal.png",
+      "bytes": 34458755,
+      "sha256": "3b717d766dd8e196044a2d17e731770e5c050e3fff987fdb5a8f6981ea73bd66",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/generated/wood_groups/school_board/Roughness.png",
+      "bytes": 18130158,
+      "sha256": "f33cfc68a0004ac8eed7d82732680f1c7b857de2a0c4c1522aa96f65cbf4b890",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_diff_2k.jpg",
+      "bytes": 3132937,
+      "sha256": "6fd812ed8dd5be1873c29aeef38ce9bf1fb30a22c6d4b3a12db725e98c26a1be",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_nor_gl_2k.png",
+      "bytes": 22789885,
+      "sha256": "322041257ab0dad1a1a1c18d98bc28689136103f6a64d4849f7aa3ae5b8b090f",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_rough_2k.jpg",
+      "bytes": 1595466,
+      "sha256": "35aad595469533cc3b7cc209cc6c7e065d660211f02c867f4492d3b371b1fee1",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/polyhaven/painted_plaster_wall/4k/painted_plaster_wall_disp_4k.exr",
+      "bytes": 4394314,
+      "sha256": "0767e2ce85de2a651453f04c38ef6a8354eb1bc10da088a91e498fd036a31615",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/polyhaven/painted_plaster_wall/4k/painted_plaster_wall_rough_4k.exr",
+      "bytes": 5225725,
+      "sha256": "80cbdc7f155ab47bfb034ce2873bfe0514e750c85a12becafa4a33f484445216",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/polyhaven/plywood/4k/plywood_diff_4k.jpg",
+      "bytes": 16467261,
+      "sha256": "0d628704affb5fa38ef4c886ad9a70f6ddfffe9c22ed5c84b03e27ef5505cfd9",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/polyhaven/plywood/4k/plywood_nor_gl_4k.png",
+      "bytes": 22958150,
+      "sha256": "a154da1d16e29a5abeaf7350e7dbd45680d88f2f272d1e01e20032171f5b0a22",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/polyhaven/plywood/4k/plywood_rough_4k.jpg",
+      "bytes": 13314048,
+      "sha256": "dcc9f8ce7a483dcc4c3ad2298ba3b9083df341ad9cf5a8d3c4d853eef369ba65",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/window_hardware/AO.png",
+      "bytes": 6153367,
+      "sha256": "ccaa0f75126294bed13c8264003f64256be13720b1fbbe263062b239a02b945b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/window_hardware/BaseColor.png",
+      "bytes": 567583,
+      "sha256": "873cc423c7e79583b36f8dd8500783b2c2f3fb5c571dd35be1efe4d1fc1dedfa",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/window_hardware/Metallic.png",
+      "bytes": 565843,
+      "sha256": "0771ebdbe850eb67e94edeec771be26b51fc3f3fc43caced28cff0aef889bb3b",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/window_hardware/Normal.png",
+      "bytes": 13290551,
+      "sha256": "298442f29e93941c5d54550a947aaab936342006a7dbf80da197e21d78f0bddb",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/window_hardware/Roughness.png",
+      "bytes": 12711971,
+      "sha256": "e4c1ddee84d93e4f3f6070cd77f8df2f6202e5db98319e87f3fffcd7cd4415d0",
+      "reason": "正式镜头外部依赖"
+    },
+    {
+      "path": "02_assets/textures/window_hardware/manifest.json",
+      "bytes": 6157,
+      "sha256": "0fcb8a2947116afc02e3a17c6a25d094bdfaa8b3228e357f4bebe87ed7b5de81",
+      "reason": "入选资产来源与许可记录"
+    },
+    {
+      "path": "02_assets/work/school_chair.blend",
+      "bytes": 1812295522,
+      "sha256": "6a139d0b3f2bcc8bcbd545de117c2c661bc495ea8155786ad0a382e3d48ee8f3",
+      "reason": "镜头已采用的最新独立课椅编辑源"
+    },
+    {
+      "path": "03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend",
+      "bytes": 1877975071,
+      "sha256": "e649b78707ce7900832fed3f8e28486556e0606f1f0bdb64084c0db48d4d9043",
+      "reason": "当前权威镜头"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/cleanup_plan.json",
+      "bytes": 199300,
+      "sha256": "5ae813be4d6c2236b6f5128abc950da47e228359b937a0e5921d0e526383662d",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/deleted.json",
+      "bytes": 150748,
+      "sha256": "6786939805919641eeca24ef0297e2312d9edf85d39f695d96c9af6902793bbe",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/dependencies_after.json",
+      "bytes": 550965,
+      "sha256": "cb3adb4e2c1c3d7606c0c244af0ad816b291727d9dce045ec33e8c8bbc27890b",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/dependencies_before.json",
+      "bytes": 552322,
+      "sha256": "2e6f2a35192f9f8b5acf25b4338ff823b691823b567130942d72cf0c978e720a",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/drop_sq010_sh010_shot_portable.json",
+      "bytes": 113928,
+      "sha256": "4e57626d0c17b4451639fe4cd29e47879c494687c21f0e0c05f070880a96ecf6",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/moved.json",
+      "bytes": 20176,
+      "sha256": "22700763b32003c3bfe9c2a34d3ace768b4977ad39f65fc9530191610d2a89bd",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/retained_workflow_checks/classroom_props_refresh_20261001/approved_shader_interfaces.json",
+      "bytes": 562376,
+      "sha256": "0bcc00b5b09eb2c489488bb7c0fa8fb4b168d130c27ff8ad7957b7ff5a5221ab",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/retained_workflow_checks/classroom_props_refresh_20261001/school_desk_v4_raw_audit.json",
+      "bytes": 6704,
+      "sha256": "800244f39616e364ab84dbb1458e8ae3232a09a433b8187d5bdf4140aa64e109",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/retained_workflow_checks/tripo_chair_material_v2_20260930/bake_audit.json",
+      "bytes": 3074,
+      "sha256": "63fdb6182b054cf2086f4d5c81915de6ca94fbbe58405de3022d64327bbdd3b5",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/retained_workflow_checks/tripo_chair_material_v2_20260930/delivery_validation.json",
+      "bytes": 2010,
+      "sha256": "262dbbbb42c6e45f282217f787cd40bfd1ece543648abd81048b4bbb061538b0",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/retained_workflow_checks/tripo_chair_material_v2_20260930/uv_validation.json",
+      "bytes": 170,
+      "sha256": "934cef8d194fa3047272353048b9ceba3d8e0b262e8718fecd92e4ad7b83da90",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "06_review/cloud_assets_20261003/verification.json",
+      "bytes": 1739,
+      "sha256": "7aafc01effc9301ed286f1662b78fac7eb2798709581483f0d4b43982fd6b020",
+      "reason": "本轮清理、迁移和验证证据"
+    },
+    {
+      "path": "07_pipeline/config/project.json",
+      "bytes": 488,
+      "sha256": "947de26e0e301568323fb7a649cf64b178206646ec4f1c4044c6e70a4783b271",
+      "reason": "项目本机配置及根目录语义"
+    },
+    {
+      "path": "docs/cloud/runtime.json",
+      "bytes": 661,
+      "sha256": "24423674c854dec1fed9fab80e2440a812f737b4839e70609eb8ac6780224712",
+      "reason": "云端配置"
+    }
+  ],
+  "bytes": 7052208433,
+  "identical_content_groups": [
+    {
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588",
+      "paths": [
+        "02_assets/textures/authored/classroom/2k/chalkboard_color_2k.png",
+        "02_assets/textures/authored/classroom/2k/glass_color_2k.png",
+        "02_assets/textures/authored/classroom/2k/paint_color_2k.png",
+        "02_assets/textures/authored/classroom/2k/paper_color_2k.png",
+        "02_assets/textures/authored/classroom/2k/plastic_color_2k.png",
+        "02_assets/textures/authored/classroom/2k/print_color_2k.png",
+        "02_assets/textures/authored/classroom/2k/rubber_color_2k.png"
+      ]
+    },
+    {
+      "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb",
+      "paths": [
+        "02_assets/textures/authored/school_desk/2k/foot_caps_Metallic.png",
+        "02_assets/textures/authored/school_desk/2k/laminate_top_Metallic.png"
+      ]
+    },
+    {
+      "sha256": "7307d7286e88d527e544164a229a1691034c2c642c48d63f9883ad2d5037737f",
+      "paths": [
+        "02_assets/textures/authored/school_desk/2k/tray_DirtMask.png",
+        "02_assets/textures/authored/school_desk/2k/tray_front_DirtMask.png"
+      ]
+    },
+    {
+      "sha256": "3be3cd2f00e028f03a42b00192438a2037d97304a65b32c7261ba78084952b66",
+      "paths": [
+        "02_assets/textures/authored/school_desk/2k/tray_Height.png",
+        "02_assets/textures/authored/school_desk/2k/tray_front_Height.png"
+      ]
+    },
+    {
+      "sha256": "b06a5da5ba9e522eb8900b47f23c469e5f2e964c68d93001443fb6bbefee1840",
+      "paths": [
+        "02_assets/textures/authored/school_desk/2k/tray_Metallic.png",
+        "02_assets/textures/authored/school_desk/2k/tray_front_Metallic.png"
+      ]
+    },
+    {
+      "sha256": "120b1719be8107875cfc171ed441f66fbd0f3168360ce3f6b0f8dd0f7b1fa1e9",
+      "paths": [
+        "02_assets/textures/authored/school_desk/2k/tray_Roughness.png",
+        "02_assets/textures/authored/school_desk/2k/tray_front_Roughness.png"
+      ]
+    },
+    {
+      "sha256": "f102ff3e3a6baa051cc5c1bb034aa735cffaab6c645a190639813b076df96da6",
+      "paths": [
+        "02_assets/textures/authored/school_desk/2k/tray_RustMask.png",
+        "02_assets/textures/authored/school_desk/2k/tray_front_RustMask.png"
+      ]
+    },
+    {
+      "sha256": "f84abffb2a699067911e3b37a0c07e836dfeaa82a119aa2ba8966c2ef1dff832",
+      "paths": [
+        "02_assets/textures/authored/school_desk/2k/tray_WearMask.png",
+        "02_assets/textures/authored/school_desk/2k/tray_front_WearMask.png"
+      ]
+    },
+    {
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579",
+      "paths": [
+        "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Metallic.png",
+        "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Metallic.png",
+        "02_assets/textures/generated/architecture_sd/enamel/Metallic.png",
+        "02_assets/textures/generated/architecture_sd/glass/Metallic.png",
+        "02_assets/textures/generated/architecture_sd/polymer/Metallic.png",
+        "02_assets/textures/generated/equipment_sd/dark/Metallic.png",
+        "02_assets/textures/generated/equipment_sd/enamel/Metallic.png",
+        "02_assets/textures/generated/equipment_sd/exposed_wood/Metallic.png",
+        "02_assets/textures/generated/equipment_sd/paper/Metallic.png",
+        "02_assets/textures/generated/equipment_sd/rubber/Metallic.png",
+        "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_00/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_01/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_02/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_03/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_04/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_05/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_06/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_07/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_08/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_09/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_10/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_11/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_12/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_13/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_14/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_00/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_01/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_02/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_03/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_04/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_05/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Metallic.png",
+        "02_assets/textures/generated/teaching_sd/teaching_paper/Metallic.png"
+      ]
+    },
+    {
+      "sha256": "215d250a84cb3fafd287384665088edbd281ad13932d6562a5184a6dea56cbe2",
+      "paths": [
+        "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Metallic.png",
+        "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Metallic.png"
+      ]
+    },
+    {
+      "sha256": "c554d35f6f05e8d8f62007b4500e8892858db117eda93d93d21f37cacf3c021b",
+      "paths": [
+        "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Normal.png",
+        "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Normal.png",
+        "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Normal.png"
+      ]
+    },
+    {
+      "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d",
+      "paths": [
+        "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Metallic.png",
+        "02_assets/textures/generated/tripo_wood_reference/back/Process_AO.png",
+        "02_assets/textures/generated/tripo_wood_reference/seat/Process_AO.png"
+      ]
+    },
+    {
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736",
+      "paths": [
+        "02_assets/textures/generated/speaker_plastic/Metallic.png",
+        "02_assets/textures/generated/tripo_wood_reference/back/Process_Metallic.png",
+        "02_assets/textures/generated/tripo_wood_reference/seat/Process_Metallic.png"
+      ]
+    },
+    {
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972",
+      "paths": [
+        "02_assets/textures/generated/teaching_sd/detail/book_00/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_01/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_02/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_03/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_04/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_05/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_06/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_07/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_08/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_09/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_10/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_11/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_12/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_13/Normal.png",
+        "02_assets/textures/generated/teaching_sd/detail/book_14/Normal.png"
+      ]
+    },
+    {
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b",
+      "paths": [
+        "02_assets/textures/generated/teaching_sd/detail/notice_00/Roughness.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_01/Roughness.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_02/Roughness.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_03/Roughness.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_04/Roughness.png",
+        "02_assets/textures/generated/teaching_sd/detail/notice_05/Roughness.png"
+      ]
+    }
+  ],
+  "excluded_local_assets": [
+    "02_assets/authoring/school_chair/baked_exports/Chair_Paint_AO.png",
+    "02_assets/authoring/school_chair/baked_exports/Chair_Paint_BaseColor.png",
+    "02_assets/authoring/school_chair/baked_exports/Chair_Paint_Metallic.png",
+    "02_assets/authoring/school_chair/baked_exports/Chair_Paint_Normal_OpenGL.png",
+    "02_assets/authoring/school_chair/baked_exports/Chair_Paint_Roughness.png",
+    "02_assets/authoring/school_chair/baked_exports/Chair_Wood_AO.png",
+    "02_assets/authoring/school_chair/baked_exports/Chair_Wood_BaseColor.png",
+    "02_assets/authoring/school_chair/baked_exports/Chair_Wood_Metallic.png",
+    "02_assets/authoring/school_chair/baked_exports/Chair_Wood_Normal_OpenGL.png",
+    "02_assets/authoring/school_chair/baked_exports/Chair_Wood_Roughness.png",
+    "02_assets/authoring/school_chair/baked_low.fbx",
+    "02_assets/authoring/school_chair/highpoly_source.fbx",
+    "02_assets/authoring/school_chair/painter_exports/QA clay_Base_color.png",
+    "02_assets/authoring/school_chair/painter_exports/QA clay_Base_metalness.png",
+    "02_assets/authoring/school_chair/painter_exports/QA clay_Height.png",
+    "02_assets/authoring/school_chair/painter_exports/QA clay_Mixed_AO.png",
+    "02_assets/authoring/school_chair/painter_exports/QA clay_Normal.png",
+    "02_assets/authoring/school_chair/painter_exports/QA clay_Normal_OpenGL.png",
+    "02_assets/authoring/school_chair/painter_exports/QA clay_Specular_roughness.png",
+    "02_assets/authoring/school_chair/painter_input.fbx",
+    "02_assets/authoring/school_chair/school_chair.spp",
+    "02_assets/authoring/school_chair/tripo_quad_source.fbx",
+    "02_assets/authoring/school_desk/school_desk_raw.fbx",
+    "02_assets/hdri/polyhaven/citrus_orchard_puresky_4k.exr",
+    "02_assets/hdri/polyhaven/farm_field_puresky_4k.exr",
+    "02_assets/hdri/polyhaven/kloofendal_48d_partly_cloudy_puresky_4k.exr",
+    "02_assets/hdri/polyhaven/kloppenheim_03_puresky_4k.exr",
+    "02_assets/hdri/polyhaven/kloppenheim_07_puresky_4k.exr",
+    "02_assets/library/classroom_assets.blend",
+    "02_assets/library/prp_school_desk_a_v005.blend",
+    "02_assets/materials/architecture_corridor/architecture_corridor_floor.sbsar",
+    "02_assets/materials/architecture_corridor/architecture_thin_linen.sbsar",
+    "02_assets/materials/architecture_rebuild/architecture_enamel.sbsar",
+    "02_assets/materials/architecture_rebuild/architecture_glass.sbsar",
+    "02_assets/materials/architecture_rebuild/architecture_linen.sbsar",
+    "02_assets/materials/architecture_rebuild/architecture_metal.sbsar",
+    "02_assets/materials/architecture_rebuild/architecture_polymer.sbsar",
+    "02_assets/materials/blackboard_age/inputs/EdgeDust.png",
+    "02_assets/materials/blackboard_age/inputs/EmbeddedChalk.png",
+    "02_assets/materials/blackboard_age/inputs/EraserPasses.png",
+    "02_assets/materials/blackboard_age/inputs/GhostWriting.png",
+    "02_assets/materials/blackboard_age/inputs/SunFade.png",
+    "02_assets/materials/blackboard_age/inputs/TouchSoil.png",
+    "02_assets/materials/blackboard_age/inputs/UseMask.png",
+    "02_assets/materials/blackboard_age/school_blackboard_baked_coating.sbsar",
+    "02_assets/materials/chair_foot_caps/chair_foot_caps.sbsar",
+    "02_assets/materials/chair_metal_layers/chair_metal_layers.sbsar",
+    "02_assets/materials/clock_imperfection/clock_imperfection.sbsar",
+    "02_assets/materials/closeup_surface/closeup_chalk.sbsar",
+    "02_assets/materials/closeup_surface/closeup_cloth.sbsar",
+    "02_assets/materials/closeup_surface/closeup_paper.sbsar",
+    "02_assets/materials/closeup_surface/closeup_polymer.sbsar",
+    "02_assets/materials/closeup_surface/closeup_varnish.sbsar",
+    "02_assets/materials/closeup_surface/spine_inputs/book_00_spine.png",
+    "02_assets/materials/closeup_surface/spine_inputs/book_01_spine.png",
+    "02_assets/materials/closeup_surface/spine_inputs/book_02_spine.png",
+    "02_assets/materials/closeup_surface/spine_inputs/book_03_spine.png",
+    "02_assets/materials/closeup_surface/spine_inputs/book_04_spine.png",
+    "02_assets/materials/closeup_surface/spine_inputs/book_05_spine.png",
+    "02_assets/materials/closeup_surface/spine_inputs/book_06_spine.png",
+    "02_assets/materials/closeup_surface/spine_inputs/book_07_spine.png",
+    "02_assets/materials/closeup_surface/spine_inputs/book_08_spine.png",
+    "02_assets/materials/closeup_surface/spine_inputs/book_09_spine.png",
+    "02_assets/materials/equipment_rebuild/equipment_abs.sbsar",
+    "02_assets/materials/equipment_rebuild/equipment_contact_film.sbsar",
+    "02_assets/materials/equipment_rebuild/equipment_dark.sbsar",
+    "02_assets/materials/equipment_rebuild/equipment_enamel.sbsar",
+    "02_assets/materials/equipment_rebuild/equipment_exposed_wood.sbsar",
+    "02_assets/materials/equipment_rebuild/equipment_glass.sbsar",
+    "02_assets/materials/equipment_rebuild/equipment_metal.sbsar",
+    "02_assets/materials/equipment_rebuild/equipment_paper.sbsar",
+    "02_assets/materials/equipment_rebuild/equipment_rubber.sbsar",
+    "02_assets/materials/equipment_rebuild/equipment_varnished_wood.sbsar",
+    "02_assets/materials/hero_tin/hero_lithographic_ink.sbsar",
+    "02_assets/materials/hero_tin/hero_red_lacquer.sbsar",
+    "02_assets/materials/hero_tin/hero_tinplate.sbsar",
+    "02_assets/materials/school_desk/desk_material_lookdev.blend",
+    "02_assets/materials/school_desk/school_desk_painted_steel.resources/XXXXXX-user_slim_clock_front.png",
+    "02_assets/materials/school_desk/school_desk_painted_steel.sbsar",
+    "02_assets/materials/shell_tin_rebuild/aged_tinplate.sbsar",
+    "02_assets/materials/shell_tin_rebuild/painted_school_plaster.sbsar",
+    "02_assets/materials/shell_tin_rebuild/parquet_varnished_oak.sbsar",
+    "02_assets/materials/shell_tin_rebuild/printed_candy_tin.sbsar",
+    "02_assets/materials/shell_tin_rebuild/red_candy_lacquer.sbsar",
+    "02_assets/materials/speaker_dust/speaker_dust.sbsar",
+    "02_assets/materials/speaker_plastic/speaker_plastic.sbsar",
+    "02_assets/materials/speaker_wire/speaker_wire.sbsar",
+    "02_assets/materials/teaching_rebuild/detail/teaching_detail_book.sbsar",
+    "02_assets/materials/teaching_rebuild/detail/teaching_detail_chalkboard.sbsar",
+    "02_assets/materials/teaching_rebuild/detail/teaching_detail_eraser.sbsar",
+    "02_assets/materials/teaching_rebuild/detail/teaching_detail_notice.sbsar",
+    "02_assets/materials/teaching_rebuild/detail/teaching_detail_wood.sbsar",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_00_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_00_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_00_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_01_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_01_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_01_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_02_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_02_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_02_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_03_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_03_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_03_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_04_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_04_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_04_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_05_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_05_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_05_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_06_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_06_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_06_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_07_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_07_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_07_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_08_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_08_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_08_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_09_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_09_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_09_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_10_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_10_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_10_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_11_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_11_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_11_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_12_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_12_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_12_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_13_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_13_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_13_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_14_cover.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_14_spine.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/book_14_wear.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/chalkboard-blackboard-with-eraser-marks.jpg",
+    "02_assets/materials/teaching_rebuild/detail_inputs/eraser_trajectories.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/handling_ridges.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/notice_00_art.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/notice_01_art.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/notice_02_art.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/notice_03_art.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/notice_04_art.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/notice_05_art.png",
+    "02_assets/materials/teaching_rebuild/detail_inputs/provenance.json",
+    "02_assets/materials/teaching_rebuild/teaching_bookcloth.sbsar",
+    "02_assets/materials/teaching_rebuild/teaching_chalkboard.sbsar",
+    "02_assets/materials/teaching_rebuild/teaching_felt.sbsar",
+    "02_assets/materials/teaching_rebuild/teaching_notices.sbsar",
+    "02_assets/materials/teaching_rebuild/teaching_paper.sbsar",
+    "02_assets/materials/teaching_rebuild/teaching_varnished_wood.sbsar",
+    "02_assets/materials/tripo_wood_appearance/wood_appearance_back.sbs",
+    "02_assets/materials/tripo_wood_appearance/wood_appearance_back.sbsar",
+    "02_assets/materials/tripo_wood_appearance/wood_appearance_seat.sbs",
+    "02_assets/materials/tripo_wood_appearance/wood_appearance_seat.sbsar",
+    "02_assets/materials/tripo_wood_detail/wood_detail_back.sbsar",
+    "02_assets/materials/tripo_wood_detail/wood_detail_seat.sbsar",
+    "02_assets/materials/tripo_wood_dirt/wood_surface_dirt_back.sbsar",
+    "02_assets/materials/tripo_wood_dirt/wood_surface_dirt_seat.sbsar",
+    "02_assets/materials/tripo_wood_reference/imagegen_prompt.txt",
+    "02_assets/materials/tripo_wood_reference/reference_wood_back.sbsar",
+    "02_assets/materials/tripo_wood_reference/reference_wood_seat.sbsar",
+    "02_assets/materials/tv_screen_imperfection/tv_screen_imperfection.sbsar",
+    "02_assets/materials/wood_groups/cabinet_wood.sbsar",
+    "02_assets/materials/wood_groups/school_board.sbsar",
+    "02_assets/materials/wood_layers/school_wood_layers.sbs",
+    "02_assets/materials/wood_layers/school_wood_layers.sbsar",
+    "02_assets/textures/ambientcg/Fabric030/2k/Fabric030.png",
+    "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG.blend",
+    "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG.mtlx",
+    "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG.tres",
+    "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG.usdc",
+    "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG.zip",
+    "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_AmbientOcclusion.jpg",
+    "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Displacement.jpg",
+    "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_NormalDX.jpg",
+    "02_assets/textures/authored/architecture_rebuild/anodized_height_2k.png",
+    "02_assets/textures/authored/architecture_rebuild/anodized_roughness_2k.png",
+    "02_assets/textures/authored/architecture_rebuild/enamel_color_2k.png",
+    "02_assets/textures/authored/architecture_rebuild/enamel_height_2k.png",
+    "02_assets/textures/authored/architecture_rebuild/enamel_roughness_2k.png",
+    "02_assets/textures/authored/architecture_rebuild/glazing_roughness_2k.png",
+    "02_assets/textures/authored/architecture_rebuild/polymer_roughness_2k.png",
+    "02_assets/textures/authored/architecture_rebuild/provenance.json",
+    "02_assets/textures/authored/classroom/2k/chalkboard_normal_2k.png",
+    "02_assets/textures/authored/classroom/2k/glass_normal_2k.png",
+    "02_assets/textures/authored/classroom/2k/metal_normal_2k.png",
+    "02_assets/textures/authored/classroom/2k/paint_normal_2k.png",
+    "02_assets/textures/authored/classroom/2k/paper_normal_2k.png",
+    "02_assets/textures/authored/classroom/2k/plastic_normal_2k.png",
+    "02_assets/textures/authored/classroom/2k/print_normal_2k.png",
+    "02_assets/textures/authored/classroom/2k/rubber_normal_2k.png",
+    "02_assets/textures/authored/classroom/2k/wood_edge_normal_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/abs_color_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/abs_height_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/abs_roughness_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/cabinet_door_color_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/cabinet_door_roughness_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/clock_dial_color_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/dark_color_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/dark_height_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/dark_roughness_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/enamel_color_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/enamel_height_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/enamel_roughness_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/glass_color_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/glass_height_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/glass_roughness_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/metal_color_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/metal_height_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/metal_roughness_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/paper_color_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/paper_height_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/paper_roughness_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/rubber_color_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/rubber_height_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/rubber_roughness_2k.png",
+    "02_assets/textures/authored/equipment_rebuild/texture_manifest.json",
+    "02_assets/textures/authored/school_desk/2k/frame_left_BaseColor.png",
+    "02_assets/textures/authored/school_desk/2k/frame_left_Height.png",
+    "02_assets/textures/authored/school_desk/2k/frame_left_Metallic.png",
+    "02_assets/textures/authored/school_desk/2k/frame_left_Roughness.png",
+    "02_assets/textures/authored/school_desk/2k/frame_left_RustMask.png",
+    "02_assets/textures/authored/school_desk/2k/frame_left_WearMask.png",
+    "02_assets/textures/authored/school_desk/2k/lower_brace_BaseColor.png",
+    "02_assets/textures/authored/school_desk/2k/lower_brace_Height.png",
+    "02_assets/textures/authored/school_desk/2k/lower_brace_Metallic.png",
+    "02_assets/textures/authored/school_desk/2k/lower_brace_Roughness.png",
+    "02_assets/textures/authored/school_desk/2k/lower_brace_RustMask.png",
+    "02_assets/textures/authored/school_desk/2k/lower_brace_WearMask.png",
+    "02_assets/textures/authored/school_desk/2k/plywood_edge_BaseColor.png",
+    "02_assets/textures/authored/school_desk/2k/plywood_edge_Height.png",
+    "02_assets/textures/authored/school_desk/2k/plywood_edge_Metallic.png",
+    "02_assets/textures/authored/school_desk/2k/plywood_edge_Roughness.png",
+    "02_assets/textures/authored/teaching_rebuild/blackboard_color.png",
+    "02_assets/textures/authored/teaching_rebuild/blackboard_height.png",
+    "02_assets/textures/authored/teaching_rebuild/blackboard_rough.png",
+    "02_assets/textures/authored/teaching_rebuild/cloth_color.png",
+    "02_assets/textures/authored/teaching_rebuild/cloth_height.png",
+    "02_assets/textures/authored/teaching_rebuild/cloth_rough.png",
+    "02_assets/textures/authored/teaching_rebuild/ivory_color.png",
+    "02_assets/textures/authored/teaching_rebuild/ivory_height.png",
+    "02_assets/textures/authored/teaching_rebuild/ivory_rough.png",
+    "02_assets/textures/authored/teaching_rebuild/metal_color.png",
+    "02_assets/textures/authored/teaching_rebuild/metal_height.png",
+    "02_assets/textures/authored/teaching_rebuild/metal_rough.png",
+    "02_assets/textures/external/polyhaven_chair_metal/rust_coarse_01/rust_coarse_01_diff_1k.jpg",
+    "02_assets/textures/external/polyhaven_chair_metal/rust_coarse_01_files.json",
+    "02_assets/textures/external/polyhaven_chair_metal/rusty_metal/rusty_metal_diff_1k.jpg",
+    "02_assets/textures/external/polyhaven_chair_metal/rusty_metal/rusty_metal_diff_8k.jpg",
+    "02_assets/textures/external/polyhaven_chair_metal/rusty_metal/rusty_metal_disp_8k.jpg",
+    "02_assets/textures/external/polyhaven_chair_metal/rusty_metal/rusty_metal_rough_8k.jpg",
+    "02_assets/textures/external/polyhaven_chair_metal/rusty_metal_files.json",
+    "02_assets/textures/external/polyhaven_chair_metal/rusty_painted_metal/rusty_painted_metal_diff_1k.jpg",
+    "02_assets/textures/external/polyhaven_chair_metal/rusty_painted_metal_files.json",
+    "02_assets/textures/external/polyhaven_wood_detail/wood_table_001/wood_table_001_diff_1k.jpg",
+    "02_assets/textures/external/polyhaven_wood_detail/wood_table_001_files.json",
+    "02_assets/textures/external/polyhaven_wood_detail/wood_table_large/wood_table_large_diff_1k.jpg",
+    "02_assets/textures/external/polyhaven_wood_detail/wood_table_large_files.json",
+    "02_assets/textures/external/polyhaven_wood_detail/wood_table_worn/wood_table_worn_diff_1k.jpg",
+    "02_assets/textures/external/polyhaven_wood_detail/wood_table_worn/wood_table_worn_nor_gl_8k.png",
+    "02_assets/textures/external/polyhaven_wood_detail/wood_table_worn_files.json",
+    "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Height.png",
+    "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Height.png",
+    "02_assets/textures/generated/architecture_sd/enamel/Height.png",
+    "02_assets/textures/generated/architecture_sd/glass/Height.png",
+    "02_assets/textures/generated/architecture_sd/linen/BaseColor.png",
+    "02_assets/textures/generated/architecture_sd/linen/Height.png",
+    "02_assets/textures/generated/architecture_sd/linen/Metallic.png",
+    "02_assets/textures/generated/architecture_sd/linen/Normal.png",
+    "02_assets/textures/generated/architecture_sd/linen/Roughness.png",
+    "02_assets/textures/generated/architecture_sd/linen/Transmission.png",
+    "02_assets/textures/generated/architecture_sd/metal/Height.png",
+    "02_assets/textures/generated/architecture_sd/polymer/Height.png",
+    "02_assets/textures/generated/blackboard_age/Height.png",
+    "02_assets/textures/generated/blackboard_age/Metallic.png",
+    "02_assets/textures/generated/chair_foot_caps/AgeMask.png",
+    "02_assets/textures/generated/chair_foot_caps/DirtColor.png",
+    "02_assets/textures/generated/chair_foot_caps/DirtHeight.png",
+    "02_assets/textures/generated/chair_foot_caps/DirtMask.png",
+    "02_assets/textures/generated/chair_foot_caps/Final_AO.png",
+    "02_assets/textures/generated/chair_foot_caps/Final_BaseColor.png",
+    "02_assets/textures/generated/chair_foot_caps/Final_Height.png",
+    "02_assets/textures/generated/chair_foot_caps/Final_Metallic.png",
+    "02_assets/textures/generated/chair_foot_caps/Final_Normal.png",
+    "02_assets/textures/generated/chair_foot_caps/Final_Roughness.png",
+    "02_assets/textures/generated/chair_foot_caps/Process_AO.png",
+    "02_assets/textures/generated/chair_foot_caps/Process_BaseColor.png",
+    "02_assets/textures/generated/chair_foot_caps/Process_Height.png",
+    "02_assets/textures/generated/chair_foot_caps/Process_Metallic.png",
+    "02_assets/textures/generated/chair_foot_caps/Process_Normal.png",
+    "02_assets/textures/generated/chair_foot_caps/Process_Roughness.png",
+    "02_assets/textures/generated/chair_foot_caps/ScratchMask.png",
+    "02_assets/textures/generated/chair_foot_caps/WearMask.png",
+    "02_assets/textures/generated/chair_foot_caps/manifest.json",
+    "02_assets/textures/generated/chair_metal_layers/AgeMask.png",
+    "02_assets/textures/generated/chair_metal_layers/ChipField.png",
+    "02_assets/textures/generated/chair_metal_layers/DirtMask.png",
+    "02_assets/textures/generated/chair_metal_layers/Final_AO.png",
+    "02_assets/textures/generated/chair_metal_layers/Final_BaseColor.png",
+    "02_assets/textures/generated/chair_metal_layers/Final_Height.png",
+    "02_assets/textures/generated/chair_metal_layers/Final_Metallic.png",
+    "02_assets/textures/generated/chair_metal_layers/Final_Normal.png",
+    "02_assets/textures/generated/chair_metal_layers/Final_Roughness.png",
+    "02_assets/textures/generated/chair_metal_layers/Preview_ChipMask.png",
+    "02_assets/textures/generated/chair_metal_layers/Preview_RustMask.png",
+    "02_assets/textures/generated/chair_metal_layers/Process_AO.png",
+    "02_assets/textures/generated/chair_metal_layers/Process_BaseColor.png",
+    "02_assets/textures/generated/chair_metal_layers/Process_Height.png",
+    "02_assets/textures/generated/chair_metal_layers/Process_Metallic.png",
+    "02_assets/textures/generated/chair_metal_layers/Process_Normal.png",
+    "02_assets/textures/generated/chair_metal_layers/Process_Roughness.png",
+    "02_assets/textures/generated/chair_metal_layers/RustColor.png",
+    "02_assets/textures/generated/chair_metal_layers/RustHeight.png",
+    "02_assets/textures/generated/chair_metal_layers/RustRoughness.png",
+    "02_assets/textures/generated/chair_metal_layers/ScratchMask.png",
+    "02_assets/textures/generated/chair_metal_layers/manifest.json",
+    "02_assets/textures/generated/closeup_spines/book_00/BaseColor.png",
+    "02_assets/textures/generated/closeup_spines/book_00/Height.png",
+    "02_assets/textures/generated/closeup_spines/book_00/Metallic.png",
+    "02_assets/textures/generated/closeup_spines/book_00/Normal.png",
+    "02_assets/textures/generated/closeup_spines/book_00/Roughness.png",
+    "02_assets/textures/generated/closeup_spines/book_01/BaseColor.png",
+    "02_assets/textures/generated/closeup_spines/book_01/Height.png",
+    "02_assets/textures/generated/closeup_spines/book_01/Metallic.png",
+    "02_assets/textures/generated/closeup_spines/book_01/Normal.png",
+    "02_assets/textures/generated/closeup_spines/book_01/Roughness.png",
+    "02_assets/textures/generated/closeup_spines/book_02/BaseColor.png",
+    "02_assets/textures/generated/closeup_spines/book_02/Height.png",
+    "02_assets/textures/generated/closeup_spines/book_02/Metallic.png",
+    "02_assets/textures/generated/closeup_spines/book_02/Normal.png",
+    "02_assets/textures/generated/closeup_spines/book_02/Roughness.png",
+    "02_assets/textures/generated/closeup_spines/book_03/BaseColor.png",
+    "02_assets/textures/generated/closeup_spines/book_03/Height.png",
+    "02_assets/textures/generated/closeup_spines/book_03/Metallic.png",
+    "02_assets/textures/generated/closeup_spines/book_03/Normal.png",
+    "02_assets/textures/generated/closeup_spines/book_03/Roughness.png",
+    "02_assets/textures/generated/closeup_spines/book_04/BaseColor.png",
+    "02_assets/textures/generated/closeup_spines/book_04/Height.png",
+    "02_assets/textures/generated/closeup_spines/book_04/Metallic.png",
+    "02_assets/textures/generated/closeup_spines/book_04/Normal.png",
+    "02_assets/textures/generated/closeup_spines/book_04/Roughness.png",
+    "02_assets/textures/generated/closeup_spines/book_05/BaseColor.png",
+    "02_assets/textures/generated/closeup_spines/book_05/Height.png",
+    "02_assets/textures/generated/closeup_spines/book_05/Metallic.png",
+    "02_assets/textures/generated/closeup_spines/book_05/Normal.png",
+    "02_assets/textures/generated/closeup_spines/book_05/Roughness.png",
+    "02_assets/textures/generated/closeup_spines/book_06/BaseColor.png",
+    "02_assets/textures/generated/closeup_spines/book_06/Height.png",
+    "02_assets/textures/generated/closeup_spines/book_06/Metallic.png",
+    "02_assets/textures/generated/closeup_spines/book_06/Normal.png",
+    "02_assets/textures/generated/closeup_spines/book_06/Roughness.png",
+    "02_assets/textures/generated/closeup_spines/book_07/BaseColor.png",
+    "02_assets/textures/generated/closeup_spines/book_07/Height.png",
+    "02_assets/textures/generated/closeup_spines/book_07/Metallic.png",
+    "02_assets/textures/generated/closeup_spines/book_07/Normal.png",
+    "02_assets/textures/generated/closeup_spines/book_07/Roughness.png",
+    "02_assets/textures/generated/closeup_spines/book_08/BaseColor.png",
+    "02_assets/textures/generated/closeup_spines/book_08/Height.png",
+    "02_assets/textures/generated/closeup_spines/book_08/Metallic.png",
+    "02_assets/textures/generated/closeup_spines/book_08/Normal.png",
+    "02_assets/textures/generated/closeup_spines/book_08/Roughness.png",
+    "02_assets/textures/generated/closeup_spines/book_09/BaseColor.png",
+    "02_assets/textures/generated/closeup_spines/book_09/Height.png",
+    "02_assets/textures/generated/closeup_spines/book_09/Metallic.png",
+    "02_assets/textures/generated/closeup_spines/book_09/Normal.png",
+    "02_assets/textures/generated/closeup_spines/book_09/Roughness.png",
+    "02_assets/textures/generated/closeup_surface/closeup_chalk/BaseColor.png",
+    "02_assets/textures/generated/closeup_surface/closeup_chalk/Metallic.png",
+    "02_assets/textures/generated/closeup_surface/closeup_chalk/Normal.png",
+    "02_assets/textures/generated/closeup_surface/closeup_chalk/ScratchMask.png",
+    "02_assets/textures/generated/closeup_surface/closeup_cloth/BaseColor.png",
+    "02_assets/textures/generated/closeup_surface/closeup_cloth/Metallic.png",
+    "02_assets/textures/generated/closeup_surface/closeup_cloth/Normal.png",
+    "02_assets/textures/generated/closeup_surface/closeup_cloth/ScratchMask.png",
+    "02_assets/textures/generated/closeup_surface/closeup_paper/BaseColor.png",
+    "02_assets/textures/generated/closeup_surface/closeup_paper/Metallic.png",
+    "02_assets/textures/generated/closeup_surface/closeup_paper/Normal.png",
+    "02_assets/textures/generated/closeup_surface/closeup_paper/ScratchMask.png",
+    "02_assets/textures/generated/closeup_surface/closeup_polymer/BaseColor.png",
+    "02_assets/textures/generated/closeup_surface/closeup_polymer/Metallic.png",
+    "02_assets/textures/generated/closeup_surface/closeup_polymer/Normal.png",
+    "02_assets/textures/generated/closeup_surface/closeup_varnish/BaseColor.png",
+    "02_assets/textures/generated/closeup_surface/closeup_varnish/Metallic.png",
+    "02_assets/textures/generated/closeup_surface/closeup_varnish/Normal.png",
+    "02_assets/textures/generated/closeup_surface/closeup_varnish/ScratchMask.png",
+    "02_assets/textures/generated/equipment_sd/abs/AO.png",
+    "02_assets/textures/generated/equipment_sd/abs/BaseColor.png",
+    "02_assets/textures/generated/equipment_sd/abs/Height.png",
+    "02_assets/textures/generated/equipment_sd/abs/Metallic.png",
+    "02_assets/textures/generated/equipment_sd/abs/Normal.png",
+    "02_assets/textures/generated/equipment_sd/abs/Roughness.png",
+    "02_assets/textures/generated/equipment_sd/abs/WearMask.png",
+    "02_assets/textures/generated/equipment_sd/dark/AO.png",
+    "02_assets/textures/generated/equipment_sd/dark/Height.png",
+    "02_assets/textures/generated/equipment_sd/dark/WearMask.png",
+    "02_assets/textures/generated/equipment_sd/enamel/AO.png",
+    "02_assets/textures/generated/equipment_sd/enamel/Height.png",
+    "02_assets/textures/generated/equipment_sd/enamel/WearMask.png",
+    "02_assets/textures/generated/equipment_sd/equipment_contact_film/BaseColor.png",
+    "02_assets/textures/generated/equipment_sd/equipment_contact_film/Metallic.png",
+    "02_assets/textures/generated/equipment_sd/equipment_contact_film/Normal.png",
+    "02_assets/textures/generated/equipment_sd/equipment_contact_film/Roughness.png",
+    "02_assets/textures/generated/equipment_sd/exposed_wood/AO.png",
+    "02_assets/textures/generated/equipment_sd/exposed_wood/Height.png",
+    "02_assets/textures/generated/equipment_sd/exposed_wood/WearMask.png",
+    "02_assets/textures/generated/equipment_sd/glass/AO.png",
+    "02_assets/textures/generated/equipment_sd/glass/BaseColor.png",
+    "02_assets/textures/generated/equipment_sd/glass/Height.png",
+    "02_assets/textures/generated/equipment_sd/glass/Metallic.png",
+    "02_assets/textures/generated/equipment_sd/glass/Normal.png",
+    "02_assets/textures/generated/equipment_sd/glass/Roughness.png",
+    "02_assets/textures/generated/equipment_sd/glass/WearMask.png",
+    "02_assets/textures/generated/equipment_sd/metal/AO.png",
+    "02_assets/textures/generated/equipment_sd/metal/Height.png",
+    "02_assets/textures/generated/equipment_sd/metal/WearMask.png",
+    "02_assets/textures/generated/equipment_sd/paper/AO.png",
+    "02_assets/textures/generated/equipment_sd/paper/Height.png",
+    "02_assets/textures/generated/equipment_sd/paper/WearMask.png",
+    "02_assets/textures/generated/equipment_sd/rubber/AO.png",
+    "02_assets/textures/generated/equipment_sd/rubber/Height.png",
+    "02_assets/textures/generated/equipment_sd/rubber/WearMask.png",
+    "02_assets/textures/generated/equipment_sd/varnished_wood/AO.png",
+    "02_assets/textures/generated/equipment_sd/varnished_wood/BaseColor.png",
+    "02_assets/textures/generated/equipment_sd/varnished_wood/Height.png",
+    "02_assets/textures/generated/equipment_sd/varnished_wood/Metallic.png",
+    "02_assets/textures/generated/equipment_sd/varnished_wood/Normal.png",
+    "02_assets/textures/generated/equipment_sd/varnished_wood/Roughness.png",
+    "02_assets/textures/generated/equipment_sd/varnished_wood/WearMask.png",
+    "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Height.png",
+    "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Height.png",
+    "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Height.png",
+    "02_assets/textures/generated/printed_text/manifest.json",
+    "02_assets/textures/generated/printed_text/print_00.png",
+    "02_assets/textures/generated/printed_text/print_01.png",
+    "02_assets/textures/generated/printed_text/print_02.png",
+    "02_assets/textures/generated/printed_text/print_03.png",
+    "02_assets/textures/generated/printed_text/print_04.png",
+    "02_assets/textures/generated/printed_text/print_05.png",
+    "02_assets/textures/generated/printed_text/print_06.png",
+    "02_assets/textures/generated/school_desk_sd/age_check/test/RustMask.png",
+    "02_assets/textures/generated/school_desk_sd/age_check/test/WearMask.png",
+    "02_assets/textures/generated/school_desk_sd/age_check_old/test/RustMask.png",
+    "02_assets/textures/generated/school_desk_sd/age_check_old/test/WearMask.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/AO.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/BaseColor.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/CrackMask.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/DirtMask.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/Height.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/Metallic.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/Normal.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/PaintMask.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/Roughness.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/RustMask.png",
+    "02_assets/textures/generated/school_desk_sd/brace/2k/WearMask.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/AO.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/BaseColor.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/CrackMask.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/DirtMask.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/Height.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/Metallic.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/Normal.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/PaintMask.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/Roughness.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/RustMask.png",
+    "02_assets/textures/generated/school_desk_sd/brace/4k/WearMask.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/AO.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/BaseColor.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/CrackMask.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/DirtMask.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/Height.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/Metallic.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/Normal.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/PaintMask.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/Roughness.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/RustMask.png",
+    "02_assets/textures/generated/school_desk_sd/frame/2k/WearMask.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/AO.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/BaseColor.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/CrackMask.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/DirtMask.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/Height.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/Metallic.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/Normal.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/PaintMask.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/Roughness.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/RustMask.png",
+    "02_assets/textures/generated/school_desk_sd/frame/4k/WearMask.png",
+    "02_assets/textures/generated/school_desk_sd/layers/2k/PaintBaseColor.png",
+    "02_assets/textures/generated/school_desk_sd/layers/2k/PaintHeight.png",
+    "02_assets/textures/generated/school_desk_sd/layers/2k/PaintRoughness.png",
+    "02_assets/textures/generated/school_desk_sd/layers/2k/RustBaseColor.png",
+    "02_assets/textures/generated/school_desk_sd/layers/2k/RustHeight.png",
+    "02_assets/textures/generated/school_desk_sd/layers/2k/RustRoughness.png",
+    "02_assets/textures/generated/school_desk_sd/layers/2k/SteelBaseColor.png",
+    "02_assets/textures/generated/school_desk_sd/layers/2k/SteelHeight.png",
+    "02_assets/textures/generated/school_desk_sd/layers/2k/SteelRoughness.png",
+    "02_assets/textures/generated/school_desk_sd/preview/AO.png",
+    "02_assets/textures/generated/school_desk_sd/preview/BaseColor.png",
+    "02_assets/textures/generated/school_desk_sd/preview/DirtMask.png",
+    "02_assets/textures/generated/school_desk_sd/preview/Height.png",
+    "02_assets/textures/generated/school_desk_sd/preview/Metallic.png",
+    "02_assets/textures/generated/school_desk_sd/preview/Normal.png",
+    "02_assets/textures/generated/school_desk_sd/preview/PaintMask.png",
+    "02_assets/textures/generated/school_desk_sd/preview/Roughness.png",
+    "02_assets/textures/generated/school_desk_sd/preview/RustMask.png",
+    "02_assets/textures/generated/school_desk_sd/preview/WearMask.png",
+    "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Height.png",
+    "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Height.png",
+    "02_assets/textures/generated/shell_tin_sd/parquet_varnished_oak/BaseColor.png",
+    "02_assets/textures/generated/shell_tin_sd/parquet_varnished_oak/Height.png",
+    "02_assets/textures/generated/shell_tin_sd/parquet_varnished_oak/Metallic.png",
+    "02_assets/textures/generated/shell_tin_sd/parquet_varnished_oak/Normal.png",
+    "02_assets/textures/generated/shell_tin_sd/parquet_varnished_oak/Roughness.png",
+    "02_assets/textures/generated/shell_tin_sd/printed_candy_tin/BaseColor.png",
+    "02_assets/textures/generated/shell_tin_sd/printed_candy_tin/Height.png",
+    "02_assets/textures/generated/shell_tin_sd/printed_candy_tin/Metallic.png",
+    "02_assets/textures/generated/shell_tin_sd/printed_candy_tin/Normal.png",
+    "02_assets/textures/generated/shell_tin_sd/printed_candy_tin/Roughness.png",
+    "02_assets/textures/generated/shell_tin_sd/red_candy_lacquer/BaseColor.png",
+    "02_assets/textures/generated/shell_tin_sd/red_candy_lacquer/Height.png",
+    "02_assets/textures/generated/shell_tin_sd/red_candy_lacquer/Metallic.png",
+    "02_assets/textures/generated/shell_tin_sd/red_candy_lacquer/Normal.png",
+    "02_assets/textures/generated/shell_tin_sd/red_candy_lacquer/Roughness.png",
+    "02_assets/textures/generated/speaker_plastic/Height.png",
+    "02_assets/textures/generated/speaker_plastic/PolishMask.png",
+    "02_assets/textures/generated/speaker_plastic/ScratchMask.png",
+    "02_assets/textures/generated/speaker_plastic/ScuffMask.png",
+    "02_assets/textures/generated/speaker_wire/speaker_wire/Height.png",
+    "02_assets/textures/generated/substance/school_desk/2k/master/AO.png",
+    "02_assets/textures/generated/substance/school_desk/2k/master/BaseColor.png",
+    "02_assets/textures/generated/substance/school_desk/2k/master/DirtMask.png",
+    "02_assets/textures/generated/substance/school_desk/2k/master/Height.png",
+    "02_assets/textures/generated/substance/school_desk/2k/master/Metallic.png",
+    "02_assets/textures/generated/substance/school_desk/2k/master/Normal.png",
+    "02_assets/textures/generated/substance/school_desk/2k/master/PaintMask.png",
+    "02_assets/textures/generated/substance/school_desk/2k/master/Roughness.png",
+    "02_assets/textures/generated/substance/school_desk/2k/master/RustMask.png",
+    "02_assets/textures/generated/substance/school_desk/2k/master/WearMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/master/AO.png",
+    "02_assets/textures/generated/substance/school_desk/4k/master/BaseColor.png",
+    "02_assets/textures/generated/substance/school_desk/4k/master/DirtMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/master/Height.png",
+    "02_assets/textures/generated/substance/school_desk/4k/master/Metallic.png",
+    "02_assets/textures/generated/substance/school_desk/4k/master/Normal.png",
+    "02_assets/textures/generated/substance/school_desk/4k/master/PaintMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/master/Roughness.png",
+    "02_assets/textures/generated/substance/school_desk/4k/master/RustMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/master/WearMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/paint/AO.png",
+    "02_assets/textures/generated/substance/school_desk/4k/paint/BaseColor.png",
+    "02_assets/textures/generated/substance/school_desk/4k/paint/DirtMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/paint/Height.png",
+    "02_assets/textures/generated/substance/school_desk/4k/paint/Metallic.png",
+    "02_assets/textures/generated/substance/school_desk/4k/paint/Normal.png",
+    "02_assets/textures/generated/substance/school_desk/4k/paint/PaintMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/paint/Roughness.png",
+    "02_assets/textures/generated/substance/school_desk/4k/paint/RustMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/paint/WearMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/rust/AO.png",
+    "02_assets/textures/generated/substance/school_desk/4k/rust/BaseColor.png",
+    "02_assets/textures/generated/substance/school_desk/4k/rust/DirtMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/rust/Height.png",
+    "02_assets/textures/generated/substance/school_desk/4k/rust/Metallic.png",
+    "02_assets/textures/generated/substance/school_desk/4k/rust/Normal.png",
+    "02_assets/textures/generated/substance/school_desk/4k/rust/PaintMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/rust/Roughness.png",
+    "02_assets/textures/generated/substance/school_desk/4k/rust/RustMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/rust/WearMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/steel/AO.png",
+    "02_assets/textures/generated/substance/school_desk/4k/steel/BaseColor.png",
+    "02_assets/textures/generated/substance/school_desk/4k/steel/DirtMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/steel/Height.png",
+    "02_assets/textures/generated/substance/school_desk/4k/steel/Metallic.png",
+    "02_assets/textures/generated/substance/school_desk/4k/steel/Normal.png",
+    "02_assets/textures/generated/substance/school_desk/4k/steel/PaintMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/steel/Roughness.png",
+    "02_assets/textures/generated/substance/school_desk/4k/steel/RustMask.png",
+    "02_assets/textures/generated/substance/school_desk/4k/steel/WearMask.png",
+    "02_assets/textures/generated/substance/school_desk/manifest.json",
+    "02_assets/textures/generated/teaching_sd/detail/book_00/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_00/SpineColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_01/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_01/SpineColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_02/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_02/SpineColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_03/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_03/SpineColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_04/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_04/SpineColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_05/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_05/SpineColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_06/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_06/SpineColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_07/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_07/SpineColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_08/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_08/SpineColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_09/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_09/SpineColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_10/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_11/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_12/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_13/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/book_14/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/notice_00/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/notice_01/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/notice_02/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/notice_03/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/notice_04/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/notice_05/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/Normal.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/ResidueMask.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_chalkboard/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_eraser/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_eraser/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_eraser/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_eraser/Normal.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_eraser/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_wood/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_wood/Height.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_wood/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_wood/Normal.png",
+    "02_assets/textures/generated/teaching_sd/detail/teaching_detail_wood/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/notice_00/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/notice_00/Height.png",
+    "02_assets/textures/generated/teaching_sd/notice_00/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/notice_00/Normal.png",
+    "02_assets/textures/generated/teaching_sd/notice_00/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/notice_01/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/notice_01/Height.png",
+    "02_assets/textures/generated/teaching_sd/notice_01/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/notice_01/Normal.png",
+    "02_assets/textures/generated/teaching_sd/notice_01/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/notice_02/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/notice_02/Height.png",
+    "02_assets/textures/generated/teaching_sd/notice_02/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/notice_02/Normal.png",
+    "02_assets/textures/generated/teaching_sd/notice_02/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/notice_03/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/notice_03/Height.png",
+    "02_assets/textures/generated/teaching_sd/notice_03/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/notice_03/Normal.png",
+    "02_assets/textures/generated/teaching_sd/notice_03/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/notice_04/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/notice_04/Height.png",
+    "02_assets/textures/generated/teaching_sd/notice_04/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/notice_04/Normal.png",
+    "02_assets/textures/generated/teaching_sd/notice_04/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Height.png",
+    "02_assets/textures/generated/teaching_sd/teaching_chalkboard/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/teaching_chalkboard/Height.png",
+    "02_assets/textures/generated/teaching_sd/teaching_chalkboard/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/teaching_chalkboard/Normal.png",
+    "02_assets/textures/generated/teaching_sd/teaching_chalkboard/ResidueMask.png",
+    "02_assets/textures/generated/teaching_sd/teaching_chalkboard/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/teaching_felt/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/teaching_felt/Height.png",
+    "02_assets/textures/generated/teaching_sd/teaching_felt/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/teaching_felt/Normal.png",
+    "02_assets/textures/generated/teaching_sd/teaching_felt/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/teaching_paper/Height.png",
+    "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/BaseColor.png",
+    "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/ExposedBaseColor.png",
+    "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/ExposedRoughness.png",
+    "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/Height.png",
+    "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/Metallic.png",
+    "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/Normal.png",
+    "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/Roughness.png",
+    "02_assets/textures/generated/teaching_sd/teaching_varnished_wood/WearMask.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/AgeBleach.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/AgeDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/AgeLoss.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/AgeRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/Raw_AgeBleach.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/Raw_AgeDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/Raw_AgeLoss.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/Raw_AgeRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/Raw_ScratchDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/Raw_ScratchLight.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/Raw_WearMask.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/Raw_WearRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/ScratchDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/ScratchLight.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/WearMask.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/WearRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/structure/AgeBleach.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/structure/AgeDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/structure/AgeLoss.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/structure/AgeRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/structure/ScratchDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/structure/ScratchLight.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/structure/WearMask.png",
+    "02_assets/textures/generated/tripo_wood_appearance/back/structure/WearRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/manifest.json",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/AgeBleach.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/AgeDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/AgeLoss.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/AgeRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/Raw_AgeBleach.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/Raw_AgeDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/Raw_AgeLoss.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/Raw_AgeRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/Raw_ScratchDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/Raw_ScratchLight.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/Raw_WearMask.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/Raw_WearRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/ScratchDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/ScratchLight.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/WearMask.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/WearRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/structure/AgeBleach.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/structure/AgeDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/structure/AgeLoss.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/structure/AgeRelief.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/structure/ScratchDark.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/structure/ScratchLight.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/structure/WearMask.png",
+    "02_assets/textures/generated/tripo_wood_appearance/seat/structure/WearRelief.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/AO.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/BaseColor.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/EffectHeight.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Metallic.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Normal.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_AgeColor.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_AgeHeight.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_AgeMask.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_AgeRoughness.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_DirtColor.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_DirtMask.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_ScratchCore.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_ScratchLip.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_WearColor.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_WearHeight.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_WearMask.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Raw_WearRoughness.png",
+    "02_assets/textures/generated/tripo_wood_detail/back/Roughness.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/AO.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/BaseColor.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/EffectHeight.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Metallic.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Normal.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_AgeColor.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_AgeHeight.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_AgeMask.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_AgeRoughness.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_DirtColor.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_DirtMask.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_ScratchCore.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_ScratchLip.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_WearColor.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_WearHeight.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_WearMask.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Raw_WearRoughness.png",
+    "02_assets/textures/generated/tripo_wood_detail/seat/Roughness.png",
+    "02_assets/textures/generated/tripo_wood_dirt/back/DirtColor.png",
+    "02_assets/textures/generated/tripo_wood_dirt/back/DirtHeight.png",
+    "02_assets/textures/generated/tripo_wood_dirt/back/DirtMask.png",
+    "02_assets/textures/generated/tripo_wood_dirt/back/DirtRoughness.png",
+    "02_assets/textures/generated/tripo_wood_dirt/back/ResidueMask.png",
+    "02_assets/textures/generated/tripo_wood_dirt/back/SmudgeMask.png",
+    "02_assets/textures/generated/tripo_wood_dirt/seat/DirtColor.png",
+    "02_assets/textures/generated/tripo_wood_dirt/seat/DirtHeight.png",
+    "02_assets/textures/generated/tripo_wood_dirt/seat/DirtMask.png",
+    "02_assets/textures/generated/tripo_wood_dirt/seat/DirtRoughness.png",
+    "02_assets/textures/generated/tripo_wood_dirt/seat/ResidueMask.png",
+    "02_assets/textures/generated/tripo_wood_dirt/seat/SmudgeMask.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/AO.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/AgeMask.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/BaseColor.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/Growth.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/Height.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/Metallic.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/Normal.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/Pores.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/Roughness.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/ScratchDark.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/ScratchLight.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/ScratchMask.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/StampMask.png",
+    "02_assets/textures/generated/tripo_wood_reference/back/WearMask.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/AO.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/AgeMask.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/BaseColor.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/Growth.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/Height.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/Metallic.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/Normal.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/Pores.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/Roughness.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/ScratchDark.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/ScratchLight.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/ScratchMask.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/StampMask.png",
+    "02_assets/textures/generated/tripo_wood_reference/seat/WearMask.png",
+    "02_assets/textures/generated/tv_screen_imperfection/DustMask.png",
+    "02_assets/textures/generated/tv_screen_imperfection/LongScratches.png",
+    "02_assets/textures/generated/tv_screen_imperfection/MicroScratches.png",
+    "02_assets/textures/generated/tv_screen_imperfection/ScuffMask.png",
+    "02_assets/textures/generated/wood_groups/cabinet_wood/Grain.png",
+    "02_assets/textures/generated/wood_groups/cabinet_wood/Height.png",
+    "02_assets/textures/generated/wood_groups/cabinet_wood/ScratchMask.png",
+    "02_assets/textures/generated/wood_groups/school_board/Grain.png",
+    "02_assets/textures/generated/wood_groups/school_board/Height.png",
+    "02_assets/textures/generated/wood_groups/school_board/ScratchMask.png",
+    "02_assets/textures/generated/wood_layers/AO.png",
+    "02_assets/textures/generated/wood_layers/AgeMask.png",
+    "02_assets/textures/generated/wood_layers/BaseColor.png",
+    "02_assets/textures/generated/wood_layers/Grain.png",
+    "02_assets/textures/generated/wood_layers/Height.png",
+    "02_assets/textures/generated/wood_layers/LongScratchMask.png",
+    "02_assets/textures/generated/wood_layers/Metallic.png",
+    "02_assets/textures/generated/wood_layers/Normal.png",
+    "02_assets/textures/generated/wood_layers/Process_AO.png",
+    "02_assets/textures/generated/wood_layers/Process_BaseColor.png",
+    "02_assets/textures/generated/wood_layers/Process_Metallic.png",
+    "02_assets/textures/generated/wood_layers/Process_Normal.png",
+    "02_assets/textures/generated/wood_layers/Process_Roughness.png",
+    "02_assets/textures/generated/wood_layers/Roughness.png",
+    "02_assets/textures/generated/wood_layers/ScratchMask.png",
+    "02_assets/textures/generated/wood_layers/ScratchSource.png",
+    "02_assets/textures/generated/wood_layers/WearBreakup.png",
+    "02_assets/textures/generated/wood_layers/manifest.json",
+    "02_assets/textures/polyhaven/old_wooden_floor_03/4k/old_wooden_floor_03_diff_4k.jpg",
+    "02_assets/textures/polyhaven/old_wooden_floor_03/4k/old_wooden_floor_03_nor_gl_4k.png",
+    "02_assets/textures/polyhaven/old_wooden_floor_03/4k/old_wooden_floor_03_rough_4k.jpg",
+    "02_assets/textures/polyhaven/old_wooden_floor_03/4k/source_files.json",
+    "02_assets/textures/polyhaven/painted_plaster_wall/2k/source_files.json",
+    "02_assets/textures/polyhaven/painted_plaster_wall/4k/painted_plaster_wall_diff_4k.jpg",
+    "02_assets/textures/polyhaven/painted_plaster_wall/4k/painted_plaster_wall_nor_gl_4k.exr",
+    "02_assets/textures/polyhaven/plywood/4k/source_files.json",
+    "02_assets/work/Tommy.fbx",
+    "02_assets/work/approved_material_library.blend",
+    "02_assets/work/classroom_curtain_simulation.blend",
+    "02_assets/work/classroom_environment.blend",
+    "02_assets/work/classroom_props.blend",
+    "02_assets/work/school_desk_parts.blend",
+    "02_assets/work/window_hardware_authoring.blend"
+  ],
+  "known_missing": [
+    {
+      "kind": "images",
+      "name": "testgeometry_tommy?body_diffuse.jpg",
+      "path": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?body_diffuse.jpg",
+      "absolute": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?body_diffuse.jpg",
+      "packed": false,
+      "users": 1,
+      "exists": false
+    },
+    {
+      "kind": "images",
+      "name": "testgeometry_tommy?body_normal.jpg",
+      "path": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?body_normal.jpg",
+      "absolute": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?body_normal.jpg",
+      "packed": false,
+      "users": 1,
+      "exists": false
+    },
+    {
+      "kind": "images",
+      "name": "testgeometry_tommy?tankTops_pants_boots_diffuse.jpg",
+      "path": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?tankTops_pants_boots_diffuse.jpg",
+      "absolute": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?tankTops_pants_boots_diffuse.jpg",
+      "packed": false,
+      "users": 1,
+      "exists": false
+    },
+    {
+      "kind": "images",
+      "name": "testgeometry_tommy?tankTops_pants_boots_normal.jpg",
+      "path": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?tankTops_pants_boots_normal.jpg",
+      "absolute": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?tankTops_pants_boots_normal.jpg",
+      "packed": false,
+      "users": 1,
+      "exists": false
+    },
+    {
+      "kind": "images",
+      "name": "testgeometry_tommy?tankTops_pants_boots_roughness.jpg",
+      "path": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?tankTops_pants_boots_roughness.jpg",
+      "absolute": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?tankTops_pants_boots_roughness.jpg",
+      "packed": false,
+      "users": 1,
+      "exists": false
+    }
+  ],
+  "external_system_resources": [
+    {
+      "kind": "fonts",
+      "name": "Arial Narrow",
+      "path": "C:\\Windows\\Fonts\\ARIALN.TTF",
+      "absolute": "C:\\Windows\\Fonts\\ARIALN.TTF",
+      "packed": false,
+      "users": 12,
+      "exists": true
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import argparse
 import ast
 from pathlib import Path
 import subprocess
+import sys
 
 
 def main() -> None:
@@ -23,8 +24,12 @@ def main() -> None:
         ast.parse(path.read_text(encoding="utf-8-sig"), filename=str(path))
     print(f"Python syntax checked: {sum(bool(path) for path in tracked)}", flush=True)
     for name in ("03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend",
-                 "07_pipeline/cache/tripo_wood_side_back_20260930/tripo_wood_side_back.blend"):
+                 "02_assets/work/school_chair.blend"):
         print(f"Formal asset {'present locally' if (root / name).is_file() else 'not included'}: {name}", flush=True)
+    # 先区分完整资产与 LFS 指针；默认烟雾场景通过不能替代正式镜头依赖检查。
+    if (root / '06_review/cloud_assets_20261003/upload_manifest.json').is_file():
+        subprocess.run([sys.executable, str(root / 'scripts/check_cloud_assets.py')],
+                       cwd=root, check=True)
     subprocess.run([args.blender, "--background", "--factory-startup", "--python-exit-code", "1",
                     "--python", str(root / "scripts/blender_smoke.py")], cwd=root, check=True)
 
