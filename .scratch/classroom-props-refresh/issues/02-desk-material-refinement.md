@@ -19,7 +19,7 @@ Updated: 2026-10-06
 ## Evidence
 
 - [当前工程](../../../02_assets/work/school_desk.blend)
-- [实际贴图依赖](../../../02_assets/textures/generated/kokuyo_desk)
+- [金属最终法线](../../../02_assets/textures/generated/kokuyo_desk/metal_8k/KOKUYO_Normal_OpenGL.png)
 
 ## Comments
 
