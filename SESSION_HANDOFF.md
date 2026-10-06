@@ -1,6 +1,6 @@
 # Shot_Test 交接记录
 
-**2026-10-06课桌整体材质与迁移：** 当前入口 `02_assets/work/school_desk.blend`，贴图 `02_assets/textures/generated/kokuyo_desk`。桌洞／挂钩／固定片与旧管架协调，脚套深色橡胶及有效法线；21张依赖的相对路径与内嵌哈希、独立重开、原几何UV／木材保护通过。SHA256 `139da734695fabd36589982f0824b8b3473608189e8076a200c23f5bdef586e8`；技术pass、艺术review，正式镜头未改。只保留工程与依赖贴图，旧缓存清理见[记录](06_review/kokuyo_desk_20261006/report.md)。
+**2026-10-06课桌整体材质与迁移：** 当前入口 `02_assets/work/school_desk.blend`，贴图 `02_assets/textures/generated/kokuyo_desk`。桌洞／挂钩／固定片与旧管架协调，脚套深色橡胶及有效法线；21张依赖的相对路径与内嵌哈希、独立重开、原几何UV／木材保护通过。SHA256 `139da734695fabd36589982f0824b8b3473608189e8076a200c23f5bdef586e8`；技术pass、艺术review，正式镜头未改。只保留工程与依赖贴图；技术清单留在Git提交75ebbea，旧工作树已移除，策略拦截的恢复副本与空标记目录已通知用户手动删除。
 
 更新：2026-10-03。用户将公开 `bamboovfx/CG` 的范围扩大为当前镜头、实际依赖和已验证制作流程；场景和贴图通过 Git LFS 上传，未使用资产保留本机并排除上传。
 

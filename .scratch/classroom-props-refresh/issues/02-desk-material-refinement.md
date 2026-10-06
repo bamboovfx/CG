@@ -18,7 +18,8 @@ Updated: 2026-10-06
 
 ## Evidence
 
-- [整体材质与迁移](../../../06_review/kokuyo_desk_20261006/report.md)
+- [当前工程](../../../02_assets/work/school_desk.blend)
+- [实际贴图依赖](../../../02_assets/textures/generated/kokuyo_desk)
 
 ## Comments
 
@@ -57,3 +58,5 @@ Updated: 2026-10-06
 - 2026-10-06整桌磨损一致性完成：从用户最新edd51107源只补足两侧竖管整段碎片掉漆／灰褐氧化／细划伤及浅凹凸，横杠连续磨亮保留，其他金属六通道实际采样差为0；几何／全部UV／木材脚套与用户节点保护。三个机位、24帧连续预览和独立重开通过，工程SHA256=2fa276d69841d8b34dce3f8fafdbf49256af6887346739c9e7ded989b16503ba。技术pass、艺术review，唯一下一步为用户直接查看当前工程。
 
 - 2026-10-06整体材质与迁移完成：灰漆管架、桌洞／挂钩／固定片老化协调，脚套改深色橡胶和有效法线；迁移到F盘school_desk.blend及textures/generated/kokuyo_desk。全部原UV与木材保留，技术通过，艺术review；旧证据与一次性流程留在codex/desk-cohesion历史，后续从F盘入口继续。SHA256=139da734695fabd36589982f0824b8b3473608189e8076a200c23f5bdef586e8。
+
+- 2026-10-06迁移后清理：原工作树及1.78 GB内容已移除；工程SHA256 139da734695fabd36589982f0824b8b3473608189e8076a200c23f5bdef586e8 与21张依赖再次复核一致。只保留工程与贴图，完整验证和生成记录存于Git提交75ebbea。自动审批返回blocked by policy，恢复副本F:/00_Projects/CG/07_pipeline/cache/desk_recovery_20261006及C:/Users/CUT-ROCK/.codex/worktrees/775b空标记目录待用户手动删除。
