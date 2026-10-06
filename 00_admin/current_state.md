@@ -1,5 +1,7 @@
 # 当前工程基线
 
+**2026-10-06课桌整体材质与迁移：** 当前入口 `02_assets/work/school_desk.blend`，贴图 `02_assets/textures/generated/kokuyo_desk`。桌洞／挂钩／固定片与旧管架协调，脚套深色橡胶及有效法线；21张依赖的相对路径与内嵌哈希、独立重开、原几何UV／木材保护通过。SHA256 `139da734695fabd36589982f0824b8b3473608189e8076a200c23f5bdef586e8`；技术pass、艺术review，正式镜头未改。只保留工程与依赖贴图，旧缓存清理见[记录](../06_review/kokuyo_desk_20261006/report.md)。
+
 **2026-10-04本机复核与上下文补齐：** 读取D-XIANYI-SHI的关键CG聊天，见[恢复记录](../06_review/context_recovery_20261004/report.md)。F:/00_Projects/CG正式镜头由Blender 5.2.2后台只读重开，保存帧1071、1001–1100/24fps、cam_sh010_main、World=Sun，相机/天空两个Action，25个共享课椅实例、26个旧课桌实例、外部blend库引用0。主镜头SHA256为 `983984e3a1ff53903dfe9e53d280332cd03c8396b99b72f7420405db32afe638`，读前后不变。5张testgeometry_tommy贴图及Arial Narrow仍缺失；本机缺少school_desk_parts.blend、approved_material_library.blend与140帧旧候选。开始时主镜头和PureRef已有未提交修改，本轮未写工程；历史参数和“保留本机”不能覆盖本次设备实况。总PM刷新受40条历史证据缺失阻塞，制作验收状态不变。
 
 **2026-10-03云端整理：** 用户授权当前镜头及实际依赖通过 Git LFS 上传，未引用资产仅排除上传、保留本机。缓存/旧候选/自动备份删除524个文件（约52.52GiB），最新源与可复现流程迁移72项并核对SHA256。课椅新入口 `02_assets/work/school_chair.blend`；最新课桌 `02_assets/work/school_desk_parts.blend` 和共享材质源 `02_assets/work/approved_material_library.blend` 尚未并入镜头，保留本机不上传。本轮主镜头仍为1001–1100/24fps、cam_sh010_main；5张既有opdef图像未解析，Arial Narrow为外部系统字体。镜头路径规范化结果与哈希以[本轮验证](../06_review/cloud_assets_20261003/report.md)为准；下方旧哈希是历史版本。140帧 `pose_fit_candidate.blend` 在清理开始前已缺失，历史重开记录不能证明它当前仍存在。
