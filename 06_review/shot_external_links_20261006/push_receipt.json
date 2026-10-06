@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-06",
+  "repository": "https://github.com/bamboovfx/CG",
+  "public_data_commit": "ff3c4fa8a5420ca6bc3a09ad650243ef3b66427a",
+  "remote_head_verified": "ff3c4fa8a5420ca6bc3a09ad650243ef3b66427a",
+  "push_exit_code": 0,
+  "lfs_objects_uploaded": 64,
+  "lfs_display_size": "2.4 GB",
+  "lfs_recheck_exit_code": 0,
+  "fast_forward": true,
+  "force_push": false,
+  "local_history_backup": "codex/backup-cg-before-links-20261006",
+  "local_only_test_absent_from_public_tree_and_history": true,
+  "shot_sha256": "e786ccef92760e804362915515bb193f6ee6d6f0ad872235875e9a397d822569",
+  "dependency_hash_errors": 0,
+  "private_work_files_preserved": true
+}
