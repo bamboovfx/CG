@@ -1,0 +1,2104 @@
+{
+  "date": "2026-10-06",
+  "scope": "Published current shot and its actual external dependencies",
+  "license_policy": "Existing asset source licenses inherited; no new media sources added",
+  "files": [
+    {
+      "path": "02_assets/Texture/classroom_links/AgeMask_114666b3d43bb784.png",
+      "bytes": 29792255,
+      "sha256": "114666b3d43bb78486ad3d45939d06b7349e9fbe467ab086cb7d881bc4e384b2"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/AgeMask_93c9d532eac33ba8.png",
+      "bytes": 21278212,
+      "sha256": "93c9d532eac33ba8adf5af569fa83dbefec047b55d03e57216291a011fefa436"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/ChipField_7a512ae2395212fd.png",
+      "bytes": 32289945,
+      "sha256": "7a512ae2395212fd97c7f6a179954f361f47cc93b3395519769031994fa15bac"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtColor_05cc5993c1c84dfd.png",
+      "bytes": 32814425,
+      "sha256": "05cc5993c1c84dfdeef6779aa65c851dc6f6dead5c748999c25ce5d662f413f1"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtColor_6ec7c582fb016f12.png",
+      "bytes": 87981145,
+      "sha256": "6ec7c582fb016f121d32a3bb7193738944d6d4526d65db68d91e1f19b8c67d84"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtColor_931723f8afc7b8e7.png",
+      "bytes": 90751318,
+      "sha256": "931723f8afc7b8e72a202ec567d472d1b486cf821cef1df4bf106cc1645421e2"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtHeight_78150fed25a11e7f.png",
+      "bytes": 85374,
+      "sha256": "78150fed25a11e7f812d8b294ee2f287031eccbab2e094ab90e9c21f40f8fd03"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtHeight_8058160176096d06.png",
+      "bytes": 96788,
+      "sha256": "8058160176096d06cc2e5872dc54c46d24f72102488e897163380c0bbc7b94c8"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtHeight_a5e0c08efeeab491.png",
+      "bytes": 31181265,
+      "sha256": "a5e0c08efeeab491013b1db7c3d40f10adeaf8e01285d17a3be0f4896e2bfd3c"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtMask_1f560ca2f374adc8.png",
+      "bytes": 15431351,
+      "sha256": "1f560ca2f374adc8c887e2b4e99ac4ed67c177f50846e40fb9b0559b9ff419c6"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtMask_72b3e0aba0f59ec1.png",
+      "bytes": 537000,
+      "sha256": "72b3e0aba0f59ec1995df3ed8f6f425538d995d552cc68a6b1e426738dfeb517"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtMask_738b580e9df61ff1.png",
+      "bytes": 5547199,
+      "sha256": "738b580e9df61ff12dced70b94dc046078d083f04edfeb64779886d7abdf4b0d"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtMask_dd465eec61fabefa.png",
+      "bytes": 354083,
+      "sha256": "dd465eec61fabefa9e78d5f796282793dd9a95266e7a16972166e4eba779dff5"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtRoughness_2915a8cc7767bf12.png",
+      "bytes": 27120010,
+      "sha256": "2915a8cc7767bf12a77888b763fabb0d563d4a9e720226becaeefae13aef63c2"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/DirtRoughness_3d22fdc9411747d5.png",
+      "bytes": 26407014,
+      "sha256": "3d22fdc9411747d556c7bc8e62dec4287f15a08a8c6ebbaf920779427f112694"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Process_BaseColor_10929fd8570a4ed5.png",
+      "bytes": 11120907,
+      "sha256": "10929fd8570a4ed5826f0a82d281a11d813fccc1562866b2d90a9bcdd75d07c8"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Process_BaseColor_2337b5d9920d5a13.png",
+      "bytes": 8924922,
+      "sha256": "2337b5d9920d5a138d9df0738431a065552b0d61f187298d7e279e3da7109cf9"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Process_Height_2bf6079a018a1865.png",
+      "bytes": 26194847,
+      "sha256": "2bf6079a018a186558c0c0c6a3904f05a52f4468d84f5bd0c9e520627a388f35"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Process_Height_9ff9f9e569086762.png",
+      "bytes": 26901026,
+      "sha256": "9ff9f9e569086762d9678e5a201c0e708a036ac2ed830e08302f8c0842d09f11"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Process_Roughness_4318c2b776660b4b.png",
+      "bytes": 24793068,
+      "sha256": "4318c2b776660b4bb96400bf1e84a0cbb4ff78b67b846d5cd40bc109dfb4060a"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Process_Roughness_f4983f6c2a62c769.png",
+      "bytes": 23840548,
+      "sha256": "f4983f6c2a62c769f17f267d0a2af37787f5effd79f557955b0dd5bd2c375983"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_AgeColor_d4f953c34c1b1fc2.png",
+      "bytes": 93508892,
+      "sha256": "d4f953c34c1b1fc26fd17c8eece1e5dbc6a6cb6724d65648f33737dbdbb7ca24"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_AgeColor_d72a7e998228db4f.png",
+      "bytes": 96993415,
+      "sha256": "d72a7e998228db4f66388362a85d53e8c2d54fc1adb6ed9110b15bb1aee8801e"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_AgeHeight_407aef86cc162ce4.png",
+      "bytes": 25316181,
+      "sha256": "407aef86cc162ce4ff90132889bcc3698990ee1251d4717d2fd7918f84f6d564"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_AgeHeight_b93db2f5ec83cda3.png",
+      "bytes": 24390648,
+      "sha256": "b93db2f5ec83cda315dd5fd8d54630b5b2991525869f62f9e0ff17e97e7fcc62"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_AgeMask_4bc60475e8e1121c.png",
+      "bytes": 26240095,
+      "sha256": "4bc60475e8e1121ced536fb7f3d3fbf2952c523cc636a152b55bfd989ca04237"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_AgeMask_939ee3b7b30e9e1e.png",
+      "bytes": 27008864,
+      "sha256": "939ee3b7b30e9e1eeb0032d037d7606758df1a00a514d3ea489425065adadeb9"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_AgeRoughness_6042871ecf384c0e.png",
+      "bytes": 27371730,
+      "sha256": "6042871ecf384c0e7cd862ae177b8a3a2bfbc6d199aab27d4665ac423101354b"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_AgeRoughness_9cf58e5004e4290d.png",
+      "bytes": 26657802,
+      "sha256": "9cf58e5004e4290d49aedd1887aad1177a48e067f3f28e0cc443315f849656e2"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_DirtColor_2716e3451597092e.png",
+      "bytes": 90320372,
+      "sha256": "2716e3451597092e9e4a09c118b46dadf9a38da4ecf5f79c9593e478069444de"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_DirtColor_3dcc462bc33c255f.png",
+      "bytes": 87367541,
+      "sha256": "3dcc462bc33c255f2307d7f9700303f39073cebcd3f8a62753989e1b117bcb8e"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_DirtMask_3874c9063de3414b.png",
+      "bytes": 14543624,
+      "sha256": "3874c9063de3414beedfb0ede5f97b4f9ea8c7bfa968cdaa381bbf6187b87b39"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_DirtMask_a8e86c798d8fe2ad.png",
+      "bytes": 15020189,
+      "sha256": "a8e86c798d8fe2ad34d3cfe71c3a5c86a27d36e658f0c37a8d6b6b54b592acb3"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_ScratchCore_1013812996a950e0.png",
+      "bytes": 83682,
+      "sha256": "1013812996a950e0ae77ac69bce65c6f96f2e7b7605885f9f50019ed4dd151bb"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_ScratchCore_86038672cbd0cfa8.png",
+      "bytes": 337430,
+      "sha256": "86038672cbd0cfa86051a78536913f4ba5bb800ee2d5f785e2a9b9e9f2556be8"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_ScratchLip_9ac30cfa8347ec48.png",
+      "bytes": 49576,
+      "sha256": "9ac30cfa8347ec484789fea99a6facacda30e72a0b4f838a5914648a58d24051"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_ScratchLip_a50a5a7d538d43cf.png",
+      "bytes": 159823,
+      "sha256": "a50a5a7d538d43cfb79489105eb86d142cfbd8564f5209b66ffc02f03de6a92d"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_WearColor_d868244ef9d1866d.png",
+      "bytes": 98067236,
+      "sha256": "d868244ef9d1866dc3f05c8324cabcc8036f42d0f4ef5adb5e39667d3a8d9a36"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_WearColor_fe5fdd0b2b6bb304.png",
+      "bytes": 94964149,
+      "sha256": "fe5fdd0b2b6bb3042486ca4be3dd36a8cab34b20113a01de1f73bb6b4e063d57"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_WearHeight_85ee1c0c4126e22f.png",
+      "bytes": 25931025,
+      "sha256": "85ee1c0c4126e22f60ca8f77feab51fcf7f5c8d6918629048c1ddd338ae9becf"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_WearHeight_f82671d5c906938f.png",
+      "bytes": 26830796,
+      "sha256": "f82671d5c906938ff6a43667f3addfc8c47eb414fd33746fefd5a11dfd43e608"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_WearMask_36efed49a80dfcdd.png",
+      "bytes": 6003350,
+      "sha256": "36efed49a80dfcdd22cfae36b24dee53836c440c07e1f581dce71ae57e7f440b"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_WearMask_3844883551b27a8b.png",
+      "bytes": 5778628,
+      "sha256": "3844883551b27a8b2afdd489001db63b97aa27eb6720c7ea97d7aad32c5632a4"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_WearRoughness_1e8e618fed0b5ff2.png",
+      "bytes": 27026632,
+      "sha256": "1e8e618fed0b5ff2e0682baed57d78de20e94f8022ac333838cc1d2ab1767638"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/Raw_WearRoughness_fc3760caad13548d.png",
+      "bytes": 26335913,
+      "sha256": "fc3760caad13548d28241fc3d3ee1f825662292f5f81ad53cab48328bac2fb32"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/RustColor_84d4a518a1ef03e3.png",
+      "bytes": 67428178,
+      "sha256": "84d4a518a1ef03e3949d546dd1fdc088d2ef68f40afae1bb2fb4aec66472e802"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/RustHeight_a66598679e32c96d.png",
+      "bytes": 26534980,
+      "sha256": "a66598679e32c96da7572fe2898383ddbbf55750ac56218a65d70d215adcdb52"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/RustRoughness_60677cb3dbee109d.png",
+      "bytes": 25478329,
+      "sha256": "60677cb3dbee109dafaaca1620cbce901a12ac022c6b1228972329673d63e7d3"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/ScratchMask_0181fe1403f706cd.png",
+      "bytes": 254344,
+      "sha256": "0181fe1403f706cd42d00413f625d7f137740d5fb90e05d6f8cf0a5f2a3f2451"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/ScratchMask_1fafcef4367145cf.png",
+      "bytes": 1463961,
+      "sha256": "1fafcef4367145cf5f25d79b3912908c15123939438451a079b802d5b3972f2a"
+    },
+    {
+      "path": "02_assets/Texture/classroom_links/WearMask_f8a37ecc7602333d.png",
+      "bytes": 32127459,
+      "sha256": "f8a37ecc7602333d0da19423c9afd9f6f00afa96d07a59ab4e5e2e71f622383f"
+    },
+    {
+      "bytes": 18180266,
+      "path": "02_assets/hdri/polyhaven/sunset_jhbcentral/4k/sunset_jhbcentral_4k.exr",
+      "sha256": "aadcdd1a62b1cd6355444756946a5122ad9de88f190ac1d6ac6cb914f3da7677"
+    },
+    {
+      "path": "02_assets/library/classroom_geometry.blend",
+      "bytes": 62816296,
+      "sha256": "9b943b44f76be8407a6aae34d49fe5f95fb802c771bc644ab4ad3ebac7feff06"
+    },
+    {
+      "bytes": 7286913,
+      "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Color.jpg",
+      "sha256": "7aa2ae8d953523c1e7489b4fa7ffd3cfda8f463738db4ddebbbaf126a1ee351a"
+    },
+    {
+      "bytes": 10149065,
+      "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_NormalGL.jpg",
+      "sha256": "7c871bf6969e45e5aa11c5d04c7ad141dbc0aadf1124b7eeb9b0b42eb0c8890b"
+    },
+    {
+      "bytes": 3421323,
+      "path": "02_assets/textures/ambientcg/Fabric030/2k/Fabric030_2K-JPG_Roughness.jpg",
+      "sha256": "ac4806ea54090d5979f5052eb02f72b27cb01762ebfafa82cce2464e5274c1ec"
+    },
+    {
+      "bytes": 2234737,
+      "path": "02_assets/textures/authored/classroom/2k/board_wiped_color_2k.png",
+      "sha256": "52cf1d4e8eff366dff8add1bb38c8798ea8d89f7472aad11fb932b7b051b6cad"
+    },
+    {
+      "bytes": 2297310,
+      "path": "02_assets/textures/authored/classroom/2k/chalkboard_color_2k.png",
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588"
+    },
+    {
+      "bytes": 2070605,
+      "path": "02_assets/textures/authored/classroom/2k/chalkboard_roughness_2k.png",
+      "sha256": "220022a4dd1834c6b08282434e597a5c376c70812da3f71b2a8b5579d9bc2d6e"
+    },
+    {
+      "bytes": 2297310,
+      "path": "02_assets/textures/authored/classroom/2k/glass_color_2k.png",
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588"
+    },
+    {
+      "bytes": 882601,
+      "path": "02_assets/textures/authored/classroom/2k/glass_roughness_2k.png",
+      "sha256": "4c650b6485940d089595be39283eb727c98ee82f68d0d50c482a415cbcd89515"
+    },
+    {
+      "bytes": 2311334,
+      "path": "02_assets/textures/authored/classroom/2k/metal_color_2k.png",
+      "sha256": "522d02365642b526dccb150596cc9d341177d6318aa9f15807ce5044639c7792"
+    },
+    {
+      "bytes": 2082413,
+      "path": "02_assets/textures/authored/classroom/2k/metal_roughness_2k.png",
+      "sha256": "21d1a4ce67c92d540700b75caccb101c787eb1506cb74f2c61bd0dd00de56a4c"
+    },
+    {
+      "bytes": 4331276,
+      "path": "02_assets/textures/authored/classroom/2k/notice_00_color_2k.png",
+      "sha256": "7437e121eb9764f04eefdbc93de0dc2aa0d1b5b0976d30349f608c82d726560e"
+    },
+    {
+      "bytes": 4423946,
+      "path": "02_assets/textures/authored/classroom/2k/notice_01_color_2k.png",
+      "sha256": "e56466f9c2ab89e158af0e227bd20a0763234711535bf9f9885370e90cdff459"
+    },
+    {
+      "bytes": 4329425,
+      "path": "02_assets/textures/authored/classroom/2k/notice_02_color_2k.png",
+      "sha256": "36635a05c045d7cf5e07b709f5621abfa1aceee7c54a0bc18e9911c989b213db"
+    },
+    {
+      "bytes": 4425504,
+      "path": "02_assets/textures/authored/classroom/2k/notice_03_color_2k.png",
+      "sha256": "5ad16afae2f86829e2f91f9fe4df1f94b6b5ddf2d6bd23b3c8d652fcf392b2af"
+    },
+    {
+      "bytes": 4326972,
+      "path": "02_assets/textures/authored/classroom/2k/notice_04_color_2k.png",
+      "sha256": "2e064062808920cbfad25195bc8988679412c63365992a290d80f9664ab7b825"
+    },
+    {
+      "bytes": 732330,
+      "path": "02_assets/textures/authored/classroom/2k/old_wooden_floor_03_diff_2k.jpg",
+      "sha256": "2f9d3325ef7240942a21913fa807a8c74c80ef07b65b67f63192ba0aeffa2d26"
+    },
+    {
+      "bytes": 5724872,
+      "path": "02_assets/textures/authored/classroom/2k/old_wooden_floor_03_nor_gl_2k.png",
+      "sha256": "49af1dec229527fb463da8704a73a173e0c686962e06273cc6d60ee910791091"
+    },
+    {
+      "bytes": 467165,
+      "path": "02_assets/textures/authored/classroom/2k/old_wooden_floor_03_rough_2k.jpg",
+      "sha256": "c909f7f8c77bea4d31c0bdcfca9971a0d0f01a64677df618e2c574d724f6902d"
+    },
+    {
+      "bytes": 2297310,
+      "path": "02_assets/textures/authored/classroom/2k/paint_color_2k.png",
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588"
+    },
+    {
+      "bytes": 2079635,
+      "path": "02_assets/textures/authored/classroom/2k/paint_roughness_2k.png",
+      "sha256": "d9bdc0c81c5e1bb49ed67cfcac04ee802026a562168808d2fdba7a763bd467b1"
+    },
+    {
+      "bytes": 2297310,
+      "path": "02_assets/textures/authored/classroom/2k/paper_color_2k.png",
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588"
+    },
+    {
+      "bytes": 2070779,
+      "path": "02_assets/textures/authored/classroom/2k/paper_roughness_2k.png",
+      "sha256": "8fa7437969dd29e59e649f32d004c14288fa6064b4217817e9fb07b96e2acba7"
+    },
+    {
+      "bytes": 2297310,
+      "path": "02_assets/textures/authored/classroom/2k/plastic_color_2k.png",
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588"
+    },
+    {
+      "bytes": 2078418,
+      "path": "02_assets/textures/authored/classroom/2k/plastic_roughness_2k.png",
+      "sha256": "2cdf95eb4b6f7861de3d2c9a4176525fa62d12c4f288ee2233a42c17048e51b7"
+    },
+    {
+      "bytes": 1002882,
+      "path": "02_assets/textures/authored/classroom/2k/plywood_diff_2k.jpg",
+      "sha256": "aa55da3972eeb65048d61805388e31cbf0b37cd1d7273fe0c92da46c745d1392"
+    },
+    {
+      "bytes": 6522719,
+      "path": "02_assets/textures/authored/classroom/2k/plywood_nor_gl_2k.png",
+      "sha256": "979075f9250fbe709e15a85cef987b8929cbea62836a319b2dc49a0868b8eac1"
+    },
+    {
+      "bytes": 871339,
+      "path": "02_assets/textures/authored/classroom/2k/plywood_rough_2k.jpg",
+      "sha256": "df45c4e90fbaabe41398f80a1fbae722db7553e4af1f2a22ecd1fd4160a6d9f8"
+    },
+    {
+      "bytes": 2297310,
+      "path": "02_assets/textures/authored/classroom/2k/print_color_2k.png",
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588"
+    },
+    {
+      "bytes": 2080201,
+      "path": "02_assets/textures/authored/classroom/2k/print_roughness_2k.png",
+      "sha256": "7156a4e432d55f6a2370458a388df78ac7b503fed0f709f5cd27847a9c10b9f0"
+    },
+    {
+      "bytes": 2297310,
+      "path": "02_assets/textures/authored/classroom/2k/rubber_color_2k.png",
+      "sha256": "869eefdf48a36ce148a5374456046e43a582aaaf93523084a4ff08da52881588"
+    },
+    {
+      "bytes": 2075624,
+      "path": "02_assets/textures/authored/classroom/2k/rubber_roughness_2k.png",
+      "sha256": "3d890890cbeb2df2d179e747825bb74ca2608a66b29325af880288b91279b7f4"
+    },
+    {
+      "bytes": 83236,
+      "path": "02_assets/textures/authored/classroom/2k/tin_label_color_2k.png",
+      "sha256": "4e5d2e670e39b6f5c3ef663637b56d5b4b202a6b77f18ecdbd5d61e2dda9fa39"
+    },
+    {
+      "bytes": 1210310,
+      "path": "02_assets/textures/authored/classroom/2k/wood_edge_color_2k.png",
+      "sha256": "378ade9d02775e64e9ca14bf42cbe6149f8799fba2e397e4a1ffea9cd0634f25"
+    },
+    {
+      "bytes": 1165572,
+      "path": "02_assets/textures/authored/classroom/2k/wood_edge_roughness_2k.png",
+      "sha256": "2efc17cc1a3a8c13bfbda4550073cabf0f3a214b5e8da25bfd8686da292b039a"
+    },
+    {
+      "bytes": 9416633,
+      "path": "02_assets/textures/authored/rear_classroom_20260917/calligraphy_atlas_color.png",
+      "sha256": "e1073755ab74874a13254cb58f63c6d1ecbba9a76ce75700216de02062c6bbee"
+    },
+    {
+      "bytes": 2357072,
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_BaseColor.png",
+      "sha256": "0f585fce672395c7a83677781037a16bd7a53abbc86b48b389218bdceb0e6a86"
+    },
+    {
+      "bytes": 1497097,
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Height.png",
+      "sha256": "f9297d1648362f49b4eaa0b54c80fba9d954f5687e4a8ce7fb595e30a6c92d87"
+    },
+    {
+      "bytes": 4145,
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Metallic.png",
+      "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb"
+    },
+    {
+      "bytes": 1747870,
+      "path": "02_assets/textures/authored/school_desk/2k/foot_caps_Roughness.png",
+      "sha256": "359ac167e3e9258e3334619b2197cff7dcf0b7032ca751653acbef5237a35855"
+    },
+    {
+      "bytes": 184431,
+      "path": "02_assets/textures/authored/school_desk/2k/frame_left_DirtMask.png",
+      "sha256": "728c5d6085ce5710cbc4de2e8f61e9a355bec984f8c7af035de7db1ffea75f1f"
+    },
+    {
+      "bytes": 2455883,
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_BaseColor.png",
+      "sha256": "082e836bacd083b45942c76eb9169d97295f9e6088adebc38eca52f88682d6b8"
+    },
+    {
+      "bytes": 192190,
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_DirtMask.png",
+      "sha256": "dc0d11719106c90c54318e59a9b33bd485572cb14af514154ebb41d4a7598c07"
+    },
+    {
+      "bytes": 1278158,
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_Height.png",
+      "sha256": "7b4e689c79203fdf4cad58df6046f051ed331fd5e304b733dd91ebd855f6fc74"
+    },
+    {
+      "bytes": 95754,
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_Metallic.png",
+      "sha256": "6cbb8ef2e852803eb4096344caf6cd13e2e3bfa785cb90b03af82e2e63fb0b70"
+    },
+    {
+      "bytes": 704157,
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_Roughness.png",
+      "sha256": "fc9160631db7a05cc112c616af947cbb45361e716f556ad15602604ec4643fdc"
+    },
+    {
+      "bytes": 126489,
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_RustMask.png",
+      "sha256": "09c935f933e0edf8cf243b2d8a94b8b7cc6e1ea91b0e23fe5fc394a28c1d6180"
+    },
+    {
+      "bytes": 102685,
+      "path": "02_assets/textures/authored/school_desk/2k/frame_right_WearMask.png",
+      "sha256": "26e207e96b106b8b176e809f2276f880cefbd4fa7161df3890f5d3f7fb09bff7"
+    },
+    {
+      "bytes": 2873466,
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_BaseColor.png",
+      "sha256": "7919f60dc84a8e2de25287399e8e29377c816ec31923df288089993a6345dcee"
+    },
+    {
+      "bytes": 220691,
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_DirtMask.png",
+      "sha256": "308aadf4bf0ff1d24c3adfe37e295f2a493906c13488776bd93bcbea76f5ca64"
+    },
+    {
+      "bytes": 1502028,
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_Height.png",
+      "sha256": "6ed18629ccdd9b7f7721297a838067d9518648f47cd7479913dd12b28296bf0d"
+    },
+    {
+      "bytes": 230462,
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_Metallic.png",
+      "sha256": "d35b58bb52153eab97c5f38420c57e9dcd676e4bf2b98f81a3acb5f71ad6dc83"
+    },
+    {
+      "bytes": 958429,
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_Roughness.png",
+      "sha256": "4b7f44f2ab5457ac227d6091c4944cc32cfdfc329f0fed0ea8087c4d307b0993"
+    },
+    {
+      "bytes": 280364,
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_RustMask.png",
+      "sha256": "6c6ee4528f3871131888e456a1af01c87767c0905e552ea8db445f08cf6896b5"
+    },
+    {
+      "bytes": 193903,
+      "path": "02_assets/textures/authored/school_desk/2k/hardware_WearMask.png",
+      "sha256": "be4d27c47f6b51707f8bc8f05b21dbb71e20c8a8b44d4339f336e32b702f919e"
+    },
+    {
+      "bytes": 7618076,
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_BaseColor.png",
+      "sha256": "aa08df8e33b75c3d900529e0f5e73930f1b554eb2fe645a79897fe4f2e342815"
+    },
+    {
+      "bytes": 870575,
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Height.png",
+      "sha256": "60f76ca3092f1c63537d449c8b219d4b4164db17b65ae370a2175d28fb2d7b98"
+    },
+    {
+      "bytes": 4145,
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Metallic.png",
+      "sha256": "47409785b30cc38f1ec62f219ce1c46f885427442416c0768dc470497ef784cb"
+    },
+    {
+      "bytes": 413769,
+      "path": "02_assets/textures/authored/school_desk/2k/laminate_top_Roughness.png",
+      "sha256": "88a4f2f5a9086bbb4bdac8c62eed5a5fdc61d399fa4b2de794abe7fccd90c8be"
+    },
+    {
+      "bytes": 154843,
+      "path": "02_assets/textures/authored/school_desk/2k/lower_brace_DirtMask.png",
+      "sha256": "8df5aaa154e5266cb5b20f16e78ee3cf31167c658cd5348aa5cd9c478c23c025"
+    },
+    {
+      "bytes": 2665372,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_BaseColor.png",
+      "sha256": "c8d1c18b70e5199dd7bd8291ed16b722234fa4f14d4dab22c4baa4919b674ad9"
+    },
+    {
+      "bytes": 311256,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_DirtMask.png",
+      "sha256": "7307d7286e88d527e544164a229a1691034c2c642c48d63f9883ad2d5037737f"
+    },
+    {
+      "bytes": 1300739,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_Height.png",
+      "sha256": "3be3cd2f00e028f03a42b00192438a2037d97304a65b32c7261ba78084952b66"
+    },
+    {
+      "bytes": 61619,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_Metallic.png",
+      "sha256": "b06a5da5ba9e522eb8900b47f23c469e5f2e964c68d93001443fb6bbefee1840"
+    },
+    {
+      "bytes": 872102,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_Roughness.png",
+      "sha256": "120b1719be8107875cfc171ed441f66fbd0f3168360ce3f6b0f8dd0f7b1fa1e9"
+    },
+    {
+      "bytes": 74439,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_RustMask.png",
+      "sha256": "f102ff3e3a6baa051cc5c1bb034aa735cffaab6c645a190639813b076df96da6"
+    },
+    {
+      "bytes": 68198,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_WearMask.png",
+      "sha256": "f84abffb2a699067911e3b37a0c07e836dfeaa82a119aa2ba8966c2ef1dff832"
+    },
+    {
+      "bytes": 2674375,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_BaseColor.png",
+      "sha256": "7b13287bc0b3bf7f569b200f97d27ed2b4fe758c45c264f73f08b40f5e09814e"
+    },
+    {
+      "bytes": 311256,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_DirtMask.png",
+      "sha256": "7307d7286e88d527e544164a229a1691034c2c642c48d63f9883ad2d5037737f"
+    },
+    {
+      "bytes": 1300739,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_Height.png",
+      "sha256": "3be3cd2f00e028f03a42b00192438a2037d97304a65b32c7261ba78084952b66"
+    },
+    {
+      "bytes": 61619,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_Metallic.png",
+      "sha256": "b06a5da5ba9e522eb8900b47f23c469e5f2e964c68d93001443fb6bbefee1840"
+    },
+    {
+      "bytes": 872102,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_Roughness.png",
+      "sha256": "120b1719be8107875cfc171ed441f66fbd0f3168360ce3f6b0f8dd0f7b1fa1e9"
+    },
+    {
+      "bytes": 74439,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_RustMask.png",
+      "sha256": "f102ff3e3a6baa051cc5c1bb034aa735cffaab6c645a190639813b076df96da6"
+    },
+    {
+      "bytes": 68198,
+      "path": "02_assets/textures/authored/school_desk/2k/tray_front_WearMask.png",
+      "sha256": "f84abffb2a699067911e3b37a0c07e836dfeaa82a119aa2ba8966c2ef1dff832"
+    },
+    {
+      "bytes": 3048147,
+      "path": "02_assets/textures/authored/teaching_rebuild/dark_color.png",
+      "sha256": "a98fb5389ff2e6645d49fa3586c247a397bdea47d4ad3bc622d43ad352e32ebf"
+    },
+    {
+      "bytes": 2376151,
+      "path": "02_assets/textures/authored/teaching_rebuild/dark_height.png",
+      "sha256": "d6d90e82ffd3aed24334cc4da4144d6df954ad2695398a005093f1cac02a2805"
+    },
+    {
+      "bytes": 1953858,
+      "path": "02_assets/textures/authored/teaching_rebuild/dark_rough.png",
+      "sha256": "b5285c720894c7d8d2fbd01330f9ea9310d3164345f4c8c6b94b9c8fb82ab671"
+    },
+    {
+      "bytes": 3329240,
+      "path": "02_assets/textures/authored/teaching_rebuild/felt_color.png",
+      "sha256": "f3ab67a4c8815a339f85a8f47b8ddf9398a6fd39d3e465848f5c5e6d6e155f87"
+    },
+    {
+      "bytes": 2376334,
+      "path": "02_assets/textures/authored/teaching_rebuild/felt_height.png",
+      "sha256": "2c17d9ddc9de72c24e23e847dd7d7b52b758ec7dd77fc54376aa16c372036b74"
+    },
+    {
+      "bytes": 1945962,
+      "path": "02_assets/textures/authored/teaching_rebuild/felt_rough.png",
+      "sha256": "d61fbec60b5507acd5490f9210931d6921aa0a6644b30098a5b2436e8e30f07b"
+    },
+    {
+      "bytes": 2584289,
+      "path": "02_assets/textures/authored/teaching_rebuild/notice_00_color.png",
+      "sha256": "015a575f96c34e903ee99504c1bfa024ba5ca7db92d301124453c7e93ada9c28"
+    },
+    {
+      "bytes": 2592301,
+      "path": "02_assets/textures/authored/teaching_rebuild/notice_01_color.png",
+      "sha256": "9176a7a94f1919b1e615b44721faefdb3562c33d19ed7c228b924b038011c063"
+    },
+    {
+      "bytes": 2584458,
+      "path": "02_assets/textures/authored/teaching_rebuild/notice_02_color.png",
+      "sha256": "f452d085536a6e2a6a18bd14cab32cb5edcd10491a45ed409239854e57fd2f84"
+    },
+    {
+      "bytes": 2590760,
+      "path": "02_assets/textures/authored/teaching_rebuild/notice_03_color.png",
+      "sha256": "d26e037bb0e3d0828270b2413b00173a524c14421ae29074b2911f1e07d05ef0"
+    },
+    {
+      "bytes": 2583478,
+      "path": "02_assets/textures/authored/teaching_rebuild/notice_04_color.png",
+      "sha256": "d1b8479bfee36df27e73c562dc1cff32251ff8e6d72c1af797398e39a7c9704d"
+    },
+    {
+      "bytes": 3299998,
+      "path": "02_assets/textures/authored/teaching_rebuild/paper_color.png",
+      "sha256": "8415c7fb740e21cbd4522381b182627408ddf6a2a5f8f707408d65155993d9f5"
+    },
+    {
+      "bytes": 2379685,
+      "path": "02_assets/textures/authored/teaching_rebuild/paper_height.png",
+      "sha256": "c870f524179188fd52960ecd44927f2e2428167c5edc4ec1fe0606f0b91f36ef"
+    },
+    {
+      "bytes": 1958471,
+      "path": "02_assets/textures/authored/teaching_rebuild/paper_rough.png",
+      "sha256": "660eb420321d7c88f9ef19b6ef2b73f7264003fb751093ebc7c3f43e3b2c014f"
+    },
+    {
+      "bytes": 8550811,
+      "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/BaseColor.png",
+      "sha256": "863fd9a138a977ef3319a03eb09294116eb33de549e6fe04e005e0b8007a5612"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 6566742,
+      "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Normal.png",
+      "sha256": "f182ab9d53af637bb7c636e14fd3b0a0e11cc0d8252b0abecded21bcba90e454"
+    },
+    {
+      "bytes": 7186122,
+      "path": "02_assets/textures/generated/architecture_corridor_sd/corridor_floor/Roughness.png",
+      "sha256": "2ca49f2b8552a0367dc899eef33f14e74dcafdf997a0289980d98111312f2cb0"
+    },
+    {
+      "bytes": 24136873,
+      "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/BaseColor.png",
+      "sha256": "95879cbd03f3fe4c28b445650756a7bb237782568b768fc2f35d9f693103264c"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 19302030,
+      "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Normal.png",
+      "sha256": "4359d56d88596fbe946931b71124c5c1548f05d623aef870529cbcdedf1e4bb5"
+    },
+    {
+      "bytes": 6846553,
+      "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Roughness.png",
+      "sha256": "02446fa74c5a9760b4bd8056e87aca8acab7fca290bd87488902136104006dfd"
+    },
+    {
+      "bytes": 6001589,
+      "path": "02_assets/textures/generated/architecture_corridor_sd/thin_linen/Transmission.png",
+      "sha256": "6f7aff67e0585aa9ebc253c5bc8a537f7109ab72a39bd29c3facde8a105b561a"
+    },
+    {
+      "bytes": 7294486,
+      "path": "02_assets/textures/generated/architecture_sd/enamel/BaseColor.png",
+      "sha256": "1e0f393aebbe2b4ea4ea2b96a27ae65ad04f91266beb6dee96dfebb4b0d46b9f"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/architecture_sd/enamel/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 12583726,
+      "path": "02_assets/textures/generated/architecture_sd/enamel/Normal.png",
+      "sha256": "b04bd73390b2fc2f01abede75e3a18068acb9639e8123fdb456c6a384d4586d6"
+    },
+    {
+      "bytes": 5757166,
+      "path": "02_assets/textures/generated/architecture_sd/enamel/Roughness.png",
+      "sha256": "fb840646180aae685e32d03629533671c287479e1a35be8025d20e869d2e0547"
+    },
+    {
+      "bytes": 38913,
+      "path": "02_assets/textures/generated/architecture_sd/glass/BaseColor.png",
+      "sha256": "401dcd3e1312debf0aacdd77e4b5826881aaac4741b6c7886858ac8fd41e4a27"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/architecture_sd/glass/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 1222506,
+      "path": "02_assets/textures/generated/architecture_sd/glass/Normal.png",
+      "sha256": "5bd05ff4c7223f8549247afb05e0c7227f36d4f267c236f81dd74c73e459b1b9"
+    },
+    {
+      "bytes": 1232957,
+      "path": "02_assets/textures/generated/architecture_sd/glass/Roughness.png",
+      "sha256": "28af8f6036c331bcd8d4130209f4c4bdd9c39feeea0f9c851886e8470e43d4a8"
+    },
+    {
+      "bytes": 8250095,
+      "path": "02_assets/textures/generated/architecture_sd/metal/BaseColor.png",
+      "sha256": "68f8e621c2e7b55fb0cd6103b3d30132be0932c8a374232172958cd54aa3404a"
+    },
+    {
+      "bytes": 13785,
+      "path": "02_assets/textures/generated/architecture_sd/metal/Metallic.png",
+      "sha256": "ae03e734a8f037272dc36b2b3a71eb9c10989f02073322283d33856105d529ce"
+    },
+    {
+      "bytes": 394442,
+      "path": "02_assets/textures/generated/architecture_sd/metal/Normal.png",
+      "sha256": "5b91329bf037274acda578428a4e15043df46398fdc4404094db7d2a3cce2bca"
+    },
+    {
+      "bytes": 184709,
+      "path": "02_assets/textures/generated/architecture_sd/metal/Roughness.png",
+      "sha256": "81140594cf85392bf8e06f23ab987b64fd963d34200575a37c5e2e546a79a7c4"
+    },
+    {
+      "bytes": 7012474,
+      "path": "02_assets/textures/generated/architecture_sd/polymer/BaseColor.png",
+      "sha256": "bfba4c0956e5de0074d2a54db8d01fef84bf2ea3a535270847bf3a86fe3b44e1"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/architecture_sd/polymer/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 9689878,
+      "path": "02_assets/textures/generated/architecture_sd/polymer/Normal.png",
+      "sha256": "c783973076a73f80df513d382cd1338c139417607d9b88eb397251e35c86d7fc"
+    },
+    {
+      "bytes": 5756170,
+      "path": "02_assets/textures/generated/architecture_sd/polymer/Roughness.png",
+      "sha256": "4145ed52740fd0ff7bac8964d68e666a94fd4d2a992e1b713267e6c64bdd4ad1"
+    },
+    {
+      "bytes": 31622115,
+      "path": "02_assets/textures/generated/blackboard_age/BaseColor.png",
+      "sha256": "6f7b4a0b530f21ffdef64691f2d49d664559e510eb0692701a554e0d0c7eb88a"
+    },
+    {
+      "bytes": 109619,
+      "path": "02_assets/textures/generated/blackboard_age/Normal.png",
+      "sha256": "2c1f6dad290fe7bb5874965739ca88aa83d2864f28cf5fd3c9da1c01ae03fd52"
+    },
+    {
+      "bytes": 9963512,
+      "path": "02_assets/textures/generated/blackboard_age/Roughness.png",
+      "sha256": "35b4b9b6b7232fccc972e955ab52eeb76200728bd397859b9e869cfe383823f5"
+    },
+    {
+      "bytes": 11266033,
+      "path": "02_assets/textures/generated/clock_imperfection/OilMask.png",
+      "sha256": "ed8e4cc94e4796de2c0332d967d4d906037a533e164cb0251e207c60355688b9"
+    },
+    {
+      "bytes": 11362744,
+      "path": "02_assets/textures/generated/clock_imperfection/Roughness.png",
+      "sha256": "9b35e783e6b5a50e010a44d575b31edfd57a61c4142d4b0f9c55c4081496b664"
+    },
+    {
+      "bytes": 14910002,
+      "path": "02_assets/textures/generated/clock_imperfection/WipeMask.png",
+      "sha256": "ca8c450baf95098c80b3f30ea5b5e730b40de65e88db1c465a503d2ff91fd30c"
+    },
+    {
+      "bytes": 12682724,
+      "path": "02_assets/textures/generated/closeup_spines/book_00/SpineColor.png",
+      "sha256": "68badae099b255e5176e713f932dbc46262bcbf4c1b4b19344481292bc403293"
+    },
+    {
+      "bytes": 13592043,
+      "path": "02_assets/textures/generated/closeup_spines/book_01/SpineColor.png",
+      "sha256": "40e988015f09ffa4fa9d9d646d76a5df984d81c890b6def5cd5801e37f8f52a2"
+    },
+    {
+      "bytes": 13945267,
+      "path": "02_assets/textures/generated/closeup_spines/book_02/SpineColor.png",
+      "sha256": "8b9429ce3e16f44ec2587662b3ce2aca874b2bdfac3a782668bd381ac0e172ba"
+    },
+    {
+      "bytes": 12966500,
+      "path": "02_assets/textures/generated/closeup_spines/book_03/SpineColor.png",
+      "sha256": "2fae55c2faa5a93c373c0325fcf9f24219d7ede071b96fdc560737d4df76b40e"
+    },
+    {
+      "bytes": 13103647,
+      "path": "02_assets/textures/generated/closeup_spines/book_04/SpineColor.png",
+      "sha256": "e9d113714b57ae90ff30684b7a8cc058f3739f5aab6cd8a213af6cc4ee978f7f"
+    },
+    {
+      "bytes": 13428101,
+      "path": "02_assets/textures/generated/closeup_spines/book_05/SpineColor.png",
+      "sha256": "df7d7703ee67502118253f695d30532c97a52d408ab0f9ef11a75ff63fb303a8"
+    },
+    {
+      "bytes": 13535454,
+      "path": "02_assets/textures/generated/closeup_spines/book_06/SpineColor.png",
+      "sha256": "51ca96ed5d6c505c17df3df7c8ceb4f31beaba9ab6480553e14e259f750952dc"
+    },
+    {
+      "bytes": 13718246,
+      "path": "02_assets/textures/generated/closeup_spines/book_07/SpineColor.png",
+      "sha256": "9e770100c5f640a28b0b35f2b741a32474207de27dc0b7e6c071fcd30d49daaa"
+    },
+    {
+      "bytes": 12926703,
+      "path": "02_assets/textures/generated/closeup_spines/book_08/SpineColor.png",
+      "sha256": "321ee8b076d2d5d99e12da5672403175909ab5e18cfbc74cadd905ec0cc22b05"
+    },
+    {
+      "bytes": 13933266,
+      "path": "02_assets/textures/generated/closeup_spines/book_09/SpineColor.png",
+      "sha256": "ec4e85b287e208ed43d90430b50f8d3dd5a99ac89b21222166718fa2be709aa1"
+    },
+    {
+      "bytes": 17074247,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_chalk/Height.png",
+      "sha256": "75b41da5d48325977fe6c372dc7d0ea7b384816df6c0dbbe2a2d6e71692229a5"
+    },
+    {
+      "bytes": 22235470,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_chalk/Roughness.png",
+      "sha256": "e9ee30323c17f246e71302853c563e11b338197d9d3f1a2f35158b7e01fc2477"
+    },
+    {
+      "bytes": 26506045,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_cloth/Height.png",
+      "sha256": "74495b5b8ad99c2002b810569e893d24a5b53ba574141f5c780a008df69badd2"
+    },
+    {
+      "bytes": 22157335,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_cloth/Roughness.png",
+      "sha256": "5bf08e5cc9eea2c0e1ef0248aad2944c0128534d90d1147876909064918e5628"
+    },
+    {
+      "bytes": 26202269,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_paper/Height.png",
+      "sha256": "2fe10fd8bd28740b3cc57adac4f8d864cd672341e23e8e98d9e59078c60d35e8"
+    },
+    {
+      "bytes": 22241982,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_paper/Roughness.png",
+      "sha256": "71440c61d9c3f5aca988a75ebc7d78f61243645d5730af57a9823373eb740049"
+    },
+    {
+      "bytes": 17074220,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/Height.png",
+      "sha256": "e86e52cd4d675d8b0f436777fd70fe8acc36ba5816f5fcba27cb834d93fd10f1"
+    },
+    {
+      "bytes": 22309308,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/Roughness.png",
+      "sha256": "df8cc89f8dc5eedd6b715111d380218c9a0868cad8a238bb5fd9b669c46826bd"
+    },
+    {
+      "bytes": 903916,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_polymer/ScratchMask.png",
+      "sha256": "3531ea0772adfa09ad774fe1ef6996e48b0f692f36d7349eb9e733fdc4998403"
+    },
+    {
+      "bytes": 17074243,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_varnish/Height.png",
+      "sha256": "06178054ead685af57e30c43a087a84398d725a730d2cde3e7b6b249b197c098"
+    },
+    {
+      "bytes": 22323125,
+      "path": "02_assets/textures/generated/closeup_surface/closeup_varnish/Roughness.png",
+      "sha256": "7849fa40ffe0a7e8a371ef9b63209f714f0c588a89a15ff9858a755d954869ae"
+    },
+    {
+      "bytes": 7299392,
+      "path": "02_assets/textures/generated/equipment_sd/dark/BaseColor.png",
+      "sha256": "d5163c08d62b239fe78b14e2aeb7d6cdc6598fe73e008efd9934d0abbeec5c7e"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/equipment_sd/dark/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 6643191,
+      "path": "02_assets/textures/generated/equipment_sd/dark/Normal.png",
+      "sha256": "5f006fc73353a8b67946c2361745f7b7517286817009275c6ccde0d16fbf3c7e"
+    },
+    {
+      "bytes": 404741,
+      "path": "02_assets/textures/generated/equipment_sd/dark/Roughness.png",
+      "sha256": "39796fe7d1cc1aa375d5da33a721238116c5fd3ec46f8a6cd85d7bdcfd20c5b6"
+    },
+    {
+      "bytes": 8016576,
+      "path": "02_assets/textures/generated/equipment_sd/enamel/BaseColor.png",
+      "sha256": "b381927501bcdb9ca1f98602ac0c2ce327d56037fc55067fe1f5ea901a5ec3f3"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/equipment_sd/enamel/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 6846004,
+      "path": "02_assets/textures/generated/equipment_sd/enamel/Normal.png",
+      "sha256": "09f04505e562e68b71af8685228481df571d7ed739924152d5ca2a4135621e5c"
+    },
+    {
+      "bytes": 405492,
+      "path": "02_assets/textures/generated/equipment_sd/enamel/Roughness.png",
+      "sha256": "16a8380dfeb3d7876e37e67b5c717a6cebc0ff51ca8d45f638387dd6711c4445"
+    },
+    {
+      "bytes": 1380240,
+      "path": "02_assets/textures/generated/equipment_sd/equipment_contact_film/Height.png",
+      "sha256": "3b721cce04eec2e4200f0d83c07add4938897ad307ec19b3022364ec3fff7912"
+    },
+    {
+      "bytes": 25793023,
+      "path": "02_assets/textures/generated/equipment_sd/exposed_wood/BaseColor.png",
+      "sha256": "dd06fb5b29f5d9a582149a3b7cf58cef019ca36191e85a012086cad67b3237a2"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/equipment_sd/exposed_wood/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 20464404,
+      "path": "02_assets/textures/generated/equipment_sd/exposed_wood/Normal.png",
+      "sha256": "056ebceb18dd2044d0de2ffd7336f02110ba434af1943ddb90e7892a2970e543"
+    },
+    {
+      "bytes": 7092430,
+      "path": "02_assets/textures/generated/equipment_sd/exposed_wood/Roughness.png",
+      "sha256": "be119502a3211638082bc4603f458767dd3bc348e1931ec2489a25194fd32883"
+    },
+    {
+      "bytes": 518173,
+      "path": "02_assets/textures/generated/equipment_sd/metal/BaseColor.png",
+      "sha256": "d36d46da125bd459c9c4121fd45874623de3c21e2cf8d2d2ce587d62275ec055"
+    },
+    {
+      "bytes": 13784,
+      "path": "02_assets/textures/generated/equipment_sd/metal/Metallic.png",
+      "sha256": "d85725abd22cf628cb4bd9bc5c6cf079bd1fbe0913ffc2f4ee1314096786252c"
+    },
+    {
+      "bytes": 440950,
+      "path": "02_assets/textures/generated/equipment_sd/metal/Normal.png",
+      "sha256": "0d5ac0fc5662b19fc45210f8339030ae1c942779ffba353f65666c47eb4b1e4c"
+    },
+    {
+      "bytes": 404401,
+      "path": "02_assets/textures/generated/equipment_sd/metal/Roughness.png",
+      "sha256": "2a8e59880cd78ecbdf85435e0d86190a3609f977bbe2d1744e7b7cc62d1fcd4b"
+    },
+    {
+      "bytes": 7921465,
+      "path": "02_assets/textures/generated/equipment_sd/paper/BaseColor.png",
+      "sha256": "2fd65d14b6058461b1b88bd8c9e942c7ffcc7253d9cedf1add0a1193550740c7"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/equipment_sd/paper/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 6039544,
+      "path": "02_assets/textures/generated/equipment_sd/paper/Normal.png",
+      "sha256": "3907f95af2dd27b8d7d86520d764a153231be1bd0a6d9b012ae600057864e678"
+    },
+    {
+      "bytes": 410129,
+      "path": "02_assets/textures/generated/equipment_sd/paper/Roughness.png",
+      "sha256": "18a64dd189fe6f2850ace92c18498dc1fa608a67b923c3012f10e958ce0f8af4"
+    },
+    {
+      "bytes": 8035771,
+      "path": "02_assets/textures/generated/equipment_sd/rubber/BaseColor.png",
+      "sha256": "f3966fe906af9651456d90381431fafaf4d058a29a698b1169607ef9d933cb5e"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/equipment_sd/rubber/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 7514370,
+      "path": "02_assets/textures/generated/equipment_sd/rubber/Normal.png",
+      "sha256": "f9e10fe4b761b94d8a59961ce0e552a374a33729f8298acd8ca581ede680b815"
+    },
+    {
+      "bytes": 402968,
+      "path": "02_assets/textures/generated/equipment_sd/rubber/Roughness.png",
+      "sha256": "a091cf30297de55541e991a18e0002297606a9d4f25b60130af586770229d1d6"
+    },
+    {
+      "bytes": 1031725,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/BaseColor.png",
+      "sha256": "7684c611673d96a77a6fefb708c27841d0144c6db841a05db72be230eae72788"
+    },
+    {
+      "bytes": 34169,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Metallic.png",
+      "sha256": "215d250a84cb3fafd287384665088edbd281ad13932d6562a5184a6dea56cbe2"
+    },
+    {
+      "bytes": 1209176,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Normal.png",
+      "sha256": "c554d35f6f05e8d8f62007b4500e8892858db117eda93d93d21f37cacf3c021b"
+    },
+    {
+      "bytes": 12651865,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_lithographic_ink/Roughness.png",
+      "sha256": "d8bb7e4a510aec3bf58497f23441aa174ba507c8ae03638a5eb1b55447ce1fc4"
+    },
+    {
+      "bytes": 145988,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/BaseColor.png",
+      "sha256": "f046169ec7efcf3069e9d85d6c5e75289234ce1d40fc4d2bf5856594131fc362"
+    },
+    {
+      "bytes": 34169,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Metallic.png",
+      "sha256": "215d250a84cb3fafd287384665088edbd281ad13932d6562a5184a6dea56cbe2"
+    },
+    {
+      "bytes": 1209176,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Normal.png",
+      "sha256": "c554d35f6f05e8d8f62007b4500e8892858db117eda93d93d21f37cacf3c021b"
+    },
+    {
+      "bytes": 12651854,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_red_lacquer/Roughness.png",
+      "sha256": "ea08df26d32b0677b9159f8d053624e8c30136153ad7e74959f70db8b20492b7"
+    },
+    {
+      "bytes": 20553452,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/BaseColor.png",
+      "sha256": "ebd1d7e851aefdab04d2005fcd7127525b43649f5368097e0ba67625c5792188"
+    },
+    {
+      "bytes": 43298,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Metallic.png",
+      "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d"
+    },
+    {
+      "bytes": 1209176,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Normal.png",
+      "sha256": "c554d35f6f05e8d8f62007b4500e8892858db117eda93d93d21f37cacf3c021b"
+    },
+    {
+      "bytes": 12708221,
+      "path": "02_assets/textures/generated/hero_tin_sd/hero_tinplate/Roughness.png",
+      "sha256": "ee07aad633c861432131638aa49618c70baa3e65e718d50eef1293367cbbffb9"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/metal_8k/KOKUYO_AO.png",
+      "bytes": 23059658,
+      "sha256": "80d9756709036e9811d55fa5e2b909f89968a4fa2c8f33cfc44b56697c3ecd76"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/metal_8k/KOKUYO_BaseColor.png",
+      "bytes": 14056322,
+      "sha256": "6db6c1afb5568254b4b8d0154a07cf994c48abc0d538ffb8476f8a4f5847385f"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/metal_8k/KOKUYO_CoatWeight.png",
+      "bytes": 4618523,
+      "sha256": "f3e138e480cb99627f672e8302ff096b7d330ef81a4f1505e3e45dc5b251ac09"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/metal_8k/KOKUYO_Height.png",
+      "bytes": 78882501,
+      "sha256": "03f2ec69fa0f551f61887a1f2e88781da68c9c86ab63c676d6baf2e086d947de"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/metal_8k/KOKUYO_Metallic.png",
+      "bytes": 10920829,
+      "sha256": "b0b08070bfcdbfde32115de151a939e6f5882d70fad97a3174b80b6531a9d6ed"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/metal_8k/KOKUYO_Normal_OpenGL.png",
+      "bytes": 129808584,
+      "sha256": "a8ad9cbc8ca3c46b1c27bcdc7dff1fdc61f1293226565ed2738c4ac7ce9ceec1"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/metal_8k/KOKUYO_Roughness.png",
+      "bytes": 8411859,
+      "sha256": "aedaacc981ca50952578ee5bca11223a33ca4b8db428b1e6f4ed8ff70c78c9f9"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/rubber_4k/KOKUYO_BaseColor.png",
+      "bytes": 11286651,
+      "sha256": "607daab9448b2684a8b6a82be999cf92e9f4471b5f59235cfb34ca435adfe99b"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/rubber_4k/KOKUYO_Height.png",
+      "bytes": 21778887,
+      "sha256": "12af5459450e879383296f6bf491aa165767bba10b3e6faa3d2448e9313461b1"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/rubber_4k/KOKUYO_Normal_OpenGL.png",
+      "bytes": 51589261,
+      "sha256": "1975fbb874565f38e6808e818881a65859b34aeed81ad14b3991d743ca8b65ab"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/rubber_4k/KOKUYO_Roughness.png",
+      "bytes": 5825090,
+      "sha256": "35cc4332cc57c2803503b915a12f4f210bdba3ff9207824fbafb1de47504f4a3"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/wood_sources/AgeBleach_4a563752d3.png",
+      "bytes": 15080296,
+      "sha256": "4a563752d38962495b7e1b2c6ff0e025d8c0c2ae396cbe33314fbb0a95c2af5d"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/wood_sources/AgeDark_1859f1c85d.png",
+      "bytes": 7242036,
+      "sha256": "1859f1c85d21794e126914926bf8029eadfb761c022aa32f4b3500fe06bdcad0"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/wood_sources/Desk_Veneer_BaseColor_3f5b62a659.png",
+      "bytes": 3150215,
+      "sha256": "3f5b62a65903e87d4794c896939e6be57c43c732fe8bb0d184242633cd7155db"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/wood_sources/Dirt_81567be2ad.png",
+      "bytes": 523028,
+      "sha256": "81567be2adfec8453435bb59f5425168b443789185d805b1fbed2d6d671ea90c"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/wood_sources/FinishLoss_4fb170017e.png",
+      "bytes": 17253435,
+      "sha256": "4fb170017e2bd737459e16fa275d25b5038b76863272a29e5d89579153e5440a"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/wood_sources/MicroScuff_2b0cab620a.png",
+      "bytes": 1131499,
+      "sha256": "2b0cab620a5340125c534163b42bff01cafc771ab9360f6e355d0e913ba73714"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/wood_sources/ScratchDark_72f3844896.png",
+      "bytes": 714890,
+      "sha256": "72f3844896faf1c2544a1ddad47b1194f5273bfddd26c071598c98995d7ae42d"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/wood_sources/ScratchLip_4064cfb060.png",
+      "bytes": 467814,
+      "sha256": "4064cfb060c8f5c67d3a14e2de67ad8b11b7fea295cc8670b379ddaa5b20474e"
+    },
+    {
+      "path": "02_assets/textures/generated/kokuyo_desk/wood_sources/Wear_3b829b5023.png",
+      "bytes": 1996894,
+      "sha256": "3b829b50230a1d8b6d6259523f3322429647af49eb486341c1e65875fda23d84"
+    },
+    {
+      "bytes": 79162,
+      "path": "02_assets/textures/generated/printed_text_source/print_00.png",
+      "sha256": "b963266de5e2ac12d4ca95ca6e01fd41c4334c50bdb846eef1ac11320f87d90b"
+    },
+    {
+      "bytes": 74247,
+      "path": "02_assets/textures/generated/printed_text_source/print_01.png",
+      "sha256": "01c1c87e382af4cdb998ac9264b5cd8257dc51004dba53d9262447cd430b4aa6"
+    },
+    {
+      "bytes": 65588,
+      "path": "02_assets/textures/generated/printed_text_source/print_02.png",
+      "sha256": "92d95a6ee65ac968c96af4ad10cccaeb186e87f233cea1e2cbe354aba4d6a9f0"
+    },
+    {
+      "bytes": 76522,
+      "path": "02_assets/textures/generated/printed_text_source/print_03.png",
+      "sha256": "30dad3a5f56fcf1b77e7bb429050010688b0293ef3df9879a16392269acdef3d"
+    },
+    {
+      "bytes": 133900,
+      "path": "02_assets/textures/generated/printed_text_source/print_04.png",
+      "sha256": "0f5c5b52a780b1eaf147eced602d2c0254dce4a8d7a0eb4b2be96ce69f8947ae"
+    },
+    {
+      "bytes": 98174,
+      "path": "02_assets/textures/generated/printed_text_source/print_05.png",
+      "sha256": "e606436a3acf0cb96489b10b5d29f9751a4e278c3819428de71f049db4f3eddd"
+    },
+    {
+      "bytes": 110514,
+      "path": "02_assets/textures/generated/printed_text_source/print_06.png",
+      "sha256": "9cb51fb312385c67e32eaf31b4090c1770f2cc2d193f1994c3cc33fa35f9c880"
+    },
+    {
+      "bytes": 28784609,
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/PaintBaseColor.png",
+      "sha256": "dc9f63af88b7341aa647c2735336d1a70e38faeafe6771bc4744e9e11acbe824"
+    },
+    {
+      "bytes": 20110447,
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/PaintHeight.png",
+      "sha256": "3b2d19fa9cc667fcd730d5550586946fecbdf4caf3cdbe32f7c73eaf3a4013da"
+    },
+    {
+      "bytes": 22936360,
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/PaintRoughness.png",
+      "sha256": "9031c323d462482590d76f0781acb94f96dc01f9d5e4e18578f6773ff9dc98ba"
+    },
+    {
+      "bytes": 85116835,
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/RustBaseColor.png",
+      "sha256": "557a1aab9e218a4b05fa8a531482072a7572383b4a04fc31fbe87debe738304e"
+    },
+    {
+      "bytes": 29393992,
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/RustHeight.png",
+      "sha256": "90691d7b607005856645ab53488c54af4a166e35fe9c2260d0f2648dc4bb3a6a"
+    },
+    {
+      "bytes": 29248566,
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/RustRoughness.png",
+      "sha256": "def8a9dbbdb0d1ec15930e0035fe89f0df1f86e609dc2d781d8e62834a518347"
+    },
+    {
+      "bytes": 144154,
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/SteelBaseColor.png",
+      "sha256": "05509a734fa10a2bd7a763da79f36cfb2003033b00a914e3c6bbdb2d2cefb955"
+    },
+    {
+      "bytes": 5450656,
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/SteelHeight.png",
+      "sha256": "e41d5e1b313b2ee63ffb66384160ed70481da2e01afded12af1907041f537e01"
+    },
+    {
+      "bytes": 8952125,
+      "path": "02_assets/textures/generated/school_desk_sd/layers/4k/SteelRoughness.png",
+      "sha256": "2c53c752649fab5098a43737370b0577e789bca9fe2e1a51c2e7934d899243c6"
+    },
+    {
+      "bytes": 10291691,
+      "path": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/BaseColor.png",
+      "sha256": "e71cd97514aeabf80ba5c99c6479f72d3c9755b25a18eb4410299eb8ee2adf23"
+    },
+    {
+      "bytes": 13784,
+      "path": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Metallic.png",
+      "sha256": "b32751e4cc24040e0292bb4dfd6c730edf00f45645e5bfa106e335916ee0dfa0"
+    },
+    {
+      "bytes": 9055865,
+      "path": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Normal.png",
+      "sha256": "ac3a2381246671aab0e930007e587423bad576eeddaf99d14c061611c3c0b0e8"
+    },
+    {
+      "bytes": 4809288,
+      "path": "02_assets/textures/generated/shell_tin_sd/aged_tinplate/Roughness.png",
+      "sha256": "4b4c70d894a4545c1cd02a157afdeba6c64a97f41c7add94e9375275b111652d"
+    },
+    {
+      "bytes": 3542514,
+      "path": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/BaseColor.png",
+      "sha256": "9c1aa8362b6e2e0ae62fe4ceae6da2356329893a8931c74a01d38a1d83dca3f0"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15446727,
+      "path": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Normal.png",
+      "sha256": "510ccc431b91650918840d193e7cf69b2ccf4d383162d076060b41b105e07bb0"
+    },
+    {
+      "bytes": 6073924,
+      "path": "02_assets/textures/generated/shell_tin_sd/painted_school_plaster/Roughness.png",
+      "sha256": "2358ca487c0fccc85262748c073ba847fb46b6476973bc8735b1addad1ce3ca5"
+    },
+    {
+      "bytes": 7414230,
+      "path": "02_assets/textures/generated/speaker_dust/DustMask.png",
+      "sha256": "77c79126f09ac5961b77c9b9aab5978a75672108801f7dc4dfa885b090e4eb4c"
+    },
+    {
+      "bytes": 7995120,
+      "path": "02_assets/textures/generated/speaker_dust/Grain.png",
+      "sha256": "859dd70f9afb8aa20bde90542343056817420fe3f5bbabe9565051b4a7c94ce9"
+    },
+    {
+      "bytes": 35379242,
+      "path": "02_assets/textures/generated/speaker_plastic/BaseColor.png",
+      "sha256": "5414c51ba403e4cd63dede2aad8786ce4e074e32e2bb33e4aebcca5e7ea4e1db"
+    },
+    {
+      "bytes": 33705,
+      "path": "02_assets/textures/generated/speaker_plastic/Metallic.png",
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736"
+    },
+    {
+      "bytes": 36064465,
+      "path": "02_assets/textures/generated/speaker_plastic/Normal.png",
+      "sha256": "61079e040cf1a5a5b5690b05c5b0f48bf99e0e1aed70b8b0d815eba95e726590"
+    },
+    {
+      "bytes": 19094739,
+      "path": "02_assets/textures/generated/speaker_plastic/Roughness.png",
+      "sha256": "8ec0a8c805bb3570a3ea7efa94613898913666472903deeea1a1ff5d71aecd88"
+    },
+    {
+      "bytes": 8102478,
+      "path": "02_assets/textures/generated/speaker_wire/speaker_wire/BaseColor.png",
+      "sha256": "38f28f70c0feb85d980c215a748ff60e3d8b9acd75b37895c85b49e7e5593a9f"
+    },
+    {
+      "bytes": 13781,
+      "path": "02_assets/textures/generated/speaker_wire/speaker_wire/Metallic.png",
+      "sha256": "6db06b60eb8d265b9d01409d05b42e8789986ac5d5a6341e589d3cd75636fef9"
+    },
+    {
+      "bytes": 203467,
+      "path": "02_assets/textures/generated/speaker_wire/speaker_wire/Normal.png",
+      "sha256": "4611f042c88317966aab9b8d99d8b5f51beb9c7dfbf6ebbe20f862fd759e1833"
+    },
+    {
+      "bytes": 5270104,
+      "path": "02_assets/textures/generated/speaker_wire/speaker_wire/Roughness.png",
+      "sha256": "90ba0501fcae8c052c40fd68f237d88a0152d23b9e7da2642c1db0dee7c6a78e"
+    },
+    {
+      "bytes": 13212972,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_00/BaseColor.png",
+      "sha256": "deb6dc37ce149da35f0c0e5582b543f891756aa2dc265b9686169ad9c5da4c62"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_00/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_00/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3275157,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_00/Roughness.png",
+      "sha256": "768db22b5f5998a48d438e0d02cf69b0198fb1eb6b73b2248961293b9da82023"
+    },
+    {
+      "bytes": 13908411,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_01/BaseColor.png",
+      "sha256": "12f5cfb5f11c58ea389404d55f8a9fc58611eb621ec27ce651b20f8670ab5b70"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_01/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_01/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3300135,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_01/Roughness.png",
+      "sha256": "7a5cedfdf6571d4c92b8d5d51eceaeeff49651cad706bb70c91830ae481da79a"
+    },
+    {
+      "bytes": 14214579,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_02/BaseColor.png",
+      "sha256": "626b182681095a440b301e395c91c068c5da317e42dfbc6f7fbe6cf92ec3f5fa"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_02/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_02/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3309026,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_02/Roughness.png",
+      "sha256": "d59d339c6da1bf9dd04188af3591db20b33b72a552b4fc0fc11f022e6aa1dd66"
+    },
+    {
+      "bytes": 13428552,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_03/BaseColor.png",
+      "sha256": "58960fda2328053ccf60930fd1f2ab39bb171a18ed841bb02846cbc1e9df20cb"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_03/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_03/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3314956,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_03/Roughness.png",
+      "sha256": "9e067ccdb9d2b5fbfbe0c62a529287962a34031e981fbc81abb2239eaba13ed3"
+    },
+    {
+      "bytes": 13518490,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_04/BaseColor.png",
+      "sha256": "2139244f97dd9e43d96edc8307b337b24223df45f00405bb67011ef4a3bd6803"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_04/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_04/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3283273,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_04/Roughness.png",
+      "sha256": "89645b8748cbfd1dbd1c3f9b27f2f5b326807c760d9490bec791854d2ecdbc35"
+    },
+    {
+      "bytes": 13664653,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_05/BaseColor.png",
+      "sha256": "370f8f7bf08cd79ed25652e07bda84969ff7d40ef236dd51f347f886f4b49519"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_05/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_05/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3292955,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_05/Roughness.png",
+      "sha256": "274b65018149bbe9b0e77c7aecae2f3c735a612dc0691f4e9ad7c200ff96718d"
+    },
+    {
+      "bytes": 13566397,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_06/BaseColor.png",
+      "sha256": "48934df972a16ce4e9d3d5e048b4d4ad6f7927177703f86d904145d0d5e22c6d"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_06/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_06/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3310340,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_06/Roughness.png",
+      "sha256": "a42fcef0d0388401b53a9e5af051a1026a9a5e31210bf2483d16a6c3d36c260e"
+    },
+    {
+      "bytes": 13820490,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_07/BaseColor.png",
+      "sha256": "be15552cd85d327f753728a48cc13e80e7ae2bcfa5836a105c2fbc8b0b967fa4"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_07/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_07/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3316578,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_07/Roughness.png",
+      "sha256": "d8b4c73622ce7e492d6b907b318152ad5ecd876e042d27080396cb49f38571c0"
+    },
+    {
+      "bytes": 13232928,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_08/BaseColor.png",
+      "sha256": "d631cbcf38ddd3311b1c04e7fd4480a74e22700e934414854d7e20f0393716a2"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_08/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_08/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3281062,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_08/Roughness.png",
+      "sha256": "5ee76d1cf3c5d8984ac14ec4ded0d9b4a03423f0fff544a3e1cde133ae23a0f7"
+    },
+    {
+      "bytes": 14039482,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_09/BaseColor.png",
+      "sha256": "79b5ccd7bd3ce5166e7a3d1ffe21f0014709fec5dd2d7965f1a5e5116fa8ddf5"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_09/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_09/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3301190,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_09/Roughness.png",
+      "sha256": "0f744508e32d5b4aa2fc1b4be49c7aaf842cb9cb26cb57431213dba2d7829c74"
+    },
+    {
+      "bytes": 13218040,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_10/BaseColor.png",
+      "sha256": "1b48ebe73e566e754063eb7fd73af28f2d63b30feed267bfd0531f4f4e5aa6ff"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_10/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_10/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3308334,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_10/Roughness.png",
+      "sha256": "aa35f83adad3c23727d0c9c6658b5f3cac925e2349b7506ef0fb5bec86efd8f9"
+    },
+    {
+      "bytes": 12713484,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_10/SpineColor.png",
+      "sha256": "647133f50827cc170b70ada266bb39fdfba22ba2c647e13af2902552e0ebd3d9"
+    },
+    {
+      "bytes": 13840593,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_11/BaseColor.png",
+      "sha256": "53d09100ed38124072b52624fb7df90460a3dd647cde742d065abde43c78a1a4"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_11/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_11/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3320405,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_11/Roughness.png",
+      "sha256": "dc696f3da89390a16244f0e890459a672c646404eeb6c98107ca70f22c925295"
+    },
+    {
+      "bytes": 13534707,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_11/SpineColor.png",
+      "sha256": "78c2210d3cd1b42ade107934b005e24cfa125ea7a383924de89ca267b84d46af"
+    },
+    {
+      "bytes": 14048235,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_12/BaseColor.png",
+      "sha256": "72069c2298456830e1ad2659fc8b418f954e7ccfcfeaa4759775216232d41a1b"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_12/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_12/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3281950,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_12/Roughness.png",
+      "sha256": "2480340e98864a45b14389ede11efb068e838c74debc7d3e8d3a1be44f133a56"
+    },
+    {
+      "bytes": 13844679,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_12/SpineColor.png",
+      "sha256": "0b2dac067c8e76ba413e62488c1acc42eed0c41ad9ec8836cbaa46154cf1ba5c"
+    },
+    {
+      "bytes": 13224301,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_13/BaseColor.png",
+      "sha256": "bbd8eb569b77ffea251b60ecb32452df5101a6a5394f624ebfc03419d73e7ed4"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_13/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_13/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3294323,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_13/Roughness.png",
+      "sha256": "31587a1d1cc0efebf35064eb2f2b37782f0c16ac08418af6d4b7661c5ff72ce7"
+    },
+    {
+      "bytes": 12826534,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_13/SpineColor.png",
+      "sha256": "898519d661aca5e64a6f96f4b1161bbb0c3098f49253905a51cfbeb41db5d081"
+    },
+    {
+      "bytes": 13432302,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_14/BaseColor.png",
+      "sha256": "056cccc628169963d62297346c4bc288305e7f9b10a6f5b81c41e34e095b96bb"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_14/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 15190968,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_14/Normal.png",
+      "sha256": "e0fc69be49c95304775faefd6b8de7e2c0b0ccd7e11151adb6cf02546b2e9972"
+    },
+    {
+      "bytes": 3309068,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_14/Roughness.png",
+      "sha256": "b23011234b6617c5b565a2c1d3921700c720fb448710258a9b752f74ae891cd4"
+    },
+    {
+      "bytes": 13084523,
+      "path": "02_assets/textures/generated/teaching_sd/detail/book_14/SpineColor.png",
+      "sha256": "caf4e856ffc50128f5170f31eb870760b489eedf15dc46b256c71bfff1191a65"
+    },
+    {
+      "bytes": 8663898,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/BaseColor.png",
+      "sha256": "58b87f3dbab7712472731ba83f710d4a96fde0b75c75cd91948dc951e86dda87"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 17136711,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/Normal.png",
+      "sha256": "334ab430d7ebff28cf911d0a57aa4c71881cc4669fcd99b795a6616c0b58a17b"
+    },
+    {
+      "bytes": 6262550,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_00/Roughness.png",
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b"
+    },
+    {
+      "bytes": 8530454,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/BaseColor.png",
+      "sha256": "e68106cae7a32edac100a75e5835173bd778cd90da72e7fa73fddd51bb4fae31"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 17136724,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/Normal.png",
+      "sha256": "d28467705b89cb041bb2127c46562b570bebe422bf07a58c1807a401e451695f"
+    },
+    {
+      "bytes": 6262550,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_01/Roughness.png",
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b"
+    },
+    {
+      "bytes": 8955376,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/BaseColor.png",
+      "sha256": "c6d16c5c6bbf1651c7d64db62d5ebbe87d01ddcaf9482be8b35f7c18d77be05e"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 17136713,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/Normal.png",
+      "sha256": "709e260c307ad9ba4cacea239c489a7c2ed2acf53fa1fa5a2288b92106c45b17"
+    },
+    {
+      "bytes": 6262550,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_02/Roughness.png",
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b"
+    },
+    {
+      "bytes": 8475635,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/BaseColor.png",
+      "sha256": "abb521a74f82b5037a95c62bcae5caabc7e404ae2f8cdc118bd088525e1bf0a5"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 17136731,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/Normal.png",
+      "sha256": "bc43cb7027f9bd1ea5e33873ef6c0b9ce34ce4588b644dd018b4259342b18373"
+    },
+    {
+      "bytes": 6262550,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_03/Roughness.png",
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b"
+    },
+    {
+      "bytes": 8935803,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/BaseColor.png",
+      "sha256": "be8afefdd9259ef52281fe86c37c29f1a73c8e48b8a556b77797efa4427fa572"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 17136705,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/Normal.png",
+      "sha256": "51ae14dbe501499b9402d10ed7fabf69274b3c294e711bc0a33ae91ac57b5644"
+    },
+    {
+      "bytes": 6262550,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_04/Roughness.png",
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b"
+    },
+    {
+      "bytes": 6726317,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/BaseColor.png",
+      "sha256": "bf2615fe764a3467841410ccea26bd89df0256c304b20c0210a97159c23ea041"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 17136713,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/Normal.png",
+      "sha256": "088974145a3ad9754f102a0b53957d5a4a7bf362bd661a7cb81039b69b89b6de"
+    },
+    {
+      "bytes": 6262550,
+      "path": "02_assets/textures/generated/teaching_sd/detail/notice_05/Roughness.png",
+      "sha256": "cc61c456db506986630e2d2b891d93da52acc9a77e1906f139a5eac48d5c062b"
+    },
+    {
+      "bytes": 10961040,
+      "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/BaseColor.png",
+      "sha256": "ec8020e81cf40de513a9eb946948557c5b1722bc18796254e6e4da10583e8498"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 13179641,
+      "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Normal.png",
+      "sha256": "3c25a98eab047440d26cf0ff341e738fccde3b24d8320ac32fa081e0f38c2c69"
+    },
+    {
+      "bytes": 5978735,
+      "path": "02_assets/textures/generated/teaching_sd/teaching_bookcloth/Roughness.png",
+      "sha256": "36a6a72e55a42acd211146557eb2940fc5b7ca338e86bb76e606743297f46d94"
+    },
+    {
+      "bytes": 13321436,
+      "path": "02_assets/textures/generated/teaching_sd/teaching_paper/BaseColor.png",
+      "sha256": "1a8505b9f5a8fc7f29e5640acf460cf3ec377fa3d87f2b498da65671227cbca3"
+    },
+    {
+      "bytes": 9206,
+      "path": "02_assets/textures/generated/teaching_sd/teaching_paper/Metallic.png",
+      "sha256": "38bfa49bf703375a077cfefe4c96afdde8392a0ec2cfdc603a0cc00d04195579"
+    },
+    {
+      "bytes": 11667795,
+      "path": "02_assets/textures/generated/teaching_sd/teaching_paper/Normal.png",
+      "sha256": "aaf0e7c2f2f420d43207eb13bd5c2254ea3cca2142c7b023981d4f34a81c8c1c"
+    },
+    {
+      "bytes": 6031834,
+      "path": "02_assets/textures/generated/teaching_sd/teaching_paper/Roughness.png",
+      "sha256": "a32d59e38cc6eccb76c1b5422e34f311ab7694305de3d7a3e36e1fa726a85268"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/Process_BaseColor.png",
+      "bytes": 61907200,
+      "sha256": "4bf8ef01829097270729dae77d43ec6667e3eeda15349ad13588a298d6e28436"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/Process_Normal.png",
+      "bytes": 56268619,
+      "sha256": "9e4e7803c4e594be6dafe4385b957a2827dba201afb2a8b89f257f8682d9bf87"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/back/Process_Roughness.png",
+      "bytes": 19726664,
+      "sha256": "5bdcd59248c478445351a98efe9b25e2f22700df809f8c4774533fdc1d48a649"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_AO.png",
+      "bytes": 43298,
+      "sha256": "374f595d71b8b20517186fcd94b03d39cbeafed1dee2568e259c7942cbd0280d"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_BaseColor.png",
+      "bytes": 50976702,
+      "sha256": "90ab2f505c645d6bba92f6e08f332a8cc44edd1911cd9b7e0bc92f7b5e43d27f"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_Metallic.png",
+      "bytes": 33705,
+      "sha256": "faecb95dbdc6fc127c10bbf70c0cca44b52d7d25e99baa11e7ca291328e79736"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_Normal.png",
+      "bytes": 60483473,
+      "sha256": "4e459d10516d4f06f8b184b1a0c971d5a57481824fb04b1ce62870ce20b72d7e"
+    },
+    {
+      "path": "02_assets/textures/generated/tripo_wood_reference/seat/Process_Roughness.png",
+      "bytes": 18686534,
+      "sha256": "3e985aa769f5647bf7ea4321ceea64a940a78669fb7ba2e24687a6c53d468ea7"
+    },
+    {
+      "bytes": 12088171,
+      "path": "02_assets/textures/generated/tv_screen_imperfection/DepositMask.png",
+      "sha256": "7f4ef7286994689bfa150c9e32249df5ba051e8dd6298ed07798f7e955f3ee45"
+    },
+    {
+      "bytes": 14341922,
+      "path": "02_assets/textures/generated/tv_screen_imperfection/Height.png",
+      "sha256": "73be983e746c2cbe676765458b5534e32d21f4ff2fcf9313f9b3b97b1c1976aa"
+    },
+    {
+      "bytes": 14417864,
+      "path": "02_assets/textures/generated/tv_screen_imperfection/OilMask.png",
+      "sha256": "e4ceea7e8910f4b496a174d816e86490754a2772897e9252b3dbe8d1c3a4ed99"
+    },
+    {
+      "bytes": 17750450,
+      "path": "02_assets/textures/generated/tv_screen_imperfection/Roughness.png",
+      "sha256": "a45e2ec1aecf3596f8492238f9f48050ca78b8e63a0bf18c9b2f7824108cdfb8"
+    },
+    {
+      "bytes": 6961124,
+      "path": "02_assets/textures/generated/tv_screen_imperfection/ScratchMask.png",
+      "sha256": "c0f0f246cb68e92f25363280fc0c894fc41bc94204622b13bdf51d9e1f4c9fe2"
+    },
+    {
+      "bytes": 4630238,
+      "path": "02_assets/textures/generated/tv_screen_imperfection/WipeMask.png",
+      "sha256": "3e1915c4d704fbe127eb1b57cec8beb6f20832df7370ac451742db6ce97b6c2b"
+    },
+    {
+      "bytes": 71698767,
+      "path": "02_assets/textures/generated/wood_groups/cabinet_wood/BaseColor.png",
+      "sha256": "b062621031a8492d8d6a0e3d2d01b1b8df221b462db6d56e26b3878da46a9481"
+    },
+    {
+      "bytes": 53410969,
+      "path": "02_assets/textures/generated/wood_groups/cabinet_wood/Normal.png",
+      "sha256": "6a602e4b2dfe27eebf8a586b60d303ee24aba76b58f0cb0bb84103b44445b184"
+    },
+    {
+      "bytes": 17950138,
+      "path": "02_assets/textures/generated/wood_groups/cabinet_wood/Roughness.png",
+      "sha256": "872154c495b55f132bc1ae7177ce23a9b7282f41d015d1252effeec7fbe0fec0"
+    },
+    {
+      "bytes": 95001423,
+      "path": "02_assets/textures/generated/wood_groups/school_board/BaseColor.png",
+      "sha256": "f6eb9e7904cd311cd213e51ca3ec5bd7d854280f4dffa0149eb6b8b75b0ddf34"
+    },
+    {
+      "bytes": 34458755,
+      "path": "02_assets/textures/generated/wood_groups/school_board/Normal.png",
+      "sha256": "3b717d766dd8e196044a2d17e731770e5c050e3fff987fdb5a8f6981ea73bd66"
+    },
+    {
+      "bytes": 18130158,
+      "path": "02_assets/textures/generated/wood_groups/school_board/Roughness.png",
+      "sha256": "f33cfc68a0004ac8eed7d82732680f1c7b857de2a0c4c1522aa96f65cbf4b890"
+    },
+    {
+      "bytes": 3132937,
+      "path": "02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_diff_2k.jpg",
+      "sha256": "6fd812ed8dd5be1873c29aeef38ce9bf1fb30a22c6d4b3a12db725e98c26a1be"
+    },
+    {
+      "bytes": 22789885,
+      "path": "02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_nor_gl_2k.png",
+      "sha256": "322041257ab0dad1a1a1c18d98bc28689136103f6a64d4849f7aa3ae5b8b090f"
+    },
+    {
+      "bytes": 1595466,
+      "path": "02_assets/textures/polyhaven/painted_plaster_wall/2k/painted_plaster_wall_rough_2k.jpg",
+      "sha256": "35aad595469533cc3b7cc209cc6c7e065d660211f02c867f4492d3b371b1fee1"
+    },
+    {
+      "bytes": 4394314,
+      "path": "02_assets/textures/polyhaven/painted_plaster_wall/4k/painted_plaster_wall_disp_4k.exr",
+      "sha256": "0767e2ce85de2a651453f04c38ef6a8354eb1bc10da088a91e498fd036a31615"
+    },
+    {
+      "bytes": 5225725,
+      "path": "02_assets/textures/polyhaven/painted_plaster_wall/4k/painted_plaster_wall_rough_4k.exr",
+      "sha256": "80cbdc7f155ab47bfb034ce2873bfe0514e750c85a12becafa4a33f484445216"
+    },
+    {
+      "bytes": 16467261,
+      "path": "02_assets/textures/polyhaven/plywood/4k/plywood_diff_4k.jpg",
+      "sha256": "0d628704affb5fa38ef4c886ad9a70f6ddfffe9c22ed5c84b03e27ef5505cfd9"
+    },
+    {
+      "bytes": 22958150,
+      "path": "02_assets/textures/polyhaven/plywood/4k/plywood_nor_gl_4k.png",
+      "sha256": "a154da1d16e29a5abeaf7350e7dbd45680d88f2f272d1e01e20032171f5b0a22"
+    },
+    {
+      "bytes": 13314048,
+      "path": "02_assets/textures/polyhaven/plywood/4k/plywood_rough_4k.jpg",
+      "sha256": "dcc9f8ce7a483dcc4c3ad2298ba3b9083df341ad9cf5a8d3c4d853eef369ba65"
+    },
+    {
+      "bytes": 6153367,
+      "path": "02_assets/textures/window_hardware/AO.png",
+      "sha256": "ccaa0f75126294bed13c8264003f64256be13720b1fbbe263062b239a02b945b"
+    },
+    {
+      "bytes": 567583,
+      "path": "02_assets/textures/window_hardware/BaseColor.png",
+      "sha256": "873cc423c7e79583b36f8dd8500783b2c2f3fb5c571dd35be1efe4d1fc1dedfa"
+    },
+    {
+      "bytes": 565843,
+      "path": "02_assets/textures/window_hardware/Metallic.png",
+      "sha256": "0771ebdbe850eb67e94edeec771be26b51fc3f3fc43caced28cff0aef889bb3b"
+    },
+    {
+      "bytes": 13290551,
+      "path": "02_assets/textures/window_hardware/Normal.png",
+      "sha256": "298442f29e93941c5d54550a947aaab936342006a7dbf80da197e21d78f0bddb"
+    },
+    {
+      "bytes": 12711971,
+      "path": "02_assets/textures/window_hardware/Roughness.png",
+      "sha256": "e4c1ddee84d93e4f3f6070cd77f8df2f6202e5db98319e87f3fffcd7cd4415d0"
+    },
+    {
+      "path": "03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend",
+      "bytes": 4760264,
+      "sha256": "e786ccef92760e804362915515bb193f6ee6d6f0ad872235875e9a397d822569"
+    }
+  ],
+  "known_missing": [
+    {
+      "image": "Abrasion.png",
+      "path": "//..\\..\\..\\..\\02_assets\\materials\\blackboard_age\\inputs\\Abrasion.png"
+    },
+    {
+      "image": "testgeometry_tommy?body_diffuse.jpg",
+      "path": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?body_diffuse.jpg"
+    },
+    {
+      "image": "testgeometry_tommy?body_normal.jpg",
+      "path": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?body_normal.jpg"
+    },
+    {
+      "image": "testgeometry_tommy?tankTops_pants_boots_diffuse.jpg",
+      "path": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?tankTops_pants_boots_diffuse.jpg"
+    },
+    {
+      "image": "testgeometry_tommy?tankTops_pants_boots_normal.jpg",
+      "path": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?tankTops_pants_boots_normal.jpg"
+    },
+    {
+      "image": "testgeometry_tommy?tankTops_pants_boots_roughness.jpg",
+      "path": "C:\\Users\\xianyi.shi\\opdef:\\Sop\\testgeometry_tommy?tankTops_pants_boots_roughness.jpg"
+    }
+  ],
+  "validation": "06_review/shot_external_links_20261006/published_verification.json"
+}

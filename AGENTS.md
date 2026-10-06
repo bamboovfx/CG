@@ -12,7 +12,7 @@
 
 ## 修改工程
 
-- 自2026-09-29起，当前教室镜头的编辑权威为 `03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend`：建筑、道具、材质已本地化，默认在此文件的最终灯光下调共享材质。重复道具仍使用集合实例。`02_assets/work/classroom_environment.blend`、`02_assets/work/classroom_props.blend` 和 `02_assets/library/classroom_assets.blend` 保留为历史/高模制作来源；改这些文件不再自动刷新当前镜头。操作入口与例外处理见 `06_review/classroom_pipeline_migration_20260929/report.md`。
+- 当前教室shading权威为 `03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend`，在最终灯光下编辑本地材质和节点组。2026-10-06用户授权网格链接 `02_assets/library/classroom_geometry.blend`，贴图使用项目内相对路径；对象材质槽保持OBJECT绑定原本地材质，重复道具继续使用集合实例。几何修改在新库的 `Classroom_Geometry_Edit` 场景进行。涉及几何、材质绑定或依赖迁移时先读 `docs/adr/002-external-geometry-local-shading.md` 并核对发布状态。旧建筑／道具源保留为历史制作资料。
 - 同一教室后续镜头默认共用外观，但相机、世界与动画独立。个别镜头需差异时，复制所需对象/网格/材质为镜头例外，不直接改共享材质。新增镜头先在候选验证引用关系和画面，再发布。
 - 当前教室总镜头固定编辑 `03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend`；layout 固定同目录的 `drop_sq010_sh010_layout.blend`。其他临摹与原创镜头在各自规格中明确源路径。仅大阶段归档；候选写 `07_pipeline/cache`，验证后发布，不为小修改新增正式版本。
 - 修改前检查文件时间、哈希与当前 DCC；若保存后有新变化，重新读取合并。保留用户手工修改。历史初建/一次性 refine 脚本不作为更新入口。

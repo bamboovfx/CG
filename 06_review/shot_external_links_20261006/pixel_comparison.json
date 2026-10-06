@@ -1,0 +1,21 @@
+{
+  "width": 640,
+  "height": 270,
+  "samples": 32,
+  "texture_limit": 1024,
+  "max_channel_difference_8bit": 224,
+  "mean_channel_difference_8bit": 0.1591869212962963,
+  "different_values": 10986,
+  "changed_pixel_percent": 3.484375,
+  "pixels_over_16": 746,
+  "pixels_over_32": 482,
+  "rmse_8bit": 3.0661609172821045,
+  "criteria": {
+    "mean_channel_difference_8bit_max": 0.5,
+    "pixels_over_32_percent_max": 0.5,
+    "requires_protected_data_and_material_checks": true
+  },
+  "pixels_over_32_percent": 0.2789351851851852,
+  "visual_inspection": "Source and candidate previews inspected: matching framing, asset placement and lighting; sparse low-sample differences remain.",
+  "passed": true
+}

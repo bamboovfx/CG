@@ -5,7 +5,7 @@ Status: ready-for-agent
 Owner: Codex
 Type: task
 Blocked by: none
-Updated: 2026-10-01
+Updated: 2026-10-06
 
 ## Acceptance
 
@@ -28,3 +28,5 @@ Updated: 2026-10-01
 - 2026-10-03：缓存清理保留最新v4课桌分件，迁至 `02_assets/work/school_desk_parts.blend`，原始FBX在 `02_assets/authoring/school_desk/school_desk_raw.fbx`；材质源迁至 `02_assets/work/approved_material_library.blend`。它们尚未采用到主镜头，暂不上传；旧课桌中间版本已删除，制作/检查脚本保留在 `07_pipeline/workflows/classroom_props_refresh_20261001/`。原验收状态不变。
 
 - 2026-10-01：用户授权六类资产依次制作并替换。当前实时Blender打开正式镜头且干净；先盘点模型／材质／参考，再决定各类别的局部修复与复用。
+
+- 2026-10-06课桌阶段回场景：用户接受材质后补桌洞两处局部倒角，25张学生课桌原摆位共享13个母网格，旧讲桌inst_teacher_table按用户要求移除。正式文件与课桌独立重开、21张依赖及实际机位／同光近景通过，发布和技术验收见03卡。课桌逐实例磨损种子未新增；六类资产及整体场景视觉验收保持未完成。

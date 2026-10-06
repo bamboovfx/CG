@@ -13,7 +13,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--hash', action='store_true', help='分块验证全部入选二进制的 SHA256')
     args = parser.parse_args()
-    manifest = json.loads((ROOT / '06_review/cloud_assets_20261003/upload_manifest.json').read_text(encoding='utf-8'))
+    manifest_path = ROOT / '06_review/shot_external_links_20261006/upload_manifest.json'
+    if not manifest_path.exists():
+        manifest_path = ROOT / '06_review/cloud_assets_20261003/upload_manifest.json'
+    manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
     errors = []
     count = 0
     for row in manifest['files']:
@@ -40,7 +43,7 @@ def main():
     print(f'Cloud asset binaries checked: {count}; errors: {len(errors)}', flush=True)
     for message in errors:
         print(message, flush=True)
-    print('既有视觉限制：5张 Houdini opdef 测试人物贴图在本机已缺失；Arial Narrow 依赖外部系统字体。', flush=True)
+    print('既有视觉限制：5张Houdini opdef人物贴图、黑板Abrasion及Arial Narrow字体缺失。', flush=True)
     if errors:
         raise SystemExit(1)
 

@@ -1,0 +1,403 @@
+{
+  "technical_status": "pass",
+  "visual_status": "review",
+  "candidate_sha256": "5a2ea3dfb6f932a93914079756720efe92e8cce111c0b6ad41e66e894545938d",
+  "source_sha256": "139da734695fabd36589982f0824b8b3473608189e8076a200c23f5bdef586e8",
+  "geometry_all_UVs_normals_wood_AO_scene_preserved": true,
+  "regions": {
+    "frame": {
+      "samples": 4448,
+      "exposed_percent": 18.008093525179856,
+      "mean_metallic": 0.05461101979017258,
+      "normal_std": [
+        0.011780709028244019,
+        0.011394897475838661,
+        0.0014331132406368852
+      ]
+    },
+    "footrest": {
+      "samples": 1776,
+      "exposed_percent": 42.961711711711715,
+      "mean_metallic": 0.2935965657234192,
+      "normal_std": [
+        0.00794018991291523,
+        0.00955038983374834,
+        0.0035149964969605207
+      ],
+      "crown_mean_metallic": 0.6917044520378113,
+      "underside_mean_metallic": 0.0
+    },
+    "cubby": {
+      "samples": 3824,
+      "exposed_percent": 9.937238493723848,
+      "mean_metallic": 0.019054066389799118,
+      "normal_std": [
+        0.001984554808586836,
+        0.002189032267779112,
+        3.62637874786742e-05
+      ]
+    },
+    "hooks": {
+      "samples": 8032,
+      "exposed_percent": 5.328685258964144,
+      "mean_metallic": 0.010280936025083065,
+      "normal_std": [
+        0.004206995014101267,
+        0.0056739989668130875,
+        0.0007585242274217308
+      ]
+    },
+    "mounts": {
+      "samples": 992,
+      "exposed_percent": 0.20161290322580644,
+      "mean_metallic": 0.0004388045927044004,
+      "normal_std": [
+        0.002483929507434368,
+        0.0022780734580010176,
+        0.0001249477209057659
+      ]
+    }
+  },
+  "metal_sample_count": 19072,
+  "metal_normal_unit_range": [
+    0.9999957084655762,
+    1.0000407695770264
+  ],
+  "rubber_samples": 4008,
+  "caps": {
+    "Foot cap / left back": {
+      "normal_std": [
+        0.01988864503800869,
+        0.021944046020507812,
+        0.0010726946638897061
+      ],
+      "samples": 1008
+    },
+    "Foot cap / left front": {
+      "normal_std": [
+        0.018547791987657547,
+        0.02170429192483425,
+        0.0010474048322066665
+      ],
+      "samples": 1000
+    },
+    "Foot cap / right back": {
+      "normal_std": [
+        0.020600618794560432,
+        0.02238907851278782,
+        0.001166289090178907
+      ],
+      "samples": 1000
+    },
+    "Foot cap / right front": {
+      "normal_std": [
+        0.01941254734992981,
+        0.0215324517339468,
+        0.0009861785219982266
+      ],
+      "samples": 1000
+    }
+  },
+  "normal_convention": "OpenGL",
+  "coordinates": "Each full-height leg strip used once; four unequal footrest corridors; finite sheet/hook/plate contacts; 4 rubber sectors",
+  "generated_native_resolution": [
+    1254,
+    1254
+  ],
+  "final_atlas_sizes": {
+    "metal": 8192,
+    "rubber": 4096
+  },
+  "reference": "Private user desk collage, lower two real metal photos; exact use history is reconstruction",
+  "input_sources": {
+    "BaseColor.png": "20f22c7d4f0fa9f33ba63da42c72b1de06dc542e79ac258f067a0e2c4f212e70",
+    "Brace_BaseColor.png": "bdd1fb0cfc6b4847d8078a8a0821e4a3715e1b3e02f11d31dc3281a8d94b7d7e",
+    "Height.png": "1105f2a8d4e672486ebd669f03adb9e86c77cbfb6a0bcbc75fe8370d67d70eaa",
+    "Leg_BaseColor.png": "7fee555898a6ab721d9e82e29a5caa5eaa71c3657fbed9e9d4a0cc5c2aa2784d",
+    "Leg_Phase.png": "6f4fbf24703bb02238d0efd5880fbc669c45048bbfb8706e732a463f48562989",
+    "Metallic.png": "93267b3c276598141cfd401bb2223fbe02ca9ee4bd556a9dbfc5c97f71eb538b",
+    "Roughness.png": "9dda60df304c4719f0dff9d4ea782cb2d21e846ee57f33cd0ee85cda58aa5840"
+  },
+  "delivered_sha256": "97c629fb531b216905b899fd6bdc887d4580bcdd53ea669e1978ae7f20901aec",
+  "dependencies": [
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/wood_sources/AgeBleach_4a563752d3.png",
+      "sha256": "4a563752d38962495b7e1b2c6ff0e025d8c0c2ae396cbe33314fbb0a95c2af5d",
+      "size": [
+        6144,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/wood_sources/AgeDark_1859f1c85d.png",
+      "sha256": "1859f1c85d21794e126914926bf8029eadfb761c022aa32f4b3500fe06bdcad0",
+      "size": [
+        6144,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/wood_sources/Desk_Veneer_BaseColor_3f5b62a659.png",
+      "sha256": "3f5b62a65903e87d4794c896939e6be57c43c732fe8bb0d184242633cd7155db",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/wood_sources/Dirt_81567be2ad.png",
+      "sha256": "81567be2adfec8453435bb59f5425168b443789185d805b1fbed2d6d671ea90c",
+      "size": [
+        6144,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/wood_sources/FinishLoss_4fb170017e.png",
+      "sha256": "4fb170017e2bd737459e16fa275d25b5038b76863272a29e5d89579153e5440a",
+      "size": [
+        6144,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/metal_8k/KOKUYO_AO.png",
+      "sha256": "80d9756709036e9811d55fa5e2b909f89968a4fa2c8f33cfc44b56697c3ecd76",
+      "size": [
+        8192,
+        8192
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/rubber_4k/KOKUYO_BaseColor.png",
+      "sha256": "607daab9448b2684a8b6a82be999cf92e9f4471b5f59235cfb34ca435adfe99b",
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/metal_8k/KOKUYO_BaseColor.png",
+      "sha256": "6db6c1afb5568254b4b8d0154a07cf994c48abc0d538ffb8476f8a4f5847385f",
+      "size": [
+        8192,
+        8192
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/metal_8k/KOKUYO_CoatWeight.png",
+      "sha256": "f3e138e480cb99627f672e8302ff096b7d330ef81a4f1505e3e45dc5b251ac09",
+      "size": [
+        8192,
+        8192
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/rubber_4k/KOKUYO_Height.png",
+      "sha256": "12af5459450e879383296f6bf491aa165767bba10b3e6faa3d2448e9313461b1",
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/metal_8k/KOKUYO_Height.png",
+      "sha256": "03f2ec69fa0f551f61887a1f2e88781da68c9c86ab63c676d6baf2e086d947de",
+      "size": [
+        8192,
+        8192
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/metal_8k/KOKUYO_Metallic.png",
+      "sha256": "b0b08070bfcdbfde32115de151a939e6f5882d70fad97a3174b80b6531a9d6ed",
+      "size": [
+        8192,
+        8192
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/rubber_4k/KOKUYO_Normal_OpenGL.png",
+      "sha256": "1975fbb874565f38e6808e818881a65859b34aeed81ad14b3991d743ca8b65ab",
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/metal_8k/KOKUYO_Normal_OpenGL.png",
+      "sha256": "1e9ad7900c21c6fec6633e6347f5dcffa464b0e84ef9a535bd0b30c651e3f426",
+      "size": [
+        8192,
+        8192
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/rubber_4k/KOKUYO_Roughness.png",
+      "sha256": "35cc4332cc57c2803503b915a12f4f210bdba3ff9207824fbafb1de47504f4a3",
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/metal_8k/KOKUYO_Roughness.png",
+      "sha256": "aedaacc981ca50952578ee5bca11223a33ca4b8db428b1e6f4ed8ff70c78c9f9",
+      "size": [
+        8192,
+        8192
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/wood_sources/MicroScuff_2b0cab620a.png",
+      "sha256": "2b0cab620a5340125c534163b42bff01cafc771ab9360f6e355d0e913ba73714",
+      "size": [
+        6144,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/wood_sources/Process_BaseColor_90ab2f505c.png",
+      "sha256": "90ab2f505c645d6bba92f6e08f332a8cc44edd1911cd9b7e0bc92f7b5e43d27f",
+      "size": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/wood_sources/ScratchDark_72f3844896.png",
+      "sha256": "72f3844896faf1c2544a1ddad47b1194f5273bfddd26c071598c98995d7ae42d",
+      "size": [
+        6144,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/wood_sources/ScratchLip_4064cfb060.png",
+      "sha256": "4064cfb060c8f5c67d3a14e2de67ad8b11b7fea295cc8670b379ddaa5b20474e",
+      "size": [
+        6144,
+        4096
+      ]
+    },
+    {
+      "path": "02_assets/work/../textures/generated/kokuyo_desk/wood_sources/Wear_3b829b5023.png",
+      "sha256": "3b829b50230a1d8b6d6259523f3322429647af49eb486341c1e65875fda23d84",
+      "size": [
+        6144,
+        4096
+      ]
+    }
+  ],
+  "independent_delivery_reopen": true,
+  "relative_paths_and_packed_bytes_identical": true,
+  "source_protection_fingerprints": {
+    "Bag hook / left double wire": "2442d553ac381ceb3803bcfa1d1c8633ae5cc574528546f50abbd3c507177009",
+    "Bag hook / right double wire": "116275fc43b58672ce4b592a99dfbacc34fa747552508e9705032a71f67b49e8",
+    "Book tray / Folded steel with rolled mouth": "d4916b879310acaa7ce898545f1871aa8568843f48e63e9913c07c3464622e16",
+    "Desktop / Wood laminate": "7db5884c1c6a22d00c63e14237f669338ecff7fa3b1dd72d817982ede3eca169",
+    "Foot cap / left back": "538edbad74528fc75532362ed654834eb6b965e476ffb05ea300e73e52874332",
+    "Foot cap / left front": "fa11f4026df69cb7bd5309b7698440f982202248cb579f9a2c25eacd48caf5a9",
+    "Foot cap / right back": "1ac6c2bbc3a4a67abc08e601e1048b48b10d5f3fc06a4a990eb372f288babde5",
+    "Foot cap / right front": "a499aed0cb46056ac8dd461268b029f13f127c22633ade8addaa5eebc574c771",
+    "Frame / left": "fbfe1982d72b44f71ec99a43ccd0c4210c17d443af57ddfde7c7dfe7c201dff7",
+    "Frame / right": "ea56fc1f8f23d2e262c74b26db8a2bb2b3f1b786e8d3cb2f1ccf124b2f837584",
+    "HP / Bag hook / left double wire": "9efc903c03bfa9cf3aefe945028aff855131b713e370332d3c999302ae642993",
+    "HP / Bag hook / right double wire": "9d115f269beeb94e94f7bdd6d10c3e492484f0ea782a1d4cfd11292997c3d0b6",
+    "HP / Book tray / Folded steel with rolled mouth": "d016a85f1d1dc6a0aab0830289761943aa424ae2b647ec7d15b03af1154e3be7",
+    "HP / Desktop / Wood laminate": "3ec5ff7cad973d895257608661a7a94012cbe8046b8e0ba179be142338f2285c",
+    "HP / Foot cap / left back": "ae003ce1b26ca3ef036263f5357e1c4d1a0a683ec1302ad96235a5e69d62a146",
+    "HP / Foot cap / left front": "fdb7045a4029ec2bc6d70fc54b6e632d5d5bc75529d0425645b32d752d7bcc9e",
+    "HP / Foot cap / right back": "b7015aaf85d3715720c3f48da9e65fd6a10d40b4099ab3e18c37d77e7d81274d",
+    "HP / Foot cap / right front": "7cc073c8c6d8986055754aa1e3e2e0a4826deb0fa54f1d15322e519de269dc2e",
+    "HP / Frame / left": "dedc650f4d80ab02dfaf886af30264876045708376aeb58edde6f353e4e371c7",
+    "HP / Frame / right": "e67cdd30b945d53765f5b4f4a7d5cba7ce2b6afa38354187775595944385a875",
+    "HP / Lower brace / Three sides open at student front": "a02f57cc85f86ad5d6f2d5ba31c44bc032a03b5158cb02d3ccb2e4325cce9e9f",
+    "HP / Mount / left pressed plate": "2f9b5caabb0095bc254213b4a9e8425851a1645490c80f6a37676fde9f15f2dc",
+    "HP / Mount / right pressed plate": "13bd7228e4a030f47b855069c84cdc1c02bdc086e1820e1a1a44319ef76d6c00",
+    "Inspection floor": "2f1aadcdbaa900ef7d6fcac2426aa29875faf666dd7464507db5e73e4d96af93",
+    "Lower brace / Three sides open at student front": "1aca88cebb8b5d8217417f481d5095f91b54334d18be71793e2890bfbc501a87",
+    "Mount / left pressed plate": "48910408fb331f81dae41102de40928696b935240f057f9a2042b77698269ccb",
+    "Mount / right pressed plate": "d432f5ea38d99f0cfff819fdf50e04d821e2c339c63d4d410e59a777eff96351"
+  },
+  "source_other_protected_signature": "2277ebde2886cf61c12f534650768a10c896b07728cfd50e9b80aeecb840abec",
+  "original_dependencies": {
+    "02_assets\\textures\\generated\\kokuyo_desk\\metal_8k\\KOKUYO_AO.png": "80d9756709036e9811d55fa5e2b909f89968a4fa2c8f33cfc44b56697c3ecd76",
+    "02_assets\\textures\\generated\\kokuyo_desk\\metal_8k\\KOKUYO_BaseColor.png": "98303d9917fda24164695bba85fdea06cdb720fb51c27e8f48eef4be397c109f",
+    "02_assets\\textures\\generated\\kokuyo_desk\\metal_8k\\KOKUYO_CoatWeight.png": "73fd92d550f2ef7ccd06d8c30273dc652205c59e94eedf83765337e8c09c9b2a",
+    "02_assets\\textures\\generated\\kokuyo_desk\\metal_8k\\KOKUYO_Height.png": "769a2f4477d135934882f81d88f8c95722b4a6883310c0bba488f175a6dfb345",
+    "02_assets\\textures\\generated\\kokuyo_desk\\metal_8k\\KOKUYO_Metallic.png": "47112f5fd066305093773d729a3de79eccd673c207906481cce866195a53ff56",
+    "02_assets\\textures\\generated\\kokuyo_desk\\metal_8k\\KOKUYO_Normal_OpenGL.png": "7156d9e7923d2ec9e81f067293c48491b96467568a6309e937a9699b86a560d9",
+    "02_assets\\textures\\generated\\kokuyo_desk\\metal_8k\\KOKUYO_Roughness.png": "6204d69fe7597ef3812d6a0ccdeba1f0848251a552a655e6fca8b4aef5ec698f",
+    "02_assets\\textures\\generated\\kokuyo_desk\\rubber_4k\\KOKUYO_BaseColor.png": "d361c842e20079aa3c31f4b369a039782db293c05de46ae7ebbb995aafed8035",
+    "02_assets\\textures\\generated\\kokuyo_desk\\rubber_4k\\KOKUYO_Height.png": "03ee6fcdd45f1b9265fda7619c2ffb9ad4e472fd7073eb9ba0f47bf18011149b",
+    "02_assets\\textures\\generated\\kokuyo_desk\\rubber_4k\\KOKUYO_Normal_OpenGL.png": "6057121f4bfb332ba1c4fb1f6bfdee41d264fece7da7224125d45e2caf0199ce",
+    "02_assets\\textures\\generated\\kokuyo_desk\\rubber_4k\\KOKUYO_Roughness.png": "724b1120ba3534940eff29c5b4b4bad2afb713a79ed1c5da240025d96a2ef933",
+    "02_assets\\textures\\generated\\kokuyo_desk\\wood_sources\\AgeBleach_4a563752d3.png": "4a563752d38962495b7e1b2c6ff0e025d8c0c2ae396cbe33314fbb0a95c2af5d",
+    "02_assets\\textures\\generated\\kokuyo_desk\\wood_sources\\AgeDark_1859f1c85d.png": "1859f1c85d21794e126914926bf8029eadfb761c022aa32f4b3500fe06bdcad0",
+    "02_assets\\textures\\generated\\kokuyo_desk\\wood_sources\\Desk_Veneer_BaseColor_3f5b62a659.png": "3f5b62a65903e87d4794c896939e6be57c43c732fe8bb0d184242633cd7155db",
+    "02_assets\\textures\\generated\\kokuyo_desk\\wood_sources\\Dirt_81567be2ad.png": "81567be2adfec8453435bb59f5425168b443789185d805b1fbed2d6d671ea90c",
+    "02_assets\\textures\\generated\\kokuyo_desk\\wood_sources\\FinishLoss_4fb170017e.png": "4fb170017e2bd737459e16fa275d25b5038b76863272a29e5d89579153e5440a",
+    "02_assets\\textures\\generated\\kokuyo_desk\\wood_sources\\MicroScuff_2b0cab620a.png": "2b0cab620a5340125c534163b42bff01cafc771ab9360f6e355d0e913ba73714",
+    "02_assets\\textures\\generated\\kokuyo_desk\\wood_sources\\Process_BaseColor_90ab2f505c.png": "90ab2f505c645d6bba92f6e08f332a8cc44edd1911cd9b7e0bc92f7b5e43d27f",
+    "02_assets\\textures\\generated\\kokuyo_desk\\wood_sources\\ScratchDark_72f3844896.png": "72f3844896faf1c2544a1ddad47b1194f5273bfddd26c071598c98995d7ae42d",
+    "02_assets\\textures\\generated\\kokuyo_desk\\wood_sources\\ScratchLip_4064cfb060.png": "4064cfb060c8f5c67d3a14e2de67ad8b11b7fea295cc8670b379ddaa5b20474e",
+    "02_assets\\textures\\generated\\kokuyo_desk\\wood_sources\\Wear_3b829b5023.png": "3b829b50230a1d8b6d6259523f3322429647af49eb486341c1e65875fda23d84"
+  },
+  "motion": {
+    "frames": 24,
+    "fps": 12,
+    "duration_seconds": 2,
+    "size": [
+      800,
+      640
+    ],
+    "full_ffmpeg_decode": "pass",
+    "actual_browser_playback": {
+      "playing_observed": true,
+      "ended_observed": true,
+      "final_time": 2,
+      "duration": 2,
+      "ready_state": 4
+    },
+    "visual_observation": "The rubbed crown moves in specular reflection, painted underside remains diffuse; stable unique regional marks in the 40 degree camera orbit. Temporary motion file removed after verification."
+  },
+  "visual_comparison": {
+    "reference_sha256": "e4edbd2a166e2ec9ccdb0775306649d4695724444c2464b6c76b3f547e7bc296",
+    "reference_observed": "Primary private four-photo collage; lower two metal closeups. References do not show cubby interior and hook details, whose wear follows contact use inferred from construction.",
+    "candidate_views_observed": [
+      "full",
+      "brace",
+      "leg",
+      "tray",
+      "hook",
+      "cap"
+    ],
+    "latest_hardware_views_observed": [
+      "tray",
+      "hook"
+    ],
+    "morphology": "Connected variable-width crown abrasion on the U brace; distinct full-height microchipping on four leg zones; three finite book-slide trails and local rolled-mouth wear; two unequal hook-wire contact arcs; scarce mounting-corner nicks; four unequal oblique rubber scuffs. Microscopic manufacturing grain remains; dominant wear events do not uniformly tile.",
+    "artist_status": "review"
+  },
+  "delivery_scope": "Update only the native desk and ten final metal/rubber maps in the existing 21-file texture directory. No change to formal shot, geometry, UVs, normals, original wood or AO. No texture archive or review HTML.",
+  "source_provenance": {
+    "source": "Built-in imagegen, generated from user reference and finite-event prompts. Native generated images are 1254 square; final baked atlases are 8K metal and 4K rubber. User reference is private source material and is not included or represented as authored content.",
+    "source_disposition": "Prompts and generated source hashes are captured with this record in Git; intermediate sources are cleared from the task cache."
+  },
+  "project_pm": {
+    "desk_card_errors": [],
+    "global_refresh": "blocked by 77 historical missing evidence links; not caused by this material delivery"
+  },
+  "cleanup": {
+    "status": "blocked by policy",
+    "deletion_executed": false,
+    "manual_deletion_required": [
+      "F:/00_Projects/CG/07_pipeline/cache/desk_regional_wear_20261006",
+      "F:/00_Projects/CG/07_pipeline/workflows/desk_regional_wear_20261006"
+    ],
+    "user_notified": true,
+    "delivery_native_and_21_maps_rechecked": true,
+    "archive_commit": "2d40189"
+  }
+}

@@ -1,5 +1,7 @@
 # Shot_Test 云端配置
 
+2026-10-06当前恢复入口：主镜头引用 `02_assets/library/classroom_geometry.blend` 与项目内外置贴图，材质和节点组仍在镜头内编辑。当前依赖清单为 `06_review/shot_external_links_20261006/upload_manifest.json`，`scripts/check_cloud_assets.py --hash` 优先核对该清单。恢复时带齐LFS库和贴图；[外部链接验收](../../06_review/shot_external_links_20261006/report.md)说明当前编辑入口与既有资源缺口。下方10月3日准备清单和软件参数保留为历史。
+
 2026-10-03：用户将同步范围扩大为当前镜头、实际资源依赖和已验证的制作流程。仓库仍为公开 `bamboovfx/CG`，根目录对应本机 `D:/00_projects/10_CG/Shot_Test`；云端通常检出 `/workspace/CG`，保持相对目录结构。
 
 2026-10-04追加：用户要求上传完整 `01_preproduction/` 的改动，包含原片、参考图、PureRef 板及目录中的删除。该目录已完整放开白名单，秘密、日志和临时文件仍排除；`.pur` 与图片、视频一起使用 LFS。其他资产和评审目录不因这次上传而扩大范围。

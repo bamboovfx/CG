@@ -1,5 +1,13 @@
 # 当前工程基线
 
+**2026-10-06镜头外部链接：** 正式镜头已原位发布，2.171GiB降至4.54MiB，SHA256 e786ccef92760e804362915515bb193f6ee6d6f0ad872235875e9a397d822569。网格链接 `02_assets/library/classroom_geometry.blend`（59.91MiB／Classroom_Geometry_Edit），84张内嵌贴图原样外置为项目内相对路径。313个原材质、46个节点组与对象控制保持本地；材质槽OBJECT绑定，仍在镜头最终光照下改shading。实际节点改值恢复、网格／属性／有效材质／动作保护、候选及正式重开、同帧预览与414项依赖哈希检查通过。既有缺失依赖和艺术验收状态保留，推送记录见[迁移验收](../06_review/shot_external_links_20261006/report.md)。
+
+**2026-10-06本轮清理限制：** 课桌及正式镜头发布提交9942435。删除 `07_pipeline/cache/desk_bevel_publish_20261006` 和 `02_assets/work/school_desk.blend1` 被自动审批以blocked by policy拒绝，已通知用户手动删除；工程与21张依赖验证通过。
+
+**2026-10-06课桌倒角与回场景：** 从用户已保存的ab1534e0源继续，桌洞后侧两处竖向折角补内2mm／外4mm、五段局部倒角；仅重投影金属法线，原网格／UV、材质节点与其余20张贴图保留。25张学生课桌沿用原实例矩阵，共享13个可编辑网格；编辑场景为Desk_Asset_Edit。用户要求移除旧讲桌inst_teacher_table，已移除。固定课桌 `02_assets/work/school_desk.blend` SHA256 `7d19c36222c3d57e160dc6f3e86c54bfa40752e68b62e2f0d177e6a6934b9a05`；正式镜头 `03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend` SHA256 `49fd23434a3a96fdfc2206d9076b3d9f52515d6104d962bfdc180cf946ee762d`。独立重开、21张相对路径／内嵌哈希、325个课桌网格实例、原场景保护及机位／同光近景检查通过；CPU临时预览细分上限1／贴图2048／16spp，保存的正式渲染设置保留。课桌材质已获用户接受，本轮局部修正技术通过并发布；六类资产和总镜头艺术验收仍按各任务卡推进。原场景opdef地址及旧课椅内嵌来源保留，原文件和候选都报告Arial Narrow／黑板Abrasion缺失。
+
+**2026-10-06课桌区域形态返修：** 当前入口 `02_assets/work/school_desk.blend` 与21张依赖 `02_assets/textures/generated/kokuyo_desk`。横撑连通磨亮、四腿不同碎片磕碰、书斗取放路径／卷口摩擦、双挂钩不同接触弧、固定片角部及橡胶脚套斜向擦伤分别处理；有限形态烘焙到最终通道，保留有效法线。独立重开、内嵌／外置21张哈希、全部几何UV／木材AO／场景保护、6机位近景与24帧实际播放通过。SHA256 `97c629fb531b216905b899fd6bdc887d4580bcdd53ea669e1978ae7f20901aec`；技术pass、艺术review，用户重新打开工程查看。生成与验证记录存于Git提交2d40189；删除本轮cache/desk_regional_wear_20261006及workflows/desk_regional_wear_20261006被自动审批blocked by policy拦截，已通知用户手动删除。
+
 **2026-10-06课桌整体材质与迁移：** 当前入口 `02_assets/work/school_desk.blend`，贴图 `02_assets/textures/generated/kokuyo_desk`。桌洞／挂钩／固定片与旧管架协调，脚套深色橡胶及有效法线；21张依赖的相对路径与内嵌哈希、独立重开、原几何UV／木材保护通过。SHA256 `139da734695fabd36589982f0824b8b3473608189e8076a200c23f5bdef586e8`；技术pass、艺术review，正式镜头未改。只保留工程与依赖贴图；技术清单留在Git提交75ebbea，旧工作树已移除，策略拦截的恢复副本与空标记目录已通知用户手动删除。
 
 **2026-10-04本机复核与上下文补齐：** 读取D-XIANYI-SHI的关键CG聊天，见[恢复记录](../06_review/context_recovery_20261004/report.md)。F:/00_Projects/CG正式镜头由Blender 5.2.2后台只读重开，保存帧1071、1001–1100/24fps、cam_sh010_main、World=Sun，相机/天空两个Action，25个共享课椅实例、26个旧课桌实例、外部blend库引用0。主镜头SHA256为 `983984e3a1ff53903dfe9e53d280332cd03c8396b99b72f7420405db32afe638`，读前后不变。5张testgeometry_tommy贴图及Arial Narrow仍缺失；本机缺少school_desk_parts.blend、approved_material_library.blend与140帧旧候选。开始时主镜头和PureRef已有未提交修改，本轮未写工程；历史参数和“保留本机”不能覆盖本次设备实况。总PM刷新受40条历史证据缺失阻塞，制作验收状态不变。
