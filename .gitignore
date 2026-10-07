@@ -609,3 +609,10 @@
 /07_pipeline/scripts/render_sd_brick_test.py
 /07_pipeline/scripts/sd_artstation_brick_test.py
 /07_pipeline/scripts/verify_sd_brick_test.py
+
+# 当前内部模型／外部贴图迁移的精简验收记录。
+!/06_review/shot_internal_geometry_20261007/candidate_verification.json
+!/06_review/shot_internal_geometry_20261007/published_verification.json
+!/06_review/shot_internal_geometry_20261007/pixel_comparison.json
+!/06_review/shot_internal_geometry_20261007/upload_manifest.json
+!/06_review/shot_internal_geometry_20261007/push_receipt.json

@@ -6864,6 +6864,25 @@
       }
     ],
     "edit_policy": "External mesh library; local OBJECT material slots and local shader node groups",
-    "validation": "06_review/shot_external_links_20261006/published_verification.json"
+    "validation": "06_review/shot_external_links_20261006/published_verification.json",
+    "status": "historical_superseded_by_shot_internal_geometry_20261007"
+  },
+  "shot_internal_geometry_20261007": {
+    "source_sha256": "e786ccef92760e804362915515bb193f6ee6d6f0ad872235875e9a397d822569",
+    "shot": {
+      "path": "03_shots/sq010/sh010/work/drop_sq010_sh010_shot.blend",
+      "bytes": 66310940,
+      "sha256": "450e8122ef6d26a1980d5443e4d7a74a7269486851f47094485811d9fc58f270"
+    },
+    "geometry": {
+      "storage": "embedded_in_shot",
+      "meshes": 11033,
+      "external_blend_dependencies": 0,
+      "source": "Latest saved shot geometry; prior asset provenance and licenses retained"
+    },
+    "textures_manifest": "06_review/shot_internal_geometry_20261007/upload_manifest.json",
+    "texture_provenance": "shot_external_links_20261006.textures; hashes unchanged",
+    "edit_policy": "Local editable meshes, OBJECT material slots and shader node groups; external relative texture paths",
+    "validation": "06_review/shot_internal_geometry_20261007/published_verification.json"
   }
 }

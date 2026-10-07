@@ -1,0 +1,15 @@
+{
+  "resolution": [
+    640,
+    270
+  ],
+  "mean_absolute_difference": 0.010854552469135803,
+  "pixels_over_32_fraction": 0.00012152777777777777,
+  "max_difference": 156,
+  "changed_pixel_fraction": 0.0022222222222222222,
+  "source_png_sha256": "4e6139b9c6bb0db0268c99e2c2ec8fd70fcc227c68b6ea3cfd00a6f7b529f5b4",
+  "candidate_png_sha256": "3dd8fa1b42b25eec6ef3b505510355463d836f87b6786597d23ab28f176b5135",
+  "gate": "mean <= 0.5/255 and pixels over 32 <= 0.5%; protected data verified separately",
+  "passed": true,
+  "visual_review": "Source and candidate PNGs inspected: composition, object placement and lighting agree; shot artistic acceptance unchanged"
+}

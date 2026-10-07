@@ -1,6 +1,6 @@
 # ADR 002：外部几何库与镜头本地 shading
 
-日期：2026-10-06。状态：采用；候选与正式重开、shading写值恢复及同帧对照技术通过，见[验收](../../06_review/shot_external_links_20261006/report.md)。
+日期：2026-10-06。状态：被[ADR003](003-internal-geometry-external-textures.md)替代。用户最新要求模型留在镜头内部，下文保留为先前迁移的历史依据；原候选与正式重开、shading写值恢复及同帧对照技术通过，见[验收](../../06_review/shot_external_links_20261006/report.md)。
 
 用户本轮授权“贴图和资产外部链接吧。能保留shading的修改就行”。当前镜头内嵌图片约2.114GiB，造成2.171GiB单文件超出GitHub LFS上限；因此重开[ADR001](001-classroom-editing-authority.md)中几何本地化的决定。
 

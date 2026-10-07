@@ -65,9 +65,12 @@ def plain(value):
 def scalars(block, excluded=()):
     """Input RNA block; return writable scalar/array/ID properties, excluding runtime fields."""
     result = {}
-    for prop in block.bl_rna.properties:
-        key = prop.identifier
-        if key in {'rna_type', *excluded} or prop.is_readonly or prop.type == 'COLLECTION':
+    # Resolve RNA properties by key for stable traversal of large scene data sets.
+    for key in block.bl_rna.properties.keys():
+        prop = block.bl_rna.properties[key]
+        if key == 'rna_type' or key in excluded:
+            continue
+        if prop.is_readonly or prop.type == 'COLLECTION':
             continue
         try:
             value = getattr(block, key)

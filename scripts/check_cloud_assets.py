@@ -13,7 +13,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--hash', action='store_true', help='分块验证全部入选二进制的 SHA256')
     args = parser.parse_args()
-    manifest_path = ROOT / '06_review/shot_external_links_20261006/upload_manifest.json'
+    manifest_path = ROOT / '06_review/shot_internal_geometry_20261007/upload_manifest.json'
+    if not manifest_path.exists():
+        manifest_path = ROOT / '06_review/shot_external_links_20261006/upload_manifest.json'
     if not manifest_path.exists():
         manifest_path = ROOT / '06_review/cloud_assets_20261003/upload_manifest.json'
     manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
