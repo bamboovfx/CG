@@ -14,6 +14,6 @@
 
 证据：[候选重开](candidate_verification.json)、[正式重开](published_verification.json)、[同帧比较](pixel_comparison.json)、[当前依赖](upload_manifest.json)。
 
-Git同步结果待提交后追加。
+Git数据提交 `f57962c` 已快进推送：1个66MB LFS对象上传完成，远程HEAD与本地一致；首次连接重置后正常重试成功。见[推送记录](push_receipt.json)。
 
 413 dependencies independently checked with SHA256: 0 errors. Task card validation passed. Global PM regeneration remains blocked by 77 existing historical evidence errors; unrelated missing files were not restored.
